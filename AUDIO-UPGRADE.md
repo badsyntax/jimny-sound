@@ -1,132 +1,216 @@
 # Suzuki Jimny JB43 (2015) — Audio Upgrade
 
+Corrections from [AUDIO-UPGRADE-REVIEW.md](AUDIO-UPGRADE-REVIEW.md) are applied here.
+
 ## Head Unit
-- **Kenwood DMX8021DABS**
+- **Kenwood DMX8021DABS** — 4 x 50W, 3 x 4V preouts (preouts unused, see Signal Path)
 
 ## Front Speakers
-- **Audison Prima AP4** (100mm midbass) + **Audison Prima AP1** tweeters
+- **Audison Prima AP4** (100mm midbass, 40W RMS, 4Ω) + **Audison Prima AP1** tweeters (4Ω)
 - On the JB43, front speakers sit in the footwell kick panels, not the doors
 - **Status: installed**
   - AP4s fitted without spacer rings (plywood rings weren't needed and wouldn't have fitted)
   - AP1 tweeters mounted on the dash at 30°, wires routed out through the cup base via a slot cut in the mounting pad, connected to the front speaker wires
   - Working, but not yet tested at volume
   - Note: AP4s arrived with no mounting screws
+- **⚠️ Open: confirm the APCX TW crossovers are in circuit.** The AP1 ships with a passive
+  high-pass (3.5kHz, 12dB/oct). If it isn't fitted, the tweeters are running full-range off the
+  Kenwood. Check before any high-volume testing.
 
 ## Rear Speakers
-- **Focal ICU 100**
+- **Focal ICU 100** — 40W RMS, 4Ω
 
 ## Subwoofer
-- **Harman Kardon Feel 700** — active underseat subwoofer
+- **Harman Kardon Feel 700** — active underseat subwoofer, 125W RMS, 14A max draw, 15A fuse supplied
 
 ## Sound Deadening
 - Material owned, still to fit
 
 ## Still to Buy
-- **Match UP 6DSP** — 6-channel amp with DSP (to fit behind the glovebox)
-- Second **Harman Kardon Feel 700** underseat sub (to run two subs)
+- **Match UP 6DSP MK2** — 6-channel amp with DSP (to fit behind the glovebox)
+- Second **Harman Kardon Feel 700** — deferred until after tuning, see Plan
 
 ## Plan / Sequence
-1. Keep current speakers as-is to start
-2. Add amp (Match UP 6DSP) + second sub + sound deadening
-3. Tune the system
-4. Decide on any speaker upgrades from there
+1. **Deaden first** — panels are coming off to run cable anyway, and it's the cheapest dB in the car
+2. Verify the tweeter crossover situation before high-volume testing
+3. Add amp + one sub, active front
+4. Tune the system
+5. **Then** decide on sub two, and on any speaker upgrades
 
 ## Standing Decisions
 - Staying with **10cm mids** — any future mid/rear upgrades will keep the 10cm size rather than going to 6.5"
 
-## Electrical Plan
+---
 
-Three devices need their own power/fuse: the Match UP 6DSP amp and each HK Feel 700 sub (the Feel 700 is self-amplified, so it takes a direct fused 12V feed, not amplified speaker output).
+## Signal Path
 
-| Device | Max draw | Fuse needed |
+**The UP 6DSP has no RCA inputs** — 6 x high-level, 1 x optical SPDIF, 1 x extension card slot.
+The Kenwood's 4V preouts cannot be used and go unused. Feed the amp from the Kenwood's
+**speaker outputs** into the high-level inputs; this is what the UP range is designed for.
+
+Set the Kenwood flat before tuning: EQ off, loudness off, crossovers full-range, fader/balance centred.
+
+### Channel allocation
+
+| Channels | Rating | Feeds |
 |---|---|---|
-| Match UP 6DSP | 35A DC max (has its own internal 30A fuse built in) | 40A branch fuse |
-| HK Feel 700 (sub 1) | — | 20A branch fuse (HK spec, mandatory) |
-| HK Feel 700 (sub 2) | — | 20A branch fuse (HK spec, mandatory) |
+| A, B | 65W @ 4Ω | Front tweeters — AP1, L + R |
+| C, D | 65W @ 4Ω | Front midbass — AP4, L + R |
+| E, F | 75W @ 4Ω | Rear — Focal ICU 100, L + R |
+| DSP ch 7 → line out | 3V RMS | Both Feel 700 subs via Y-splitter |
 
-Sources: [Audiotec Fischer — UP 6DSP specs](https://www.audiotec-fischer.de/en/match/amplifiers/up-6dsp), [Amazon — HK Feel 700 listing](https://www.amazon.co.uk/Harman-Kardon-700-Subwoofer-Installation/dp/B0DDCQGM13)
-
-**Topology:**
-1. One 4AWG power wire from battery positive → main fuse (60–80A, sized for the combined worst-case ~75A) mounted within ~300mm of the battery → power distribution block near the amp/sub area
-2. From the distribution block, three fused branches: amp (40A), sub 1 (20A), sub 2 (20A)
-3. One 4AWG ground wire per device (or a common ground block) to a single solid, sanded, bare-metal chassis point
-4. Signal: RCA from Kenwood DMX8021DABS preouts → Match UP 6DSP inputs
-5. Sub signal: single RCA from amp's line-out → sub 1 RCA in → **daisy-chain to sub 2** (see note below)
-
-**Wiring diagram:**
+All 7 DSP channels used. Amp power exceeds speaker ratings — set gains conservatively.
 
 ```mermaid
 flowchart TD
-    subgraph Power["Power & Ground (4AWG unless noted)"]
-        BAT["Battery +"] -->|"4AWG"| FFH["FFH-14 in-line holder<br/>80A SFA-080 fuse"]
-        FFH -->|"4AWG"| BFD["BFD41 4-way distributor<br/>(near amp/subs)"]
-        BFD -->|"40A fuse"| AMP["Match UP 6DSP<br/>35A max draw<br/>internal 30A fuse"]
-        BFD -->|"branch"| SUB1PWR["HK Feel 700 Sub 1<br/>POWER IN — onboard 20A fuse"]
-        SUB1PWR -->|"POWER OUT loop-through"| SUB2PWR["HK Feel 700 Sub 2<br/>POWER IN"]
-        GND["Chassis ground point<br/>(bare metal, sanded)"] -->|"4AWG"| AMP
-        GND -->|"4AWG"| SUB1PWR
-    end
-
-    subgraph Signal["Signal"]
-        HU["Kenwood DMX8021DABS<br/>preouts"] -->|"RCA"| AMPIN["Match UP 6DSP<br/>inputs"]
-        AMPIN -->|"Ch A-D speaker wire"| FRONT["Front: AP4 mid + AP1 tweeter<br/>kick panel + dash (installed)"]
-        AMPIN -->|"Ch A-D speaker wire"| REAR["Rear: Focal ICU 100<br/>factory wiring reused"]
-        AMPIN -->|"line-out RCA"| SUB1SIG["Sub 1 LINE INPUT"]
-        SUB1SIG -.->|"try: RCA (unconfirmed 2nd pair)"| SUB2SIG["Sub 2 LINE INPUT"]
-        SUB1SIG -.->|"fallback: SPEAKER OUT + POWER OUT"| SUB2SIG
-    end
+    HU["Kenwood DMX8021DABS<br/>speaker outputs<br/>EQ flat, crossovers off"]
+    HU -->|"front L/R speaker level"| HLIN["UP 6DSP MK2<br/>high-level inputs"]
+    HU -->|"rear L/R speaker level"| HLIN
+    HLIN --> DSP["7-channel DSP"]
+    DSP -->|"Ch A/B"| TW["AP1 tweeters — dash, 30 deg"]
+    DSP -->|"Ch C/D"| MID["AP4 midbass — kick panels"]
+    DSP -->|"Ch E/F"| REAR["Focal ICU 100 — rear"]
+    DSP -->|"line out RCA 3V"| YSPLIT["RCA Y-splitter"]
+    YSPLIT --> SUB1["Feel 700 #1"]
+    YSPLIT --> SUB2["Feel 700 #2"]
 ```
 
-Dashed lines are the two unconfirmed sub 1→sub 2 signal options (try RCA first, fall back to the SPEAKER OUT + POWER OUT loop-through) — solid lines are settled.
+**Connections:** the amp's high-level inputs and speaker outputs are supplied as plug-in harnesses
+with bare wire ends, so nothing needs terminating at the amp. Use a spare ISO harness pair so the
+Kenwood and the factory speaker runs plug in rather than being cut — the tweeters are the
+exception and need their own new runs to the dash.
 
-**Still open:**
-- **Match UP 6DSP source**: not in any of your carts — it's a specialist item, e.g. [Dav-Tec](https://dav-tec.co.uk/product/match-up-6dsp-6-channel-amplifier-dsp/).
+---
+
+## Electrical Plan
+
+### Vehicle baseline
+
+| Component | Spec |
+|---|---|
+| Alternator | DENSO DAN1007 — 14V, 75A, B+ M6 stud |
+| Battery | Yuasa HSB057 Silver — 12V, 50Ah, 450A CCA, flooded |
+
+Workable headroom with the engine running. Extended **engine-off** listening is the limitation —
+a flooded starter battery gives ~25Ah usable and degrades under repeated partial discharge.
+
+### Current budget
+
+| Device | Max draw | Fusing |
+|---|---|---|
+| Match UP 6DSP | 35A (internal 30A LP-Mini) | 40A AFS branch |
+| HK Feel 700 (sub 1) | 14A | 20A AFS branch + own 15A inline |
+| HK Feel 700 (sub 2) | 14A | 20A AFS branch + own 15A inline |
+| **Worst case** | **63A** | 80A main |
+
+### Topology
+
+1. **4AWG** from battery positive → 80A main fuse within ~300mm of the battery → through firewall
+   grommet → distribution block near the amp. This is the only run carrying the full 63A.
+2. Three **8AWG** fused branches from the block: amp (40A), sub 1 (20A), sub 2 (20A).
+   Each sub keeps its own supplied 15A inline fuse. **No power loop-through between subs.**
+3. **8AWG** ground per device to a single sanded, bare-metal chassis point — one point for all
+   three, or you get alternator whine.
+4. Remote: Kenwood blue/white → amp REM in; amp REM out → both subs.
+
+```mermaid
+flowchart TD
+    BAT["Battery +"] -->|"4AWG"| FFH["FFH-14 in-line holder<br/>SFA-080 80A<br/>within 300mm of battery"]
+    FFH -->|"4AWG — through firewall grommet"| BFD["BFD41 4-way AFS distributor"]
+    BFD -->|"40A AFS — 8AWG"| AMP["Match UP 6DSP MK2<br/>35A max"]
+    BFD -->|"20A AFS — 8AWG"| S1["Feel 700 #1<br/>own 15A inline"]
+    BFD -->|"20A AFS — 8AWG"| S2["Feel 700 #2<br/>own 15A inline"]
+    AMP -->|"8AWG"| GND["Common chassis ground<br/>sanded to bare metal"]
+    S1 -->|"8AWG"| GND
+    S2 -->|"8AWG"| GND
+    REM["Kenwood remote out"] --> AMPREM["UP 6DSP remote IN"]
+    AMPREM --> AMPROUT["UP 6DSP remote OUT"]
+    AMPROUT --> S1R["Feel 700 #1 remote"]
+    AMPROUT --> S2R["Feel 700 #2 remote"]
+```
+
+---
 
 ## Shopping List
 
-Retailer priority: **caraudiodirect.co.uk first**, other UK retailers only where they don't stock an item. Fusing upgraded to the premium **Connection by Audison AFS** range per your steer (was Phonocar). Wire/RCA lengths below are **estimates based on typical JB43 packaging** (battery under bonnet → firewall → behind-glovebox amp is a short run in a vehicle this size; underseat subs are right next to that) — rounded up with headroom, not measured in your actual car. Confirm before cutting.
+Retailer priority: **caraudiodirect.co.uk first**, others only where they don't stock an item.
+**All wire and RCA lengths below are estimates — measure the actual routes before cutting.**
 
-### Still to source
-| Item | Link | Price | Status |
-|---|---|---|---|
-| Match UP 6DSP — 6-ch amp + DSP (not stocked at caraudiodirect) | See price comparison below | £549.99–£559.99 | Need to order |
-| Harman Kardon Feel 700 (2nd unit) | [caraudiodirect](https://caraudiodirect.co.uk/products/harmon-kardon-feel-700-active-underseat-car-subwoofer) | £254.99 | Need to order |
+### Amp
 
-**Match UP 6DSP — price comparison (checked live):**
-| Retailer | Link | Price |
+**Buy the MK2 from Crown Customs at £549.99** — confirmed as the MK2, which is the current model
+(USB-C, Extension Card 2.0), so it is both the cheapest and the newest. Car Audio Direct stocks
+neither version.
+
+| Retailer | Version | Price |
 |---|---|---|
-| Crown Customs Car Audio | [link](https://www.crowncustomscaraudio.co.uk/products/match-up-6dsp-6-channel-amplifier-with-integrated-7-channel-dsp) | £549.99 — **but the page describes it as the "mk2" revision; confirm it's the same UP 6DSP and not the newer UP 6DSP MK2 before ordering, since specs may differ** |
-| Dav-Tec | [link](https://dav-tec.co.uk/product/match-up-6dsp-6-channel-amplifier-dsp/) | £559.00 |
-| CEN | [link](https://www.cen.uk/products/match-up-6dsp-universal-amp-upgrade-6-channel-amplifier-64-bit-7-channel-dsp) | £559.99 |
-
-All three are within £10 of each other — not much to gain price-shopping further. Dav-Tec/CEN are confirmed as the standard (non-mk2) UP 6DSP; verify Crown Customs' listing before treating it as the cheapest option.
+| **Crown Customs** | **MK2 (current)** | **£549.99** |
+| Dav-Tec | original | £559.00 |
+| CEN | original | £559.99 |
 
 ### Wiring & electrical
-| Item | Link | Qty | Unit price | Line total |
-|---|---|---|---|---|
-| Powerbass XWS-4P — 4AWG power wire (OFC) | [caraudiodirect](https://caraudiodirect.co.uk/products/powerbass-xws-4p-4-gauge-power-wire-100-ofc-wire-per-meter) | 3m (est.: battery→firewall→behind glovebox) | £10.99 | £32.97 |
-| Powerbass XWS-4G — 4AWG ground wire (OFC) | [caraudiodirect](https://caraudiodirect.co.uk/products/powerbass-xws-4g-4-gauge-power-wire-100-ofc-wire-per-meter) | 1.5m (est.: local chassis ground point) | £10.99 | £16.49 |
-| Connection by Audison FFH-14 — mini in-line fuse holder, 4AWG, at battery | [caraudiodirect](https://caraudiodirect.co.uk/products/connection-by-audison-ffh-14-mini-in-line-fuse-holder) | 1 | £17.99 | £17.99 |
-| Connection by Audison SFA-080 — 80A AFS fuse (main, protects the 4AWG run) | [caraudiodirect](https://caraudiodirect.co.uk/products/connection-by-audison-sfa-080-80a-afs-fuses) | 1 | £7.99 | £7.99 |
-| Connection by Audison BFD41 — 4-way AFS fuse distributor block, mounted near amp/subs | [caraudiodirect](https://caraudiodirect.co.uk/products/connection-by-audison-bfd41-4-way-fuse-distributor-block) | 1 | £69.99 | £69.99 |
-| Connection by Audison SFA-040 — 40A AFS fuse (amp branch) | [caraudiodirect](https://caraudiodirect.co.uk/products/connection-by-audison-sfa-040-40a-afs-fuses) | 1 | £7.99 | £7.99 |
-| Connection FRT4 — 4-gauge ring terminals (2 pairs, boot sheath) | [caraudiodirect](https://caraudiodirect.co.uk/products/connection-frt4-4-gauge-ring-terminals) | 1 pack | £7.99 | £7.99 |
+| Item | Qty | Est. |
+|---|---|---|
+| Powerbass XWS-4P 4AWG power wire — battery → distributor | 3m @ £10.99 | £32.97 |
+| 8AWG power wire — three branches | ~4m @ ~£6 | £24.00 |
+| 8AWG ground wire | ~3m @ ~£6 | £18.00 |
+| Connection FFH-14 mini in-line fuse holder | 1 | £17.99 |
+| Connection SFA-080 80A AFS (main) | 1 | £7.99 |
+| Connection BFD41 4-way AFS distributor | 1 | £69.99 |
+| Connection SFA-040 40A AFS (amp branch) | 1 | £7.99 |
+| Phonocar 4/462.2 20A AFS (sub branches) | 2 | £9.98 |
+| Connection FRT4 4-gauge ring terminals | 1 pack | £7.99 |
+| Ferrules for 8AWG into the BFD41's 4AWG ports | — | £6.00 |
 
-*Cheaper alternative (if you'd rather not spend £70 on the BFD41): Phonocar 4/483 power distribution block (£14.99) + Phonocar 4/497 2-way AFS fuse holder (£9.99) does the same job for ~£45 less, at Phonocar rather than Audison build quality.*
+*Cheaper alternative: Phonocar 4/483 distribution block (£14.99) + 4/499 **4-way** AFS holder
+(£11.99) replaces the BFD41 and saves £43.*
 
-### Signal cabling
-| Item | Link | Qty | Unit price | Line total |
-|---|---|---|---|---|
-| Connection FT2-100.2 — 1m RCA, head unit preouts → amp inputs | [caraudiodirect](https://caraudiodirect.co.uk/products/connection-ft2-100-2-1m-rca-cable) | 1 pair | £9.99 | £9.99 |
-| Connection FT2-100.2 — 1m RCA, amp line-out → sub 1 | [caraudiodirect](https://caraudiodirect.co.uk/products/connection-ft2-100-2-1m-rca-cable) | 1 | £9.99 | £9.99 |
-| Connection FT2-100.2 — 1m RCA, sub 1 → sub 2 (try first) | [caraudiodirect](https://caraudiodirect.co.uk/products/connection-ft2-100-2-1m-rca-cable) | 1 | £9.99 | £9.99 |
+Note: Connection AFS fuses at caraudiodirect start at 40A — hence Phonocar for the 20A branches.
 
-**Sub 1 → sub 2 plan:** buy the RCA above and try it on the sub's second RCA pair first — still unconfirmed whether it's a genuine line-out. **Fallback if it doesn't work**: connect via the sub's **SPEAKER OUT + POWER OUT** multi-pin block instead (confirmed labeled, the officially marketed daisy-chain method) — likely via a jumper harness, check whether one's included with the 2nd Feel 700 before buying a separate one.
+### Signal & speaker cabling
+| Item | Qty | Est. |
+|---|---|---|
+| RCA Y-splitter — amp line out → two subs | 1 | £8.00 |
+| RCA, amp → each sub (~2.5m, **measure**) | 2 | £30.00 |
+| Speaker cable 16AWG OFC — new runs to dash tweeters | ~10m | £18.00 |
+| ISO harness pair — Kenwood and factory runs, no cutting | 1 | £10.00 |
+| Remote wire 0.75mm² | ~5m | £5.00 |
 
-### Tools & Consumables
-| Item | Link | Notes | Status |
-|---|---|---|---|
-| Advance Tapes AT7 — black PVC harness tape, 19mm x 33m | [RS Online](https://uk.rs-online.com/web/p/electrical-tapes/0494382) | For bundling and protecting power, ground, and RCA runs | £3.74 |
+No RCA is needed between head unit and amp — the amp has no RCA inputs.
+
+### Tools & consumables
+| Item | Notes | Est. |
+|---|---|---|
+| Hammer-lug crimper | For 4AWG lugs | £15.00 |
+| Ratchet crimper | For ~20 speaker-level butt splices | £15.00 |
+| Adhesive-lined heat-shrink butt connectors | 50-pack | £10.00 |
+| Firewall grommet + split loom | | £16.00 |
+| Heat shrink + cable ties | | £13.00 |
+| Advance Tapes AT7 PVC harness tape, 19mm x 33m | RS Online | £3.74 |
+| Roller + panel wipe for the deadening | | £12.00 |
+
+Avoid scotchlocks and Wago lever nuts — both fail under vehicle vibration.
+
+### Deferred
+| Item | Est. |
+|---|---|
+| Harman Kardon Feel 700 #2 — after tuning | £254.99 |
+| Measurement mic (UMIK-1) + REW — for proper tuning | ~£90 |
+| MATCH DIRECTOR remote — sub level from the driver's seat | ~£90 |
 
 ### Running total
-Match UP 6DSP £559.00 (Dav-Tec/CEN price, confirmed non-mk2) + HK Feel 700 £254.99 + wiring/electrical £161.41 + signal cabling £29.97 + tape £3.74 ≈ **£1,009.11**. Could drop to ~£999 if the Crown Customs listing is confirmed as the same unit, or a bit less again if the sub 1→sub 2 RCA attempt fails and you skip that last RCA cable in favour of the included loom harness.
+**Phase 1 ≈ £890** (≈ £847 with the Phonocar distribution block).
+All-in with the second sub and tuning kit ≈ £1,325.
+
+---
+
+## Verify before ordering
+
+- [ ] APCX TW tweeter crossovers in circuit on the installed AP1s
+- [ ] Under-seat space — each Feel 700 is 260 × 195 × 58mm; measure both sides
+- [ ] Glovebox space and airflow — amp is 130 × 130 × 46mm
+- [ ] Gauge of the supplied power pigtails on the amp and the subs
+- [ ] All cable run lengths — string along the real route
+- [ ] Battery health: rested voltage and a load test
+- [ ] Voltage at the amp position at idle, with lights, blower and wipers on
+- [ ] A Windows machine for DSP PC-Tool 5
