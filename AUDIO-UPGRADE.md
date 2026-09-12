@@ -53,6 +53,32 @@ Sources: [Audiotec Fischer — UP 6DSP specs](https://www.audiotec-fischer.de/en
 4. Signal: RCA from Kenwood DMX8021DABS preouts → Match UP 6DSP inputs
 5. Sub signal: single RCA from amp's line-out → sub 1 RCA in → **daisy-chain to sub 2** (see note below)
 
+**Wiring diagram:**
+
+```mermaid
+flowchart TD
+    subgraph Power["Power & Ground (4AWG unless noted)"]
+        BAT["Battery +"] -->|"4AWG"| FFH["FFH-14 in-line holder<br/>80A SFA-080 fuse"]
+        FFH -->|"4AWG"| BFD["BFD41 4-way distributor<br/>(near amp/subs)"]
+        BFD -->|"40A fuse"| AMP["Match UP 6DSP<br/>35A max draw<br/>internal 30A fuse"]
+        BFD -->|"branch"| SUB1PWR["HK Feel 700 Sub 1<br/>POWER IN — onboard 20A fuse"]
+        SUB1PWR -->|"POWER OUT loop-through"| SUB2PWR["HK Feel 700 Sub 2<br/>POWER IN"]
+        GND["Chassis ground point<br/>(bare metal, sanded)"] -->|"4AWG"| AMP
+        GND -->|"4AWG"| SUB1PWR
+    end
+
+    subgraph Signal["Signal"]
+        HU["Kenwood DMX8021DABS<br/>preouts"] -->|"RCA"| AMPIN["Match UP 6DSP<br/>inputs"]
+        AMPIN -->|"Ch A-D speaker wire"| FRONT["Front: AP4 mid + AP1 tweeter<br/>kick panel + dash (installed)"]
+        AMPIN -->|"Ch A-D speaker wire"| REAR["Rear: Focal ICU 100<br/>factory wiring reused"]
+        AMPIN -->|"line-out RCA"| SUB1SIG["Sub 1 LINE INPUT"]
+        SUB1SIG -.->|"try: RCA (unconfirmed 2nd pair)"| SUB2SIG["Sub 2 LINE INPUT"]
+        SUB1SIG -.->|"fallback: SPEAKER OUT + POWER OUT"| SUB2SIG
+    end
+```
+
+Dashed lines are the two unconfirmed sub 1→sub 2 signal options (try RCA first, fall back to the SPEAKER OUT + POWER OUT loop-through) — solid lines are settled.
+
 **Still open:**
 - **Match UP 6DSP source**: not in any of your carts — it's a specialist item, e.g. [Dav-Tec](https://dav-tec.co.uk/product/match-up-6dsp-6-channel-amplifier-dsp/).
 
