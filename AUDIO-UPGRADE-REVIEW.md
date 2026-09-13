@@ -167,10 +167,9 @@ original plan was right. I reached the opposite conclusion from a retailer page 
 than the manual.
 
 Harman's spec sheet ([reference/feel-700-spec-sheet-harman.pdf](reference/feel-700-spec-sheet-harman.pdf))
-confirms 15A fuse, 14A max draw and two 300mm harnesses per unit, but does not cover feed fusing
-or the harness pin-out, and documents chaining to **a second** unit only. The residual question —
-whether the tap is upstream or downstream of sub 1's fuse — is answered in the OM that ships in
-the box. See the plan.
+confirms 15A fuse, 14A max draw and two 300mm harnesses per unit. Each unit carrying its own fuse
+means the chain taps upstream of it — two fuses in series on one path would serve no purpose — so
+a single 30A branch feeds both.
 
 The superseded reasoning follows.
 

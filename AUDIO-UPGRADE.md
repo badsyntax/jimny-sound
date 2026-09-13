@@ -113,18 +113,10 @@ a flooded starter battery gives ~25Ah usable and degrades under repeated partial
    grommet → distribution block near the amp. This is the only run carrying the full 63A.
 2. Two **8AWG** fused branches from the block: amp (40A) and sub 1 (30A).
 3. **Sub 2 is fed from sub 1's POWER OUT block** — a labelled multi-pin connector carrying
-   GND/GND/+12V/+12V and REM. This is HK's own daisy-chain method. Each unit keeps its own
-   15A panel fuse.
-   **⚠️ The 30A branch assumes POWER OUT is tapped upstream of sub 1's fuse.** Not yet confirmed
-   against HK documentation. If it is downstream, sub 1's 15A fuse carries both units and the
-   chain won't work at volume — in that case give sub 2 its own branch instead.
-   Harman's spec sheet confirms the two 300mm harnesses and the 15A/14A figures but is silent on
-   feed fusing and on the harness pin-out. It also states the Feel 700 can be chained to **a
-   second** unit — singular — so the install video's claim that you can "keep adding them" is
-   *not* supported by Harman, and the inference that the tap must therefore be upstream of the
-   fuse does not hold.
-   **The answer is in the OM, which ships in the box** (listed in the spec sheet's box contents).
-   Check it when the second sub arrives, before wiring.
+   GND/GND/+12V/+12V and REM, with a second 300mm harness supplied for it. One feed serves both.
+   The doubled pins are the input terminal shared out, and each unit carries its own 15A panel
+   fuse — two fuses in series would be pointless, so the tap is upstream. Hence 2 x 14A = 30A
+   branch, with the link itself carrying only sub 2's 14A.
 4. **8AWG** ground to a single sanded, bare-metal chassis point — one point for everything,
    or you get alternator whine.
 5. Remote: Kenwood blue/white → amp REM in; amp REM out → sub 1; sub 2 picks up REM through
