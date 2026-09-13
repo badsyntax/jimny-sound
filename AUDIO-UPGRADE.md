@@ -135,6 +135,8 @@ flowchart TD
 
 Retailer priority: **caraudiodirect.co.uk first**, others only where they don't stock an item.
 **All wire and RCA lengths below are estimates — measure the actual routes before cutting.**
+Prices marked **~** are my estimates, not checked against a live listing. Everything else is a
+price read off the linked page.
 
 ### Amp
 
@@ -152,7 +154,7 @@ neither version.
 | Item | Qty | Est. |
 |---|---|---|
 | [Powerbass XWS-4P](https://caraudiodirect.co.uk/products/powerbass-xws-4p-4-gauge-power-wire-100-ofc-wire-per-meter) 4AWG power wire — battery → distributor | 3m @ £10.99 | £32.97 |
-| [Stinger SSK8](https://caraudiodirect.co.uk/products/stinger-ssk8-8-awg-600w-amplifier-wiring-kit) 8AWG kit — covers the three branches, grounds and remote wire | 1 | £24.99 |
+| [Stinger SSK8](https://caraudiodirect.co.uk/products/stinger-ssk8-8-awg-600w-amplifier-wiring-kit) 8AWG kit — 17ft power, 3ft ground, remote wire, terminals | 1 | £24.99 |
 | [Connection FFH-14](https://caraudiodirect.co.uk/products/connection-by-audison-ffh-14-mini-in-line-fuse-holder) mini in-line fuse holder | 1 | £17.99 |
 | [Connection SFA-080](https://caraudiodirect.co.uk/products/connection-by-audison-sfa-080-80a-afs-fuses) 80A AFS (main) | 1 | £7.99 |
 | [Connection BFD41](https://caraudiodirect.co.uk/products/connection-by-audison-bfd41-4-way-fuse-distributor-block) 4-way AFS distributor | 1 | £69.99 |
@@ -162,7 +164,9 @@ neither version.
 | [Connection FRT8](https://caraudiodirect.co.uk/products/connection-frt8-8-gauge-ring-terminals) 8AWG ring terminals — for the grounds | 1 pack | £4.99 |
 | [RS PRO 10mm² bootlace ferrules](https://uk.rs-online.com/web/p/bootlace-ferrules/1571244) — build 8AWG up to fill the BFD41's 4AWG ports | 1 pack | ~£8.00 |
 
-The SSK8 is **CCA**, not OFC — fine at 14–35A over these short runs, but a step down from the
+**The kit's ground wire is short.** It gives ~5.2m of 8AWG power and only ~0.9m of ground. Three
+branches need ~4m and three grounds ~3m, so budget a second kit or ~2m of 8AWG ground from
+elsewhere. The SSK8 is **CCA**, not OFC — fine at 14–35A over these short runs, but a step down from the
 4AWG. For OFC throughout, [Connection FSK 350](https://caraudiodirect.co.uk/products/connection-by-audison-fsk-350-8-gauge-complete-amplifier-wiring-kit)
 is £86.99. The kit's MIDI fuse holder and RCA are surplus here.
 

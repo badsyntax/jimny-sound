@@ -300,7 +300,7 @@ to a different point from the behind-dash amp is the classic recipe for alternat
 | **Branch wire** | The 3m estimate covers battery→block only. The three branch runs (block→amp, block→sub 1, block→sub 2) are uncosted. 8AWG, ~4m total. | £24 |
 | **Ground wire quantity** | 1.5m across three devices is short. ~3m of 8AWG, matching the branch feeds. | £18 |
 | **Firewall grommet / gland** | Passing 4AWG through the bulkhead is entirely unaddressed. Plus split loom to protect the run. | £16 |
-| **Crimper, heat shrink, cable ties** | Only PVC tape is listed. 4AWG needs a hydraulic crimper — borrow or buy. | £43 |
+| **Heat shrink, butt splices, cable ties** | Only PVC tape is listed. Crimping tool and tape are already owned. | £16 |
 | **Ferrules** | BFD41 outputs are 1 × 2AWG + 3 × 4AWG. Running 8AWG branches means ferrules or reducers to fill the ports. | £6 |
 | **Tuning kit** | "Tune the system" is one line in the plan. DSP PC-Tool 5 is **Windows only** (USB cable included with the amp). For a kick-panel front stage, a measurement mic + REW is close to essential. The DIRECTOR remote lets you trim sub level from the driver's seat. | see below |
 | **Deadening consumables** | Roller and panel wipe/degreaser for the material you already own. | £12 |
@@ -333,8 +333,8 @@ The items are what's wrong, not the sums.
 |---|---|---|
 | MATCH UP 6DSP MK2 | Crown Customs | £549.99 |
 | 4AWG power wire, 3m — battery → distributor only | caraudiodirect, £10.99/m | £32.97 |
-| 8AWG power wire, ~4m — three branches | est. £6/m | £24.00 |
-| 8AWG ground wire, ~3m | est. £6/m | £18.00 |
+| Stinger SSK8 8AWG kit — branches, remote wire, part of the grounds | caraudiodirect | £24.99 |
+| Additional ~2m 8AWG ground — the kit only supplies 3ft | — | ~£12.00 |
 | Connection FFH-14 in-line holder | caraudiodirect | £17.99 |
 | Connection SFA-080 80A AFS (main) | caraudiodirect | £7.99 |
 | Connection BFD41 4-way distributor | caraudiodirect | £69.99 |
@@ -347,14 +347,11 @@ The items are what's wrong, not the sums.
 | Remote wire, 0.75mm², ~5m | — | £5 |
 | Firewall grommet + split loom | — | £16 |
 | Heat shrink + cable ties | — | £13 |
-| Advance Tapes AT7 PVC harness tape | RS Online | £3.74 |
-| **Phase 1 total** | | **≈ £841** |
+| **Phase 1 total** | | **≈ £881** |
 
 Savings available: swap the BFD41 for a Phonocar 4/483 block (£14.99) + 4/499 4-way AFS holder
-(£11.99) and phase 1 drops to **≈ £798**. Dropping the HU→amp RCA the original plan listed saves
+(£11.99) and phase 1 drops to **≈ £838**. Dropping the HU→amp RCA the original plan listed saves
 a further £9.99 — it is no longer needed.
-
-Add ~£30 if you need to buy a 4AWG hydraulic crimper.
 
 ### Phase 2 — after tuning, only if wanted
 
@@ -370,7 +367,9 @@ Add ~£30 if you need to buy a 4AWG hydraulic crimper.
 | Measurement mic (miniDSP UMIK-1) + REW (free) | ~£90 |
 | MATCH DIRECTOR remote (sub level from driver's seat) | ~£90 |
 
-**All-in ceiling: ~£1,275.** Phase 1 alone: ~£841.
+**All-in ceiling: ~£1,316.** Phase 1 alone: ~£881.
+
+AUDIO-UPGRADE.md carries the linked, itemised version of this list — treat it as authoritative.
 
 ---
 
