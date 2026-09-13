@@ -89,6 +89,35 @@ with bare wire ends, so nothing needs terminating at the amp. Use a spare ISO ha
 Kenwood and the factory speaker runs plug in rather than being cut — the tweeters are the
 exception and need their own new runs to the dash.
 
+### CT20UV01 — tapping the Kenwood without cutting anything
+
+The CT20UV01 sits **inline** between the vehicle's existing ISO harness and the Kenwood's own ISO
+plug — nothing is cut on either side, and the through-connection (power, ignition, illumination,
+aerial, factory speaker feeds) is unaffected. It exists purely to give you an accessible breakout
+point for the speaker-output wires you actually want to tap.
+
+```mermaid
+flowchart TD
+    CAR["Vehicle ISO harness<br/>(factory loom, from the original head unit install)"]
+    CAR -->|"plugs in as normal"| ADAPT["CT20UV01<br/>female ISO <-> male ISO, inline"]
+    ADAPT -->|"plugs in as normal"| HU["Kenwood DMX8021DABS<br/>ISO plug"]
+    ADAPT -.->|"breakout tap: front L+/-"| TAPFL["Front L speaker-level"]
+    ADAPT -.->|"breakout tap: front R+/-"| TAPFR["Front R speaker-level"]
+    TAPFL --> SYSCONN["UP 6DSP MK2<br/>System Connector harness"]
+    TAPFR --> SYSCONN
+    SYSCONN -->|"Highlevel Input A"| DSPIN["7-channel DSP"]
+    SYSCONN -->|"Highlevel Input B"| DSPIN
+```
+
+Power, ignition, illumination, and everything else on the ISO block pass straight through the
+adapter untouched — only the front L/R speaker-level pins are tapped and routed on to the amp's
+System Connector harness (Highlevel Input A/B).
+
+**Note:** the diagram earlier in this section (Signal Path, above) shows both front L/R *and* rear
+L/R feeding the high-level inputs, which doesn't match the "front L/R only is sufficient" text next
+to it — worth reconciling which one's actually correct before wiring, since it changes whether the
+CT20UV01 needs to tap two pairs or four.
+
 ---
 
 ## Electrical Plan
