@@ -21,7 +21,13 @@ Corrections from [AUDIO-UPGRADE-REVIEW.md](AUDIO-UPGRADE-REVIEW.md) are applied 
 - **Focal ICU 100** — 40W RMS, 4Ω
 
 ## Subwoofer
-- **Harman Kardon Feel 700** — active underseat subwoofer, 125W RMS, 14A max draw, 15A fuse supplied
+- **Harman Kardon Feel 700** — active underseat subwoofer, 125W RMS / 250W max, 7" driver
+- Confirmed against Harman's own spec sheet
+  ([reference/feel-700-spec-sheet-harman.pdf](reference/feel-700-spec-sheet-harman.pdf)):
+  15A fuse, **14A max draw**, <700mA quiescent, input sensitivity **0.10–5.0V low-level** /
+  0.5–25V high-level, 260 × 195 × 58mm, and **2x 300mm wiring harnesses** for power and
+  speaker-level input in the box
+- The amp's 3V line output sits comfortably inside the 0.10–5.0V low-level input range
 
 ## Sound Deadening
 - Material owned, still to fit
@@ -112,12 +118,13 @@ a flooded starter battery gives ~25Ah usable and degrades under repeated partial
    **⚠️ The 30A branch assumes POWER OUT is tapped upstream of sub 1's fuse.** Not yet confirmed
    against HK documentation. If it is downstream, sub 1's 15A fuse carries both units and the
    chain won't work at volume — in that case give sub 2 its own branch instead.
-   Supporting but *unverified* evidence in
-   [reference/feel-700-install-transcript.txt](reference/feel-700-install-transcript.txt)
-   (auto-generated captions from a two-unit install): each unit ships with two pigtails, one
-   incoming and one pass-through carrying power, ground, remote and signal, off a single fused
-   battery feed — and a third unit can be added to the same chain, which would imply the tap is
-   upstream. Captions are not a spec sheet; confirm before wiring.
+   Harman's spec sheet confirms the two 300mm harnesses and the 15A/14A figures but is silent on
+   feed fusing and on the harness pin-out. It also states the Feel 700 can be chained to **a
+   second** unit — singular — so the install video's claim that you can "keep adding them" is
+   *not* supported by Harman, and the inference that the tap must therefore be upstream of the
+   fuse does not hold.
+   **The answer is in the OM, which ships in the box** (listed in the spec sheet's box contents).
+   Check it when the second sub arrives, before wiring.
 4. **8AWG** ground to a single sanded, bare-metal chassis point — one point for everything,
    or you get alternator whine.
 5. Remote: Kenwood blue/white → amp REM in; amp REM out → sub 1; sub 2 picks up REM through

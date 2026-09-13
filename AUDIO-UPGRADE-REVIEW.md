@@ -166,8 +166,11 @@ and SPEAKER OUT, with a 15A fuse on each unit's own panel. HK does provide a dai
 original plan was right. I reached the opposite conclusion from a retailer page summary rather
 than the manual.
 
-The residual question is only whether POWER OUT is tapped upstream or downstream of sub 1's own
-fuse — that decides whether one 30A branch feeds both units or each needs its own. See the plan.
+Harman's spec sheet ([reference/feel-700-spec-sheet-harman.pdf](reference/feel-700-spec-sheet-harman.pdf))
+confirms 15A fuse, 14A max draw and two 300mm harnesses per unit, but does not cover feed fusing
+or the harness pin-out, and documents chaining to **a second** unit only. The residual question —
+whether the tap is upstream or downstream of sub 1's fuse — is answered in the OM that ships in
+the box. See the plan.
 
 The superseded reasoning follows.
 
