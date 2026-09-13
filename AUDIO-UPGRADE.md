@@ -13,9 +13,9 @@ Corrections from [AUDIO-UPGRADE-REVIEW.md](AUDIO-UPGRADE-REVIEW.md) are applied 
   - AP1 tweeters mounted on the dash at 30°, wires routed out through the cup base via a slot cut in the mounting pad, connected to the front speaker wires
   - Working, but not yet tested at volume
   - Note: AP4s arrived with no mounting screws
-- **⚠️ Open: confirm the APCX TW crossovers are in circuit.** The AP1 ships with a passive
-  high-pass (3.5kHz, 12dB/oct). If it isn't fitted, the tweeters are running full-range off the
-  Kenwood. Check before any high-volume testing.
+- The AP1 ships with an APCX TW passive high-pass (3.5kHz, 12dB/oct). Confirm it's in circuit
+  before turning up — see the resistance test under [Before you start](#before-you-start).
+  Going active later, the DSP takes over the crossover and the APCX comes out.
 
 ## Rear Speakers
 - **Focal ICU 100** — 40W RMS, 4Ω
@@ -53,6 +53,10 @@ Corrections from [AUDIO-UPGRADE-REVIEW.md](AUDIO-UPGRADE-REVIEW.md) are applied 
 **The UP 6DSP has no RCA inputs** — 6 x high-level, 1 x optical SPDIF, 1 x extension card slot.
 The Kenwood's 4V preouts cannot be used and go unused. Feed the amp from the Kenwood's
 **speaker outputs** into the high-level inputs; this is what the UP range is designed for.
+
+Per the [MK2 manual](reference/up-6dsp-mk2-manual.pdf), **two of the four A–D high-level inputs is
+sufficient** — front L/R only. The DSP derives all seven channels from that pair, so there is no
+need to run rear speaker-level wires into the amp as well.
 
 Set the Kenwood flat before tuning: EQ off, loudness off, crossovers full-range, fader/balance centred.
 
@@ -109,9 +113,13 @@ a flooded starter battery gives ~25Ah usable and degrades under repeated partial
 
 ### Topology
 
-1. **4AWG** from battery positive → 80A main fuse within ~300mm of the battery → through firewall
-   grommet → distribution block near the amp. This is the only run carrying the full 63A.
+1. **4AWG** from battery positive → 80A main fuse **within 300mm of the battery** (manufacturer
+   maximum) → through firewall grommet → distribution block near the amp. Only run carrying 63A.
 2. Two **8AWG** fused branches from the block: amp (40A) and sub 1 (30A).
+   Audiotec Fischer specify **6mm² minimum for runs under 1m, 6–10mm² for longer**. 8AWG is
+   8.37mm², inside spec. **Ground must match the positive's cross-section** and land on bare,
+   non-insulated chassis — their words, and insufficient ground contact is called out as a direct
+   cause of noise and malfunction.
 3. **Sub 2 is fed from sub 1's POWER OUT block** — a labelled multi-pin connector carrying
    GND/GND/+12V/+12V and REM, with a second 300mm harness supplied for it. One feed serves both.
    The doubled pins are the input terminal shared out, and each unit carries its own 15A panel
@@ -119,8 +127,10 @@ a flooded starter battery gives ~25Ah usable and degrades under repeated partial
    branch, with the link itself carrying only sub 2's 14A.
 4. **8AWG** ground to a single sanded, bare-metal chassis point — one point for everything,
    or you get alternator whine.
-5. Remote: Kenwood blue/white → amp REM in; amp REM out → sub 1; sub 2 picks up REM through
-   POWER OUT. Each sub also has a REM/AUTO switch if you'd rather it signal-sense.
+5. Remote: **the amp needs no remote wire.** The manual states REM IN can be left unconnected
+   when any high-level input A–F is used — the amp switches on from the high-level signal. Use
+   the amp's **REM OUT** to switch the subs (its documented purpose is turning on amps fed from
+   Line Out); sub 2 picks up REM through the POWER OUT block.
 
 ```mermaid
 flowchart TD
@@ -212,6 +222,7 @@ Avoid scotchlocks and Wago lever nuts — both fail under vehicle vibration.
 |---|---|
 | [Harman Kardon Feel 700](https://caraudiodirect.co.uk/products/harmon-kardon-feel-700-active-underseat-car-subwoofer) #2 — after tuning | £254.99 |
 | Measurement mic (UMIK-1) + REW — for proper tuning | ~£90 |
+| **Windows access for DSP PC-Tool 6** — see below | £0–£80 |
 | MATCH DIRECTOR remote — sub level from the driver's seat | ~£90 |
 
 ### Running total
@@ -220,18 +231,34 @@ All-in with the second sub and tuning kit ≈ £1,283.
 
 ---
 
-## Verify before ordering
+## Tuning: you need Windows
 
-- [ ] APCX TW tweeter crossovers in circuit on the installed AP1s
-- [ ] Under-seat space — each Feel 700 is 260 × 195 × 58mm; measure both sides
-- [ ] Glovebox space and airflow — amp is 130 × 130 × 46mm
-- [ ] Gauge of the supplied power pigtails on the amp and the subs
-- [ ] **Whether the Feel 700's POWER OUT is tapped before or after its own 15A fuse** — decides
-      whether one 30A branch feeds both subs or each needs its own. Manual:
-      [manuals.plus](https://manuals.plus/m/4ed1018a25ead8b40e391bdc23141b4734080db94de1c4acb9ee8cf0601f7122)
-      and the [Flow & Feel series guide](https://manuals.plus/m/22d73c40886765b370abdb69e868551f759a32f9e55fb694ed8538c6b3c94b35)
-      (both block automated fetching — open in a browser)
-- [ ] All cable run lengths — string along the real route
-- [ ] Battery health: rested voltage and a load test
-- [ ] Voltage at the amp position at idle, with lights, blower and wipers on
-- [ ] A Windows machine for DSP PC-Tool 5
+DSP PC-Tool is **Windows only**, and Audiotec Fischer have said a native macOS build is not
+planned. On a Mac that means Parallels, VMware Fusion, Boot Camp on Intel, or borrowing a
+Windows laptop. Use **PC-Tool 6**, which added UP 6DSP support; the USB-C cable is in the box.
+
+Order of operations from the manual: install the software *first*, connect the amp *after*, then
+power the amp on before launching the software. Firmware updates itself on first connect.
+
+**Setting input sensitivity in PC-Tool is mandatory, not optional** — the manual warns that
+failing to match it to the source can damage the amplifier. Do this before any real listening.
+
+## Before you start
+
+Physical checks only — everything else is settled above.
+
+- [ ] **APCX TW tweeter crossovers.** Quickest test: measure DC resistance across each tweeter's
+      terminals. Direct-connected reads roughly 4Ω; with the APCX in circuit the series capacitor
+      blocks DC and you'll read open or very high. If it reads ~4Ω, fit the crossovers before
+      turning up.
+- [ ] **Under-seat space** — each Feel 700 is 260 × 195 × 58mm. Measure both sides, and check for
+      seat vents or heater ducting; the installer in the reference video abandoned under-seat
+      mounting in a Tacoma for that reason.
+- [ ] **Glovebox space and airflow** — amp is 130 × 130 × 46mm. Mount to metal, not trim foam.
+- [ ] **Battery and charging** — rested voltage on the HSB057 (12.6V+ healthy) and a load test,
+      then voltage at the amp position at idle with lights, blower and wipers on.
+
+Wire quantities in the shopping list include slack, so nothing needs measuring before ordering
+except the RCA, which is a fixed-length product — run a string from the amp position to under the
+seat before picking that one.
+
