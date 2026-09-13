@@ -72,8 +72,7 @@ All 7 DSP channels used. Amp power exceeds speaker ratings — set gains conserv
 ```mermaid
 flowchart TD
     HU["Kenwood DMX8021DABS<br/>speaker outputs<br/>EQ flat, crossovers off"]
-    HU -->|"front L/R speaker level"| HLIN["UP 6DSP MK2<br/>high-level inputs"]
-    HU -->|"rear L/R speaker level"| HLIN
+    HU -->|"front L/R speaker level"| HLIN["UP 6DSP MK2<br/>high-level inputs A/B"]
     HLIN --> DSP["7-channel DSP"]
     DSP -->|"Ch A/B"| TW["AP1 tweeters — dash, 30 deg"]
     DSP -->|"Ch C/D"| MID["AP4 midbass — kick panels"]
@@ -111,11 +110,6 @@ flowchart TD
 Power, ignition, illumination, and everything else on the ISO block pass straight through the
 adapter untouched — only the front L/R speaker-level pins are tapped and routed on to the amp's
 System Connector harness (Highlevel Input A/B).
-
-**Note:** the diagram earlier in this section (Signal Path, above) shows both front L/R *and* rear
-L/R feeding the high-level inputs, which doesn't match the "front L/R only is sufficient" text next
-to it — worth reconciling which one's actually correct before wiring, since it changes whether the
-CT20UV01 needs to tap two pairs or four.
 
 ---
 
