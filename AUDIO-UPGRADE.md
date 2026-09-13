@@ -1,6 +1,5 @@
 # Suzuki Jimny JB43 (2015) — Audio Upgrade
 
-Corrections from [AUDIO-UPGRADE-REVIEW.md](AUDIO-UPGRADE-REVIEW.md) are applied here.
 
 ## Head Unit
 - **Kenwood DMX8021DABS** — 4 x 50W, 3 x 4V preouts (preouts unused, see Signal Path)

@@ -4,10 +4,10 @@ Planning repo for a car audio install in a 2015 Suzuki Jimny JB43. No code — t
 get ordered from and wired from.
 
 - [AUDIO-UPGRADE.md](AUDIO-UPGRADE.md) — the plan. Authoritative, short, actionable.
-- [AUDIO-UPGRADE-REVIEW.md](AUDIO-UPGRADE-REVIEW.md) — the reasoning behind it.
 - [reference/](reference/) — manufacturer PDFs and sources. Cite these, don't work from memory.
 
-Keep the two documents consistent; fix both in the same commit.
+Decisions live in the plan itself. Put the reasoning in the commit message, not a second
+document to keep in sync.
 
 ## Quality
 
