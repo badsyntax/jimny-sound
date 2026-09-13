@@ -157,9 +157,10 @@ neither version.
 | [Connection SFA-080](https://caraudiodirect.co.uk/products/connection-by-audison-sfa-080-80a-afs-fuses) 80A AFS (main) | 1 | £7.99 |
 | [Connection BFD41](https://caraudiodirect.co.uk/products/connection-by-audison-bfd41-4-way-fuse-distributor-block) 4-way AFS distributor | 1 | £69.99 |
 | [Connection SFA-040](https://caraudiodirect.co.uk/products/connection-by-audison-sfa-040-40a-afs-fuses) 40A AFS (amp branch) | 1 | £7.99 |
-| Phonocar 4/462.2 20A AFS (sub branches) | 2 | £9.98 |
-| [Connection FRT4](https://caraudiodirect.co.uk/products/connection-frt4-4-gauge-ring-terminals) 4-gauge ring terminals | 1 pack | £7.99 |
-| Ferrules for 8AWG into the BFD41's 4AWG ports — generic | — | £6.00 |
+| [Phonocar 4/4622](https://caraudiodirect.co.uk/products/phonocar-4-4622-afs-fuses-20a) 20A AFS (sub branches) | 2 | £9.98 |
+| [Vibe CLRT4-V7](https://caraudiodirect.co.uk/products/vibe-clrt4-v7-critical-link-4-awg-ring-terminal-pair) 4AWG ring terminals — Connection FRT4 is out of stock | 1 pair | £4.99 |
+| [Connection FRT8](https://caraudiodirect.co.uk/products/connection-frt8-8-gauge-ring-terminals) 8AWG ring terminals — for the grounds | 1 pack | £4.99 |
+| [RS PRO 10mm² bootlace ferrules](https://uk.rs-online.com/web/p/bootlace-ferrules/1571244) — build 8AWG up to fill the BFD41's 4AWG ports | 1 pack | ~£8.00 |
 
 The SSK8 is **CCA**, not OFC — fine at 14–35A over these short runs, but a step down from the
 4AWG. For OFC throughout, [Connection FSK 350](https://caraudiodirect.co.uk/products/connection-by-audison-fsk-350-8-gauge-complete-amplifier-wiring-kit)
@@ -184,13 +185,14 @@ No RCA is needed between head unit and amp — the amp has no RCA inputs.
 ### Tools & consumables
 | Item | Notes | Est. |
 |---|---|---|
-| Hammer-lug crimper — generic, any auto factor | For 4AWG lugs | £15.00 |
-| Ratchet crimper — generic | For ~20 speaker-level butt splices | £15.00 |
-| Adhesive-lined heat-shrink butt connectors — generic, 50-pack | Not stocked at caraudiodirect | £10.00 |
-| Firewall grommet + split loom — generic | Not stocked at caraudiodirect | £16.00 |
-| Heat shrink + cable ties — generic | | £13.00 |
-| Advance Tapes AT7 PVC harness tape, 19mm x 33m | [RS Online](https://uk.rs-online.com/web/p/electrical-tapes/0494382) | £3.74 |
-| Roller + panel wipe for the deadening | | £12.00 |
+| [RS splice connectors](https://uk.rs-online.com/web/c/connectors/wire-terminals-splices/splice-connectors/) — adhesive-lined heat-shrink butt type, sized for 16AWG | ~20 joins, buy a 50-pack | ~£10.00 |
+| [RS rubber grommets](https://uk.rs-online.com/web/c/cables-wires/cable-glands-strain-relief-grommets/rubber-grommets/) — firewall pass-through, size to the 4AWG jacket | 1 | ~£5.00 |
+| [RS spiral cable wrap](https://uk.rs-online.com/web/c/cables-wires/cable-management/cable-spiral-wrapping/) — protect the engine-bay run | ~2m | ~£8.00 |
+| [RS cable ties](https://uk.rs-online.com/web/c/cables-wires/cable-ties-fixings/cable-ties/) | 1 pack | ~£6.00 |
+| [Vibe CLDR-V7](https://caraudiodirect.co.uk/products/vibe-cldr-v7-critical-link-anti-vibe-sound-deadening-roller) sound deadening roller | For the material already owned | £12.99 |
+| [RS PRO IPA solvent 1L](https://uk.rs-online.com/web/p/precision-cleaners-degreasers/2274427) | Panel wipe before deadening | ~£12.00 |
+
+Already owned: crimping tool, electrical tape.
 
 Avoid scotchlocks and Wago lever nuts — both fail under vehicle vibration.
 
@@ -202,8 +204,8 @@ Avoid scotchlocks and Wago lever nuts — both fail under vehicle vibration.
 | MATCH DIRECTOR remote — sub level from the driver's seat | ~£90 |
 
 ### Running total
-**Phase 1 ≈ £898** (≈ £855 with the Phonocar distribution block).
-All-in with the second sub and tuning kit ≈ £1,333.
+**Phase 1 ≈ £881** (≈ £838 with the Phonocar distribution block).
+All-in with the second sub and tuning kit ≈ £1,316.
 
 ---
 
