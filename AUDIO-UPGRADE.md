@@ -171,7 +171,7 @@ neither version.
 | Item | Qty | Est. |
 |---|---|---|
 | [Powerbass XWS-4P](https://caraudiodirect.co.uk/products/powerbass-xws-4p-4-gauge-power-wire-100-ofc-wire-per-meter) 4AWG power wire — battery → distributor | 3m @ £10.99 | £32.97 |
-| [Powerbass XWS-8P](https://www.caraudiosecurity.com/products/xws-8p-8-awg-power-wire-per-metre-100-ofc-wire) 8AWG power wire, 100% OFC — three branches | 4m @ £4.49 | £17.96 |
+| [Powerbass XWS-8P](https://www.caraudiosecurity.com/products/xws-8p-8-awg-power-wire-per-metre-100-ofc-wire) 8AWG power wire, 100% OFC — amp + sub branches | 4m @ £4.49 | £17.96 |
 | [Powerbass XWS-8G](https://www.caraudiosecurity.com/products/xws-8g-8-awg-ground-wire-per-metre-100-ofc-wire) 8AWG ground wire, 100% OFC | 3m @ £4.49 | £13.47 |
 | [Connection FFH-14](https://caraudiodirect.co.uk/products/connection-by-audison-ffh-14-mini-in-line-fuse-holder) mini in-line fuse holder | 1 | £17.99 |
 | [Connection SFA-080](https://caraudiodirect.co.uk/products/connection-by-audison-sfa-080-80a-afs-fuses) 80A AFS (main) | 1 | £7.99 |
@@ -182,17 +182,17 @@ neither version.
 | [Connection FRT8](https://caraudiodirect.co.uk/products/connection-frt8-8-gauge-ring-terminals) 8AWG ring terminals — for the grounds | 1 pack | £4.99 |
 | [RS PRO 10mm² bootlace ferrules](https://uk.rs-online.com/web/p/bootlace-ferrules/1571244) — build 8AWG up to fill the BFD41's 4AWG ports | 1 pack | ~£8.00 |
 
-**The kit's ground wire is short.** It gives ~5.2m of 8AWG power and only ~0.9m of ground. Three
-branches need ~4m and three grounds ~3m, so budget a second kit or ~2m of 8AWG ground from
-elsewhere. The SSK8 is **CCA**, not OFC — fine at 14–35A over these short runs, but a step down from the
-4AWG. For OFC throughout, [Connection FSK 350](https://caraudiodirect.co.uk/products/connection-by-audison-fsk-350-8-gauge-complete-amplifier-wiring-kit)
-is £86.99. The kit's MIDI fuse holder and RCA are surplus here.
+The 8AWG is the same Powerbass XWS family as the 4AWG above — **100% OFC throughout**, no
+copper-clad aluminium anywhere in the run. Car Audio Security stock it per metre; caraudiodirect
+don't carry 8 gauge per metre.
+
+Quantities include slack, so nothing here needs measuring before ordering.
 
 *Only two fused branches are needed now, so the cheaper route is better value than before:
 Phonocar 4/483 distribution block (£14.99) + a 2-way AFS holder (£9.99) replaces the BFD41
 and saves £45.*
 
-Note: Connection AFS fuses at caraudiodirect start at 40A — hence Phonocar for the 20A branches.
+Note: Connection AFS fuses at caraudiodirect start at 40A, so the 30A sub branch uses Phonocar.
 
 ### Signal & speaker cabling
 | Item | Qty | Est. |
