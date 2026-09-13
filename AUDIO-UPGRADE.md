@@ -144,22 +144,22 @@ neither version.
 
 | Retailer | Version | Price |
 |---|---|---|
-| **Crown Customs** | **MK2 (current)** | **£549.99** |
-| Dav-Tec | original | £559.00 |
-| CEN | original | £559.99 |
+| **[Crown Customs](https://www.crowncustomscaraudio.co.uk/products/match-up-6dsp-6-channel-amplifier-with-integrated-7-channel-dsp)** | **MK2 (current)** | **£549.99** |
+| [Dav-Tec](https://dav-tec.co.uk/product/match-up-6dsp-6-channel-amplifier-dsp/) | original | £559.00 |
+| [CEN](https://www.cen.uk/products/match-up-6dsp-universal-amp-upgrade-6-channel-amplifier-64-bit-7-channel-dsp) | original | £559.99 |
 
 ### Wiring & electrical
 | Item | Qty | Est. |
 |---|---|---|
-| Powerbass XWS-4P 4AWG power wire — battery → distributor | 3m @ £10.99 | £32.97 |
+| [Powerbass XWS-4P](https://caraudiodirect.co.uk/products/powerbass-xws-4p-4-gauge-power-wire-100-ofc-wire-per-meter) 4AWG power wire — battery → distributor | 3m @ £10.99 | £32.97 |
 | 8AWG power wire — three branches | ~4m @ ~£6 | £24.00 |
 | 8AWG ground wire | ~3m @ ~£6 | £18.00 |
-| Connection FFH-14 mini in-line fuse holder | 1 | £17.99 |
-| Connection SFA-080 80A AFS (main) | 1 | £7.99 |
-| Connection BFD41 4-way AFS distributor | 1 | £69.99 |
-| Connection SFA-040 40A AFS (amp branch) | 1 | £7.99 |
+| [Connection FFH-14](https://caraudiodirect.co.uk/products/connection-by-audison-ffh-14-mini-in-line-fuse-holder) mini in-line fuse holder | 1 | £17.99 |
+| [Connection SFA-080](https://caraudiodirect.co.uk/products/connection-by-audison-sfa-080-80a-afs-fuses) 80A AFS (main) | 1 | £7.99 |
+| [Connection BFD41](https://caraudiodirect.co.uk/products/connection-by-audison-bfd41-4-way-fuse-distributor-block) 4-way AFS distributor | 1 | £69.99 |
+| [Connection SFA-040](https://caraudiodirect.co.uk/products/connection-by-audison-sfa-040-40a-afs-fuses) 40A AFS (amp branch) | 1 | £7.99 |
 | Phonocar 4/462.2 20A AFS (sub branches) | 2 | £9.98 |
-| Connection FRT4 4-gauge ring terminals | 1 pack | £7.99 |
+| [Connection FRT4](https://caraudiodirect.co.uk/products/connection-frt4-4-gauge-ring-terminals) 4-gauge ring terminals | 1 pack | £7.99 |
 | Ferrules for 8AWG into the BFD41's 4AWG ports | — | £6.00 |
 
 *Cheaper alternative: Phonocar 4/483 distribution block (£14.99) + 4/499 **4-way** AFS holder
@@ -186,7 +186,7 @@ No RCA is needed between head unit and amp — the amp has no RCA inputs.
 | Adhesive-lined heat-shrink butt connectors | 50-pack | £10.00 |
 | Firewall grommet + split loom | | £16.00 |
 | Heat shrink + cable ties | | £13.00 |
-| Advance Tapes AT7 PVC harness tape, 19mm x 33m | RS Online | £3.74 |
+| Advance Tapes AT7 PVC harness tape, 19mm x 33m | [RS Online](https://uk.rs-online.com/web/p/electrical-tapes/0494382) | £3.74 |
 | Roller + panel wipe for the deadening | | £12.00 |
 
 Avoid scotchlocks and Wago lever nuts — both fail under vehicle vibration.
@@ -194,7 +194,7 @@ Avoid scotchlocks and Wago lever nuts — both fail under vehicle vibration.
 ### Deferred
 | Item | Est. |
 |---|---|
-| Harman Kardon Feel 700 #2 — after tuning | £254.99 |
+| [Harman Kardon Feel 700](https://caraudiodirect.co.uk/products/harmon-kardon-feel-700-active-underseat-car-subwoofer) #2 — after tuning | £254.99 |
 | Measurement mic (UMIK-1) + REW — for proper tuning | ~£90 |
 | MATCH DIRECTOR remote — sub level from the driver's seat | ~£90 |
 
