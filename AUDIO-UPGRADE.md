@@ -77,7 +77,7 @@ flowchart TD
     DSP -->|"Ch A/B"| TW["AP1 tweeters — dash, 30 deg"]
     DSP -->|"Ch C/D"| MID["AP4 midbass — kick panels"]
     DSP -->|"Ch E/F"| REAR["Focal ICU 100 — rear"]
-    DSP -->|"line out RCA 3V, mono"| YLEAD["FTM-030 Y-lead<br/>1 female in -> 2 male out"]
+    DSP -->|"line out RCA 3V, mono"| YLEAD["RFIY-1F Y-adapter<br/>1 female in -> 2 male out"]
     YLEAD -->|"L + R"| SUB1["Feel 700 #1<br/>RCA in (L+R) + power in"]
     SUB1 -->|"daisy chain — signal + power + REM"| SUB2["Feel 700 #2"]
 ```
@@ -101,10 +101,12 @@ flowchart TD
     ADAPT -->|"plugs in as normal"| HU["Kenwood DMX8021DABS<br/>ISO plug"]
     ADAPT -.->|"breakout tap: front L+/-"| TAPFL["Front L speaker-level"]
     ADAPT -.->|"breakout tap: front R+/-"| TAPFR["Front R speaker-level"]
+    ADAPT -.->|"breakout tap: remote/amp turn-on"| TAPREM["Remote turn-on wire"]
     TAPFL --> SYSCONN["UP 6DSP MK2<br/>System Connector harness"]
     TAPFR --> SYSCONN
     SYSCONN -->|"Highlevel Input A"| DSPIN["7-channel DSP"]
     SYSCONN -->|"Highlevel Input B"| DSPIN
+    TAPREM --> AMPREMIN["UP 6DSP REM IN"]
 ```
 
 Power, ignition, illumination, and everything else on the ISO block pass straight through the
@@ -149,10 +151,11 @@ a flooded starter battery gives ~25Ah usable and degrades under repeated partial
    branch, with the link itself carrying only sub 2's 14A.
 4. **8AWG** ground to a single sanded, bare-metal chassis point — one point for everything,
    or you get alternator whine.
-5. Remote: **the amp needs no remote wire.** The manual states REM IN can be left unconnected
-   when any high-level input A–F is used — the amp switches on from the high-level signal. Use
-   the amp's **REM OUT** to switch the subs (its documented purpose is turning on amps fed from
-   Line Out); sub 2 picks up REM through the POWER OUT block.
+5. Remote: use an explicit remote wire, not the auto-turn-on-from-high-level-signal option — run
+   the Kenwood's remote/amp-turn-on output (tapped via the CT20UV01, alongside the front L/R
+   speaker taps) to the amp's **REM IN**. The amp's **REM OUT** then switches the subs (its
+   documented purpose is turning on amps fed from Line Out); sub 2 picks up REM through the
+   POWER OUT block.
 
 ```mermaid
 flowchart TD
@@ -220,10 +223,10 @@ Note: Connection AFS fuses at caraudiodirect start at 40A, so the 30A sub branch
 | Item | Qty | Est. |
 |---|---|---|
 | [Connection FT2](https://caraudiodirect.co.uk/products/connection-ft2-100-2-1m-rca-cable) RCA, amp → sub 1 — pick the length from this range once **measured**. Amp's Cinch out is **mono** (1 jack); this is a 2-lead stereo pair cable, only one lead is used for the run | 1 | ~£15.00 |
-| [Connection FTM-030](https://caraudiodirect.co.uk/products/connection-ftm-030-2-male-1-female-y-lead) — 1 female / 2 male Y-lead, splits the single mono lead into the sub's L + R line inputs | 1 | £6.49 |
+| [Rockford Fosgate RFIY-1F](https://caraudiodirect.co.uk/products/rfiy-1f-twisted-pair-y-adapter-1-female-to-2-male) — 1 female / 2 male Y-adapter, splits the single mono lead into the sub's L + R line inputs | 1 | £9.99 |
 | [Connection SL216.2](https://caraudiodirect.co.uk/products/connection-by-audison-sl216-2-silver-series-high-resolution-16-gauge-speaker-cable-per-metre) 16 gauge speaker cable — new runs to dash tweeters | ~8m @ £3.00 | £24.00 |
 | [Connects2 CT20UV01](https://caraudiodirect.co.uk/products/connects2-ct20uv01-harness-adapter-female-iso-to-male-iso-adapter) female ISO → male ISO — lets the Kenwood and factory runs plug in rather than be cut | 1 | £9.99 |
-| [RS automotive hook-up wire](https://uk.rs-online.com/web/c/cables-wires/wire-single-core-cable/automotive-wire/) ~1mm² — amp REM OUT → sub 1 only | ~2m | ~£5.00 |
+| [RS automotive hook-up wire](https://uk.rs-online.com/web/c/cables-wires/wire-single-core-cable/automotive-wire/) ~1mm² — two runs: Kenwood remote tap (via CT20UV01) → amp REM IN, and amp REM OUT → sub 1 | ~3m | ~£7.50 |
 
 No RCA is needed between head unit and amp — the amp has no RCA inputs.
 
@@ -250,8 +253,8 @@ Avoid scotchlocks and Wago lever nuts — both fail under vehicle vibration.
 | MATCH DIRECTOR remote — sub level from the driver's seat | ~£90 |
 
 ### Running total
-**Phase 1 ≈ £867** (≈ £822 with the Phonocar distribution block) — includes the £6.49 Y-lead added for the amp's mono-to-stereo sub connection.
-All-in with the second sub and tuning kit ≈ £1,302.
+**Phase 1 ≈ £873** (≈ £828 with the Phonocar distribution block) — includes the £9.99 RFIY-1F Y-adapter for the amp's mono-to-stereo sub connection, and the extra remote-wire run to the amp's REM IN.
+All-in with the second sub and tuning kit ≈ £1,308.
 
 ---
 
