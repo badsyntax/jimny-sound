@@ -183,11 +183,11 @@ the diagram is the wrong one.
 **Fix: each sub gets its own fused branch from the distribution block.** Signal can be shared;
 power cannot.
 
-### 3. ~~The sub-to-sub signal daisy-chain is unconfirmed~~ — PARTLY WITHDRAWN
+### 3. ~~The sub-to-sub signal daisy-chain is unconfirmed~~ — WITHDRAWN
 
-SPEAKER IN and SPEAKER OUT are both present and labelled, so a signal chain exists. The
-Y-splitter below is still the recommendation only because the source here is the amp's RCA line
-out, and whether SPEAKER OUT passes signal when the unit is fed by RCA is untested.
+**Also wrong.** Signal and power both chain: RCA and power go into sub 1, and sub 1 feeds sub 2
+through the labelled link. No Y-splitter and no second RCA run needed. The superseded reasoning
+follows.
 
 
 

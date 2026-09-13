@@ -57,7 +57,7 @@ Set the Kenwood flat before tuning: EQ off, loudness off, crossovers full-range,
 | A, B | 65W @ 4Ω | Front tweeters — AP1, L + R |
 | C, D | 65W @ 4Ω | Front midbass — AP4, L + R |
 | E, F | 75W @ 4Ω | Rear — Focal ICU 100, L + R |
-| DSP ch 7 → line out | 3V RMS | Both Feel 700 subs via Y-splitter |
+| DSP ch 7 → line out | 3V RMS | Feel 700 #1, which chains on to #2 |
 
 All 7 DSP channels used. Amp power exceeds speaker ratings — set gains conservatively.
 
@@ -70,9 +70,8 @@ flowchart TD
     DSP -->|"Ch A/B"| TW["AP1 tweeters — dash, 30 deg"]
     DSP -->|"Ch C/D"| MID["AP4 midbass — kick panels"]
     DSP -->|"Ch E/F"| REAR["Focal ICU 100 — rear"]
-    DSP -->|"line out RCA 3V"| YSPLIT["RCA Y-splitter"]
-    YSPLIT --> SUB1["Feel 700 #1"]
-    YSPLIT --> SUB2["Feel 700 #2"]
+    DSP -->|"line out RCA 3V"| SUB1["Feel 700 #1<br/>RCA in + power in"]
+    SUB1 -->|"daisy chain — signal + power + REM"| SUB2["Feel 700 #2"]
 ```
 
 **Connections:** the amp's high-level inputs and speaker outputs are supplied as plug-in harnesses
@@ -182,8 +181,7 @@ Note: Connection AFS fuses at caraudiodirect start at 40A — hence Phonocar for
 ### Signal & speaker cabling
 | Item | Qty | Est. |
 |---|---|---|
-| [Connection FTF-030](https://caraudiodirect.co.uk/products/connection-ftf-030-2-female-1-male-y-lead) Y-lead, 1 male → 2 female — one per channel | 2 | £12.98 |
-| [Connection FT2](https://caraudiodirect.co.uk/products/connection-ft2-100-2-1m-rca-cable) RCA, amp → each sub — pick the length from this range once **measured** | 2 | ~£30.00 |
+| [Connection FT2](https://caraudiodirect.co.uk/products/connection-ft2-100-2-1m-rca-cable) RCA, amp → sub 1 — pick the length from this range once **measured** | 1 | ~£15.00 |
 | [Connection SL216.2](https://caraudiodirect.co.uk/products/connection-by-audison-sl216-2-silver-series-high-resolution-16-gauge-speaker-cable-per-metre) 16 gauge speaker cable — new runs to dash tweeters | ~8m @ £3.00 | £24.00 |
 | [Connects2 CT20UV01](https://caraudiodirect.co.uk/products/connects2-ct20uv01-harness-adapter-female-iso-to-male-iso-adapter) female ISO → male ISO — lets the Kenwood and factory runs plug in rather than be cut | 1 | £9.99 |
 | Remote wire — included in the SSK8 kit above | — | £0.00 |
@@ -212,8 +210,8 @@ Avoid scotchlocks and Wago lever nuts — both fail under vehicle vibration.
 | MATCH DIRECTOR remote — sub level from the driver's seat | ~£90 |
 
 ### Running total
-**Phase 1 ≈ £876** (≈ £831 with the Phonocar distribution block).
-All-in with the second sub and tuning kit ≈ £1,311.
+**Phase 1 ≈ £848** (≈ £803 with the Phonocar distribution block).
+All-in with the second sub and tuning kit ≈ £1,283.
 
 ---
 
