@@ -171,7 +171,8 @@ neither version.
 | Item | Qty | Est. |
 |---|---|---|
 | [Powerbass XWS-4P](https://caraudiodirect.co.uk/products/powerbass-xws-4p-4-gauge-power-wire-100-ofc-wire-per-meter) 4AWG power wire — battery → distributor | 3m @ £10.99 | £32.97 |
-| [Stinger SSK8](https://caraudiodirect.co.uk/products/stinger-ssk8-8-awg-600w-amplifier-wiring-kit) 8AWG kit — 17ft power, 3ft ground, remote wire, terminals | 1 | £24.99 |
+| [Powerbass XWS-8P](https://www.caraudiosecurity.com/products/xws-8p-8-awg-power-wire-per-metre-100-ofc-wire) 8AWG power wire, 100% OFC — three branches | 4m @ £4.49 | £17.96 |
+| [Powerbass XWS-8G](https://www.caraudiosecurity.com/products/xws-8g-8-awg-ground-wire-per-metre-100-ofc-wire) 8AWG ground wire, 100% OFC | 3m @ £4.49 | £13.47 |
 | [Connection FFH-14](https://caraudiodirect.co.uk/products/connection-by-audison-ffh-14-mini-in-line-fuse-holder) mini in-line fuse holder | 1 | £17.99 |
 | [Connection SFA-080](https://caraudiodirect.co.uk/products/connection-by-audison-sfa-080-80a-afs-fuses) 80A AFS (main) | 1 | £7.99 |
 | [Connection BFD41](https://caraudiodirect.co.uk/products/connection-by-audison-bfd41-4-way-fuse-distributor-block) 4-way AFS distributor | 1 | £69.99 |
@@ -199,7 +200,7 @@ Note: Connection AFS fuses at caraudiodirect start at 40A — hence Phonocar for
 | [Connection FT2](https://caraudiodirect.co.uk/products/connection-ft2-100-2-1m-rca-cable) RCA, amp → sub 1 — pick the length from this range once **measured** | 1 | ~£15.00 |
 | [Connection SL216.2](https://caraudiodirect.co.uk/products/connection-by-audison-sl216-2-silver-series-high-resolution-16-gauge-speaker-cable-per-metre) 16 gauge speaker cable — new runs to dash tweeters | ~8m @ £3.00 | £24.00 |
 | [Connects2 CT20UV01](https://caraudiodirect.co.uk/products/connects2-ct20uv01-harness-adapter-female-iso-to-male-iso-adapter) female ISO → male ISO — lets the Kenwood and factory runs plug in rather than be cut | 1 | £9.99 |
-| Remote wire — included in the SSK8 kit above | — | £0.00 |
+| [RS automotive hook-up wire](https://uk.rs-online.com/web/c/cables-wires/wire-single-core-cable/automotive-wire/) ~1mm² — amp REM OUT → sub 1 only | ~2m | ~£5.00 |
 
 No RCA is needed between head unit and amp — the amp has no RCA inputs.
 
@@ -226,8 +227,8 @@ Avoid scotchlocks and Wago lever nuts — both fail under vehicle vibration.
 | MATCH DIRECTOR remote — sub level from the driver's seat | ~£90 |
 
 ### Running total
-**Phase 1 ≈ £848** (≈ £803 with the Phonocar distribution block).
-All-in with the second sub and tuning kit ≈ £1,283.
+**Phase 1 ≈ £860** (≈ £815 with the Phonocar distribution block).
+All-in with the second sub and tuning kit ≈ £1,295.
 
 ---
 
