@@ -158,7 +158,20 @@ the UP range is designed for and it is sonically fine. Practical notes:
 The **MEC ANALOG IN** card is not a workaround — Audiotec Fischer lists it as compatible with the
 UP 7BMW and UP 7DSP only, and the MK2's Extension Card 2.0 slot is a different format again.
 
-### 2. The power loop-through in the wiring diagram is unsafe and impossible
+### 2. ~~The power loop-through in the wiring diagram is unsafe and impossible~~ — WITHDRAWN
+
+**This finding was wrong.** Photographic evidence of the Feel 700's rear panel shows a labelled
+**POWER OUT** multi-pin block carrying GND/GND/+12V/+12V and REM, alongside separate SPEAKER IN
+and SPEAKER OUT, with a 15A fuse on each unit's own panel. HK does provide a daisy-chain and the
+original plan was right. I reached the opposite conclusion from a retailer page summary rather
+than the manual.
+
+The residual question is only whether POWER OUT is tapped upstream or downstream of sub 1's own
+fuse — that decides whether one 30A branch feeds both units or each needs its own. See the plan.
+
+The superseded reasoning follows.
+
+
 
 The mermaid diagram shows `SUB1PWR --POWER OUT loop-through--> SUB2PWR`, but the plan's own
 table above it correctly gives each sub its own branch fuse. These contradict each other, and
@@ -170,7 +183,13 @@ the diagram is the wrong one.
 **Fix: each sub gets its own fused branch from the distribution block.** Signal can be shared;
 power cannot.
 
-### 3. The sub-to-sub signal daisy-chain is unconfirmed — route around it
+### 3. ~~The sub-to-sub signal daisy-chain is unconfirmed~~ — PARTLY WITHDRAWN
+
+SPEAKER IN and SPEAKER OUT are both present and labelled, so a signal chain exists. The
+Y-splitter below is still the recommendation only because the source here is the amp's RCA line
+out, and whether SPEAKER OUT passes signal when the unit is fed by RCA is untested.
+
+
 
 The plan carries an open question with a "try RCA, fall back to SPEAKER OUT + POWER OUT" plan.
 Car Audio Direct's own product page states there is **no dedicated output for a second

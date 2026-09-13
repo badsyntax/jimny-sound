@@ -99,34 +99,37 @@ a flooded starter battery gives ~25Ah usable and degrades under repeated partial
 | Device | Max draw | Fusing |
 |---|---|---|
 | Match UP 6DSP | 35A (internal 30A LP-Mini) | 40A AFS branch |
-| HK Feel 700 (sub 1) | 14A | 20A AFS branch + own 15A inline |
-| HK Feel 700 (sub 2) | 14A | 20A AFS branch + own 15A inline |
+| HK Feel 700 x2, daisy-chained | 28A combined | **30A** AFS branch + each unit's own 15A fuse |
 | **Worst case** | **63A** | 80A main |
 
 ### Topology
 
 1. **4AWG** from battery positive → 80A main fuse within ~300mm of the battery → through firewall
    grommet → distribution block near the amp. This is the only run carrying the full 63A.
-2. Three **8AWG** fused branches from the block: amp (40A), sub 1 (20A), sub 2 (20A).
-   Each sub keeps its own supplied 15A inline fuse. **No power loop-through between subs.**
-3. **8AWG** ground per device to a single sanded, bare-metal chassis point — one point for all
-   three, or you get alternator whine.
-4. Remote: Kenwood blue/white → amp REM in; amp REM out → both subs.
+2. Two **8AWG** fused branches from the block: amp (40A) and sub 1 (30A).
+3. **Sub 2 is fed from sub 1's POWER OUT block** — a labelled multi-pin connector carrying
+   GND/GND/+12V/+12V and REM. This is HK's own daisy-chain method. Each unit keeps its own
+   15A panel fuse.
+   **⚠️ The 30A branch assumes POWER OUT is tapped upstream of sub 1's fuse.** Confirm in the
+   manual: if it is downstream, sub 1's 15A fuse carries both units and the chain won't work at
+   volume — in that case give sub 2 its own branch instead.
+4. **8AWG** ground to a single sanded, bare-metal chassis point — one point for everything,
+   or you get alternator whine.
+5. Remote: Kenwood blue/white → amp REM in; amp REM out → sub 1; sub 2 picks up REM through
+   POWER OUT. Each sub also has a REM/AUTO switch if you'd rather it signal-sense.
 
 ```mermaid
 flowchart TD
     BAT["Battery +"] -->|"4AWG"| FFH["FFH-14 in-line holder<br/>SFA-080 80A<br/>within 300mm of battery"]
     FFH -->|"4AWG — through firewall grommet"| BFD["BFD41 4-way AFS distributor"]
     BFD -->|"40A AFS — 8AWG"| AMP["Match UP 6DSP MK2<br/>35A max"]
-    BFD -->|"20A AFS — 8AWG"| S1["Feel 700 #1<br/>own 15A inline"]
-    BFD -->|"20A AFS — 8AWG"| S2["Feel 700 #2<br/>own 15A inline"]
+    BFD -->|"30A AFS — 8AWG"| S1["Feel 700 #1<br/>own 15A panel fuse"]
+    S1 -->|"POWER OUT block<br/>GND/GND/+12V/+12V/REM"| S2["Feel 700 #2<br/>own 15A panel fuse"]
     AMP -->|"8AWG"| GND["Common chassis ground<br/>sanded to bare metal"]
     S1 -->|"8AWG"| GND
-    S2 -->|"8AWG"| GND
     REM["Kenwood remote out"] --> AMPREM["UP 6DSP remote IN"]
     AMPREM --> AMPROUT["UP 6DSP remote OUT"]
-    AMPROUT --> S1R["Feel 700 #1 remote"]
-    AMPROUT --> S2R["Feel 700 #2 remote"]
+    AMPROUT --> S1R["Feel 700 #1 remote — passes to #2 via POWER OUT"]
 ```
 
 ---
@@ -159,7 +162,7 @@ neither version.
 | [Connection SFA-080](https://caraudiodirect.co.uk/products/connection-by-audison-sfa-080-80a-afs-fuses) 80A AFS (main) | 1 | £7.99 |
 | [Connection BFD41](https://caraudiodirect.co.uk/products/connection-by-audison-bfd41-4-way-fuse-distributor-block) 4-way AFS distributor | 1 | £69.99 |
 | [Connection SFA-040](https://caraudiodirect.co.uk/products/connection-by-audison-sfa-040-40a-afs-fuses) 40A AFS (amp branch) | 1 | £7.99 |
-| [Phonocar 4/4622](https://caraudiodirect.co.uk/products/phonocar-4-4622-afs-fuses-20a) 20A AFS (sub branches) | 2 | £9.98 |
+| [Phonocar 4/4632](https://caraudiodirect.co.uk/products/phonocar-4-4632-afs-fuses-30a) 30A AFS (sub branch) | 1 | £4.99 |
 | [Vibe CLRT4-V7](https://caraudiodirect.co.uk/products/vibe-clrt4-v7-critical-link-4-awg-ring-terminal-pair) 4AWG ring terminals — Connection FRT4 is out of stock | 1 pair | £4.99 |
 | [Connection FRT8](https://caraudiodirect.co.uk/products/connection-frt8-8-gauge-ring-terminals) 8AWG ring terminals — for the grounds | 1 pack | £4.99 |
 | [RS PRO 10mm² bootlace ferrules](https://uk.rs-online.com/web/p/bootlace-ferrules/1571244) — build 8AWG up to fill the BFD41's 4AWG ports | 1 pack | ~£8.00 |
@@ -170,8 +173,9 @@ elsewhere. The SSK8 is **CCA**, not OFC — fine at 14–35A over these short ru
 4AWG. For OFC throughout, [Connection FSK 350](https://caraudiodirect.co.uk/products/connection-by-audison-fsk-350-8-gauge-complete-amplifier-wiring-kit)
 is £86.99. The kit's MIDI fuse holder and RCA are surplus here.
 
-*Cheaper alternative: Phonocar 4/483 distribution block (£14.99) + 4/499 **4-way** AFS holder
-(£11.99) replaces the BFD41 and saves £43.*
+*Only two fused branches are needed now, so the cheaper route is better value than before:
+Phonocar 4/483 distribution block (£14.99) + a 2-way AFS holder (£9.99) replaces the BFD41
+and saves £45.*
 
 Note: Connection AFS fuses at caraudiodirect start at 40A — hence Phonocar for the 20A branches.
 
@@ -208,8 +212,8 @@ Avoid scotchlocks and Wago lever nuts — both fail under vehicle vibration.
 | MATCH DIRECTOR remote — sub level from the driver's seat | ~£90 |
 
 ### Running total
-**Phase 1 ≈ £881** (≈ £838 with the Phonocar distribution block).
-All-in with the second sub and tuning kit ≈ £1,316.
+**Phase 1 ≈ £876** (≈ £831 with the Phonocar distribution block).
+All-in with the second sub and tuning kit ≈ £1,311.
 
 ---
 
@@ -219,6 +223,8 @@ All-in with the second sub and tuning kit ≈ £1,316.
 - [ ] Under-seat space — each Feel 700 is 260 × 195 × 58mm; measure both sides
 - [ ] Glovebox space and airflow — amp is 130 × 130 × 46mm
 - [ ] Gauge of the supplied power pigtails on the amp and the subs
+- [ ] **Whether the Feel 700's POWER OUT is tapped before or after its own 15A fuse** — decides
+      whether one 30A branch feeds both subs or each needs its own
 - [ ] All cable run lengths — string along the real route
 - [ ] Battery health: rested voltage and a load test
 - [ ] Voltage at the amp position at idle, with lights, blower and wipers on
