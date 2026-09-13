@@ -79,7 +79,8 @@ flowchart TD
     DSP -->|"Ch A/B"| TW["AP1 tweeters — dash, 30 deg"]
     DSP -->|"Ch C/D"| MID["AP4 midbass — kick panels"]
     DSP -->|"Ch E/F"| REAR["Focal ICU 100 — rear"]
-    DSP -->|"line out RCA 3V"| SUB1["Feel 700 #1<br/>RCA in + power in"]
+    DSP -->|"line out RCA 3V, mono"| YLEAD["FTM-030 Y-lead<br/>1 female in -> 2 male out"]
+    YLEAD -->|"L + R"| SUB1["Feel 700 #1<br/>RCA in (L+R) + power in"]
     SUB1 -->|"daisy chain — signal + power + REM"| SUB2["Feel 700 #2"]
 ```
 
@@ -196,7 +197,8 @@ Note: Connection AFS fuses at caraudiodirect start at 40A, so the 30A sub branch
 ### Signal & speaker cabling
 | Item | Qty | Est. |
 |---|---|---|
-| [Connection FT2](https://caraudiodirect.co.uk/products/connection-ft2-100-2-1m-rca-cable) RCA, amp → sub 1 — pick the length from this range once **measured** | 1 | ~£15.00 |
+| [Connection FT2](https://caraudiodirect.co.uk/products/connection-ft2-100-2-1m-rca-cable) RCA, amp → sub 1 — pick the length from this range once **measured**. Amp's Cinch out is **mono** (1 jack); this is a 2-lead stereo pair cable, only one lead is used for the run | 1 | ~£15.00 |
+| [Connection FTM-030](https://caraudiodirect.co.uk/products/connection-ftm-030-2-male-1-female-y-lead) — 1 female / 2 male Y-lead, splits the single mono lead into the sub's L + R line inputs | 1 | £6.49 |
 | [Connection SL216.2](https://caraudiodirect.co.uk/products/connection-by-audison-sl216-2-silver-series-high-resolution-16-gauge-speaker-cable-per-metre) 16 gauge speaker cable — new runs to dash tweeters | ~8m @ £3.00 | £24.00 |
 | [Connects2 CT20UV01](https://caraudiodirect.co.uk/products/connects2-ct20uv01-harness-adapter-female-iso-to-male-iso-adapter) female ISO → male ISO — lets the Kenwood and factory runs plug in rather than be cut | 1 | £9.99 |
 | [RS automotive hook-up wire](https://uk.rs-online.com/web/c/cables-wires/wire-single-core-cable/automotive-wire/) ~1mm² — amp REM OUT → sub 1 only | ~2m | ~£5.00 |
@@ -226,8 +228,8 @@ Avoid scotchlocks and Wago lever nuts — both fail under vehicle vibration.
 | MATCH DIRECTOR remote — sub level from the driver's seat | ~£90 |
 
 ### Running total
-**Phase 1 ≈ £860** (≈ £815 with the Phonocar distribution block).
-All-in with the second sub and tuning kit ≈ £1,295.
+**Phase 1 ≈ £867** (≈ £822 with the Phonocar distribution block) — includes the £6.49 Y-lead added for the amp's mono-to-stereo sub connection.
+All-in with the second sub and tuning kit ≈ £1,302.
 
 ---
 
