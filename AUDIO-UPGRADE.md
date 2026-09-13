@@ -109,9 +109,15 @@ a flooded starter battery gives ~25Ah usable and degrades under repeated partial
 3. **Sub 2 is fed from sub 1's POWER OUT block** — a labelled multi-pin connector carrying
    GND/GND/+12V/+12V and REM. This is HK's own daisy-chain method. Each unit keeps its own
    15A panel fuse.
-   **⚠️ The 30A branch assumes POWER OUT is tapped upstream of sub 1's fuse.** Confirm in the
-   manual: if it is downstream, sub 1's 15A fuse carries both units and the chain won't work at
-   volume — in that case give sub 2 its own branch instead.
+   **⚠️ The 30A branch assumes POWER OUT is tapped upstream of sub 1's fuse.** Not yet confirmed
+   against HK documentation. If it is downstream, sub 1's 15A fuse carries both units and the
+   chain won't work at volume — in that case give sub 2 its own branch instead.
+   Supporting but *unverified* evidence in
+   [reference/feel-700-install-transcript.txt](reference/feel-700-install-transcript.txt)
+   (auto-generated captions from a two-unit install): each unit ships with two pigtails, one
+   incoming and one pass-through carrying power, ground, remote and signal, off a single fused
+   battery feed — and a third unit can be added to the same chain, which would imply the tap is
+   upstream. Captions are not a spec sheet; confirm before wiring.
 4. **8AWG** ground to a single sanded, bare-metal chassis point — one point for everything,
    or you get alternator whine.
 5. Remote: Kenwood blue/white → amp REM in; amp REM out → sub 1; sub 2 picks up REM through
