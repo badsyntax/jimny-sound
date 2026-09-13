@@ -222,7 +222,10 @@ All-in with the second sub and tuning kit ≈ £1,283.
 - [ ] Glovebox space and airflow — amp is 130 × 130 × 46mm
 - [ ] Gauge of the supplied power pigtails on the amp and the subs
 - [ ] **Whether the Feel 700's POWER OUT is tapped before or after its own 15A fuse** — decides
-      whether one 30A branch feeds both subs or each needs its own
+      whether one 30A branch feeds both subs or each needs its own. Manual:
+      [manuals.plus](https://manuals.plus/m/4ed1018a25ead8b40e391bdc23141b4734080db94de1c4acb9ee8cf0601f7122)
+      and the [Flow & Feel series guide](https://manuals.plus/m/22d73c40886765b370abdb69e868551f759a32f9e55fb694ed8538c6b3c94b35)
+      (both block automated fetching — open in a browser)
 - [ ] All cable run lengths — string along the real route
 - [ ] Battery health: rested voltage and a load test
 - [ ] Voltage at the amp position at idle, with lights, blower and wipers on
