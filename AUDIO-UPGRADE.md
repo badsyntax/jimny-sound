@@ -152,15 +152,18 @@ neither version.
 | Item | Qty | Est. |
 |---|---|---|
 | [Powerbass XWS-4P](https://caraudiodirect.co.uk/products/powerbass-xws-4p-4-gauge-power-wire-100-ofc-wire-per-meter) 4AWG power wire — battery → distributor | 3m @ £10.99 | £32.97 |
-| 8AWG power wire — three branches | ~4m @ ~£6 | £24.00 |
-| 8AWG ground wire | ~3m @ ~£6 | £18.00 |
+| [Stinger SSK8](https://caraudiodirect.co.uk/products/stinger-ssk8-8-awg-600w-amplifier-wiring-kit) 8AWG kit — covers the three branches, grounds and remote wire | 1 | £24.99 |
 | [Connection FFH-14](https://caraudiodirect.co.uk/products/connection-by-audison-ffh-14-mini-in-line-fuse-holder) mini in-line fuse holder | 1 | £17.99 |
 | [Connection SFA-080](https://caraudiodirect.co.uk/products/connection-by-audison-sfa-080-80a-afs-fuses) 80A AFS (main) | 1 | £7.99 |
 | [Connection BFD41](https://caraudiodirect.co.uk/products/connection-by-audison-bfd41-4-way-fuse-distributor-block) 4-way AFS distributor | 1 | £69.99 |
 | [Connection SFA-040](https://caraudiodirect.co.uk/products/connection-by-audison-sfa-040-40a-afs-fuses) 40A AFS (amp branch) | 1 | £7.99 |
 | Phonocar 4/462.2 20A AFS (sub branches) | 2 | £9.98 |
 | [Connection FRT4](https://caraudiodirect.co.uk/products/connection-frt4-4-gauge-ring-terminals) 4-gauge ring terminals | 1 pack | £7.99 |
-| Ferrules for 8AWG into the BFD41's 4AWG ports | — | £6.00 |
+| Ferrules for 8AWG into the BFD41's 4AWG ports — generic | — | £6.00 |
+
+The SSK8 is **CCA**, not OFC — fine at 14–35A over these short runs, but a step down from the
+4AWG. For OFC throughout, [Connection FSK 350](https://caraudiodirect.co.uk/products/connection-by-audison-fsk-350-8-gauge-complete-amplifier-wiring-kit)
+is £86.99. The kit's MIDI fuse holder and RCA are surplus here.
 
 *Cheaper alternative: Phonocar 4/483 distribution block (£14.99) + 4/499 **4-way** AFS holder
 (£11.99) replaces the BFD41 and saves £43.*
@@ -170,22 +173,22 @@ Note: Connection AFS fuses at caraudiodirect start at 40A — hence Phonocar for
 ### Signal & speaker cabling
 | Item | Qty | Est. |
 |---|---|---|
-| RCA Y-splitter — amp line out → two subs | 1 | £8.00 |
-| RCA, amp → each sub (~2.5m, **measure**) | 2 | £30.00 |
-| Speaker cable 16AWG OFC — new runs to dash tweeters | ~10m | £18.00 |
-| ISO harness pair — Kenwood and factory runs, no cutting | 1 | £10.00 |
-| Remote wire 0.75mm² | ~5m | £5.00 |
+| [Connection FTF-030](https://caraudiodirect.co.uk/products/connection-ftf-030-2-female-1-male-y-lead) Y-lead, 1 male → 2 female — one per channel | 2 | £12.98 |
+| [Connection FT2](https://caraudiodirect.co.uk/products/connection-ft2-100-2-1m-rca-cable) RCA, amp → each sub — pick the length from this range once **measured** | 2 | ~£30.00 |
+| [Connection SL216.2](https://caraudiodirect.co.uk/products/connection-by-audison-sl216-2-silver-series-high-resolution-16-gauge-speaker-cable-per-metre) 16 gauge speaker cable — new runs to dash tweeters | ~8m @ £3.00 | £24.00 |
+| [Connects2 CT20UV01](https://caraudiodirect.co.uk/products/connects2-ct20uv01-harness-adapter-female-iso-to-male-iso-adapter) female ISO → male ISO — lets the Kenwood and factory runs plug in rather than be cut | 1 | £9.99 |
+| Remote wire — included in the SSK8 kit above | — | £0.00 |
 
 No RCA is needed between head unit and amp — the amp has no RCA inputs.
 
 ### Tools & consumables
 | Item | Notes | Est. |
 |---|---|---|
-| Hammer-lug crimper | For 4AWG lugs | £15.00 |
-| Ratchet crimper | For ~20 speaker-level butt splices | £15.00 |
-| Adhesive-lined heat-shrink butt connectors | 50-pack | £10.00 |
-| Firewall grommet + split loom | | £16.00 |
-| Heat shrink + cable ties | | £13.00 |
+| Hammer-lug crimper — generic, any auto factor | For 4AWG lugs | £15.00 |
+| Ratchet crimper — generic | For ~20 speaker-level butt splices | £15.00 |
+| Adhesive-lined heat-shrink butt connectors — generic, 50-pack | Not stocked at caraudiodirect | £10.00 |
+| Firewall grommet + split loom — generic | Not stocked at caraudiodirect | £16.00 |
+| Heat shrink + cable ties — generic | | £13.00 |
 | Advance Tapes AT7 PVC harness tape, 19mm x 33m | [RS Online](https://uk.rs-online.com/web/p/electrical-tapes/0494382) | £3.74 |
 | Roller + panel wipe for the deadening | | £12.00 |
 
@@ -199,8 +202,8 @@ Avoid scotchlocks and Wago lever nuts — both fail under vehicle vibration.
 | MATCH DIRECTOR remote — sub level from the driver's seat | ~£90 |
 
 ### Running total
-**Phase 1 ≈ £890** (≈ £847 with the Phonocar distribution block).
-All-in with the second sub and tuning kit ≈ £1,325.
+**Phase 1 ≈ £898** (≈ £855 with the Phonocar distribution block).
+All-in with the second sub and tuning kit ≈ £1,333.
 
 ---
 
