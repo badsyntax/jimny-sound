@@ -12,8 +12,7 @@
   - AP1 tweeters mounted on the dash at 30°, wires routed out through the cup base via a slot cut in the mounting pad, connected to the front speaker wires
   - Working, but not yet tested at volume
   - Note: AP4s arrived with no mounting screws
-- The AP1 ships with an APCX TW passive high-pass (3.5kHz, 12dB/oct). Confirm it's in circuit
-  before turning up — see the resistance test under [Before you start](#before-you-start).
+- The AP1 ships with an APCX TW passive high-pass (3.5kHz, 12dB/oct) — confirmed in circuit.
   Going active later, the DSP takes over the crossover and the APCX comes out.
 
 ## Rear Speakers
@@ -278,10 +277,6 @@ failing to match it to the source can damage the amplifier. Do this before any r
 
 Physical checks only — everything else is settled above.
 
-- [ ] **APCX TW tweeter crossovers.** Quickest test: measure DC resistance across each tweeter's
-      terminals. Direct-connected reads roughly 4Ω; with the APCX in circuit the series capacitor
-      blocks DC and you'll read open or very high. If it reads ~4Ω, fit the crossovers before
-      turning up.
 - [ ] **Under-seat space** — each Feel 700 is 260 × 195 × 58mm. Measure both sides, and check for
       seat vents or heater ducting; the installer in the reference video abandoned under-seat
       mounting in a Tacoma for that reason.
