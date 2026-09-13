@@ -17,6 +17,9 @@ what it costs.
 - **100% OFC only** — power, ground, speaker and remote. Never CCA.
 - **Any retailer.** Multiple suppliers in one order is fine. Never drop spec for convenience.
 - Stay with the brands already in the build: Audison/Connection, Powerbass XWS, Match, Phonocar.
+- **Note a cheaper alternative where a genuine one exists** — linked, with the saving and what's
+  given up, so the choice is his. Recommend the quality option; never silently substitute the
+  cheap one. This never applies to OFC: there is no acceptable CCA alternative.
 
 ## Sourcing
 
