@@ -34,27 +34,32 @@ Skipping any of these risks damaging the amp or speakers.
 - **Test track:** PC-Tool home screen → **Audio Test Tracks** → copy **IGS – Input Gain Setup** to a USB stick for the Kenwood.
 - Install PC-Tool **before** plugging the amp in. Ignition on, USB-C in, launch PC-Tool, accept the firmware update.
 
-## 1.2 Mute all outputs
-
-**Outputs** tab → select each channel → **Mute**. Nothing plays until 1.7.
-
-![Mute](images/dsp/08-output-level-mute.png)
-
-## 1.3 Input gain
+## 1.2 Open Advanced Gain Setup and mute all outputs
 
 KB: [Adjustment of the input sensitivity](https://www.audiotec-fischer.de/en/knowledge-base/DSP-PC-Tool/dcm/)
 
-1. **Input** tab → **Gain Configuration** → tick **Standard Gain Setup**.
+Needs the amp connected — the title bar must not say "Disconnected".
 
-   ![Gain Configuration](images/dsp/02-gain-configuration-tab.png)
+1. **Input** tab → **Gain Configuration** → tick **Advanced Gain Setup** → click
+   **Advanced Gain Adjustment**.
+2. Click **Mute All Outputs**. The button then reads **Unmute All Outputs** — leave it like
+   that. Nothing plays until 1.7.
 
-2. Kenwood to **~90% volume**, play the **IGS** track.
-3. Drag the **Input A & Input B** slider until the clipping indicator turns **red**, then back **one step** until it goes grey.
+![Advanced Gain Setup](images/dsp/02-advanced-gain-setup.png)
 
-   ![Gain sliders](images/dsp/03-gain-sliders.png)
+## 1.3 Input gain
+
+No microphone — PC-Tool reads the electrical signal from the Kenwood, not sound in the car.
+Only the **Input A & Input B** row matters; C–F aren't connected. Leave **Gain Structure Link**
+on **Activate**.
+
+1. Kenwood to **~90% volume**, play the **IGS** track. The **Input Level Bar** fills up.
+2. Drag the **Input A & Input B** slider until the **∿ icon** at the end of the level bar turns
+   **red**, then back **one step** until it goes grey again.
+
    ![Clipping](images/dsp/04-clipping-indicator.png)
 
-4. Turn the Kenwood back down.
+3. Turn the Kenwood back down and click **Close**.
 
 ## 1.4 Routing
 
@@ -63,21 +68,44 @@ KB: [Signal routing (IO) incl. VCP](https://www.audiotec-fischer.de/en/knowledge
 **Signal Management (IO)** → **Routing**.
 
 **Main to Virtual Routing**
-- Input A → **Front L Full** and **Rear L Full**
-- Input B → **Front R Full** and **Rear R Full**
-- Input A + B → **Subwoofer 1**
 
-**Virtual to Output Routing** — pick the source from each output's dropdown:
+Left column = physical inputs (only **[Input A]** and **[Input B]** are wired). Right = virtual
+channels. The blocks in between are **input names**, not speakers. Drag an input onto a row to
+add it; right-click a block to remove it.
 
-| Output | Source |
+| Virtual channel | Fed from |
 |---|---|
-| AMP Out A | Front L Full |
-| AMP Out B | Front R Full |
-| AMP Out C | Front L Full |
-| AMP Out D | Front R Full |
-| AMP Out E | Rear L Full |
-| AMP Out F | Rear R Full |
-| Line Out I | Subwoofer 1 |
+| Virtual A — Front L Full | [Input A] Front L Full 100% |
+| Virtual B — Front R Full | [Input B] Front R Full 100% |
+| Virtual C — Rear L Full | [Input A] Front L Full 100% — *replace the default Input C* |
+| Virtual D — Rear R Full | [Input B] Front R Full 100% — *replace the default Input D* |
+| Virtual E — Front Center | Empty — remove both blocks |
+| Virtual F — Subwoofer 1 | Front L 50% + Front R 50% (default) |
+| Virtual G — Subwoofer 2 | Empty — remove all blocks |
+
+![Main to Virtual Routing](images/dsp/05a-main-to-virtual-routing.png)
+
+**Virtual to Output Routing**
+
+The **block** on each row is the signal source — drag it from **Virtual Inputs** on the left
+(right-click to remove). The **dropdown** on the right only names the output; it also sets the
+phase control type.
+
+| Output | Source block | Dropdown name |
+|---|---|---|
+| Amp Out A | [Virtual A] Front L Full | Front L High |
+| Amp Out B | [Virtual B] Front R Full | Front R High |
+| Amp Out C | [Virtual A] Front L Full | Front L Mid |
+| Amp Out D | [Virtual B] Front R Full | Front R Mid |
+| Amp Out E | [Virtual C] Rear L Full | Rear L Full |
+| Amp Out F | [Virtual D] Rear R Full | Rear R Full |
+| Line Out I | [Virtual F] Subwoofer 1 | Subwoofer 1 |
+
+E/F should show **RearATT** and Line Out **SubRC** under the output name — that confirms the
+right source.
+
+Changing a dropdown asks **"Load Channel HP/LP Preset Filters?"** — click **No** (crossovers are
+set in 1.5) and leave "Remember my choice" unticked.
 
 ![Virtual to Output Routing](images/dsp/05-virtual-to-output-routing.png)
 
@@ -100,6 +128,43 @@ KB: [High- & lowpass filter](https://www.audiotec-fischer.de/en/knowledge-base/D
 
 Tick the checkbox next to the L and R channel names to **link** them, so each pair is set once.
 
+**Off** means the **Bypass** light is lit (orange) or **Slope** is OFF. Check the graph matches
+— one slope for tweeters/rears/sub, a hill shape for midbass. On E/F set the unused lowpass
+**Slope** to OFF too, so an accidental un-bypass can't silence the rears.
+
+<details>
+<summary>Correct settings — one screenshot per channel</summary>
+
+**Amp Out A — Front L High** (B is identical)
+
+![Out A](images/dsp/07a-crossover-out-a.png)
+
+**Amp Out B — Front R High**
+
+![Out B](images/dsp/07b-crossover-out-b.png)
+
+**Amp Out C — Front L Mid** (D is identical)
+
+![Out C](images/dsp/07c-crossover-out-c.png)
+
+**Amp Out D — Front R Mid**
+
+![Out D](images/dsp/07d-crossover-out-d.png)
+
+**Amp Out E — Rear L Full** (F is identical)
+
+![Out E](images/dsp/07e-crossover-out-e.png)
+
+**Amp Out F — Rear R Full**
+
+![Out F](images/dsp/07f-crossover-out-f.png)
+
+**Line Out I — Subwoofer 1**
+
+![Line Out I](images/dsp/07i-crossover-line-out.png)
+
+</details>
+
 ## 1.6 Save
 
 Click **Save&Store** — it saves a file on the PC *and* writes the setup to the amp.
@@ -109,9 +174,16 @@ The red dot means unsaved changes, which are lost on power-off.
 
 ## 1.7 Speaker check
 
-1. Kenwood volume low. Set every channel's output level to about **−10 dB**, tweeters **−15 dB**.
-2. Unmute **one pair**, check the right speakers play, mute again. Repeat for every pair.
-3. Wrong speaker = routing or wiring mistake — fix before going further.
+1. Kenwood volume low. **Outputs** tab → select each channel → set its output level to about
+   **−10 dB**, tweeters **−15 dB**, and click **Mute** so every channel is individually muted.
+
+   ![Output level and Mute](images/dsp/08-output-level-mute.png)
+
+2. Back in **Advanced Gain Setup**, click **Unmute All Outputs** (channels stay muted
+   individually).
+3. **Outputs** tab → unmute **one pair**, check the right speakers play, mute again. Repeat for
+   every pair.
+4. Wrong speaker = routing or wiring mistake — fix before going further.
 
 The system is now safe to use.
 
@@ -121,10 +193,16 @@ The system is now safe to use.
 
 ## 2.1 Levels
 
-Unmute everything, play familiar music at moderate volume:
-- Tweeters too bright → lower A/B. Thin vocals → raise C/D.
-- Rears should support, not compete — keep E/F a few dB below the fronts.
-- Sub to taste.
+Unmute everything, play familiar music at moderate volume. Levels are set per channel on the
+**Outputs** tab → select the channel → **Channel Gain & Output Level** slider (dB box on the
+right). Move in **1–2 dB** steps, and link L/R so both sides change together.
+
+![Output level](images/dsp/08-output-level-mute.png)
+
+- Tweeters too bright → **lower the output level** of A/B.
+- Thin vocals → **raise the output level** of C/D.
+- Rears should support, not compete — keep the E/F output level a few dB **below** the fronts.
+- Sub → adjust the **Line Out I** output level to taste.
 
 **Save&Store**.
 
