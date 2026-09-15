@@ -115,5 +115,44 @@ Unmute everything, play familiar music at moderate volume:
 ## Later
 
 - **Time alignment** — [KB: Time](https://www.audiotec-fischer.de/en/knowledge-base/DSP-PC-Tool/time/): enter the distance from your head to each speaker.
-- **EQ** — measure with a UMIK-1 + REW rather than by ear.
+- **EQ** — see below.
 - Everything else in the [knowledge base](https://www.audiotec-fischer.de/en/knowledge-base/DSP-PC-Tool/).
+
+---
+
+## EQ
+
+KB: [Equalizer](https://www.audiotec-fischer.de/en/knowledge-base/DSP-PC-Tool/equalizer/) ·
+[Real Time Analyzer](https://www.audiotec-fischer.de/en/knowledge-base/DSP-PC-Tool/rta/)
+
+Do the setup above and **time alignment first** — EQ on a system with wrong levels or delays
+just chases problems. Each output channel has **30 bands** (1/3 octave, 25 Hz–20 kHz),
+**+6 dB boost / −15 dB cut**. Cut more than you boost.
+
+**Outputs** tab → select a channel → drag the EQ sliders. Link L/R pairs first.
+
+![EQ sliders](images/dsp/10-eq-sliders.png)
+
+### Option A — by ear (no mic)
+
+1. Play familiar music at moderate volume. Change **one band at a time, 2–3 dB**.
+2. **Midbass C/D:** small cabins usually boom around **100–250 Hz** — cut there first.
+3. **Tweeters A/B:** harsh or fatiguing → cut around **3–6 kHz**.
+4. Rears and sub: leave flat; set their levels instead.
+5. If a change doesn't clearly help, put it back to 0. **Save&Store**.
+
+### Option B — with a measurement mic (UMIK-1) — best result
+
+1. Plug the UMIK-1 into the Mac and pass it to the VM like the amp. Open the **RTA** tab →
+   **Settings** → set **Audio device** to the UMIK-1, not the PC's own mic.
+2. Play **pink noise** from **Audio Test Tracks** on the Kenwood. Sit in the driver's seat.
+3. **Mute everything except the fronts** (A–D) and link them.
+4. **Start Analyzer** → hold the mic upright and sweep slowly in a semicircle between your ears.
+   Adjust volume until the level bar is neither **orange** (too quiet) nor **red** (too loud).
+
+   ![RTA start](images/dsp/11-rta-start.jpg)
+
+5. **Start Measurement**, then EQ the fronts toward the reference curve. **SetEQ / AutoEQ** can
+   do a first pass over a chosen band range — tidy it by ear afterwards.
+6. Repeat for the rears (fronts muted), then bring the sub in and match its level.
+7. **Save&Store**.
