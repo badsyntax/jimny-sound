@@ -1,8 +1,14 @@
 # DSP PC-Tool — First Setup (MATCH UP 6DSP MK2)
 
-A basic, safe first tune for this car. Work through it in order. Screenshots are from the
+A safe first tune for this car. Screenshots are from the
 [UP 6DSP MK2 manual](https://www.audiotec-fischer.de/media/pdf/ce/c3/75/UP-6DSP-MK2_Manual_25-02-2026.pdf)
 and the [DSP PC-Tool knowledge base](https://www.audiotec-fischer.de/en/knowledge-base/DSP-PC-Tool/).
+
+| Part | What | When |
+|---|---|---|
+| **1. Required** | Mute, input gain, routing, crossovers, save, speaker check | Before playing *any* music |
+| **2. Recommended** | Levels, time alignment | Same session — biggest improvement, no extra kit |
+| **3. Optional** | EQ by ear, or with a measurement mic | Once it already sounds right |
 
 | Amp output | Speaker |
 |---|---|
@@ -11,26 +17,30 @@ and the [DSP PC-Tool knowledge base](https://www.audiotec-fischer.de/en/knowledg
 | AMP Out E / F | Focal ICU 100 rears L / R |
 | Line Out I | Feel 700 subs (via Y-lead) |
 
-The order PC-Tool expects — inputs, then outputs, then the virtual layer in between:
+How the signal flows through PC-Tool:
 
 ![Workflow](images/dsp/01-workflow.png)
 
 ---
 
-## 0. Before connecting
+# Part 1 — Required
+
+Skipping any of these risks damaging the amp or speakers.
+
+## 1.1 Before connecting
 
 - **Kenwood:** EQ flat, loudness off, all crossovers/HPF off, fader and balance centred, volume **low**.
 - **Feel 700:** turn the sub's own low-pass knob to maximum.
 - **Test track:** PC-Tool home screen → **Audio Test Tracks** → copy **IGS – Input Gain Setup** to a USB stick for the Kenwood.
 - Install PC-Tool **before** plugging the amp in. Ignition on, USB-C in, launch PC-Tool, accept the firmware update.
 
-## 1. Mute all outputs
+## 1.2 Mute all outputs
 
-**Outputs** tab → select each channel → **Mute**. Nothing should play until step 6.
+**Outputs** tab → select each channel → **Mute**. Nothing plays until 1.7.
 
 ![Mute](images/dsp/08-output-level-mute.png)
 
-## 2. Input gain — mandatory
+## 1.3 Input gain
 
 KB: [Adjustment of the input sensitivity](https://www.audiotec-fischer.de/en/knowledge-base/DSP-PC-Tool/dcm/)
 
@@ -46,7 +56,7 @@ KB: [Adjustment of the input sensitivity](https://www.audiotec-fischer.de/en/kno
 
 4. Turn the Kenwood back down.
 
-## 3. Routing
+## 1.4 Routing
 
 KB: [Signal routing (IO) incl. VCP](https://www.audiotec-fischer.de/en/knowledge-base/DSP-PC-Tool/io/)
 
@@ -71,7 +81,7 @@ KB: [Signal routing (IO) incl. VCP](https://www.audiotec-fischer.de/en/knowledge
 
 ![Virtual to Output Routing](images/dsp/05-virtual-to-output-routing.png)
 
-## 4. Crossovers — still muted
+## 1.5 Crossovers
 
 KB: [High- & lowpass filter](https://www.audiotec-fischer.de/en/knowledge-base/DSP-PC-Tool/filter/)
 
@@ -90,36 +100,35 @@ KB: [High- & lowpass filter](https://www.audiotec-fischer.de/en/knowledge-base/D
 
 Tick the checkbox next to the L and R channel names to **link** them, so each pair is set once.
 
-## 5. Save before listening
+## 1.6 Save
 
 Click **Save&Store** — it saves a file on the PC *and* writes the setup to the amp.
 The red dot means unsaved changes, which are lost on power-off.
 
 ![Save&Store](images/dsp/09-save-store.png)
 
-## 6. Unmute one pair at a time
+## 1.7 Speaker check
 
 1. Kenwood volume low. Set every channel's output level to about **−10 dB**, tweeters **−15 dB**.
 2. Unmute **one pair**, check the right speakers play, mute again. Repeat for every pair.
 3. Wrong speaker = routing or wiring mistake — fix before going further.
 
-## 7. Balance by ear
+The system is now safe to use.
+
+---
+
+# Part 2 — Recommended
+
+## 2.1 Levels
 
 Unmute everything, play familiar music at moderate volume:
 - Tweeters too bright → lower A/B. Thin vocals → raise C/D.
 - Rears should support, not compete — keep E/F a few dB below the fronts.
-- Sub to taste. If bass sounds thin around 80 Hz, try the sub's **Phase** 0° / 180°.
+- Sub to taste.
 
-**Save&Store** again.
+**Save&Store**.
 
-## Later
-
-- **Time alignment**, then **EQ** — see below, in that order.
-- Everything else in the [knowledge base](https://www.audiotec-fischer.de/en/knowledge-base/DSP-PC-Tool/).
-
----
-
-## Time alignment
+## 2.2 Time alignment
 
 KB: [Phase and time alignment](https://www.audiotec-fischer.de/en/knowledge-base/DSP-PC-Tool/time/)
 
@@ -159,20 +168,20 @@ an older PC-Tool layout — the controls are the same).
 
 ---
 
-## EQ
+# Part 3 — Optional: EQ
 
 KB: [Equalizer](https://www.audiotec-fischer.de/en/knowledge-base/DSP-PC-Tool/equalizer/) ·
 [Real Time Analyzer](https://www.audiotec-fischer.de/en/knowledge-base/DSP-PC-Tool/rta/)
 
-Do the setup above and **time alignment first** — EQ on a system with wrong levels or delays
-just chases problems. Each output channel has **30 bands** (1/3 octave, 25 Hz–20 kHz),
-**+6 dB boost / −15 dB cut**. Cut more than you boost.
+Only after Parts 1 and 2 — EQ on a system with wrong levels or delays just chases problems.
+Each output channel has **30 bands** (1/3 octave, 25 Hz–20 kHz), **+6 dB boost / −15 dB cut**.
+Cut more than you boost.
 
 **Outputs** tab → select a channel → drag the EQ sliders. Link L/R pairs first.
 
 ![EQ sliders](images/dsp/10-eq-sliders.png)
 
-### Option A — by ear (no mic)
+## 3.1 By ear (no mic)
 
 1. Play familiar music at moderate volume. Change **one band at a time, 2–3 dB**.
 2. **Midbass C/D:** small cabins usually boom around **100–250 Hz** — cut there first.
@@ -180,7 +189,7 @@ just chases problems. Each output channel has **30 bands** (1/3 octave, 25 Hz–
 4. Rears and sub: leave flat; set their levels instead.
 5. If a change doesn't clearly help, put it back to 0. **Save&Store**.
 
-### Option B — with a measurement mic (UMIK-1) — best result
+## 3.2 With a measurement mic (UMIK-1) — best result
 
 1. Plug the UMIK-1 into the Mac and pass it to the VM like the amp. Open the **RTA** tab →
    **Settings** → set **Audio device** to the UMIK-1, not the PC's own mic.
@@ -195,3 +204,6 @@ just chases problems. Each output channel has **30 bands** (1/3 octave, 25 Hz–
    do a first pass over a chosen band range — tidy it by ear afterwards.
 6. Repeat for the rears (fronts muted), then bring the sub in and match its level.
 7. **Save&Store**.
+
+Further topics (sound effects, loudness, input EQ) are in the
+[knowledge base](https://www.audiotec-fischer.de/en/knowledge-base/DSP-PC-Tool/).
