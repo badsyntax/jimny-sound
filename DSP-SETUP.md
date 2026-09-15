@@ -114,9 +114,48 @@ Unmute everything, play familiar music at moderate volume:
 
 ## Later
 
-- **Time alignment** — [KB: Time](https://www.audiotec-fischer.de/en/knowledge-base/DSP-PC-Tool/time/): enter the distance from your head to each speaker.
-- **EQ** — see below.
+- **Time alignment**, then **EQ** — see below, in that order.
 - Everything else in the [knowledge base](https://www.audiotec-fischer.de/en/knowledge-base/DSP-PC-Tool/).
+
+---
+
+## Time alignment
+
+KB: [Phase and time alignment](https://www.audiotec-fischer.de/en/knowledge-base/DSP-PC-Tool/time/)
+
+The driver sits much nearer the left speakers, so their sound arrives first and the stage pulls
+left. Delaying the nearer speakers puts the image back in the centre of the dash.
+
+**Outputs** tab → **Time Alignment** shows every channel on one screen (screenshot below is
+an older PC-Tool layout — the controls are the same).
+
+![Time menu](images/dsp/12-time-menu.png)
+
+1. **Measure.** Sit in the driving position. With a tape measure, record the distance from the
+   **centre of your head** (between your ears) to the centre of each speaker:
+
+   | Speaker | Output | cm |
+   |---|---|---|
+   | Tweeter L | A | |
+   | Tweeter R | B | |
+   | Midbass L | C | |
+   | Midbass R | D | |
+   | Rear L | E | |
+   | Rear R | F | |
+   | Sub (under seats) | Line Out I | |
+
+2. Under **Time Alignment Method**, choose **Distance Mode**.
+
+   ![Distance Mode](images/dsp/13-distance-mode.png)
+
+3. Enter each distance on its output's slider. PC-Tool works out the delays itself.
+4. **Fine-tune the fronts by ear.** Mute rears and sub. Play a mono vocal track — the voice
+   should sit dead centre on the dash. If it leans left, add a few cm to A/C; right, to B/D.
+5. **Rears.** Unmute E/F. They should add ambience, not pull sound backwards — if they do,
+   add **100–200 cm** extra to E and F.
+6. **Sub.** Unmute the Line Out. If bass sounds thin or sits behind you, try **Polarity
+   inverted**, then nudge the **phase** slider above it until the bass is fullest and sits up front.
+7. **Save&Store**.
 
 ---
 
