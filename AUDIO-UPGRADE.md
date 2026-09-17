@@ -357,8 +357,12 @@ Physical checks only — everything else is settled above.
       heater ducting; the installer in the reference video abandoned under-seat mounting in a
       Tacoma for that reason.
 - [ ] **Route length between seats** — string it over the tunnel; over ~550mm needs extension.
-- [ ] **Amp location** — 130 × 130 × 46mm. Glovebox interior works and keeps USB accessible; mount
-      to metal or a backing plate, not trim foam, and don't block the heatsink.
+- [ ] **Amp location** — 130 × 130 × 46mm. **Decided: inside the glovebox on heavy-duty velcro**,
+      cables fed through the existing gap at the back/top, so nothing is drilled and the USB stays
+      reachable for tuning. Clean both faces with IPA and let it cure before loading. Keep the
+      heatsink clear and leave slack so the bin doesn't tug the plugs.
+      *Future:* move it to the vertical metal brace behind the glovebox to get the storage back —
+      bolt it or plate it, fins vertical. The glovebox plastic is too flimsy to screw into.
 - [ ] **Battery and charging** — rested voltage on the HSB057 (12.6V+ healthy) and a load test, then
       voltage at the amp position at idle with lights, blower and wipers on.
 
