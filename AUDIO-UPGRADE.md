@@ -139,35 +139,57 @@ flowchart TD
 ```
 
 **Connections:** the amp's high-level inputs and speaker outputs are supplied as plug-in harnesses
-with bare wire ends, so nothing needs terminating at the amp. Use a spare ISO harness pair so the
-Kenwood and the factory speaker runs plug in rather than being cut — the tweeters are the
-exception and need their own new runs to the dash.
+with bare wire ends, so nothing needs terminating at the amp. On the head-unit end the CT20UV01
+carries both directions — Kenwood outputs to the amp's inputs, amp outputs back out to the factory
+speaker runs — see below. The tweeters are the exception and need their own new runs to the dash.
 
-### CT20UV01 — tapping the Kenwood without cutting anything
+### CT20UV01 — a break point, not a tap
 
-The CT20UV01 sits **inline** between the vehicle's existing ISO harness and the Kenwood's own ISO
-plug — nothing is cut on either side, and the through-connection (power, ignition, illumination,
-aerial, factory speaker feeds) is unaffected. It exists purely to give you an accessible breakout
-point for the speaker-output wires you actually want to tap.
+**In plain terms:** the adapter is two plugs joined by a bundle of wires. One plugs into the car,
+one into the Kenwood. **Snip only the 8 speaker wires** in the middle of that bundle. That leaves
+two loose ends:
+
+- the end that talks to the **Kenwood** → goes to the amp's **inputs**
+- the end that talks to the **car's speakers** → gets fed from the amp's **outputs**
+
+Leave every other wire in the bundle alone. Signal now goes Kenwood → amp → speakers, instead of
+Kenwood → speakers.
+
+The rest of this section is the detail.
+
+The CT20UV01 sits **inline** between the vehicle's ISO harness and the Kenwood's ISO plug. Nothing
+on the car's loom or the Kenwood's own harness is cut — the sacrificial wires are the adapter's.
+
+**The eight speaker wires inside the adapter are cut.** This is the point of it. Once the amp
+drives the speakers, the Kenwood must no longer reach them:
+
+- **Kenwood side** — front L/R feed the amp's **Highlevel Input A/B**. The Kenwood drives nothing.
+- **Car side** — the factory **rear** wiring is re-fed from the amp's **speaker outputs E/F**. The
+  front pair on this half is left unused, since the midbass gets new cable (see below).
+
+Everything else (power, ignition, illumination, aerial) stays **joined** and passes through, so the
+Kenwood works normally. Unplug the adapter and the car is back to standard.
+
+| Channel | Kenwood wire | Goes to |
+|---|---|---|
+| Front L | White (+) / White-Black (−) | Highlevel Input A — System Connector pins 12 / 2 |
+| Front R | Grey (+) / Grey-Black (−) | Highlevel Input B — System Connector pins 13 / 3 |
+| Rear L/R | Green, Purple | Not used — tape off |
 
 ```mermaid
-flowchart TD
-    CAR["Vehicle ISO harness<br/>(factory loom, from the original head unit install)"]
-    CAR -->|"plugs in as normal"| ADAPT["CT20UV01<br/>female ISO <-> male ISO, inline"]
-    ADAPT -->|"plugs in as normal"| HU["Kenwood DMX8021DABS<br/>ISO plug"]
-    ADAPT -.->|"breakout tap: front L+/-"| TAPFL["Front L speaker-level"]
-    ADAPT -.->|"breakout tap: front R+/-"| TAPFR["Front R speaker-level"]
-    ADAPT -.->|"breakout tap: remote/amp turn-on"| TAPREM["Remote turn-on wire"]
-    TAPFL --> SYSCONN["UP 6DSP MK2<br/>System Connector harness"]
-    TAPFR --> SYSCONN
-    SYSCONN -->|"Highlevel Input A"| DSPIN["7-channel DSP"]
-    SYSCONN -->|"Highlevel Input B"| DSPIN
-    TAPREM --> AMPREMIN["UP 6DSP REM IN"]
+flowchart LR
+    HU["Kenwood"] -->|"front L/R<br/>(adapter, Kenwood half)"| AMP["UP 6DSP MK2"]
+    AMP -->|"A/B — new runs"| TW["Dash tweeters"]
+    AMP -->|"C/D — new runs"| MID["Front midbass"]
+    AMP -->|"E/F<br/>(adapter, car half)"| REAR["Rear speakers"]
 ```
 
-Power, ignition, illumination, and everything else on the ISO block pass straight through the
-adapter untouched — only the front L/R speaker-level pins are tapped and routed on to the amp's
-System Connector harness (Highlevel Input A/B).
+**Only the rears reuse the factory loom.** The tweeters have no factory path to the dash, and the
+front doors are coming apart for deadening anyway — so run new 16AWG to both. Factory speaker
+wire is ~0.5–0.75mm², sized for a head unit, not 65W channels.
+
+**Never join a speaker-output − to chassis ground** — the amp's inputs and outputs are both
+balanced.
 
 ---
 
@@ -212,8 +234,8 @@ a flooded starter battery gives ~25Ah usable and degrades under repeated partial
    or you get alternator whine. **4AWG** ground from battery negative to the body, matching the
    4AWG feed, ring terminal at each end, body end on sanded bare metal.
 5. Remote: use an explicit remote wire, not the auto-turn-on-from-high-level-signal option — run
-   the Kenwood's remote/amp-turn-on output (tapped via the CT20UV01, alongside the front L/R
-   speaker taps) to the amp's **REM IN**. The amp's **REM OUT** then switches the subs (its
+   the Kenwood's **Blue/White** power-control lead — a loose lead on the Kenwood's own harness, so
+   no splicing and no CT20UV01 involvement — to the amp's **REM IN**. The amp's **REM OUT** then switches the subs (its
    documented purpose is turning on amps fed from Line Out); sub 2 picks up REM through the
    POWER OUT block.
 
@@ -258,6 +280,14 @@ at £449.99 (CEN, in stock) saves £100. 46 × 130 × 110mm, 2 x 60W + 2 x 85W @
 parametric EQ, mono line out and remote out. Gives up **active front** — the AP1/AP4 stay on the
 APCX passive crossover. The channel allocation above assumes the 6DSP.*
 
+### Bass remote
+
+| Item | Qty | Est. |
+|---|---|---|
+| [Audiotec Fischer URC.1](https://www.cen.uk/products/audiotec-fischer-urc-1-remote-volume-control-sub-level-for-helix-and-match-dsp) — CEN, in stock. Sub level knob, plugs straight into the amp's **SCP** (no M141313 adaptor). 30 × 23 × 43mm, 5m cable, housing removable to sink the knob through trim — fits the gap between seat and tunnel panel. Assign it in PC-Tool's DCM | 1 | £35.99 |
+
+*Alternatives: [Conductor Pro](https://www.cen.uk/products/audiotec-fischer-conductor-pro-one-touch-remote-control-for-helix-match-dsp-scp) £129.99 — flush round knob, Ø46mm with a 40mm cut-out, RGB ring, 4 volumes + setup switching. The URC.3 is the wrong shape here and needs the M141313 SCP adaptor.*
+
 ### Wiring & electrical
 | Item | Qty | Est. |
 |---|---|---|
@@ -291,9 +321,9 @@ Note: Connection AFS fuses at caraudiodirect start at 40A, so the 30A sub branch
 |---|---|---|
 | [Connection FT2](https://caraudiodirect.co.uk/products/connection-ft2-100-2-1m-rca-cable) RCA, amp → sub 1 — pick the length from this range once **measured**. Amp's Cinch out is **mono** (1 jack); this is a 2-lead stereo pair cable, only one lead is used for the run | 1 | ~£15.00 |
 | [Rockford Fosgate RFIY-1F](https://caraudiodirect.co.uk/products/rfiy-1f-twisted-pair-y-adapter-1-female-to-2-male) — 1 female / 2 male Y-adapter, splits the single mono lead into the sub's L + R line inputs | 1 | £9.99 |
-| [Connection SL216.2](https://caraudiodirect.co.uk/products/connection-by-audison-sl216-2-silver-series-high-resolution-16-gauge-speaker-cable-per-metre) 16 gauge speaker cable — new runs to dash tweeters | ~8m @ £3.00 | £24.00 |
-| [Connects2 CT20UV01](https://caraudiodirect.co.uk/products/connects2-ct20uv01-harness-adapter-female-iso-to-male-iso-adapter) female ISO → male ISO — lets the Kenwood and factory runs plug in rather than be cut | 1 | £9.99 |
-| [RS automotive hook-up wire](https://uk.rs-online.com/web/c/cables-wires/wire-single-core-cable/automotive-wire/) ~1mm² — two runs: Kenwood remote tap (via CT20UV01) → amp REM IN, and amp REM OUT → sub 1 | ~3m | ~£7.50 |
+| [Connection SL216.2](https://caraudiodirect.co.uk/products/connection-by-audison-sl216-2-silver-series-high-resolution-16-gauge-speaker-cable-per-metre) 16 gauge (1.3mm²) speaker cable — new runs to the dash tweeters **and** the front midbass; only the rears reuse the factory loom | ~16m @ £3.00 | £48.00 |
+| [Connects2 CT20UV01](https://caraudiodirect.co.uk/products/connects2-ct20uv01-harness-adapter-female-iso-to-male-iso-adapter) female ISO → male ISO — its own speaker wires are the ones cut, so nothing on the car's loom or the Kenwood's harness is | 1 | £9.99 |
+| [RS automotive hook-up wire](https://uk.rs-online.com/web/c/cables-wires/wire-single-core-cable/automotive-wire/) ~1mm² — two runs: Kenwood **Blue/White** loose lead → amp REM IN, and amp REM OUT → sub 1 | ~3m | ~£7.50 |
 
 No RCA is needed between head unit and amp — the amp has no RCA inputs.
 
@@ -317,14 +347,14 @@ Avoid scotchlocks and Wago lever nuts — both fail under vehicle vibration.
 |---|---|
 | Measurement mic (UMIK-1) + REW — for proper tuning | ~£90 |
 | **Windows access for DSP PC-Tool 6** — see below | £0–£80 |
-| MATCH DIRECTOR remote — sub level from the driver's seat | ~£90 |
+| Extension Card 2.0 – ANALOG IN — only if high-level input picks up noise | £99.99 |
 
 ### Running total
 **Phase 1 ≈ £293** — second sub, see Phase 1 parts.
-**Phase 2 ≈ £909** (≈ £864 with the Phonocar distribution block, ≈ £809 with the UP 4DSP) —
+**Phase 2 ≈ £969** (≈ £924 with the Phonocar distribution block, ≈ £869 with the UP 4DSP) —
 includes the £9.99 RFIY-1F Y-adapter for the amp's mono-to-stereo sub connection, the extra
-remote-wire run to the amp's REM IN, and the 4AWG battery ground.
-All-in with both phases and the tuning kit ≈ £1,397.
+remote-wire run to the amp's REM IN, the 4AWG battery ground, and the £35.99 URC.1 bass remote.
+All-in with both phases and the tuning kit ≈ £1,457.
 
 ---
 
