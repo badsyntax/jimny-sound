@@ -11,8 +11,8 @@ One build: Kenwood → Match UP 6DSP MK2 → active front, rears, and two unders
 | **Audison Prima AP1** | Tweeters, 4Ω — dash, 30° | Installed |
 | **Focal ICU 100** | Rears, 40W RMS, 4Ω | Installed |
 | **Harman Kardon Feel 700** #1 | Active underseat sub, 125W RMS / 250W max, 7" | Installed, own fused feed |
-| **Harman Kardon Feel 700** #2 | Daisy-chained from #1 | Bought, to fit |
-| **Match UP 6DSP MK2** | 6-channel amp + 7-channel DSP, 130 × 130 × 46mm | **Still to buy** |
+| **Harman Kardon Feel 700** #2 | Daisy-chained from #1 | Installed — tidying outstanding |
+| **Match UP 6DSP MK2** | 6-channel amp + 7-channel DSP, 130 × 130 × 46mm | Installed and working — glovebox wiring still to tidy |
 | Sound deadening | Material owned | To fit |
 
 **AP4 notes:** fitted without spacer rings (plywood rings weren't needed and wouldn't have fitted);
@@ -37,6 +37,24 @@ Everything goes in in one session — no interim wiring, so the subs never run o
 5. **Mount** — amp, distribution block, subs, bass remote
 6. **Tune** — input gain first, then routing and crossovers, before anything plays loud
 7. Then decide on any speaker upgrades
+
+### Outstanding
+
+Power, signal and mounting are done and the system plays. What's left:
+
+- **Battery ground** — the 4AWG battery-negative-to-body strap is *not* in yet. The factory strap
+  is still carrying everything. Deferred deliberately: the negative terminal has two cables on a
+  marginal connection, so it needs proper terminal connectors before being taken apart. The second
+  cable is almost certainly the engine earth and stays put — only the short body strap gets replaced.
+- **Tidy-up** — amp is on velcro and wired and both subs are in, but the glovebox loom and the
+  under-seat runs need dressing and securing. A couple of hours.
+- **Full tune** — only the basic setup was done. Still to do: check each channel and stage
+  individually, then set levels. Currently bass-heavy.
+
+Amp ground is in: 8AWG to a seat bolt, bare metal both faces, shared with the sub ground. No
+electrical whine through the speakers, so the ground is behaving. A mechanical belt squeal appeared
+after the install drive — that's the alternator working to recharge the battery after hours of
+ignition-on, not a grounding fault. Check belt tension and glazing.
 
 ## Standing decisions
 
@@ -84,6 +102,18 @@ flowchart TD
 
 **Connections:** the amp's high-level inputs and speaker outputs are supplied as plug-in harnesses
 with bare wire ends, so nothing needs terminating at the amp.
+
+**Output harness colours** — the manual identifies conductors by pin number only, so these are read
+off the cables themselves. A–D are on the System Connector; E/F are on their own separate cable.
+
+| Amp wire | Channel | Carries |
+|---|---|---|
+| White | A | Tweeter L |
+| Grey | B | Tweeter R |
+| Green | C | Midbass L |
+| Purple | D | Midbass R |
+| Orange | E | Rear L |
+| Brown | F | Rear R |
 
 ### CT20UV01 — a break point, not a tap
 
@@ -307,6 +337,7 @@ No RCA is needed between head unit and amp — the amp has no RCA inputs.
 | Item | Notes | Est. |
 |---|---|---|
 | [Magnusson Ratchet Wire Strippers 8"](https://www.screwfix.com/p/magnusson-ratchet-wire-strippers-8-200mm-/5175v) — Screwfix, 0.2–6mm² | Speaker cable to 12AWG; strip 8AWG with a knife | £12.47 |
+| [LAP DC Digital Multimeter 600V](https://www.screwfix.com/p/lap-dc-digital-multimeter-600v/793rt) — Screwfix, also reads resistance | Ground voltage-drop test — under 0.2V from amp ground to battery negative with the system playing hard | £12.59 |
 | [RS splice connectors](https://uk.rs-online.com/web/c/connectors/wire-terminals-splices/splice-connectors/) — adhesive-lined heat-shrink butt type, 16AWG | ~20 joins, buy a 50-pack | ~£10.00 |
 | [RS rubber grommets](https://uk.rs-online.com/web/c/cables-wires/cable-glands-strain-relief-grommets/rubber-grommets/) — firewall pass-through, size to the 4AWG jacket | 1 | ~£5.00 |
 | [RS spiral cable wrap](https://uk.rs-online.com/web/c/cables-wires/cable-management/cable-spiral-wrapping/) — protect the engine-bay run | ~2m | ~£8.00 |
@@ -363,6 +394,12 @@ Physical checks only — everything else is settled above.
       heatsink clear and leave slack so the bin doesn't tug the plugs.
       *Future:* move it to the vertical metal brace behind the glovebox to get the storage back —
       bolt it or plate it, fins vertical. The glovebox plastic is too flimsy to screw into.
+
+![Amp mounted in a glovebox](reference/amp-in-glovebox.jpg)
+
+*Reference: an Alpine amp mounted high in a Tacoma glovebox, storage still usable underneath —
+the upper area is the spot to aim for. Source:
+[r/CarAV](https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Fwould-it-be-completely-stupid-to-put-my-amplifier-in-my-v0-mg8ihvt5jm0f1.jpeg%3Fwidth%3D4624%26format%3Dpjpg%26auto%3Dwebp%26s%3D24b042523ff87c5ce95c8c28a800a9dff770fe8f).*
 - [ ] **Battery and charging** — rested voltage on the HSB057 (12.6V+ healthy) and a load test, then
       voltage at the amp position at idle with lights, blower and wipers on.
 
