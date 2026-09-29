@@ -318,6 +318,10 @@ attenuation, AUX) + setup switching. The URC.3 is the wrong shape here and needs
 | [Phonocar 4/4632](https://caraudiodirect.co.uk/products/phonocar-4-4632-afs-fuses-30a) 30A AFS (sub branch) | 1 | £4.99 |
 | [Sealey LT258](https://www.amazon.co.uk/Sealey-LT258-Copper-Terminal-25mm%C2%B2/dp/B01CUMQNN8) tinned copper lugs, 25mm² × 8mm — battery positive plus both ends of the battery ground. **Check the battery clamp and body bolts are M8**. Needs a hex or hammer crimper and adhesive-lined heat shrink | pack of 10 | ~ price not read |
 | [Connection FRT8](https://caraudiodirect.co.uk/products/connection-frt8-8-gauge-ring-terminals) 8AWG ring terminals — for the grounds | 1 pack | £4.99 |
+| RT4 4AWG ring terminal — **bought** | 2 | £3.98 |
+| Vibe CLRT4-V7 Critical Link 4AWG ring terminal — **bought** | 2 | £3.98 |
+| Vibe CLRT8-V7 Critical Link 8AWG ring terminal — **bought** | 2 | £3.98 |
+| Vibe CLCTB-V7 Critical Link bullet connectors, 10 pack — **bought** | 1 | £4.99 |
 | [RS PRO 10mm² bootlace ferrules](https://uk.rs-online.com/web/p/bootlace-ferrules/1571244) — build 8AWG up to fill the BFD41's 4AWG ports. **Check the box first** — the block's spec lists an 8AWG adapter | 1 pack | ~£8.00 |
 
 The 8AWG is the same Powerbass XWS family as the 4AWG — **100% OFC throughout**. Car Audio Security
@@ -348,6 +352,8 @@ No RCA is needed between head unit and amp — the amp has no RCA inputs.
 | [RS splice connectors](https://uk.rs-online.com/web/c/connectors/wire-terminals-splices/splice-connectors/) — adhesive-lined heat-shrink butt type, 16AWG | ~20 joins, buy a 50-pack | ~£10.00 |
 | [RS rubber grommets](https://uk.rs-online.com/web/c/cables-wires/cable-glands-strain-relief-grommets/rubber-grommets/) — firewall pass-through, size to the 4AWG jacket | 1 | ~£5.00 |
 | [RS spiral cable wrap](https://uk.rs-online.com/web/c/cables-wires/cable-management/cable-spiral-wrapping/) — protect the engine-bay run | ~2m | ~£8.00 |
+| Alex Tech 1/2" split wire loom, 10ft — Amazon, **bought** | Tidying the glovebox loom and under-seat runs | £7.99 |
+| Tesa 51608 black fleece harness tape — Amazon, **bought** | Wrapping looms behind trim, stops rattles | £5.98 |
 | [Essentials Assorted Cable Ties 1000 Pack](https://www.screwfix.com/p/assorted-cable-ties-1000-pack/45376) — Screwfix | General routing | £17.99 |
 | [Essentials Cable Ties Black 370mm × 7.5mm](https://www.screwfix.com/p/cable-ties-black-370mm-x-7-5mm-100-pack/24453) — Screwfix, 100 pack | Heavy duty | £7.99 |
 | [Vibe CLDR-V7](https://caraudiodirect.co.uk/products/vibe-cldr-v7-critical-link-anti-vibe-sound-deadening-roller) sound deadening roller | For the material already owned | £12.99 |
