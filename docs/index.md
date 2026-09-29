@@ -291,8 +291,14 @@ underneath. This screenshot shows my earlier settings, before the new speakers.*
 **Then the channel levels.** Each output has its own level, so I balanced the speakers against each
 other by ear, in 1–2dB steps with left and right linked. I used the midbass as the reference, then
 brought the tweeters in quieter (they're more efficient and sit right in front of you on the dash),
-kept the rears well below the fronts so the sound stays up front, and set the subs to taste. The
-URC.3 knob will handle sub level day to day.
+kept the rears well below the fronts so the sound stays up front, and set the subs to taste.
+
+Day to day, the **URC.3 remote** does the adjusting: one knob for sub level, one for rear level. It's
+mounted on the side of the centre console for now, but it's awkward to reach the knobs there, so
+I'll move it higher up.
+
+![URC.3 remote on the side of the centre console](images/thumbs/28-urc3.jpg)
+*The URC.3 remote on the side of the centre console — due to move somewhere easier to reach.*
 
 ## How it sounds
 
