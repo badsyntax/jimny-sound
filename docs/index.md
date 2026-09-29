@@ -214,12 +214,15 @@ shrink.*
 *Mostly tidy — a few wires still show beside the console.*
 
 ![Finished sub under the seat, from behind](images/thumbs/24-sub-finished.jpg)
-*The finished sub, seen from the back seat with the front seat slid all the way forward.*
+*The finished sub, seen from the back seat with the front seat slid all the way forward. Rear
+passengers can still get in and out without any trouble.*
 
 ## Front speakers
 
-The front stage is being upgraded to **Morel Virtus Nano MW4** midbass and **Audison Voce II
-AV 1.1 II** tweeters.
+The front stage is **Morel Virtus Nano MW4** midbass and **Audison Voce II AV 1.1 II** tweeters.
+The MW4 is from Morel's high-end Reference range, with a carbon-fibre cone
+and neodymium magnet, and the AV 1.1 II is Hi-Res Audio certified, with a soft dome that plays up to
+40kHz. The result is cleaner, more detailed vocals and instruments, especially at volume.
 
 - The MW4 is only **17mm deep**, which suits the Jimny's kick panels.
 - The AV 1.1 II can cross lower than most tweeters (down to 1.8kHz), which lifts the vocals from the
@@ -251,6 +254,9 @@ off, crossovers off.
 volume and played Audiotec Fischer's **IGS test track**. In PC-Tool's Advanced Gain Setup I raised
 the input slider until the clip indicator turned red, then backed it off one step.
 
+![PC-Tool Advanced Gain Setup screen](images/thumbs/26-pctool-gain.jpg)
+*PC-Tool's Advanced Gain Setup, with all outputs muted while the input gain is set.*
+
 **Next, the crossovers** — the filters that decide which speaker plays which frequencies. My starting settings, every filter at −24dB:
 
 | Speaker | Plays |
@@ -263,6 +269,10 @@ the input slider until the clip indicator turned red, then backed it off one ste
 Where two speakers hand over, both sides use the same frequency with **Linkwitz** filters — a filter
 type designed so the two speakers blend without a bump. The subs take everything below 90Hz because
 the slim midbass has little cone travel.
+
+![PC-Tool crossover screen for the midbass channel](images/thumbs/27-pctool-crossover.jpg)
+*The midbass channel in PC-Tool: highpass and lowpass make the "hill" shape, with the 30-band EQ
+underneath. This screenshot shows my earlier settings, before the new speakers.*
 
 **Then the channel levels.** Each output has its own level, so I balanced the speakers against each
 other by ear, in 1–2dB steps with left and right linked. I used the midbass as the reference, then
