@@ -5,11 +5,23 @@ description: A DSP amp hidden in the glovebox, an active front stage, and two un
 date: 2026-09-29
 author: Richard Willis
 hero: images/18-finished.jpg
-hero_caption: Finished — the amp is in the glovebox, the subs are under the seats, and nothing is on show.
+hero_caption: Finished — the amp is in the glovebox and the subs are under the seats.
 ---
 
 <p class="lede">A DSP amp hidden in the glovebox, an active front stage, and two underseat subs.
 Here's how it went together and what it cost.</p>
+
+I love the feeling of a good sound system, but I was never satisfied with what small, Jimny-sized
+10cm speakers could do on their own. So I've upgraded bit by bit until I'm properly happy with it —
+sticking with the standard speaker size, and adding the tweeters and subs without any drilling or
+modification to the car body. This is where it's ended up.
+
+<nav class="toc" markdown="1">
+**Contents**
+
+* TOC
+{:toc}
+</nav>
 
 ## The system
 
@@ -26,9 +38,15 @@ a sub under each front seat.
 | **2 × [Harman Kardon Feel 700](https://caraudiodirect.co.uk/products/harmon-kardon-feel-700-active-underseat-car-subwoofer)** | Active underseat subs, 125W RMS each, daisy-chained |
 | **[Audiotec Fischer URC.3](https://www.audiotec-fischer.de/en/brax/accessories/urc.3)** | Remote knob for sub and rear level |
 
-Why the Match: **it takes speaker-level inputs**, so it works with any head unit, and its DSP lets
-each speaker have its own crossover, level, delay and EQ. Note it has **no RCA inputs** — it's
-designed to sit between the head unit and the speakers, so the Kenwood's preouts go unused.
+Why the Match: **it takes speaker-level inputs**, so it works with any head unit. Its DSP (digital
+sound processor) lets each speaker have its own crossover, level, delay and EQ. Note it has **no
+RCA inputs** — it's designed to sit between the head unit and the speakers, so the Kenwood's RCA
+outputs go unused.
+
+**"Active front stage"** means each front tweeter and midbass (the small driver that handles
+vocals and punch) gets its own amp channel, and the DSP decides which frequencies each one plays —
+instead of a fixed passive crossover doing it. That lets me tune the whole system to get the best
+out of these drivers in this car.
 
 ```mermaid
 flowchart TD
@@ -50,12 +68,15 @@ flowchart TD
 
 The biggest job. Worst case the amp draws 35A and the two subs 28A between them, so **63A** in total.
 
-1. **4AWG** from the battery positive to an **80A fuse within 300mm of the battery**
-2. Through the firewall to a **4-way fuse distribution block** under the dash
-3. Two **8AWG** fused branches — 40A to the amp, 30A to the subs
+1. **4AWG** (about 21mm² — thick cable) from the battery positive to an **80A fuse within 300mm
+   of the battery**
+2. Through the firewall to a **4-way fuse distribution block** under the dash. I made a hole in
+   the existing rubber grommet on the driver side and fed the cable through it.
+3. Two **8AWG** (about 8mm²) fused branches — 40A to the amp, 30A to the subs
 4. The second sub takes its power from the first sub's **POWER OUT** block, so one feed serves both
 
-**100% OFC copper everywhere** — no CCA. It costs more but it's the one place not to save money.
+**100% OFC (oxygen-free copper) everywhere** — no cheaper CCA (copper-clad aluminium). It costs
+more but it's the one place not to save money.
 
 ```mermaid
 flowchart TD
@@ -76,6 +97,7 @@ flowchart TD
 
 ![Main fuse holder at the battery](images/thumbs/04-main-fuse.jpg)
 *80A main fuse, close to the battery.*
+
 ![The distribution block](images/thumbs/05-distribution-block.jpg)
 *The distribution block with the amp and sub fuses.*
 
@@ -97,17 +119,21 @@ very short and already sized for the starter motor, which pulls far more than 63
 ![The short factory battery-to-body strap](images/thumbs/17-factory-ground.jpg)
 *The factory battery-to-body strap — short enough to leave alone.*
 
-**Remote turn-on:** the Kenwood's blue/white power-control lead goes to the amp's REM IN, and the
-amp's REM OUT switches the subs. No splicing into the car.
+**Remote turn-on** (so the amp and subs switch on and off with the head unit): the Kenwood's
+blue/white power-control lead goes to the amp's REM IN, and the amp's REM OUT switches the subs.
+No splicing into the car.
 
-## Signal: cut the head unit's harness, not the car
+## Signal
 
 The Kenwood's own wiring harness plugs into the car's ISO connector. I cut **only its 8 speaker
 wires**, which gives two loose ends:
 
 - The **Kenwood** end → the amp's **inputs** (front left and right only — the DSP makes every
   other channel from those two)
-- The **car** end → fed from the amp's **midbass and rear outputs**, reusing the factory speaker wiring
+- The **car** end → fed from the amp's **midbass and rear outputs**, so the factory speaker wiring
+  still runs to those speakers
+
+Only the **tweeters get new wire**, since there's no factory wiring to the dash.
 
 ```mermaid
 flowchart LR
@@ -119,10 +145,6 @@ flowchart LR
 
 All the joins are crimped butt connectors. Nothing on the car's loom is cut, so a replacement
 Kenwood harness puts it all back to standard.
-
-The midbass and rears **reuse the car's factory speaker wiring** — new wire runs from the amp to
-the harness, and the factory loom does the rest. Only the **tweeters get new wire**, since there's
-no factory wiring to the dash.
 
 ![Head unit out, wiring exposed](images/thumbs/07-head-unit-out.jpg)
 *Head unit out: the speaker wires on the Kenwood's harness get cut behind here.*
@@ -156,6 +178,10 @@ existing gap at the back. Nothing drilled, and the USB port stays reachable for 
 The Feel 700 is 260 × 195 × 58mm and fits under both front seats. The second sub is chained from
 the first: power through the POWER OUT block, signal through an RCA from the first sub's output.
 
+The supplied pigtails don't reach between the seats on their own, so I extended them with
+**27A cable** (about 3mm²) — red for +12V, black for ground — and ~1mm² hook-up wire for
+the blue remote lead, all joined with crimped butt connectors.
+
 The amp's sub output is **mono, one RCA socket**, but the Feel 700 wants a signal on both left and
 right. A cheap **1-female-to-2-male Y-adapter** at the sub end fixes that — without it the sub plays
 quieter.
@@ -182,31 +208,50 @@ shrink.*
 *The main power run comes in under the driver's seat, where the amp ground joins the sub ground. These runs will get a proper tidy-up.*
 
 ![Sub fitted under the seat](images/thumbs/14-sub-fitted.jpg)
-*Sub fitted.*
+*One sub in place under the seat.*
 
 ![Tidied up between the seats](images/thumbs/15-tidied.jpg)
-*Mostly tidy. A few wires still show beside the console — a proper tidy-up is on the to-do list.*
+*Mostly tidy — a few wires still show beside the console.*
 
 ![Finished sub under the seat, from behind](images/thumbs/24-sub-finished.jpg)
 *The finished sub, seen from the back seat with the front seat slid all the way forward.*
 
 ## Front speakers
 
-The front stage is **Morel Virtus Nano MW4** midbass and **Audison Voce II AV 1.1 II** tweeters.
+The front stage is being upgraded to **Morel Virtus Nano MW4** midbass and **Audison Voce II
+AV 1.1 II** tweeters.
 
 - The MW4 is only **17mm deep**, which suits the Jimny's kick panels.
 - The AV 1.1 II can cross lower than most tweeters (down to 1.8kHz), which lifts the vocals from the
   footwells up to the dash.
 
+![Tweeter on the dash at the base of the A-pillar](images/thumbs/25-tweeter.jpg)
+*The tweeter sits on the dash at the base of the A-pillar. Note: the photo shows the previous
+Audison AP1 tweeter.*
+
+Mounting the tweeters means taking off the **A-pillar trims**, which is easy:
+
+1. Peel back the door rubber along the pillar — it makes the trim much easier to get at.
+2. Starting at the top, slide a plastic trim tool (or your fingers) under the edge and pull the trim
+   towards the inside of the car. The bottom end tucks behind the lower trim and lifts out.
+3. To refit, check the metal clips — they tend to stay on the trim when it comes off. Move each one
+   back into its hole in the pillar first, line the trim up and push it firmly home. If you refit
+   with the clips still on the trim, it sits slightly proud and rattles.
+
 ## Tuning
 
 The DSP is set up in **Audiotec Fischer's DSP PC-Tool** — Windows only, so on a Mac it runs in a
-virtual machine. I used the free **VMware Fusion**. Set the Kenwood flat first: EQ off, loudness off, crossovers off.
+virtual machine. I used the free **VMware Fusion**. I set the Kenwood flat first: EQ off, loudness
+off, crossovers off.
 
 ![Tuning with DSP PC-Tool](images/thumbs/16-tuning.jpg)
 *Tuning from the passenger seat, laptop plugged straight into the amp in the glovebox.*
 
-My starting settings — every filter is −24dB:
+**Input gain first.** This matches the amp to the head unit's signal. With every output muted (so nothing actually plays), I put the Kenwood at about 90%
+volume and played Audiotec Fischer's **IGS test track**. In PC-Tool's Advanced Gain Setup I raised
+the input slider until the clip indicator turned red, then backed it off one step.
+
+**Next, the crossovers** — the filters that decide which speaker plays which frequencies. My starting settings, every filter at −24dB:
 
 | Speaker | Plays |
 |---|---|
@@ -215,9 +260,28 @@ My starting settings — every filter is −24dB:
 | Rears | Above 100 Hz, kept quieter than the fronts |
 | Subs | 30 – 90 Hz |
 
-Where two speakers hand over, both sides use the same frequency with **Linkwitz** filters, so they
-blend without a bump. The subs take everything below 90Hz because the slim midbass has little cone
-travel.
+Where two speakers hand over, both sides use the same frequency with **Linkwitz** filters — a filter
+type designed so the two speakers blend without a bump. The subs take everything below 90Hz because
+the slim midbass has little cone travel.
+
+**Then the channel levels.** Each output has its own level, so I balanced the speakers against each
+other by ear, in 1–2dB steps with left and right linked. I used the midbass as the reference, then
+brought the tweeters in quieter (they're more efficient and sit right in front of you on the dash),
+kept the rears well below the fronts so the sound stays up front, and set the subs to taste. The
+URC.3 knob will handle sub level day to day.
+
+## How it sounds
+
+Really great — I get excited every time I take the car out. There's lots of bass, enough to shake
+the rear-view mirror. I'm still fine-tuning it, so it'll only get better.
+
+## Looking back
+
+It was more complicated than I expected. I did the majority in one weekend, and the rest over two
+more.
+
+If I did it again, I'd use **multi-core cable** to connect the amp to the factory speaker loom,
+instead of separate wires — far fewer runs to route and tidy.
 
 ## What it cost
 

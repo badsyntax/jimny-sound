@@ -33,10 +33,7 @@
     h1 { font-size: 2.4rem; line-height: 1.15; margin: 0 0 16px; letter-spacing: -0.01em; }
     .meta { color: var(--muted); font-size: 0.9rem; }
     .meta span + span::before { content: "·"; margin: 0 8px; }
-    .ai-note {
-      margin-top: 16px; padding: 10px 14px; border-radius: 6px; background: var(--code-bg);
-      color: var(--muted); font-size: 0.85rem;
-    }
+    .ai-note { margin-top: 48px; color: var(--muted); font-size: 0.9rem; font-style: italic; }
     main figure.hero { margin: 0 0 40px; }
     main figure.hero img {
       width: 100%; max-height: none; margin: 0 0 8px; cursor: zoom-in;
@@ -82,6 +79,15 @@
     blockquote { margin: 16px 0; padding: 4px 16px; border-left: 3px solid var(--accent); color: var(--muted); }
     .mermaid { margin: 24px 0; text-align: center; }
     .lede { color: var(--muted); font-size: 1.1rem; margin-bottom: 32px; }
+    .toc {
+      margin: 0 0 40px; padding: 16px 20px; border: 1px solid var(--line); border-radius: 6px;
+      font-size: 0.95rem;
+    }
+    .toc p { margin: 0 0 8px; }
+    .toc ul { margin: 0; padding-left: 20px; }
+    .toc li { margin: 2px 0; }
+    .toc a { text-decoration: none; }
+    .toc a:hover { text-decoration: underline; }
   </style>
 </head>
 <body>
@@ -94,10 +100,10 @@
       <header class="post-header">
         <h1>{{ page.title }}</h1>
         <div class="meta">
+          {% if page.author %}<span>By {{ page.author }}</span>{% endif %}
           {% if page.date %}<span><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d %B %Y" }}</time></span>{% endif %}
           <span>{{ content | number_of_words | divided_by: 200 | plus: 1 }} min read</span>
         </div>
-        <p class="ai-note">Written by {{ page.author | default: "Richard Willis" }}, with help from AI.</p>
       </header>
       {% if page.hero %}
       <figure class="hero">
@@ -108,6 +114,7 @@
       <div class="post-body">
         {{ content }}
       </div>
+      <p class="ai-note">I drafted this with help from AI; the build, photos and decisions are my own.</p>
     </article>
   </main>
   <footer>

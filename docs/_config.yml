@@ -3,3 +3,4 @@ description: Active front stage, a DSP amp in the glovebox and two underseat sub
 markdown: kramdown
 kramdown:
   input: GFM
+  toc_levels: 2..2
