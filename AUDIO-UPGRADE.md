@@ -42,10 +42,6 @@ Everything goes in in one session — no interim wiring, so the subs never run o
 
 Power, signal and mounting are done and the system plays. What's left:
 
-- **Battery ground** — the 4AWG battery-negative-to-body strap is *not* in yet. The factory strap
-  is still carrying everything. Deferred deliberately: the negative terminal has two cables on a
-  marginal connection, so it needs proper terminal connectors before being taken apart. The second
-  cable is almost certainly the engine earth and stays put — only the short body strap gets replaced.
 - **Tidy-up** — amp is on velcro and wired and both subs are in, but the glovebox loom and the
   under-seat runs need dressing and securing. A couple of hours.
 - **Full tune** — only the basic setup was done. Still to do: check each channel and stage
@@ -58,6 +54,10 @@ under adhesive heat shrink — so a single 8AWG leg carries the combined return,
 Calculated drop over the short shared leg is ~0.06V, well inside the 0.2V budget. **Outstanding:
 voltage-drop test with both subs playing hard, and a hand on the splice afterwards — a sound crimp
 stays cold, warmth there means redo it.**
+
+**Battery ground — not doing.** The 4AWG battery-to-body strap below is the ideal, but the factory
+strap is very short and already sized for the starter motor, which draws far more than the
+system's 63A. It stays; the voltage-drop test confirms it.
 
 No electrical whine through the speakers, so the ground is behaving. A mechanical belt squeal appeared
 after the install drive — that's the alternator working to recharge the battery after hours of
