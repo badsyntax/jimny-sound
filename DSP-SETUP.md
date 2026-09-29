@@ -7,7 +7,7 @@ and the [DSP PC-Tool knowledge base](https://www.audiotec-fischer.de/en/knowledg
 | Part | What | When |
 |---|---|---|
 | **1. Required** | Mute, input gain, routing, crossovers, save, speaker check | Before playing *any* music |
-| **2. Recommended** | Levels, time alignment | Same session — biggest improvement, no extra kit |
+| **2. Recommended** | Levels, time alignment, polarity check | Same session — biggest improvement, no extra kit |
 | **3. Optional** | EQ by ear, or with a measurement mic | Once it already sounds right |
 
 | Amp output | Speaker |
@@ -30,7 +30,8 @@ Skipping any of these risks damaging the amp or speakers.
 ## 1.1 Before connecting
 
 - **Kenwood:** EQ flat, loudness off, all crossovers/HPF off, fader and balance centred, volume **low**.
-- **Feel 700:** turn the sub's own low-pass knob to maximum.
+- **Feel 700 (both subs):** low-pass knob to **maximum**, **Bass Boost to 0**, gain around 25%.
+- **ICU 100 rears:** tweeter switch on **Flat**, not +3 dB (behind the grilles).
 - **Test track:** PC-Tool home screen → **Audio Test Tracks** → copy **IGS – Input Gain Setup** to a USB stick for the Kenwood.
 - Install PC-Tool **before** plugging the amp in. Ignition on, USB-C in, launch PC-Tool, accept the firmware update.
 
@@ -113,34 +114,40 @@ set in 1.5) and leave "Remember my choice" unticked.
 
 KB: [High- & lowpass filter](https://www.audiotec-fischer.de/en/knowledge-base/DSP-PC-Tool/filter/)
 
-**Outputs** tab → click a channel button → set **Highpass** / **Lowpass Filter Section**. Use
-**Linkwitz** for the tweeter/midbass crossover point (A/B highpass, C/D lowpass), **Butterworth**
-everywhere else.
+**Outputs** tab → click a channel button → set **Highpass** / **Lowpass Filter Section**.
 
 ![Outputs tab](images/dsp/06-outputs-tab.png)
 ![Filters](images/dsp/07-filters.png)
 
+Every filter is **−24 dB**. Type is in brackets.
+
 | Channel | Highpass | Lowpass |
 |---|---|---|
-| A / B tweeters | 3,000 Hz, −24 dB, Linkwitz | Off |
-| C / D midbass | 80 Hz, −24 dB | 3,000 Hz, −24 dB, Linkwitz |
-| E / F rears | 90 Hz, −24 dB | Off |
-| Line Out I sub | Off | 80 Hz, −24 dB |
+| A / B tweeters | 3,000 Hz (Linkwitz) | Off |
+| C / D midbass | 90 Hz (Linkwitz) | 3,000 Hz (Linkwitz) |
+| E / F rears | 100 Hz (Butterworth) | Off |
+| Line Out I sub | 30 Hz (Butterworth) | 90 Hz (Linkwitz) |
+
+Where two speakers hand over, both sides use the **same frequency and Linkwitz**, so they blend
+without a bump:
+
+- **Sub → midbass at 90 Hz.** The MW4 is slim with little cone travel; the subs take the lowest notes.
+- **Midbass → tweeter at 3,000 Hz.**
+- **Sub bottom at 30 Hz.** The Feel 700 only plays down to 40 Hz — lower just wastes cone movement.
 
 **Never set the tweeter highpass below 1,800 Hz or bypass it.** The AV 1.1 II is rated for only
-10W continuous, so it needs that 24 dB slope to handle any power. If vocals sound hollow, try
-2,500 Hz on both A/B and C/D. Don't go lower.
+10W continuous. If vocals sound hollow, try 2,500 Hz on both A/B and C/D. Don't go lower.
 
 Tick the checkbox next to the L and R channel names to **link** them, so each pair is set once.
 
 **Off** means the **Bypass** light is lit (orange) or **Slope** is OFF. Check the graph matches
-— one slope for tweeters/rears/sub, a hill shape for midbass. On E/F set the unused lowpass
+— one slope for tweeters/rears, a hill shape for midbass and sub. On E/F set the unused lowpass
 **Slope** to OFF too, so an accidental un-bypass can't silence the rears.
 
 <details>
 <summary>Correct settings — one screenshot per channel</summary>
 
-*A–D screenshots show the old AP1/AP4 values (3,500 Hz, −12 dB) — use the table above.*
+*These screenshots show the old values — use the table above.*
 
 **Amp Out A — Front L High** (B is identical)
 
@@ -206,10 +213,21 @@ right). Move in **1–2 dB** steps, and link L/R so both sides change together.
 
 ![Output level](images/dsp/08-output-level-mute.png)
 
-- Tweeters too bright → **lower the output level** of A/B.
-- Thin vocals → **raise the output level** of C/D.
-- Rears should support, not compete — keep the E/F output level a few dB **below** the fronts.
-- Sub → adjust the **Line Out I** output level to taste.
+Starting points, measured from the midbass:
+
+| Channel | Start at |
+|---|---|
+| C / D midbass | 0 dB |
+| A / B tweeters | −10 dB — start low, bring up by ear |
+| E / F rears | −8 dB |
+| Line Out I sub | By ear |
+
+Then adjust by ear:
+
+- Tweeters too bright → **lower** A/B.
+- Thin vocals → **raise** C/D.
+- Sound pulled behind you → **lower** E/F. Rears are for ambience, not volume.
+- Sub → set with the **Line Out I** level, then day to day with the URC.3 knob.
 
 **Save&Store**.
 
@@ -247,9 +265,27 @@ an older PC-Tool layout — the controls are the same).
    should sit dead centre on the dash. If it leans left, add a few cm to A/C; right, to B/D.
 5. **Rears.** Unmute E/F. They should add ambience, not pull sound backwards — if they do,
    add **100–200 cm** extra to E and F.
-6. **Sub.** Unmute the Line Out. If bass sounds thin or sits behind you, try **Polarity
-   inverted**, then nudge the **phase** slider above it until the bass is fullest and sits up front.
-7. **Save&Store**.
+6. **Save&Store**.
+
+## 2.3 Polarity check
+
+Where two speakers hand over, they can partly cancel each other out and leave a hollow gap.
+Flipping one of them in PC-Tool can fix it. Do this after time alignment.
+
+**Tweeter vs midbass**
+
+1. Mute rears and sub. Play a mono vocal track.
+2. Set A/B **Polarity** to inverted, listen, then back to normal.
+3. Keep whichever sounds **fuller**, with the voice more solid and centred.
+
+**Sub vs midbass**
+
+1. Rears muted, sub on. Play a track with steady bass guitar or kick drum.
+2. Set Line Out I **Polarity** to inverted, listen, then back to normal.
+3. Keep whichever has **more punch** and sits **more up front**. For a final touch, nudge the
+   **phase** slider until the bass is fullest.
+
+Can't hear a difference? Leave it on normal. **Save&Store**.
 
 ---
 
@@ -261,6 +297,12 @@ KB: [Equalizer](https://www.audiotec-fischer.de/en/knowledge-base/DSP-PC-Tool/eq
 Only after Parts 1 and 2 — EQ on a system with wrong levels or delays just chases problems.
 Each output channel has **30 bands** (1/3 octave, 25 Hz–20 kHz), **+6 dB boost / −15 dB cut**.
 Cut more than you boost.
+
+**The target isn't flat.** Road noise masks bass, so a flat car sounds thin and harsh. Aim for:
+
+- **Bass** (below ~100 Hz) — 6–10 dB louder than the mids. Get this from the sub level, not EQ.
+- **Mids** — the reference.
+- **Treble** — easing off gently, a few dB down by 10 kHz.
 
 **Outputs** tab → select a channel → drag the EQ sliders. Link L/R pairs first.
 

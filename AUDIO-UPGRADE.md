@@ -7,8 +7,8 @@ One build: Kenwood → Match UP 6DSP MK2 → active front, rears, and two unders
 | Component | Spec | Status |
 |---|---|---|
 | **Kenwood DMX8021DABS** | 4 x 50W, 3 x 4V preouts (front, rear, sub). The amp takes **speaker level**, not the preouts | Installed |
-| **Morel Virtus Nano MW4** | 100mm midbass, 90W RMS, 4Ω, 88dB, 80Hz–9.2kHz, 17mm deep — footwell kick panels, not the doors | Installed (replaced Audison AP4) |
-| **Audison Voce II AV 1.1 II** | 28mm tweeters, 4Ω, 91dB, **10W continuous** / 180W peak, Fs 900Hz — dash, 30° | Installed (replaced Audison AP1) |
+| **Morel Virtus Nano MW4** | 100mm midbass, 90W RMS, 4Ω, 88dB, 80Hz–9.2kHz, 17mm deep — footwell kick panels, not the doors | To fit (replacing Audison AP4) |
+| **Audison Voce II AV 1.1 II** | 28mm tweeters, 4Ω, 91dB, **10W continuous** / 180W peak, Fs 900Hz — dash, 30° | To fit (replacing Audison AP1) |
 | **Focal ICU 100** | Rears, 40W RMS, 4Ω | Installed |
 | **Harman Kardon Feel 700** #1 | Active underseat sub, 125W RMS / 250W max, 7" | Installed, own fused feed |
 | **Harman Kardon Feel 700** #2 | Daisy-chained from #1 | Installed — tidying outstanding |
@@ -36,7 +36,7 @@ Everything goes in in one session — no interim wiring, so the subs never run o
 4. **Signal** — CT20UV01 cut and wired, new runs to tweeters and midbass, sub 2 daisy-chained
 5. **Mount** — amp, distribution block, subs, bass remote
 6. **Tune** — input gain first, then routing and crossovers, before anything plays loud
-7. Speaker upgrade — done: MW4 midbass and AV 1.1 II tweeters, re-tune crossovers to suit
+7. Speaker upgrade — MW4 midbass and AV 1.1 II tweeters bought, to fit, then re-tune per [DSP-SETUP.md](DSP-SETUP.md)
 
 ### Outstanding
 
