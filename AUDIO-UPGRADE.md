@@ -33,7 +33,7 @@ Everything goes in in one session — no interim wiring, so the subs never run o
 1. **Strip** — seats out, door cards, kick panels, glovebox, trim for the cable runs
 2. **Deaden** while the panels are off
 3. **Power** — battery → main fuse → firewall → distribution block → amp and sub branches, grounds last
-4. **Signal** — CT20UV01 cut and wired, new runs to tweeters and midbass, sub 2 daisy-chained
+4. **Signal** — Kenwood harness speaker wires cut and crimped, new runs to the tweeters, sub 2 daisy-chained
 5. **Mount** — amp, distribution block, subs, bass remote
 6. **Tune** — input gain first, then routing and crossovers, before anything plays loud
 7. Speaker upgrade — MW4 midbass and AV 1.1 II tweeters bought, to fit, then re-tune per [DSP-SETUP.md](DSP-SETUP.md)
@@ -122,34 +122,32 @@ off the cables themselves. A–D are on the System Connector; E/F are on their o
 | Orange | E | Rear L |
 | Brown | F | Rear R |
 
-### CT20UV01 — a break point, not a tap
+### Kenwood harness — a break point, not a tap
 
-**In plain terms:** the adapter is two plugs joined by a bundle of wires. One plugs into the car,
-one into the Kenwood. **Snip only the 8 speaker wires** in the middle of that bundle. That leaves
-two loose ends:
+**As built:** the **Kenwood's own harness** has its speaker wires cut and joined with butt crimps.
+The CT20UV01 adapter was planned for this but not used. Nothing on the car's loom is cut — a
+replacement Kenwood harness puts it back to standard.
+
+**In plain terms:** the harness runs from the Kenwood's plug to the car's ISO connector. **Snip only
+the 8 speaker wires**. That leaves two loose ends:
 
 - the end that talks to the **Kenwood** → goes to the amp's **inputs**
 - the end that talks to the **car's speakers** → gets fed from the amp's **outputs**
 
-Leave every other wire in the bundle alone. Signal now goes Kenwood → amp → speakers, instead of
+Leave every other wire alone. Signal now goes Kenwood → amp → speakers, instead of
 Kenwood → speakers.
 
 ```mermaid
 flowchart LR
-    HU["Kenwood"] -->|"front L/R<br/>(adapter, Kenwood half)"| AMP["UP 6DSP MK2"]
+    HU["Kenwood"] -->|"front L/R<br/>(harness, Kenwood end)"| AMP["UP 6DSP MK2"]
     AMP -->|"A/B — new runs"| TW["Dash tweeters"]
-    AMP -->|"C/D — new runs"| MID["Front midbass"]
-    AMP -->|"E/F<br/>(adapter, car half)"| REAR["Rear speakers"]
+    AMP -->|"C/D<br/>(harness, car end)"| MID["Front midbass"]
+    AMP -->|"E/F<br/>(harness, car end)"| REAR["Rear speakers"]
 ```
 
-The detail: the CT20UV01 sits **inline** between the vehicle's ISO harness and the Kenwood's ISO
-plug. Nothing on the car's loom or the Kenwood's harness is cut — the sacrificial wires are the
-adapter's. There are two adapters in the pack: the **brown/red one is the speakers** (ISO block B)
-and is the one you cut; the **black one is power** (ISO block A) and passes through untouched.
-
 - **Kenwood side** — front L/R feed the amp's **Highlevel Input A/B**. The Kenwood drives nothing.
-- **Car side** — the factory **rear** wiring is re-fed from the amp's **speaker outputs E/F**. The
-  front pair on this half is left unused, since the midbass gets new cable.
+- **Car side** — the factory **front** wiring is re-fed from the amp's **outputs C/D** (midbass)
+  and the factory **rear** wiring from **E/F**. New wire runs from the amp to the harness.
 
 | Channel | Kenwood wire | Goes to |
 |---|---|---|
@@ -157,9 +155,9 @@ and is the one you cut; the **black one is power** (ISO block A) and passes thro
 | Front R | Grey (+) / Grey-Black (−) | Highlevel Input B — System Connector pins 13 / 3 |
 | Rear L/R | Green, Purple | Not used — tape off |
 
-**Only the rears reuse the factory loom.** The tweeters have no factory path to the dash, and the
-front doors are coming apart for deadening anyway — so run new 16AWG to both. Factory speaker wire
-is ~0.5–0.75mm², sized for a head unit, not 65W channels.
+**As built: midbass and rears reuse the factory loom; only the tweeters get new wire**, since
+they have no factory path to the dash. Factory speaker wire is thin (~0.5–0.75mm²) for 65W
+channels, but over these short runs it's workable.
 
 **Never join a speaker-output − to chassis ground** — the amp's inputs and outputs are both balanced.
 
@@ -238,7 +236,7 @@ a flooded starter battery gives ~25Ah usable and degrades under repeated partial
    ring terminal at each end, body end on sanded bare metal.
 5. **Remote:** use an explicit remote wire, not auto-turn-on-from-high-level-signal — run the
    Kenwood's **Blue/White** power-control lead (a loose lead on its own harness, so no splicing and
-   no CT20UV01 involvement) to the amp's **REM IN**. The amp's **REM OUT** then switches the subs.
+   no speaker-wire involvement) to the amp's **REM IN**. The amp's **REM OUT** then switches the subs.
 
 **Distribution block placement:** it's heavy brass, so screw it down rather than relying on
 adhesive, and keep it on the cabin side of the firewall where the fuses stay reachable.
@@ -293,6 +291,13 @@ would need a passive crossover. The channel allocation above assumes the 6DSP.*
 | [Autobar 27 Amp Cable 2.2m, Black](https://www.eurocarparts.com/p/autobar-27-amp-cable-2-2m-app-black-bar571) — Euro Car Parts Thirsk, ~3mm² (≈12AWG), extension for black (GND) | 1 | £5.29 |
 | ~1mm² hook-up wire for blue (REM) extension — **already owned** | ~1m | — |
 
+### Speaker upgrade
+
+| Item | Qty | Est. |
+|---|---|---|
+| Morel Virtus Nano MW4 midbass — **bought** | 1 pair | £529.00 |
+| Audison Voce II AV 1.1 II tweeters — **bought** | 1 pair | £349.99 |
+
 ### Bass remote
 
 | Item | Qty | Est. |
@@ -334,8 +339,8 @@ caraudiodirect start at 40A, so the 30A sub branch uses Phonocar.
 |---|---|---|
 | [Connection FT2](https://caraudiodirect.co.uk/products/connection-ft2-100-2-1m-rca-cable) RCA, amp → sub 1 — pick the length once **measured**. Amp's Cinch out is **mono** (1 jack); this is a 2-lead cable, only one lead is used | 1 | ~£15.00 |
 | [Rockford Fosgate RFIY-1F](https://caraudiodirect.co.uk/products/rfiy-1f-twisted-pair-y-adapter-1-female-to-2-male) — 1 female / 2 male Y-adapter, splits the mono lead into the sub's L + R inputs | 1 | £9.99 |
-| [Connection SL216.2](https://caraudiodirect.co.uk/products/connection-by-audison-sl216-2-silver-series-high-resolution-16-gauge-speaker-cable-per-metre) 16 gauge (1.3mm²) speaker cable — new runs to the dash tweeters **and** the front midbass | ~16m @ £3.00 | £48.00 |
-| [Connects2 CT20UV01](https://caraudiodirect.co.uk/products/connects2-ct20uv01-harness-adapter-female-iso-to-male-iso-adapter) female ISO → male ISO — its own speaker wires are the ones cut, so nothing on the car's loom or the Kenwood's harness is | 1 | £9.99 |
+| [Connection SL216.2](https://caraudiodirect.co.uk/products/connection-by-audison-sl216-2-silver-series-high-resolution-16-gauge-speaker-cable-per-metre) 16 gauge (1.3mm²) speaker cable — new runs to the dash tweeters, and amp → harness | ~16m @ £3.00 | £48.00 |
+| [Connects2 CT20UV01](https://caraudiodirect.co.uk/products/connects2-ct20uv01-harness-adapter-female-iso-to-male-iso-adapter) female ISO → male ISO — **not used**; the Kenwood's harness was cut instead | 1 | £9.99 |
 | [RS automotive hook-up wire](https://uk.rs-online.com/web/c/cables-wires/wire-single-core-cable/automotive-wire/) ~1mm² — two runs: Kenwood **Blue/White** loose lead → amp REM IN, and amp REM OUT → sub 1 | ~3m | ~£7.50 |
 
 No RCA is needed between head unit and amp — the amp has no RCA inputs.

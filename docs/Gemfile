@@ -1,0 +1,8 @@
+source "https://rubygems.org"
+
+# Same Jekyll and plugins GitHub Pages uses, so the local preview matches the live site.
+gem "github-pages", group: :jekyll_plugins
+gem "webrick"
+
+# Ruby 2.7 compatibility
+gem "ffi", "< 1.17"

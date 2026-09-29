@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title | default: site.title }}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <style>
+    :root {
+      --bg: #fbfbf9; --fg: #1d1f21; --muted: #5c6166; --line: #dcdcd6;
+      --accent: #c2410c; --code-bg: #f0efe9;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #16181a; --fg: #e6e4df; --muted: #9ea3a8; --line: #33373b;
+        --accent: #fb923c; --code-bg: #212427;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; background: var(--bg); color: var(--fg);
+      font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    }
+    .site {
+      max-width: 720px; margin: 0 auto; padding: 20px 16px; display: flex;
+      justify-content: space-between; align-items: center; border-bottom: 1px solid var(--line);
+      font-size: 0.9rem;
+    }
+    .site a { color: var(--fg); text-decoration: none; font-weight: 600; }
+    .site a.repo { color: var(--muted); font-weight: 400; }
+    main { max-width: 720px; margin: 0 auto; padding: 48px 16px 64px; }
+    .post-header { margin-bottom: 32px; }
+    h1 { font-size: 2.4rem; line-height: 1.15; margin: 0 0 16px; letter-spacing: -0.01em; }
+    .meta { color: var(--muted); font-size: 0.9rem; }
+    .meta span + span::before { content: "·"; margin: 0 8px; }
+    .ai-note {
+      margin-top: 16px; padding: 10px 14px; border-radius: 6px; background: var(--code-bg);
+      color: var(--muted); font-size: 0.85rem;
+    }
+    main figure.hero { margin: 0 0 40px; }
+    main figure.hero img {
+      width: 100%; max-height: none; margin: 0 0 8px; cursor: zoom-in;
+    }
+    main figure.hero figcaption { color: var(--muted); font-size: 0.85rem; }
+    h2 { font-size: 1.5rem; margin: 56px 0 12px; }
+    h3 { font-size: 1.15rem; margin: 32px 0 8px; }
+    footer {
+      max-width: 720px; margin: 0 auto; padding: 24px 16px 64px; border-top: 1px solid var(--line);
+      color: var(--muted); font-size: 0.85rem;
+    }
+    a { color: var(--accent); }
+    img { max-width: 100%; height: auto; border-radius: 6px; display: block; margin: 24px 0 4px; }
+    main img { max-height: 320px; width: auto; cursor: zoom-in; }
+    main img:hover { opacity: 0.9; }
+    .gallery {
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 16px; margin: 24px 0;
+    }
+    .gallery figure { margin: 0; }
+    .gallery img {
+      width: 100%; height: 180px; max-height: none; object-fit: cover; margin: 0 0 6px;
+    }
+    .gallery figcaption { color: var(--muted); font-size: 0.85rem; line-height: 1.4; }
+    .lightbox {
+      border: 0; padding: 0; background: transparent; max-width: 100vw; max-height: 100vh;
+      width: 100vw; height: 100vh; margin: 0;
+    }
+    .lightbox::backdrop { background: rgba(0, 0, 0, 0.88); }
+    .lightbox figure {
+      margin: 0; height: 100%; display: flex; flex-direction: column;
+      align-items: center; justify-content: center; padding: 16px; cursor: zoom-out;
+    }
+    .lightbox img {
+      max-width: 100%; max-height: calc(100vh - 80px); margin: 0; cursor: zoom-out;
+    }
+    .lightbox figcaption { color: #e6e4df; font-size: 0.95rem; margin-top: 12px; text-align: center; }
+    img + em { display: block; color: var(--muted); font-size: 0.9rem; margin-bottom: 24px; }
+    table { width: 100%; border-collapse: collapse; font-size: 0.92rem; margin: 16px 0; display: block; overflow-x: auto; }
+    th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+    th { font-weight: 600; }
+    code { background: var(--code-bg); padding: 1px 5px; border-radius: 4px; font-size: 0.9em; }
+    blockquote { margin: 16px 0; padding: 4px 16px; border-left: 3px solid var(--accent); color: var(--muted); }
+    .mermaid { margin: 24px 0; text-align: center; }
+    .lede { color: var(--muted); font-size: 1.1rem; margin-bottom: 32px; }
+  </style>
+</head>
+<body>
+  <header class="site">
+    <a href="{{ '/' | relative_url }}">Jimny Sound</a>
+    <a class="repo" href="https://github.com/badsyntax/jimny-sound">Build notes on GitHub</a>
+  </header>
+  <main>
+    <article>
+      <header class="post-header">
+        <h1>{{ page.title }}</h1>
+        <div class="meta">
+          {% if page.date %}<span><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d %B %Y" }}</time></span>{% endif %}
+          <span>{{ content | number_of_words | divided_by: 200 | plus: 1 }} min read</span>
+        </div>
+        <p class="ai-note">Written by {{ page.author | default: "Richard Willis" }}, with help from AI.</p>
+      </header>
+      {% if page.hero %}
+      <figure class="hero">
+        <img src="{{ page.hero | relative_url }}" alt="{{ page.hero_caption }}">
+        {% if page.hero_caption %}<figcaption>{{ page.hero_caption }}</figcaption>{% endif %}
+      </figure>
+      {% endif %}
+      <div class="post-body">
+        {{ content }}
+      </div>
+    </article>
+  </main>
+  <footer>
+    Full plan, wiring tables and DSP setup guide:
+    <a href="https://github.com/badsyntax/jimny-sound">github.com/badsyntax/jimny-sound</a>
+  </footer>
+  <dialog class="lightbox" aria-label="Photo">
+    <figure><img alt=""><figcaption></figcaption></figure>
+  </dialog>
+  <script>
+    (() => {
+      const box = document.querySelector('.lightbox');
+      const big = box.querySelector('img');
+      const caption = box.querySelector('figcaption');
+
+      // A paragraph that is just a photo plus its italic caption.
+      const isPhoto = (el) => el && el.tagName === 'P' && el.firstElementChild &&
+        el.firstElementChild.tagName === 'IMG';
+
+      // Group runs of two or more consecutive photos into a gallery grid.
+      document.querySelectorAll('.post-body > p').forEach((p) => {
+        if (!isPhoto(p) || isPhoto(p.previousElementSibling)) return;
+        const run = [p];
+        while (isPhoto(run[run.length - 1].nextElementSibling)) {
+          run.push(run[run.length - 1].nextElementSibling);
+        }
+        if (run.length < 2) return;
+        const grid = document.createElement('div');
+        grid.className = 'gallery';
+        p.before(grid);
+        run.forEach((photo) => {
+          const fig = document.createElement('figure');
+          const img = photo.querySelector('img');
+          const em = photo.querySelector('em');
+          fig.append(img);
+          if (em) {
+            const cap = document.createElement('figcaption');
+            cap.textContent = em.textContent;
+            fig.append(cap);
+          }
+          grid.append(fig);
+          photo.remove();
+        });
+      });
+
+      document.querySelectorAll('main img').forEach((img) => {
+        img.loading = 'lazy';
+        img.addEventListener('click', () => {
+          big.src = img.src.replace('/thumbs/', '/');
+          big.alt = img.alt;
+          const next = img.nextElementSibling;
+          caption.textContent = next && (next.tagName === 'EM' || next.tagName === 'FIGCAPTION')
+            ? next.textContent : img.alt;
+          box.showModal();
+        });
+      });
+      box.addEventListener('click', () => box.close());
+      box.addEventListener('close', () => { big.src = ''; });
+    })();
+  </script>
+  <script type="module">
+    const blocks = document.querySelectorAll('div.language-mermaid, pre > code.language-mermaid');
+    if (blocks.length) {
+      const { default: mermaid } = await import('https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs');
+      blocks.forEach((b) => {
+        const el = document.createElement('div');
+        el.className = 'mermaid';
+        el.textContent = b.textContent;
+        (b.tagName === 'CODE' ? b.parentElement : b).replaceWith(el);
+      });
+      const dark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      mermaid.initialize({ startOnLoad: false, theme: dark ? 'dark' : 'neutral' });
+      await mermaid.run();
+    }
+  </script>
+</body>
+</html>

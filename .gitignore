@@ -1,1 +1,7 @@
 .DS_Store
+photos/
+docs/_site/
+docs/.jekyll-cache/
+docs/vendor/
+docs/.bundle/
+docs/Gemfile.lock
