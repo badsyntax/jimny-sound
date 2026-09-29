@@ -298,6 +298,7 @@ would need a passive crossover. The channel allocation above assumes the 6DSP.*
 | Item | Qty | Est. |
 |---|---|---|
 | Audiotec Fischer URC.3 — **bought**. Connects to the amp's **SCP** via the M141313 adaptor. Assign it in PC-Tool's DCM | 1 | — |
+| M141313 adaptor — [Apex Automotive Customs](https://apexautomotivecustoms.co.uk/), **bought, awaiting delivery** | 1 | — |
 
 ### Wiring & electrical
 
