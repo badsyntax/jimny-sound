@@ -3,8 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ page.title | default: site.title }}</title>
-  <meta name="description" content="{{ page.description | default: site.description }}">
+  {% seo %}
   <style>
     :root {
       --bg: #fbfbf9; --fg: #1d1f21; --muted: #5c6166; --line: #dcdcd6;

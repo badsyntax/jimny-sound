@@ -4,4 +4,4 @@ set -euo pipefail
 cd "$(dirname "$0")/docs"
 bundle config set --local path vendor/bundle
 bundle install --quiet
-bundle exec jekyll serve --livereload
+bundle exec jekyll serve --livereload --baseurl ''
