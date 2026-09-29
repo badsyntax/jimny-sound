@@ -12,8 +12,8 @@ and the [DSP PC-Tool knowledge base](https://www.audiotec-fischer.de/en/knowledg
 
 | Amp output | Speaker |
 |---|---|
-| AMP Out A / B | AP1 tweeters L / R |
-| AMP Out C / D | AP4 midbass L / R |
+| AMP Out A / B | Audison AV 1.1 II tweeters L / R |
+| AMP Out C / D | Morel Virtus Nano MW4 midbass L / R |
 | AMP Out E / F | Focal ICU 100 rears L / R |
 | Line Out I | Feel 700 subs (via Y-lead) |
 
@@ -114,17 +114,22 @@ set in 1.5) and leave "Remember my choice" unticked.
 KB: [High- & lowpass filter](https://www.audiotec-fischer.de/en/knowledge-base/DSP-PC-Tool/filter/)
 
 **Outputs** tab → click a channel button → set **Highpass** / **Lowpass Filter Section**. Use
-**Butterworth** throughout.
+**Linkwitz** for the tweeter/midbass crossover point (A/B highpass, C/D lowpass), **Butterworth**
+everywhere else.
 
 ![Outputs tab](images/dsp/06-outputs-tab.png)
 ![Filters](images/dsp/07-filters.png)
 
 | Channel | Highpass | Lowpass |
 |---|---|---|
-| A / B tweeters | 3,500 Hz, −12 dB | Off |
-| C / D midbass | 80 Hz, −24 dB | 3,500 Hz, −12 dB |
+| A / B tweeters | 3,000 Hz, −24 dB, Linkwitz | Off |
+| C / D midbass | 80 Hz, −24 dB | 3,000 Hz, −24 dB, Linkwitz |
 | E / F rears | 90 Hz, −24 dB | Off |
 | Line Out I sub | Off | 80 Hz, −24 dB |
+
+**Never set the tweeter highpass below 1,800 Hz or bypass it.** The AV 1.1 II is rated for only
+10W continuous, so it needs that 24 dB slope to handle any power. If vocals sound hollow, try
+2,500 Hz on both A/B and C/D. Don't go lower.
 
 Tick the checkbox next to the L and R channel names to **link** them, so each pair is set once.
 
@@ -134,6 +139,8 @@ Tick the checkbox next to the L and R channel names to **link** them, so each pa
 
 <details>
 <summary>Correct settings — one screenshot per channel</summary>
+
+*A–D screenshots show the old AP1/AP4 values (3,500 Hz, −12 dB) — use the table above.*
 
 **Amp Out A — Front L High** (B is identical)
 

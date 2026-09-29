@@ -7,18 +7,18 @@ One build: Kenwood → Match UP 6DSP MK2 → active front, rears, and two unders
 | Component | Spec | Status |
 |---|---|---|
 | **Kenwood DMX8021DABS** | 4 x 50W, 3 x 4V preouts (front, rear, sub). The amp takes **speaker level**, not the preouts | Installed |
-| **Audison Prima AP4** | 100mm midbass, 40W RMS, 4Ω — footwell kick panels, not the doors | Installed |
-| **Audison Prima AP1** | Tweeters, 4Ω — dash, 30° | Installed |
+| **Morel Virtus Nano MW4** | 100mm midbass, 90W RMS, 4Ω, 88dB, 80Hz–9.2kHz, 17mm deep — footwell kick panels, not the doors | Installed (replaced Audison AP4) |
+| **Audison Voce II AV 1.1 II** | 28mm tweeters, 4Ω, 91dB, **10W continuous** / 180W peak, Fs 900Hz — dash, 30° | Installed (replaced Audison AP1) |
 | **Focal ICU 100** | Rears, 40W RMS, 4Ω | Installed |
 | **Harman Kardon Feel 700** #1 | Active underseat sub, 125W RMS / 250W max, 7" | Installed, own fused feed |
 | **Harman Kardon Feel 700** #2 | Daisy-chained from #1 | Installed — tidying outstanding |
 | **Match UP 6DSP MK2** | 6-channel amp + 7-channel DSP, 130 × 130 × 46mm | Installed and working — glovebox wiring still to tidy |
 | Sound deadening | Material owned | To fit |
 
-**AP4 notes:** fitted without spacer rings (plywood rings weren't needed and wouldn't have fitted);
-arrived with no mounting screws. **AP1 notes:** wires routed out through the cup base via a slot cut
-in the mounting pad. The AP1's **APCX TW passive high-pass** (3.5kHz, 12dB/oct) is confirmed in
-circuit — it comes out when the amp goes in and the DSP takes over the crossover.
+**Fronts run fully active** — no passive crossovers; the DSP does all filtering. The AV 1.1 II's
+10W continuous rating is low: keep the A/B gain conservative and never run it without the DSP
+high-pass. Audison allow a high-pass down to 1.8kHz (24dB/oct); ~3kHz is their recommendation
+with a small mid.
 
 **Feel 700**, confirmed against Harman's spec sheet
 ([reference/feel-700-spec-sheet-harman.pdf](reference/feel-700-spec-sheet-harman.pdf)): 15A fuse,
@@ -36,7 +36,7 @@ Everything goes in in one session — no interim wiring, so the subs never run o
 4. **Signal** — CT20UV01 cut and wired, new runs to tweeters and midbass, sub 2 daisy-chained
 5. **Mount** — amp, distribution block, subs, bass remote
 6. **Tune** — input gain first, then routing and crossovers, before anything plays loud
-7. Then decide on any speaker upgrades
+7. Speaker upgrade — done: MW4 midbass and AV 1.1 II tweeters, re-tune crossovers to suit
 
 ### Outstanding
 
@@ -51,8 +51,15 @@ Power, signal and mounting are done and the system plays. What's left:
 - **Full tune** — only the basic setup was done. Still to do: check each channel and stage
   individually, then set levels. Currently bass-heavy.
 
-Amp ground is in: 8AWG to a seat bolt, bare metal both faces, shared with the sub ground. No
-electrical whine through the speakers, so the ground is behaving. A mechanical belt squeal appeared
+Amp ground is in: 8AWG to a seat bolt, bare metal both faces, shared with the sub ground. The two
+grounds meet in a heavy-duty butt splice upstream of the bolt — crimped in a bench vise, sealed
+under adhesive heat shrink — so a single 8AWG leg carries the combined return, up to ~63A (amp 35A
++ both subs 28A). That is one-point grounding, just joined before the chassis rather than at it.
+Calculated drop over the short shared leg is ~0.06V, well inside the 0.2V budget. **Outstanding:
+voltage-drop test with both subs playing hard, and a hand on the splice afterwards — a sound crimp
+stays cold, warmth there means redo it.**
+
+No electrical whine through the speakers, so the ground is behaving. A mechanical belt squeal appeared
 after the install drive — that's the alternator working to recharge the battery after hours of
 ignition-on, not a grounding fault. Check belt tension and glazing.
 
@@ -80,8 +87,8 @@ Set the Kenwood flat before tuning: EQ off, loudness off, crossovers full-range,
 
 | Channels | Rating | Feeds |
 |---|---|---|
-| A, B | 65W @ 4Ω | Front tweeters — AP1, L + R |
-| C, D | 65W @ 4Ω | Front midbass — AP4, L + R |
+| A, B | 65W @ 4Ω | Front tweeters — AV 1.1 II, L + R |
+| C, D | 65W @ 4Ω | Front midbass — MW4, L + R |
 | E, F | 75W @ 4Ω | Rear — Focal ICU 100, L + R |
 | DSP ch 7 → line out | 3V RMS | Feel 700 #1, which chains on to #2 |
 
@@ -92,8 +99,8 @@ flowchart TD
     HU["Kenwood DMX8021DABS<br/>speaker outputs<br/>EQ flat, crossovers off"]
     HU -->|"front L/R speaker level"| HLIN["UP 6DSP MK2<br/>high-level inputs A/B"]
     HLIN --> DSP["7-channel DSP"]
-    DSP -->|"Ch A/B"| TW["AP1 tweeters — dash, 30 deg"]
-    DSP -->|"Ch C/D"| MID["AP4 midbass — kick panels"]
+    DSP -->|"Ch A/B"| TW["AV 1.1 II tweeters — dash, 30 deg"]
+    DSP -->|"Ch C/D"| MID["MW4 midbass — kick panels"]
     DSP -->|"Ch E/F"| REAR["Focal ICU 100 — rear"]
     DSP -->|"line out RCA 3V, mono"| YLEAD["RFIY-1F Y-adapter<br/>1 female in -> 2 male out"]
     YLEAD -->|"L + R"| SUB1["Feel 700 #1<br/>RCA in (L+R) + power in"]
@@ -272,8 +279,8 @@ Extension Card 2.0), so it's both the cheapest and the newest. Car Audio Direct 
 
 *Cheaper alternative: [Match UP 4DSP](https://www.cen.uk/products/match-up-4dsp-universal-amp-upgrade-4-channel-amplifier-64-bit-4-channel-dsp)
 at £449.99 (CEN, in stock) saves £100. 46 × 130 × 110mm, 2 x 60W + 2 x 85W @ 4Ω, per-channel
-parametric EQ, mono line out and remote out. Gives up **active front** — the AP1/AP4 stay on the
-APCX passive crossover. The channel allocation above assumes the 6DSP.*
+parametric EQ, mono line out and remote out. Gives up **active front** — the tweeters and midbass
+would need a passive crossover. The channel allocation above assumes the 6DSP.*
 
 ### Subs and sub wiring
 
