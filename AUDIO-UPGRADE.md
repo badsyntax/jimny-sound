@@ -297,11 +297,7 @@ would need a passive crossover. The channel allocation above assumes the 6DSP.*
 
 | Item | Qty | Est. |
 |---|---|---|
-| [Audiotec Fischer URC.1](https://www.cen.uk/products/audiotec-fischer-urc-1-remote-volume-control-sub-level-for-helix-and-match-dsp) — CEN, in stock. Sub level knob, plugs straight into the amp's **SCP** (no M141313 adaptor). 30 × 23 × 43mm, 5m cable, housing removable to sink the knob through trim. Assign it in PC-Tool's DCM | 1 | £35.99 |
-
-*Alternative: [Conductor Pro](https://www.cen.uk/products/audiotec-fischer-conductor-pro-one-touch-remote-control-for-helix-match-dsp-scp)
-£129.99 — flush round knob, Ø46mm with a 40mm cut-out, RGB ring, 4 volumes (master, sub, rear
-attenuation, AUX) + setup switching. The URC.3 is the wrong shape here and needs the M141313 adaptor.*
+| Audiotec Fischer URC.3 — **bought**. Connects to the amp's **SCP** via the M141313 adaptor. Assign it in PC-Tool's DCM | 1 | — |
 
 ### Wiring & electrical
 
