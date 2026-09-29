@@ -118,8 +118,7 @@ flowchart LR
 ```
 
 All the joins are crimped butt connectors. Nothing on the car's loom is cut, so a replacement
-Kenwood harness puts it all back to standard. (If you'd rather not cut the head unit's harness, an
-ISO male-to-female adapter like the Connects2 CT20UV01 can be the sacrificial part instead.)
+Kenwood harness puts it all back to standard.
 
 The midbass and rears **reuse the car's factory speaker wiring** — new wire runs from the amp to
 the harness, and the factory loom does the rest. Only the **tweeters get new wire**, since there's
@@ -218,11 +217,7 @@ My starting settings — every filter is −24dB:
 
 Where two speakers hand over, both sides use the same frequency with **Linkwitz** filters, so they
 blend without a bump. The subs take everything below 90Hz because the slim midbass has little cone
-travel — let each speaker do what it's good at.
-
-After the crossovers: set levels by ear, time-align from measured distances so the sound centres on
-the dash rather than the nearest door, and aim for a gentle "house curve" rather than flat — road
-noise masks bass, so a flat car sounds thin.
+travel.
 
 ## What it cost
 
