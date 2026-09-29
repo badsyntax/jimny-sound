@@ -123,8 +123,8 @@ Every filter is **−24 dB**. Type is in brackets.
 
 | Channel | Highpass | Lowpass |
 |---|---|---|
-| A / B tweeters | 3,000 Hz (Linkwitz) | Off |
-| C / D midbass | 90 Hz (Linkwitz) | 3,000 Hz (Linkwitz) |
+| A / B tweeters | 2,500 Hz (Linkwitz) | Off |
+| C / D midbass | 90 Hz (Linkwitz) | 2,500 Hz (Linkwitz) |
 | E / F rears | 100 Hz (Butterworth) | Off |
 | Line Out I sub | 30 Hz (Butterworth) | 90 Hz (Linkwitz) |
 
@@ -132,11 +132,12 @@ Where two speakers hand over, both sides use the **same frequency and Linkwitz**
 without a bump:
 
 - **Sub → midbass at 90 Hz.** The MW4 is slim with little cone travel; the subs take the lowest notes.
-- **Midbass → tweeter at 3,000 Hz.**
+- **Midbass → tweeter at 2,500 Hz.** Moves more of the vocals up from the footwells to the dash.
 - **Sub bottom at 30 Hz.** The Feel 700 only plays down to 40 Hz — lower just wastes cone movement.
 
 **Never set the tweeter highpass below 1,800 Hz or bypass it.** The AV 1.1 II is rated for only
-10W continuous. If vocals sound hollow, try 2,500 Hz on both A/B and C/D. Don't go lower.
+10W continuous. If vocals sound thin or the tweeters get harsh, go back to 3,000 Hz on both A/B
+and C/D.
 
 Tick the checkbox next to the L and R channel names to **link** them, so each pair is set once.
 

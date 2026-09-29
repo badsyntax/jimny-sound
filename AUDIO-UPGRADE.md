@@ -17,8 +17,8 @@ One build: Kenwood → Match UP 6DSP MK2 → active front, rears, and two unders
 
 **Fronts run fully active** — no passive crossovers; the DSP does all filtering. The AV 1.1 II's
 10W continuous rating is low: keep the A/B gain conservative and never run it without the DSP
-high-pass. Audison allow a high-pass down to 1.8kHz (24dB/oct); ~3kHz is their recommendation
-with a small mid.
+high-pass. Audison allow a high-pass down to 1.8kHz (24dB/oct). Crossed at **2.5kHz** to lift
+the vocals from the footwells up to the dash.
 
 **Feel 700**, confirmed against Harman's spec sheet
 ([reference/feel-700-spec-sheet-harman.pdf](reference/feel-700-spec-sheet-harman.pdf)): 15A fuse,
