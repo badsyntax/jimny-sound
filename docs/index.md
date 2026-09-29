@@ -219,7 +219,19 @@ shrink.*
 *The finished sub, seen from the back seat with the front seat slid all the way forward. Rear
 passengers can still get in and out without any trouble.*
 
-## Front speakers
+## Speakers
+
+I had a shop fit the **rear Focal ICU 100s**, since getting to the rear speakers means taking the
+rear seats out. If you'd rather do it yourself, there's a good step-by-step guide:
+[Installation of the rear speakers on the Suzuki Jimny](https://web.archive.org/web/20180319083057/http://www.danbp.org/p/node/104).
+
+### Front speakers
+
+The front speakers sit in the footwell side panels (the kick panels). Getting to them is simple:
+
+1. Undo the screws on the **silver sill plate** along the bottom of the door opening and lift it off.
+2. The **plastic trim** underneath pops off.
+3. The **kick panel** then pops off, exposing the speaker.
 
 The front stage is **Morel Virtus Nano MW4** midbass and **Audison Voce II AV 1.1 II** tweeters.
 The MW4 is from Morel's high-end Reference range, with a carbon-fibre cone
