@@ -7,7 +7,7 @@ and the [DSP PC-Tool knowledge base](https://www.audiotec-fischer.de/en/knowledg
 | Part | What | When |
 |---|---|---|
 | **1. Required** | Mute, input gain, routing, crossovers, save, speaker check | Before playing *any* music |
-| **2. Recommended** | Levels, time alignment, polarity check | Same session — biggest improvement, no extra kit |
+| **2. Recommended** | Levels, time alignment, polarity check, URC.3 remote | Same session — biggest improvement, no extra kit |
 | **3. Optional** | EQ by ear, or with a measurement mic | Once it already sounds right |
 
 | Amp output | Speaker |
@@ -287,6 +287,40 @@ Flipping one of them in PC-Tool can fix it. Do this after time alignment.
    **phase** slider until the bass is fullest.
 
 Can't hear a difference? Leave it on normal. **Save&Store**.
+
+## 2.4 URC.3 remote
+
+Do this last — the passenger tune is a copy of your finished tune.
+
+| Control | Does |
+|---|---|
+| Knob I | Sub level |
+| Knob II | Rear level (rear attenuation) |
+| Button | Switches between your tune and the passenger tune |
+
+**Connect:** URC.3 → M141313 adaptor → amp's **SCP** port.
+
+**Knobs**
+
+1. **Remote Control** tab → activate the **URC.3**.
+2. **Control I** → subwoofer volume.
+3. **Control II** → rear attenuation. *If it isn't in the list, leave Control II unused.*
+4. Check: the **Outputs** tab shows **[SubRC]** next to Line Out I and **[RearATT]** next to E/F.
+
+**Button — passenger tune**
+
+1. Your finished tune is in **memory 1**.
+2. Copy it to **memory 2**, then change only:
+   - Rears **E/F** up about **5 dB**.
+   - Time alignment → set every distance the same, so the sound is balanced for the whole car
+     instead of the driver.
+3. **Save&Store**.
+4. **Device** menu → **URC Setup Switch Configuration** → check the button toggles memory **1** and **2**
+   (the default).
+
+The URC.3's LED shows which tune is on.
+
+*Menu names are from the amp manual — PC-Tool's wording may differ slightly.*
 
 ---
 
