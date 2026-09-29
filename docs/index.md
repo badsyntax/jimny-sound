@@ -202,7 +202,7 @@ The front stage is **Morel Virtus Nano MW4** midbass and **Audison Voce II AV 1.
 ## Tuning
 
 The DSP is set up in **Audiotec Fischer's DSP PC-Tool** — Windows only, so on a Mac it runs in a
-virtual machine. Set the Kenwood flat first: EQ off, loudness off, crossovers off.
+virtual machine. I used the free **VMware Fusion**. Set the Kenwood flat first: EQ off, loudness off, crossovers off.
 
 ![Tuning with DSP PC-Tool](images/thumbs/16-tuning.jpg)
 *Tuning from the passenger seat, laptop plugged straight into the amp in the glovebox.*
@@ -233,8 +233,8 @@ noise masks bass, so a flat car sounds thin.
 | Audison Voce II AV 1.1 II tweeters | £349.99 |
 | 2 × Harman Kardon Feel 700 subs | £509.98 |
 | Focal ICU 100 rears | £109.00 |
-| Wiring, fuses, remote and tools | ~£460 |
-| **Total** | **~£2,510** |
+| Wiring, fuses, remote and tools | ~£400 |
+| **Total** | **~£2,450** |
 
 Not counting the head unit.
 
