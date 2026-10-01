@@ -13,7 +13,7 @@ and the [DSP PC-Tool knowledge base](https://www.audiotec-fischer.de/en/knowledg
 | Amp output | Speaker |
 |---|---|
 | AMP Out A / B | Audison AV 1.1 II tweeters L / R |
-| AMP Out C / D | Morel Virtus Nano MW4 midbass L / R |
+| AMP Out C / D | Audison Prima AP4 midbass L / R |
 | AMP Out E / F | Focal ICU 100 rears L / R |
 | Line Out I | Feel 700 subs (via Y-lead) |
 
@@ -131,13 +131,16 @@ Every filter is **−24 dB**. Type is in brackets.
 Where two speakers hand over, both sides use the **same frequency and Linkwitz**, so they blend
 without a bump:
 
-- **Sub → midbass at 90 Hz.** The MW4 is slim with little cone travel; the subs take the lowest notes.
-- **Midbass → tweeter at 2,500 Hz.** Moves more of the vocals up from the footwells to the dash.
+- **Sub → midbass at 90 Hz.** The AP4 is rated down to 80 Hz and only 40W, so the subs take the lowest notes.
+- **Midbass → tweeter at 2,500 Hz.** Moves more of the vocals up from the footwells to the dash. The AP4 plays up to 7.5 kHz, so it has room to spare here.
 - **Sub bottom at 30 Hz.** The Feel 700 only plays down to 40 Hz — lower just wastes cone movement.
 
 **Never set the tweeter highpass below 1,800 Hz or bypass it.** The AV 1.1 II is rated for only
 10W continuous. If vocals sound thin or the tweeters get harsh, go back to 3,000 Hz on both A/B
 and C/D.
+
+**Never set the midbass highpass below 80 Hz.** The AP4 is rated 40W continuous against the amp's
+65W per channel — keep C/D levels conservative and back off if it sounds strained at volume.
 
 Tick the checkbox next to the L and R channel names to **link** them, so each pair is set once.
 
