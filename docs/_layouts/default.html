@@ -182,14 +182,7 @@
     .lightbox .lightbox-diagram.wide svg {
       width: min(1100px, calc(100vw - 64px)); height: auto; max-height: calc(100vh - 150px);
     }
-    .to-top {
-      position: fixed; right: 16px; bottom: 16px; z-index: 10; padding: 6px 14px;
-      background: var(--bg); border: 1px solid var(--line); border-radius: 999px;
-      color: var(--muted); font-size: 0.85rem; text-decoration: none;
-      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
-    }
-    .to-top:hover { color: var(--accent); }
-    .to-top[hidden] { display: none; }
+    footer p { margin: 0 0 8px; }
     @media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
   </style>
 </head>
@@ -236,10 +229,12 @@
     </article>
   </main>
   <footer>
-    <span class="ai-note-title">AI disclaimer:</span>
-    I drafted this with help from AI; the build, photos and decisions are my own.
+    <p><a href="#contents">↑ Back to contents</a></p>
+    <p>
+      <span class="ai-note-title">AI disclaimer:</span>
+      I drafted this with help from AI; the build, photos and decisions are my own.
+    </p>
   </footer>
-  <a class="to-top" href="#contents" hidden>↑ Contents</a>
   <dialog class="lightbox" aria-label="Photo">
     <figure><img alt=""><div class="lightbox-diagram"></div><figcaption></figcaption></figure>
   </dialog>
@@ -315,15 +310,11 @@
         box.showModal();
       });
 
-      // A floating link back to the contents once it has scrolled out of view.
+      // Links back to the contents open the list as well as scrolling to it.
       const toc = document.querySelector('.toc');
-      const toTop = document.querySelector('.to-top');
-      if (toc) {
-        const update = () => { toTop.hidden = toc.getBoundingClientRect().bottom > 0; };
-        addEventListener('scroll', update, { passive: true });
-        update();
-        toTop.addEventListener('click', () => { toc.open = true; });
-      }
+      document.querySelectorAll('a[href="#contents"]').forEach((a) => {
+        a.addEventListener('click', () => { if (toc) toc.open = true; });
+      });
 
       // A "#" link beside each section heading, so a section can be linked to directly.
       document.querySelectorAll('.post-body h2[id], .post-body h3[id]').forEach((h) => {
