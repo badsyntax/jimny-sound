@@ -155,8 +155,7 @@ every speaker: the tweeters on new wire, and the midbass and rears through the f
 
 ## Power
 
-Power took the longest. At full volume the amp can draw 35A and the two subs 28A between them, so
-63A in total.
+At full volume the amp can draw 35A and the two subs 28A between them, so 63A in total.
 
 1. 4AWG cable (about 21mm²) from the battery positive to an 80A fuse, within 300mm of the battery.
 2. Through the firewall to a 4-way fuse distribution block under the dash. I made a hole in the
@@ -206,11 +205,11 @@ The amp and sub grounds join in one heavy crimped splice and go to the front bol
 seat, sanded to bare metal on both faces. Using one ground point for everything stops alternator
 whine, and I haven't had any.
 
-![Amp and sub ground at the seat bolt](images/thumbs/19-seat-bolt-ground.jpg)
-*The ground at the seat bolt, with the amp and sub grounds joined in a single heat-shrunk splice.*
-
 I planned to upgrade the battery-to-body strap to 4AWG too, but on the JB43 the factory strap is
 very short and already sized for the starter motor, which pulls far more than 63A. So I left it.
+
+![Amp and sub ground at the seat bolt](images/thumbs/19-seat-bolt-ground.jpg)
+*The ground at the seat bolt, with the amp and sub grounds joined in a single heat-shrunk splice.*
 
 ![The short factory battery-to-body strap](images/thumbs/17-factory-ground.jpg)
 *The factory battery-to-body strap is short enough to leave alone.*
@@ -359,7 +358,9 @@ crossovers all off.
 ![Tuning with DSP PC-Tool](images/thumbs/16-tuning.jpg)
 *Tuning from the passenger seat, laptop plugged straight into the amp in the glovebox.*
 
-Input gain comes first. It matches the amp to the head unit's signal. With every output muted, so
+### Input gain
+
+This matches the amp to the head unit's signal. With every output muted, so
 nothing actually plays, I put the Kenwood at about 90% volume and played Audiotec Fischer's IGS test
 track. In PC-Tool's Advanced Gain Setup I raised the input slider until the clip indicator turned
 red, then backed it off one step.
@@ -367,7 +368,9 @@ red, then backed it off one step.
 ![PC-Tool Advanced Gain Setup screen](images/thumbs/26-pctool-gain.jpg)
 *PC-Tool's Advanced Gain Setup, with all outputs muted while the input gain is set.*
 
-Next are the crossovers, the filters that decide which speaker plays which frequencies. These are my
+### Crossovers
+
+The crossovers are the filters that decide which speaker plays which frequencies. These are my
 starting settings, with every filter at −24dB:
 
 | Speaker | Plays |
@@ -409,9 +412,8 @@ starting settings, with every filter at −24dB:
 </g>
 </svg>
 <figcaption>My starting crossovers, drawn as ideal −24dB Linkwitz filters. Filters fade out
-rather than cutting off, so each speaker still plays a little beyond its range. Where two speakers
-hand over, each is 6dB down at the same frequency, so together they add back to flat. The rears
-are left out. They play above 100Hz at a lower level.</figcaption>
+rather than cutting off, so each speaker still plays a little beyond its range. The rears are left
+out. They play above 100Hz at a lower level.</figcaption>
 </figure>
 
 Where two speakers hand over, both use the same frequency with Linkwitz filters, a filter type
@@ -422,10 +424,13 @@ slim midbass has little cone travel.
 *The midbass channel in PC-Tool. The highpass and lowpass make the "hill" shape, with the 30-band EQ
 underneath. This screenshot shows my earlier settings, before the new speakers.*
 
-Then I set the channel levels. Each output has its own level, so I balanced the speakers against
-each other by ear, in 1–2dB steps with left and right linked. I used the midbass as the reference,
+### Levels
+
+Each output has its own level, so I balanced the speakers against each other by ear, in 1–2dB steps with left and right linked. I used the midbass as the reference,
 then brought the tweeters in quieter (they're more efficient and sit right in front of you on the
 dash), kept the rears well below the fronts so the sound stays up front, and set the subs to taste.
+
+### The remote
 
 Day to day I use the URC.3 remote: one knob for sub level, one for rear level. It's on the driver's
 side of the centre console for now, but the knobs are awkward to reach there, so I'll move it higher

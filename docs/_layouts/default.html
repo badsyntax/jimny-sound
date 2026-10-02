@@ -30,6 +30,22 @@
     }
     .site a { color: var(--fg); text-decoration: none; font-weight: 600; }
     .site a.repo { color: var(--muted); font-weight: 400; }
+    .site .brand { display: flex; align-items: center; gap: 10px; }
+    .site .jimny { width: 54px; }
+    .jimny { display: block; height: auto; }
+    .jimny path, .jimny rect, .jimny circle { stroke: var(--fg); stroke-width: 2; stroke-linejoin: round; stroke-linecap: round; }
+    .jimny .jn-body { fill: var(--accent); }
+    .jimny .jn-glass { fill: var(--bg); stroke-width: 1.5; }
+    .jimny .jn-line { fill: none; stroke-width: 1.2; }
+    .jimny .jn-rail { fill: none; }
+    .jimny .jn-spare, .jimny .jn-tyre { fill: #1d1f21; }
+    .jimny .jn-rim { fill: var(--muted); stroke-width: 1.5; }
+    .jimny .jn-flare { fill: none; stroke-width: 4; }
+    .jimny .jn-handle, .jimny .jn-mirror { fill: var(--fg); stroke-width: 1; }
+    .jimny .jn-lamp { fill: var(--bg); stroke-width: 1.5; }
+    .jimny .jn-ground { fill: none; stroke: var(--line); }
+    .jimny .jn-notes path { fill: none; stroke-width: 1.6; }
+    .jimny .jn-notes circle { fill: var(--fg); stroke: none; }
     main { max-width: 720px; margin: 0 auto; padding: 48px 16px 64px; }
     .post-header { margin-bottom: 32px; }
     h1 { font-size: 2.4rem; line-height: 1.15; margin: 0 0 16px; letter-spacing: -0.01em; }
@@ -81,7 +97,11 @@
       max-width: 100%; max-height: calc(100vh - 80px); margin: 0; cursor: zoom-out;
     }
     .lightbox figcaption { color: #e6e4df; font-size: 0.95rem; margin-top: 12px; text-align: center; }
-    img + em { display: block; color: var(--muted); font-size: 0.9rem; margin-bottom: 24px; }
+    img + em {
+      display: block; color: var(--muted); font-size: 0.85rem; font-style: normal;
+      line-height: 1.4; text-align: center; margin-bottom: 24px;
+    }
+    .post-body > p > img { margin-left: auto; margin-right: auto; }
     table { width: 100%; border-collapse: collapse; font-size: 0.92rem; margin: 16px 0; display: block; overflow-x: auto; }
     th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
     th { font-weight: 600; }
@@ -152,7 +172,24 @@
 </head>
 <body>
   <header class="site">
-    <a href="{{ '/' | relative_url }}">Jimny Sound</a>
+    <a class="brand" href="{{ '/' | relative_url }}">
+      <svg class="jimny" viewBox="0 0 240 124" aria-hidden="true">
+      <g class="jn-notes"><path d="M128,16 V4 L136,2 V14"/><circle cx="125.5" cy="16" r="2.6"/><circle cx="133.5" cy="14" r="2.6"/><path d="M150,10 V0"/><circle cx="147.5" cy="10" r="2.6"/></g>
+      <path class="jn-rail" d="M118,22 H198 M124,22 V25 M192,22 V25"/>
+      <path class="jn-body" d="M24,92 V66 Q24,60 30,59.5 L86,56 L106,28 Q108,25 112,25 L203,25 Q207,25 207,29 V92 H201 A25,25 0 0 0 151,92 H83 A25,25 0 0 0 33,92 Z"/>
+      <rect class="jn-spare" x="207" y="40" width="11" height="46" rx="3"/>
+      <path class="jn-glass" d="M92,55 L109,31 H149 V55 Z M156,31 H200 V55 H156 Z"/>
+      <path class="jn-line" d="M88,58 L90,92 M152,57 V92 M28,72 H206"/>
+      <rect class="jn-handle" x="136" y="61" width="9" height="3" rx="1.5"/>
+      <path class="jn-mirror" d="M93,50 h7 v6 h-7 z"/>
+      <rect class="jn-lamp" x="22" y="62" width="6" height="7" rx="2"/>
+      <path class="jn-flare" d="M30,92 A28,28 0 0 1 86,92 M148,92 A28,28 0 0 1 204,92"/>
+      <circle class="jn-tyre" cx="58" cy="97" r="18"/><circle class="jn-rim" cx="58" cy="97" r="8"/>
+      <circle class="jn-tyre" cx="176" cy="97" r="18"/><circle class="jn-rim" cx="176" cy="97" r="8"/>
+      <path class="jn-ground" d="M6,115 H234"/>
+      </svg>
+      Jimny Sound
+    </a>
     <a class="repo" href="https://github.com/badsyntax/jimny-sound">Build notes on GitHub</a>
   </header>
   <main>
@@ -253,7 +290,7 @@
         (b.tagName === 'CODE' ? b.parentElement : b).replaceWith(el);
       });
       const dark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-      mermaid.initialize({ startOnLoad: false, theme: dark ? 'dark' : 'neutral' });
+      mermaid.initialize({ startOnLoad: false, deterministicIds: true, theme: dark ? 'dark' : 'neutral' });
       await mermaid.run();
     }
   </script>
