@@ -21,10 +21,10 @@
     * { box-sizing: border-box; }
     body {
       margin: 0; background: var(--bg); color: var(--fg);
-      font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font: 18px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     }
     .site {
-      max-width: 720px; margin: 0 auto; padding: 20px 16px; display: flex;
+      max-width: 680px; margin: 0 auto; padding: 20px 16px; display: flex;
       justify-content: space-between; align-items: center; border-bottom: 1px solid var(--line);
       font-size: 0.9rem;
     }
@@ -46,7 +46,7 @@
     .jimny .jn-ground { fill: none; stroke: var(--line); }
     .jimny .jn-notes path { fill: none; stroke-width: 1.6; }
     .jimny .jn-notes circle { fill: var(--fg); stroke: none; }
-    main { max-width: 720px; margin: 0 auto; padding: 48px 16px 64px; }
+    main { max-width: 680px; margin: 0 auto; padding: 48px 16px 64px; }
     .post-header { margin-bottom: 32px; }
     h1 { font-size: 2.4rem; line-height: 1.15; margin: 0 0 16px; letter-spacing: -0.01em; }
     .meta { color: var(--muted); font-size: 0.9rem; }
@@ -65,10 +65,11 @@
       margin: 0 0 8px; cursor: zoom-in;
     }
     main figure.hero figcaption { color: var(--muted); font-size: 0.85rem; }
-    h2 { font-size: 1.5rem; margin: 56px 0 12px; }
-    h3 { font-size: 1.15rem; margin: 32px 0 8px; }
+    h2 { font-size: 1.5rem; margin: 64px 0 12px; }
+    h3 { font-size: 1.15rem; margin: 40px 0 8px; }
+    li + li { margin-top: 6px; }
     footer {
-      max-width: 720px; margin: 0 auto; padding: 24px 16px 64px; border-top: 1px solid var(--line);
+      max-width: 680px; margin: 0 auto; padding: 24px 16px 64px; border-top: 1px solid var(--line);
       color: var(--muted); font-size: 0.85rem;
     }
     a { color: var(--accent); }
@@ -89,6 +90,7 @@
       width: 100vw; height: 100vh; margin: 0;
     }
     .lightbox::backdrop { background: rgba(0, 0, 0, 0.88); }
+    .lightbox:focus { outline: none; }
     .lightbox figure {
       margin: 0; height: 100%; display: flex; flex-direction: column;
       align-items: center; justify-content: center; padding: 16px; cursor: zoom-out;
@@ -102,7 +104,7 @@
       line-height: 1.4; text-align: center; margin-bottom: 24px;
     }
     .post-body > p > img { margin-left: auto; margin-right: auto; }
-    table { width: 100%; border-collapse: collapse; font-size: 0.92rem; margin: 16px 0; display: block; overflow-x: auto; }
+    table { width: 100%; border-collapse: collapse; font-size: 0.92rem; font-variant-numeric: tabular-nums; margin: 16px 0; display: block; overflow-x: auto; }
     th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
     th { font-weight: 600; }
     code { background: var(--code-bg); padding: 1px 5px; border-radius: 4px; font-size: 0.9em; }
@@ -168,6 +170,27 @@
     .crossover .xo-sub { stroke: var(--xo-sub); }
     .crossover .xo-mid { stroke: var(--xo-mid); }
     .crossover .xo-tw { stroke: var(--xo-tw); }
+    .wiring svg, .crossover svg, .mermaid svg { cursor: zoom-in; }
+    .lightbox .lightbox-diagram {
+      margin: 0; padding: 16px; max-width: 100%; max-height: calc(100vh - 80px); overflow: auto;
+      background: var(--bg); border-radius: 6px; cursor: zoom-out;
+    }
+    .lightbox .lightbox-diagram:empty { display: none; }
+    .lightbox img[hidden] { display: none; }
+    .lightbox .lightbox-diagram svg { max-width: none; margin: 0; cursor: zoom-out; }
+    .lightbox .lightbox-diagram.tall svg { width: auto; height: calc(100vh - 150px); }
+    .lightbox .lightbox-diagram.wide svg {
+      width: min(1100px, calc(100vw - 64px)); height: auto; max-height: calc(100vh - 150px);
+    }
+    .to-top {
+      position: fixed; right: 16px; bottom: 16px; z-index: 10; padding: 6px 14px;
+      background: var(--bg); border: 1px solid var(--line); border-radius: 999px;
+      color: var(--muted); font-size: 0.85rem; text-decoration: none;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
+    }
+    .to-top:hover { color: var(--accent); }
+    .to-top[hidden] { display: none; }
+    @media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
   </style>
 </head>
 <body>
@@ -216,14 +239,16 @@
     <span class="ai-note-title">AI disclaimer:</span>
     I drafted this with help from AI; the build, photos and decisions are my own.
   </footer>
+  <a class="to-top" href="#contents" hidden>↑ Contents</a>
   <dialog class="lightbox" aria-label="Photo">
-    <figure><img alt=""><figcaption></figcaption></figure>
+    <figure><img alt=""><div class="lightbox-diagram"></div><figcaption></figcaption></figure>
   </dialog>
   <script>
     (() => {
       const box = document.querySelector('.lightbox');
       const big = box.querySelector('img');
       const caption = box.querySelector('figcaption');
+      const diagram = box.querySelector('.lightbox-diagram');
 
       // A paragraph that is just a photo plus its italic caption.
       const isPhoto = (el) => el && el.tagName === 'P' && el.firstElementChild &&
@@ -258,6 +283,7 @@
       document.querySelectorAll('main img').forEach((img) => {
         img.loading = 'lazy';
         img.addEventListener('click', () => {
+          big.hidden = false;
           big.src = img.src.replace('/thumbs/', '/');
           big.alt = img.alt;
           const next = img.nextElementSibling;
@@ -268,6 +294,37 @@
       });
       box.addEventListener('click', () => box.close());
 
+      // Diagrams open in the lightbox too, larger, so the small labels can be read on a phone.
+      // Delegated, because the mermaid charts are drawn after this runs.
+      document.querySelector('main').addEventListener('click', (e) => {
+        const svg = e.target.closest('.wiring svg, .crossover svg, .mermaid svg');
+        if (!svg) return;
+        const holder = svg.parentElement;
+        const [, , w, h] = (svg.getAttribute('viewBox') || '0 0 1 1').split(/[\s,]+/).map(Number);
+        const copy = svg.cloneNode(true);
+        copy.style.maxWidth = 'none';
+        if (matchMedia('(max-width: 700px)').matches) {
+          copy.style.width = Math.max(720, w) + 'px';
+          copy.style.height = 'auto';
+        }
+        diagram.className = 'lightbox-diagram ' + holder.className + (h > w ? ' tall' : ' wide');
+        diagram.replaceChildren(copy);
+        big.hidden = true;
+        const cap = holder.querySelector('figcaption');
+        caption.textContent = cap ? cap.textContent : '';
+        box.showModal();
+      });
+
+      // A floating link back to the contents once it has scrolled out of view.
+      const toc = document.querySelector('.toc');
+      const toTop = document.querySelector('.to-top');
+      if (toc) {
+        const update = () => { toTop.hidden = toc.getBoundingClientRect().bottom > 0; };
+        addEventListener('scroll', update, { passive: true });
+        update();
+        toTop.addEventListener('click', () => { toc.open = true; });
+      }
+
       // A "#" link beside each section heading, so a section can be linked to directly.
       document.querySelectorAll('.post-body h2[id], .post-body h3[id]').forEach((h) => {
         const a = document.createElement('a');
@@ -276,7 +333,8 @@
         a.textContent = '#';
         a.setAttribute('aria-label', 'Link to "' + h.textContent + '"');
         h.append(a);
-      });      box.addEventListener('close', () => { big.src = ''; });
+      });
+      box.addEventListener('close', () => { big.src = ''; diagram.replaceChildren(); });
     })();
   </script>
   <script type="module">
