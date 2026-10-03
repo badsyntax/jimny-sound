@@ -336,6 +336,13 @@ before, especially at higher volume.
 - The AV 1.1 II can cross lower than most tweeters (down to 1.8kHz), which lifts the vocals from the
   footwells up to the dash.
 
+![MW4 fitted in the driver-side kick panel](images/thumbs/29-mw4-driver.jpg)
+*The MW4 in the driver-side kick panel, with the panel off.*
+
+![MW4 fitted in the passenger-side kick panel](images/thumbs/30-mw4-passenger.jpg)
+*The passenger side. The grey patches around the speaker are leftover sticky foam from the old
+speakers, which I couldn't fully remove.*
+
 ![Tweeter on the dash at the base of the A-pillar](images/thumbs/25-tweeter.jpg)
 *The tweeter sits on the dash at the base of the A-pillar. Note: the photo shows the previous
 Audison AP1 tweeter.*
