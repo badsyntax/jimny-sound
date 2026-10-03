@@ -336,6 +336,11 @@ before, especially at higher volume.
 - The AV 1.1 II can cross lower than most tweeters (down to 1.8kHz), which lifts the vocals from the
   footwells up to the dash.
 
+Fitting the MW4s was a big job. They come with small screws, and their mounting holes don't line up
+with the Jimny's existing speaker screw holes, so I had to drill new holes in the bodywork. There's
+very little room to work in the footwell, so I made a template first to get the holes in the right
+place.
+
 ![MW4 fitted in the driver-side kick panel](images/thumbs/29-mw4-driver.jpg)
 *The MW4 in the driver-side kick panel, with the panel off.*
 
