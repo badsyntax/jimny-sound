@@ -10,7 +10,7 @@ image: images/share.png
 I love the feeling of a good sound system, but I was never satisfied with the Jimny-sized 10cm
 speakers buried in the footwell. So I upgraded the system in stages, and now I'm finally happy with
 it. I stuck with the standard speaker size, added a 6-channel DSP amp, tweeters and two underseat
-subs without any drilling or modification to the car body, and it's ended up sounding really great.
+subs with almost no drilling or modification to the car body, and it's ended up sounding really great.
 
 <details class="toc" id="contents" markdown="1">
 <summary>Contents</summary>
@@ -221,7 +221,7 @@ splicing into the car's wiring.
 ## Signal
 
 The Kenwood's wiring harness plugs into the car's ISO connector. I cut only its 8 speaker wires,
-which leaves two loose ends:
+which left two loose ends:
 
 - The Kenwood end goes to the amp's inputs. Only front left and right are used, and the DSP makes
   every other channel from those two.
@@ -242,7 +242,7 @@ All the joins are crimped butt connectors. I didn't cut anything on the car's ow
 new Kenwood harness would put it all back to standard.
 
 ![Head unit out, wiring exposed](images/thumbs/07-head-unit-out.jpg)
-*Head unit out. The speaker wires on the Kenwood's harness get cut behind here.*
+*Head unit out. The speaker wires on the Kenwood's harness got cut behind here.*
 
 ![The dash stripped during the install](images/thumbs/20-dash-stripped.jpg)
 *The dash stripped mid-install.*
@@ -274,7 +274,7 @@ The Feel 700 is 260 × 195 × 58mm and fits under both front seats. The second s
 the first: power through the POWER OUT block, and signal through an RCA lead from the first sub's
 output.
 
-The supplied pigtails don't reach between the seats on their own, so I extended them with 27A cable
+The supplied pigtails didn't reach between the seats on their own, so I extended them with 27A cable
 (about 3mm²), red for +12V and black for ground, and ~1mm² hook-up wire for the blue remote lead.
 All the joins are crimped butt connectors.
 
