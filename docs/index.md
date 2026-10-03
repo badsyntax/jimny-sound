@@ -341,6 +341,10 @@ with the Jimny's existing speaker screw holes. I first made MDF spacer rings to 
 with the rings in, the kick panel wouldn't fit back on. So I drilled new holes in the bodywork
 instead, using a spacer ring as a template, as there's very little room to work in the footwell.
 
+![MDF spacer ring test-fitted in the driver-side kick panel](images/thumbs/31-mw4-spacer-ring.jpg)
+*One of the MDF spacer rings, test-fitted on the driver side. With the ring in, the kick panel
+wouldn't fit back on.*
+
 ![MW4 fitted in the driver-side kick panel](images/thumbs/29-mw4-driver.jpg)
 *The MW4 in the driver-side kick panel, with the panel off.*
 
