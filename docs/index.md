@@ -356,7 +356,7 @@ speakers, which I couldn't fully remove.*
 *The tweeter sits on the dash at the base of the A-pillar. Note: the photo shows the previous
 Audison AP1 tweeter.*
 
-Mounting the tweeters means taking off the A-pillar trims, which is easy:
+Mounting the tweeters is fairly straightforward. It means taking off the A-pillar trims:
 
 1. Peel back the door rubber along the pillar. It makes the trim much easier to get at.
 2. Starting at the top, slide a plastic trim tool (or your fingers) under the edge and pull the trim
