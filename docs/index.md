@@ -338,8 +338,9 @@ before, especially at higher volume.
 
 Fitting the MW4s was a big job. They come with small screws, and their mounting holes don't line up
 with the Jimny's existing speaker screw holes. I first made MDF spacer rings to bridge the two, but
-with the rings in, the kick panel wouldn't fit back on. So I drilled new holes in the bodywork
-instead, using a spacer ring as a template, as there's very little room to work in the footwell.
+with the rings in, the kick panel wouldn't fit back on, and I wasn't willing to cut the panel to
+make it fit. So I drilled new holes in the bodywork instead, using a spacer ring as a template, as
+there's very little room to work in the footwell.
 
 ![MDF spacer ring test-fitted in the driver-side kick panel](images/thumbs/31-mw4-spacer-ring.jpg)
 *One of the MDF spacer rings, test-fitted on the driver side. With the ring in, the kick panel
