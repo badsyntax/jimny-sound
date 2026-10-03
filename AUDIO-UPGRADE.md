@@ -7,8 +7,8 @@ One build: Kenwood → Match UP 6DSP MK2 → active front, rears, and two unders
 | Component | Spec | Status |
 |---|---|---|
 | **Kenwood DMX8021DABS** | 4 x 50W, 3 x 4V preouts (front, rear, sub). The amp takes **speaker level**, not the preouts | Installed |
-| **Morel Virtus Nano MW4** | 100mm midbass, 90W RMS, 4Ω, 88dB, 80Hz–9.2kHz, 17mm deep — footwell kick panels, not the doors | To fit (replacing Audison AP4) |
-| **Audison Voce II AV 1.1 II** | 28mm tweeters, 4Ω, 91dB, **10W continuous** / 180W peak, Fs 900Hz — dash, 30° | To fit (replacing Audison AP1) |
+| **Morel Virtus Nano MW4** | 100mm midbass, 90W RMS, 4Ω, 88dB, 80Hz–9.2kHz, 17mm deep — footwell kick panels, not the doors | Installed (replaced Audison AP4) — mounted direct to the bodywork on new drilled holes; MDF spacer rings pushed the kick panel out |
+| **Audison Voce II AV 1.1 II** | 28mm tweeters, 4Ω, 91dB, **10W continuous** / 180W peak, Fs 900Hz — dash, 30° | Installed (replaced Audison AP1) |
 | **Focal ICU 100** | Rears, 40W RMS, 4Ω | Installed |
 | **Harman Kardon Feel 700** #1 | Active underseat sub, 125W RMS / 250W max, 7" | Installed, own fused feed |
 | **Harman Kardon Feel 700** #2 | Daisy-chained from #1 | Installed — tidying outstanding |
@@ -36,7 +36,7 @@ Everything goes in in one session — no interim wiring, so the subs never run o
 4. **Signal** — Kenwood harness speaker wires cut and crimped, new runs to the tweeters, sub 2 daisy-chained
 5. **Mount** — amp, distribution block, subs, bass remote
 6. **Tune** — input gain first, then routing and crossovers, before anything plays loud
-7. Speaker upgrade — MW4 midbass and AV 1.1 II tweeters bought, to fit, then re-tune per [DSP-SETUP.md](DSP-SETUP.md)
+7. Speaker upgrade — MW4 midbass and AV 1.1 II tweeters fitted; re-tune per [DSP-SETUP.md](DSP-SETUP.md) still to do
 
 ### Outstanding
 
@@ -46,6 +46,8 @@ Power, signal and mounting are done and the system plays. What's left:
   under-seat runs need dressing and securing. A couple of hours.
 - **Full tune** — only the basic setup was done. Still to do: check each channel and stage
   individually, then set levels. Currently bass-heavy.
+- **Re-tune for the new speakers** — levels and crossovers were set for the AP4/AP1. Time alignment
+  isn't set up yet; the sound currently sits high on the dash, and the delays should bring it down.
 
 Amp ground is in: 8AWG to a seat bolt, bare metal both faces, shared with the sub ground. The two
 grounds meet in a heavy-duty butt splice upstream of the bolt — crimped in a bench vise, sealed

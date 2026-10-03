@@ -446,6 +446,13 @@ Each output has its own level, so I balanced the speakers against each other by 
 then brought the tweeters in quieter (they're more efficient and sit right in front of you on the
 dash), kept the rears well below the fronts so the sound stays up front, and set the subs to taste.
 
+### Still to do
+
+I haven't set up time alignment yet, and the levels and crossovers were set before I fitted the new
+speakers, so they need redoing. At the moment the sound sits a bit high, as if it's coming from the
+dash. Time alignment should fix that, by delaying the nearer speakers so the sound from each one
+reaches you at the same time.
+
 ### The remote
 
 Day to day I use the URC.3 remote: one knob for sub level, one for rear level. It's on the driver's
