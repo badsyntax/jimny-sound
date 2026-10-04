@@ -490,10 +490,10 @@ of separate wires. There'd be far fewer runs to route and tidy.
 
 Not counting the head unit.
 
-So yes, a lot of money. Was it worth it? I absolutely love the system. My only complaint is that the
-Jimny does nothing to keep road noise out, so the sound suffers at speed. Otherwise I don't regret
-spending it. I probably won't spend any more on this system, though. From here it's about tuning it
-properly, which is mostly trial and error.
+So yeah, proper money. Was it worth it? Honestly, I bloody love it. Only gripe is the Jimny does
+sod all to keep road noise out, so once you're giving it some on the motorway the sound goes a bit
+to pot. Apart from that, no regrets at all. Reckon that's me done spending on it though. From here
+it's just getting the tuning spot on, which is basically loads of trial and error.
 
 ## Full build notes
 
