@@ -340,14 +340,13 @@ The front speakers sit in the footwell side panels (the kick panels). Getting to
 
 The front stage is Morel Virtus Nano MW4 midbass and Audison Voce II AV 1.1 II tweeters. The MW4 is
 from Morel's high-end range, with a carbon-fibre cone and a neodymium magnet. The AV 1.1 II is a
-soft-dome tweeter that plays up to 40kHz. Vocals and instruments are cleaner and more detailed than
-before, especially at higher volume.
+soft-dome tweeter that plays up to 40kHz.
 
 - The MW4 is only 17mm deep, which suits the Jimny's kick panels.
 - The AV 1.1 II can cross lower than most tweeters (down to 1.8kHz), which lifts the vocals from the
   footwells up to the dash.
 
-Fitting the MW4s was a big job. They come with small screws, and their mounting holes don't line up
+Fitting the MW4s was a **big job**. They come with small screws, and their mounting holes don't line up
 with the Jimny's existing speaker screw holes. I first made MDF spacer rings to bridge the two, but
 with the rings in, the kick panel wouldn't fit back on, and I wasn't willing to cut the panel to
 make it fit. So I drilled new holes in the bodywork instead, using a spacer ring as a template, as
