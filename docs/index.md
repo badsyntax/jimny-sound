@@ -207,7 +207,8 @@ flowchart TD
 *The distribution block with the amp and sub fuses.*
 
 ![Distribution block fitted under the dash](images/thumbs/06-distribution-block-fitted.jpg)
-*Fitted under the dash, where the fuses stay reachable.*
+*Fitted under the dash, where the fuses stay reachable. I didn't really need such a big distribution
+block, but it's out of the way, so it's fine.*
 
 ### Ground
 
