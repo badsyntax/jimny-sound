@@ -495,7 +495,7 @@ if there's a short, it overheats or the voltage goes funny.
 I can't really play it past about 60% anyway, it's just too loud. At high volume the rear-view mirror
 goes crazy, it shakes a lot. Certain bass frequencies, especially on house tracks, set off a rattle
 in one of the panels on the left side. But otherwise it's a really clean sounding system, as long as
-you're not doing 60mph.
+you're not doing 60mph 😉
 
 ## Looking back
 
