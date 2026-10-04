@@ -312,15 +312,15 @@ flowchart LR
 ![Sub wiring under the seat](images/thumbs/11-sub-wiring.jpg)
 *Running the sub wiring.*
 
-![Joining the sub pigtails](images/thumbs/12-sub-join.jpg)
-*The Feel 700's supplied pigtails joined between the seats with crimped butt connectors and heat
-shrink.*
-
 ![Sub power run along the seat](images/thumbs/13-sub-power-run.jpg)
 *The main power run comes in under the driver's seat, where the amp ground joins the sub ground. These runs will get a proper tidy-up.*
 
 ![Sub fitted under the seat](images/thumbs/14-sub-fitted.jpg)
 *Subs connected. They'll be turned 90° to save as much space as possible.*
+
+![Joining the sub pigtails](images/thumbs/12-sub-join.jpg)
+*The Feel 700's supplied pigtails joined between the seats with crimped butt connectors and heat
+shrink.*
 
 ![Tidied up between the seats](images/thumbs/15-tidied.jpg)
 *Mostly tidy. A few wires still show beside the console.*
