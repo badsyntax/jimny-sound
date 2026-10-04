@@ -332,11 +332,11 @@ passengers can still get in and out without any trouble.*
 
 ### Front speakers
 
-The front speakers sit in the footwell side panels (the kick panels). Getting to them is simple:
+The front speakers sit in the footwell side panels (the kick panels). Getting to them was simple:
 
-1. Undo the screws on the silver sill plate along the bottom of the door opening and lift it off.
-2. The plastic trim underneath pops off.
-3. The kick panel then pops off, exposing the speaker.
+1. I undid the screws on the silver sill plate along the bottom of the door opening and lifted it off.
+2. The plastic trim underneath popped off.
+3. Then the kick panel popped off, exposing the speaker.
 
 The front stage is Morel Virtus Nano MW4 midbass and Audison Voce II AV 1.1 II tweeters. The MW4 is
 from Morel's high-end range, with a carbon-fibre cone and a neodymium magnet. The AV 1.1 II is a
@@ -372,17 +372,16 @@ The Voce tweeters are really impressive. Honestly they're probably far too much 
 car. They're quite big too, so they stand out on the dash. I've had to turn them down quite a lot in
 the DSP, but they're amazing tweeters.
 
-Mounting the tweeters is fairly straightforward, but you need to take the A-pillar trims off first.
-That's what gives you the space to push the wires down the side of the dashboard. With the trims on,
-there's no way to get them down there. Once they're down, you can then run them across to the amp.
-To take the trims off:
+Mounting the tweeters was fairly straightforward, but I had to take the A-pillar trims off first.
+That gave me the space to push the wires down the side of the dashboard. With the trims on, there was
+no way to get them down there. Once they were down, I ran them across to the amp.
 
-1. Peel back the door rubber along the pillar. It makes the trim much easier to get at.
-2. Starting at the top, slide a plastic trim tool (or your fingers) under the edge and pull the trim
-   towards the inside of the car. The bottom end tucks behind the lower trim and lifts out.
-3. To refit, check the metal clips, because they tend to stay on the trim when it comes off. Move
-   each one back into its hole in the pillar first, line the trim up and push it firmly home. If
-   you refit with the clips still on the trim, it sits slightly proud and rattles.
+1. I peeled back the door rubber along the pillar, which made the trim much easier to get at.
+2. Starting at the top, I slid a plastic trim tool under the edge and pulled the trim towards the
+   inside of the car. The bottom end tucks behind the lower trim and lifts out.
+3. When refitting, I found the metal clips tend to stay on the trim when it comes off, so I moved each
+   one back into its hole in the pillar first, then lined the trim up and pushed it firmly home.
+   Refit with the clips still on the trim and it sits slightly proud and rattles.
 
 ### Rear speakers
 
