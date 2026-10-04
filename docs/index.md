@@ -22,8 +22,14 @@ kept going, upgrading the system to a level I'm satisfied with, and this post ou
 
 ## The system
 
-One DSP amp drives every speaker on its own channel. It takes its signal from the head unit's
-speaker outputs, and there's a sub under each front seat.
+Up front it's an active front stage, with Morel carbon-fibre midbass in the kick panels and Audison
+Voce tweeters on the dash. There are Focals in the back and a sub under each front seat. Every one of
+them gets its own amp channel, all run from one Match DSP amp hidden in the glovebox. The DSP takes
+its signal from the Kenwood's speaker outputs and lets me tune every speaker individually, so it all
+comes together as one proper system.
+
+The speakers are tiny, just 10cm, but with the tweeters and subs filling in the top and bottom, and
+the DSP amp powering the lot, it's a really great system.
 
 | Part | What it does |
 |---|---|
@@ -220,6 +226,9 @@ power-control lead goes to the amp's REM IN, and the amp's REM OUT switches the 
 splicing into the car's wiring.
 
 ## Signal
+
+The Match amp doesn't take RCA inputs. It's designed to take high-level speaker inputs instead,
+straight from the head unit's speaker wires, which suits a car like this.
 
 The Kenwood's wiring harness plugs into the car's ISO connector. I cut only its 8 speaker wires,
 which left two loose ends:
