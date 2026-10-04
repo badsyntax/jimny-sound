@@ -316,7 +316,7 @@ flowchart LR
 *Subs connected. They'll be turned 90° to save as much space as possible.*
 
 ![Sub wiring under the seat](images/thumbs/11-sub-wiring.jpg)
-*Running the sub wiring.*
+*Starting to tidy the sub wiring, running it over the centre console.*
 
 ![Joining the sub pigtails](images/thumbs/12-sub-join.jpg)
 *The Feel 700's supplied pigtails joined between the seats with crimped butt connectors and heat
