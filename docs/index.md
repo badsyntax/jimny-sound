@@ -7,10 +7,11 @@ author: Richard Willis
 image: images/share.png
 ---
 
-I love the feeling of a good sound system, but I was never satisfied with the Jimny-sized 10cm
-speakers buried in the footwell. So I upgraded the system in stages, and now I'm finally happy with
-it. I stuck with the standard speaker size, added a 6-channel DSP amp, tweeters and two underseat
-subs with almost no drilling or modification to the car body, and it's ended up sounding really great.
+I really love my Jimny. It's a 2015 JDM import, and there are few things I love more than this car.
+I've been on a journey to upgrade the sound system. I started with a new head unit, the Kenwood, and
+then upgraded the front speakers in the footwells. Even though they were quite decent speakers, I
+just couldn't get good sound coming through, with them hidden down in the footwells and all. So I've
+kept going, upgrading the system to a level I'm satisfied with, and this post outlines that journey.
 
 <details class="toc" id="contents" markdown="1">
 <summary>Contents</summary>
@@ -357,7 +358,14 @@ speakers, which I couldn't fully remove.*
 *The tweeter sits on the dash at the base of the A-pillar. Note: the photo shows the previous
 Audison AP1 tweeter.*
 
-Mounting the tweeters is fairly straightforward. It means taking off the A-pillar trims:
+The Voce tweeters are really impressive. Honestly they're probably far too much for my small little
+car. They're quite big too, so they stand out on the dash. I've had to turn them down quite a lot in
+the DSP, but they're amazing tweeters.
+
+Mounting the tweeters is fairly straightforward, but you need to take the A-pillar trims off first.
+That's what gives you the space to push the wires down the side of the dashboard. With the trims on,
+there's no way to get them down there. Once they're down, you can then run them across to the amp.
+To take the trims off:
 
 1. Peel back the door rubber along the pillar. It makes the trim much easier to get at.
 2. Starting at the top, slide a plastic trim tool (or your fingers) under the edge and pull the trim
@@ -489,6 +497,11 @@ of separate wires. There'd be far fewer runs to route and tidy.
 | **Total** | **~£2,450** |
 
 Not counting the head unit.
+
+So yeah, a lot of money. Was it worth it? I absolutely love it. My only complaint is the Jimny
+doesn't do much to block road noise, so the sound suffers a bit when you're going fast. Other than
+that, no regrets. I probably won't spend any more on it though. Now it's just about getting the
+tuning right, which is a lot of trial and error really.
 
 ## Full build notes
 
