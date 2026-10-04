@@ -23,7 +23,7 @@ kept going, upgrading the system to a level I'm satisfied with, and this post ou
 ## The system
 
 Up front it's an active front stage, with Morel carbon-fibre midbass in the kick panels and Audison
-Voce tweeters on the dash. There are Focals in the back and a sub under each front seat. Every one of
+Voce tweeters on the dash. There are Focals in the back and an active sub under each front seat. Every one of
 them gets its own amp channel, all run from one Match DSP amp hidden in the glovebox. The DSP takes
 its signal from the Kenwood's speaker outputs and lets me tune every speaker individually, so it all
 comes together as one proper system.
