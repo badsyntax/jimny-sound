@@ -306,14 +306,14 @@ flowchart LR
     S1 -->|"POWER OUT pigtails<br/>joined red-red, black-black, blue-blue"| S2
 ```
 
+![Sub power run along the seat](images/thumbs/13-sub-power-run.jpg)
+*The main power run comes in under the driver's seat, where the amp ground joins the sub ground. These runs will get a proper tidy-up.*
+
 ![Wiring in progress between the seats](images/thumbs/02-wiring-in-progress.jpg)
 *Wiring in progress. The seats stayed in.*
 
 ![Sub wiring under the seat](images/thumbs/11-sub-wiring.jpg)
 *Running the sub wiring.*
-
-![Sub power run along the seat](images/thumbs/13-sub-power-run.jpg)
-*The main power run comes in under the driver's seat, where the amp ground joins the sub ground. These runs will get a proper tidy-up.*
 
 ![Sub fitted under the seat](images/thumbs/14-sub-fitted.jpg)
 *Subs connected. They'll be turned 90° to save as much space as possible.*
