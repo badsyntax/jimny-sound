@@ -358,6 +358,10 @@ speakers, which I couldn't fully remove.*
 *The tweeter sits on the dash at the base of the A-pillar. Note: the photo shows the previous
 Audison AP1 tweeter.*
 
+The Voce tweeters are really impressive. Honestly they're probably far too much for my small little
+car. They're quite big too, so they stand out on the dash. I've had to turn them down quite a lot in
+the DSP, but they're amazing tweeters.
+
 Mounting the tweeters is fairly straightforward, but you need to take the A-pillar trims off first.
 That's what gives you the space to push the wires down the side of the dashboard. With the trims on,
 there's no way to get them down there. Once they're down, you can then run them across to the amp.
