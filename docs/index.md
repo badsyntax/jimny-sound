@@ -381,7 +381,6 @@ no way to get them down there. Once they were down, I ran them across to the amp
    inside of the car. The bottom end tucks behind the lower trim and lifts out.
 3. When refitting, I found the metal clips tend to stay on the trim when it comes off, so I moved each
    one back into its hole in the pillar first, then lined the trim up and pushed it firmly home.
-   Refit with the clips still on the trim and it sits slightly proud and rattles.
 
 ### Rear speakers
 
