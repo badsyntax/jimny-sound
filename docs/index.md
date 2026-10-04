@@ -252,7 +252,8 @@ All the joins are crimped butt connectors. I didn't cut anything on the car's ow
 new Kenwood harness would put it all back to standard.
 
 ![Head unit out, wiring exposed](images/thumbs/07-head-unit-out.jpg)
-*Head unit out. The speaker wires on the Kenwood's harness got cut behind here.*
+*Head unit out. The speaker wires on the Kenwood's harness got cut behind here. It's an absolute
+mess back there, I did my best to tidy up.*
 
 ![The dash stripped during the install](images/thumbs/20-dash-stripped.jpg)
 *The dash stripped mid-install.*
