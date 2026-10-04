@@ -524,6 +524,12 @@ doesn't do much to block road noise, so the sound suffers a bit when you're goin
 that, no regrets. I probably won't spend any more on it though. Now it's just about getting the
 tuning right, which is a lot of trial and error really.
 
+The obvious fix for the road noise is sound deadening, but I'm on the fence about it. Once that
+sticky stuff goes on, it's never really coming off again. It's also a lot of work, taking off all the
+panels and door cards to fit it, and I'm not that experienced with this kind of thing. So I'm not
+sure it's worth the effort. I do know a place in West Yorkshire that could do it for me, but I
+haven't decided yet.
+
 ## Full build notes
 
 The full plan, with wiring tables, a parts list with links and a step-by-step DSP setup guide, is on
