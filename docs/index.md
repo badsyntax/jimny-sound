@@ -312,11 +312,11 @@ flowchart LR
 ![Wiring in progress between the seats](images/thumbs/02-wiring-in-progress.jpg)
 *Wiring in progress. The seats stayed in.*
 
-![Sub wiring under the seat](images/thumbs/11-sub-wiring.jpg)
-*Running the sub wiring.*
-
 ![Sub fitted under the seat](images/thumbs/14-sub-fitted.jpg)
 *Subs connected. They'll be turned 90° to save as much space as possible.*
+
+![Sub wiring under the seat](images/thumbs/11-sub-wiring.jpg)
+*Running the sub wiring.*
 
 ![Joining the sub pigtails](images/thumbs/12-sub-join.jpg)
 *The Feel 700's supplied pigtails joined between the seats with crimped butt connectors and heat
