@@ -330,10 +330,6 @@ passengers can still get in and out without any trouble.*
 
 ## Speakers
 
-I had a shop fit the rear Focal ICU 100s, since getting to the rear speakers means taking the rear
-seats out. If you'd rather do it yourself, there's a good step-by-step guide:
-[Installation of the rear speakers on the Suzuki Jimny](https://web.archive.org/web/20180319083057/http://www.danbp.org/p/node/104).
-
 ### Front speakers
 
 The front speakers sit in the footwell side panels (the kick panels). Getting to them is simple:
@@ -387,6 +383,13 @@ To take the trims off:
 3. To refit, check the metal clips, because they tend to stay on the trim when it comes off. Move
    each one back into its hole in the pillar first, line the trim up and push it firmly home. If
    you refit with the clips still on the trim, it sits slightly proud and rattles.
+
+### Rear speakers
+
+The rear Focal ICU 100s were fitted by a shop quite a while ago, since getting to them means taking
+the rear seats out. If I upgrade them in future, I'd be tempted to do it myself now I've got more
+experience. There's a good step-by-step guide here:
+[Installation of the rear speakers on the Suzuki Jimny](https://web.archive.org/web/20180319083057/http://www.danbp.org/p/node/104).
 
 ## Tuning
 
