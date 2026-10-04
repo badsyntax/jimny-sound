@@ -372,15 +372,9 @@ The Voce tweeters are really impressive. Honestly they're probably far too much 
 car. They're quite big too, so they stand out on the dash. I've had to turn them down quite a lot in
 the DSP, but they're amazing tweeters.
 
-Mounting the tweeters was fairly straightforward, but I had to take the A-pillar trims off first.
-That gave me the space to push the wires down the side of the dashboard. With the trims on, there was
-no way to get them down there. Once they were down, I ran them across to the amp.
-
-1. I peeled back the door rubber along the pillar, which made the trim much easier to get at.
-2. Starting at the top, I slid a plastic trim tool under the edge and pulled the trim towards the
-   inside of the car. The bottom end tucks behind the lower trim and lifts out.
-3. When refitting, I found the metal clips tend to stay on the trim when it comes off, so I moved each
-   one back into its hole in the pillar first, then lined the trim up and pushed it firmly home.
+Mounting the tweeters was fairly straightforward, but I had to take the A-pillar trims off first, to
+make space to push the wires down the side of the dashboard and across to the amp. The trims pulled
+off from the top once I'd peeled back the door rubber.
 
 ### Rear speakers
 
