@@ -312,15 +312,15 @@ flowchart LR
 ![Sub wiring under the seat](images/thumbs/11-sub-wiring.jpg)
 *Running the sub wiring.*
 
-![Joining the sub pigtails](images/thumbs/12-sub-join.jpg)
-*The Feel 700's supplied pigtails joined between the seats with crimped butt connectors and heat
-shrink.*
-
 ![Sub power run along the seat](images/thumbs/13-sub-power-run.jpg)
 *The main power run comes in under the driver's seat, where the amp ground joins the sub ground. These runs will get a proper tidy-up.*
 
 ![Sub fitted under the seat](images/thumbs/14-sub-fitted.jpg)
 *Subs connected. They'll be turned 90° to save as much space as possible.*
+
+![Joining the sub pigtails](images/thumbs/12-sub-join.jpg)
+*The Feel 700's supplied pigtails joined between the seats with crimped butt connectors and heat
+shrink.*
 
 ![Tidied up between the seats](images/thumbs/15-tidied.jpg)
 *Mostly tidy. A few wires still show beside the console.*
@@ -367,7 +367,7 @@ speakers, which I couldn't fully remove.*
 
 ![Tweeter on the dash at the base of the A-pillar](images/thumbs/25-tweeter.jpg)
 *The tweeter sits on the dash at the base of the A-pillar. Note: the photo shows the previous
-Audison AP1 tweeter.*
+Audison AP1 tweeter, not the upgraded Voce, which is quite a bit bigger.*
 
 The Voce tweeters are really impressive. Honestly they're probably far too much for my small little
 car. They're quite big too, so they stand out on the dash. I've had to turn them down quite a lot in
