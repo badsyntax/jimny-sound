@@ -507,6 +507,9 @@ haven't decided yet.
 
 It was more complicated than I expected, but it was a great learning experience, and the first time
 I've ever installed an amp. I did most of it in one weekend, and the rest spread out over many more.
+I had many frustrating moments, I had to contort my body into unnatural positions, and I dropped
+things into the bodywork that I'll never get back (RIP speaker clip nuts). But I persevered, and I'm
+really proud of my work.
 
 If I did it again, I'd put more thought into making it clean. I felt a bit rushed, just getting
 everything connected, when I could have had a better plan for running the wires so it all looks more
