@@ -320,7 +320,7 @@ shrink.*
 *The main power run comes in under the driver's seat, where the amp ground joins the sub ground. These runs will get a proper tidy-up.*
 
 ![Sub fitted under the seat](images/thumbs/14-sub-fitted.jpg)
-*One sub in place under the seat.*
+*Subs connected. They'll be turned 90° to save as much space as possible.*
 
 ![Tidied up between the seats](images/thumbs/15-tidied.jpg)
 *Mostly tidy. A few wires still show beside the console.*
