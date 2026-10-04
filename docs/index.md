@@ -7,10 +7,11 @@ author: Richard Willis
 image: images/share.png
 ---
 
-I love the feeling of a good sound system, but I was never satisfied with the Jimny-sized 10cm
-speakers buried in the footwell. So I upgraded the system in stages, and now I'm finally happy with
-it. I stuck with the standard speaker size, added a 6-channel DSP amp, tweeters and two underseat
-subs with almost no drilling or modification to the car body, and it's ended up sounding really great.
+I really love my Jimny. It's a 2015 JDM import, and there are few things I love more than this car.
+I've been on a journey to upgrade the sound system. I started with a new head unit, the Kenwood, and
+then upgraded the front speakers in the footwells. Even though they were quite decent speakers, I
+just couldn't get good sound coming through, with them hidden down in the footwells and all. So I've
+kept going, upgrading the system to a level I'm satisfied with, and this post outlines that journey.
 
 <details class="toc" id="contents" markdown="1">
 <summary>Contents</summary>
