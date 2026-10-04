@@ -490,6 +490,12 @@ goes crazy, it shakes a lot. Certain bass frequencies, especially on house track
 in one of the panels on the left side. But otherwise it's a really clean sounding system, as long as
 you're not doing 60mph 😉
 
+The obvious fix for the road noise is sound deadening, but I'm on the fence about it. Once that
+sticky stuff goes on, it's never really coming off again. It's also a lot of work, taking off all the
+panels and door cards to fit it, and I'm not that experienced with this kind of thing. So I'm not
+sure it's worth the effort. I do know a place in West Yorkshire that could do it for me, but I
+haven't decided yet.
+
 ## Looking back
 
 It was more complicated than I expected, but it was a great learning experience, and the first time
@@ -518,12 +524,6 @@ So yeah, a lot of money. Was it worth it? I absolutely love it. My only complain
 doesn't do much to block road noise, so the sound suffers a bit when you're going fast. Other than
 that, no regrets. I probably won't spend any more on it though. Now it's just about getting the
 tuning right, which is a lot of trial and error really.
-
-The obvious fix for the road noise is sound deadening, but I'm on the fence about it. Once that
-sticky stuff goes on, it's never really coming off again. It's also a lot of work, taking off all the
-panels and door cards to fit it, and I'm not that experienced with this kind of thing. So I'm not
-sure it's worth the effort. I do know a place in West Yorkshire that could do it for me, but I
-haven't decided yet.
 
 ## Full build notes
 
