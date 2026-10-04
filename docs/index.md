@@ -23,7 +23,7 @@ kept going, upgrading the system to a level I'm satisfied with, and this post ou
 ## The system
 
 Up front it's an active front stage, with Morel carbon-fibre midbass in the kick panels and Audison
-Voce tweeters on the dash. There are Focals in the back and a sub under each front seat. Every one of
+Voce tweeters on the dash. There are Focals in the back and an active sub under each front seat. Every one of
 them gets its own amp channel, all run from one Match DSP amp hidden in the glovebox. The DSP takes
 its signal from the Kenwood's speaker outputs and lets me tune every speaker individually, so it all
 comes together as one proper system.
@@ -252,7 +252,8 @@ All the joins are crimped butt connectors. I didn't cut anything on the car's ow
 new Kenwood harness would put it all back to standard.
 
 ![Head unit out, wiring exposed](images/thumbs/07-head-unit-out.jpg)
-*Head unit out. The speaker wires on the Kenwood's harness got cut behind here.*
+*Head unit out. The speaker wires on the Kenwood's harness got cut behind here. It's an absolute
+mess back there, I did my best to tidy up.*
 
 ![The dash stripped during the install](images/thumbs/20-dash-stripped.jpg)
 *The dash stripped mid-install.*
@@ -264,7 +265,8 @@ new Kenwood harness would put it all back to standard.
 
 I planned to mount the amp behind the glovebox, but the space back there was too awkward to work in.
 So it went inside the glovebox on heavy-duty velcro, with the cables fed through the existing gap at
-the back. Nothing was drilled, and I can still reach the USB port for tuning.
+the back. Nothing was drilled, and I can still reach the USB port for tuning. The velcro keeps it
+mounted really well and provides a bit of padding.
 
 ![The glovebox packed with wiring](images/thumbs/22-glovebox-before.jpg)
 *Before tidying: everything comes together in the glovebox.*
@@ -485,6 +487,16 @@ up.
 Really great. I get excited every time I take the car out. There's lots of bass, enough to shake the
 rear-view mirror.
 
+Now that I've tuned the system, with the input gain and sub gains set correctly and the tweeters
+turned right down at -11dB, and with the power wires and fuses all correct, I'm fairly confident
+there's very low risk of me blowing anything. The amp also has a protection mode that shuts it down
+if there's a short, it overheats or the voltage goes funny.
+
+I can't really play it past about 60% anyway, it's just too loud. At high volume the rear-view mirror
+goes crazy, it shakes a lot. Certain bass frequencies, especially on house tracks, set off a rattle
+in one of the panels on the left side. But otherwise it's a really clean sounding system, as long as
+you're not doing 60mph 😉
+
 ## Looking back
 
 It was more complicated than I expected. I did most of it in one weekend, and the rest spread out
@@ -511,6 +523,12 @@ So yeah, a lot of money. Was it worth it? I absolutely love it. My only complain
 doesn't do much to block road noise, so the sound suffers a bit when you're going fast. Other than
 that, no regrets. I probably won't spend any more on it though. Now it's just about getting the
 tuning right, which is a lot of trial and error really.
+
+The obvious fix for the road noise is sound deadening, but I'm on the fence about it. Once that
+sticky stuff goes on, it's never really coming off again. It's also a lot of work, taking off all the
+panels and door cards to fit it, and I'm not that experienced with this kind of thing. So I'm not
+sure it's worth the effort. I do know a place in West Yorkshire that could do it for me, but I
+haven't decided yet.
 
 ## Full build notes
 
