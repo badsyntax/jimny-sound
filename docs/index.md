@@ -346,7 +346,7 @@ soft-dome tweeter that plays up to 40kHz.
 - The AV 1.1 II can cross lower than most tweeters (down to 1.8kHz), which lifts the vocals from the
   footwells up to the dash.
 
-Fitting the MW4s was a big job. They come with small screws, and their mounting holes don't line up
+Fitting the MW4s was a **big job**. They come with small screws, and their mounting holes don't line up
 with the Jimny's existing speaker screw holes. I first made MDF spacer rings to bridge the two, but
 with the rings in, the kick panel wouldn't fit back on, and I wasn't willing to cut the panel to
 make it fit. So I drilled new holes in the bodywork instead, using a spacer ring as a template, as
