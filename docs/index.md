@@ -265,7 +265,8 @@ mess back there, I did my best to tidy up.*
 
 I planned to mount the amp behind the glovebox, but the space back there was too awkward to work in.
 So it went inside the glovebox on heavy-duty velcro, with the cables fed through the existing gap at
-the back. Nothing was drilled, and I can still reach the USB port for tuning.
+the back. Nothing was drilled, and I can still reach the USB port for tuning. The velcro keeps it
+mounted really well and provides a bit of padding.
 
 ![The glovebox packed with wiring](images/thumbs/22-glovebox-before.jpg)
 *Before tidying: everything comes together in the glovebox.*
