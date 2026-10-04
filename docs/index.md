@@ -320,7 +320,7 @@ flowchart LR
 
 ![Joining the sub pigtails](images/thumbs/12-sub-join.jpg)
 *The Feel 700's supplied pigtails joined between the seats with crimped butt connectors and heat
-shrink, then run over the centre console and tidied up.*
+shrink.*
 
 ![Tidied up between the seats](images/thumbs/15-tidied.jpg)
 *Mostly tidy. A few wires still show beside the console.*
