@@ -22,8 +22,11 @@ kept going, upgrading the system to a level I'm satisfied with, and this post ou
 
 ## The system
 
-One DSP amp drives every speaker on its own channel. It takes its signal from the head unit's
-speaker outputs, and there's a sub under each front seat.
+Up front there's Morel carbon-fibre midbass in the kick panels and Audison Voce tweeters on the dash,
+Focals in the back, and a sub under each front seat. Every one of them gets its own amp channel, all
+run from one Match DSP amp hidden in the glovebox. The DSP takes its signal from the Kenwood's
+speaker outputs and lets me tune every speaker individually, so it all comes together as one proper
+system.
 
 | Part | What it does |
 |---|---|
