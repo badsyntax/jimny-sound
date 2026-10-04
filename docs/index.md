@@ -10,6 +10,7 @@ image: images/share.png
 I really love my Suzuki Jimny. It's a top of the range 2015
 [Jimny Sierra Land Venture](https://en.wikipedia.org/wiki/Suzuki_Jimny#Third_generation_%281998%29) (JB43W), a
 tiny but seriously capable Japanese 4x4, and there are few things I love more than this car.
+
 I've been on a journey to upgrade the sound system. I started with a new head unit, the Kenwood, and
 then upgraded the front speakers in the footwells. Even though they were quite decent speakers, I
 just couldn't get good sound coming through, with them hidden down in the footwells and all. So I've
