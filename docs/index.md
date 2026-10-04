@@ -490,6 +490,11 @@ of separate wires. There'd be far fewer runs to route and tidy.
 
 Not counting the head unit.
 
+So yes, a lot of money. Was it worth it? I absolutely love the system. My only complaint is that the
+Jimny does nothing to keep road noise out, so the sound suffers at speed. Otherwise I don't regret
+spending it. I probably won't spend any more on this system, though. From here it's about tuning it
+properly, which is mostly trial and error.
+
 ## Full build notes
 
 The full plan, with wiring tables, a parts list with links and a step-by-step DSP setup guide, is on
