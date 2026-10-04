@@ -227,6 +227,9 @@ splicing into the car's wiring.
 
 ## Signal
 
+The Match amp doesn't take RCA inputs. It's designed to take high-level speaker inputs instead,
+straight from the head unit's speaker wires, which suits a car like this.
+
 The Kenwood's wiring harness plugs into the car's ISO connector. I cut only its 8 speaker wires,
 which left two loose ends:
 
