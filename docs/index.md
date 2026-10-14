@@ -42,7 +42,7 @@ the DSP amp powering the lot, it's a really great system.
 | **[Audison Voce II AV 1.1 II](https://audison.com/product/av-1-1-ii/)** | Tweeters on the dash |
 | **[Focal ICU 100](https://www.focal.com/products/icu-100)** | 4" coaxials in the rear |
 | **2 × [Harman Kardon Feel 700](https://caraudiodirect.co.uk/products/harmon-kardon-feel-700-active-underseat-car-subwoofer)** | Active underseat subs, 125W RMS each, daisy-chained |
-| **[Audiotec Fischer URC.3](https://www.audiotec-fischer.de/en/brax/accessories/urc.3)** | Remote knob for sub and rear level |
+| **[Audiotec Fischer URC.1](https://www.audiotec-fischer.de/en/accessories/urc-1)** | Remote knob for sub level |
 
 Why the Match: it's a good DSP (digital sound processor), and it lets each speaker have its own
 crossover, level, delay and EQ. It's Class D, so it doesn't get very hot, and it's small enough to
@@ -63,7 +63,7 @@ flowchart TD
 ```
 
 <figure class="wiring">
-<svg viewBox="0 0 540 772" role="img" aria-label="Top-down wiring diagram of the Jimny, front at the top. Power runs from the battery on the driver side through the firewall grommet to a fuse block below the passenger-side glovebox, then to the amp in the glovebox and the sub under the driver's seat. The amp takes speaker-level signal from the head unit in the centre dash, drives the dash tweeters directly, and sends the midbass and rear channels through the factory wiring to the kick panels and rear side trims. An RCA lead runs from the amp to the driver-side sub, which chains power and signal to the passenger-side sub. The amp and sub grounds meet at the driver seat's front bolt. The URC.3 remote sits on the driver side of the centre console.">
+<svg viewBox="0 0 540 772" role="img" aria-label="Top-down wiring diagram of the Jimny, front at the top. Power runs from the battery on the driver side through the firewall grommet to a fuse block below the passenger-side glovebox, then to the amp in the glovebox and the sub under the driver's seat. The amp takes speaker-level signal from the head unit in the centre dash, drives the dash tweeters directly, and sends the midbass and rear channels through the factory wiring to the kick panels and rear side trims. An RCA lead runs from the amp to the driver-side sub, which chains power and signal to the passenger-side sub. The amp and sub grounds meet at the driver seat's front bolt. The URC.1 remote sits under the dash on the driver side, next to the head unit.">
 <defs>
 <marker id="wd-a-spk" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto"><path class="wd-f-spk" d="M0,0 L8,4 L0,8 z"/></marker>
 <marker id="wd-a-rca" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto"><path class="wd-f-rca" d="M0,0 L8,4 L0,8 z"/></marker>
@@ -104,7 +104,7 @@ flowchart TD
 <path class="wd-gnd" d="M330,388 V352 H318"/>
 <circle class="wd-dot-gnd" cx="318" cy="352" r="3"/>
 <path class="wd-gnd" d="M308,362 H328 M312,367 H324 M316,372 H320"/>
-<path class="wd-ctl" d="M160,234 V330 H296 V348"/>
+<path class="wd-ctl" d="M212,230 H228 V238 H322 V234"/>
 <path class="wd-spk" d="M154,210 H138 V203"/>
 <path class="wd-spk" d="M200,204 V196 H395"/>
 <path class="wd-spk" d="M236,219 H214" marker-end="url(#wd-a-spk)"/>
@@ -123,8 +123,8 @@ flowchart TD
 <text class="wd-small" x="204" y="280" text-anchor="middle">Fuses</text>
 <text class="wd-small" x="210" y="262">40A</text>
 <text class="wd-small" x="330" y="296">30A</text>
-<rect class="wd-part" x="292" y="348" width="7" height="20" rx="1"/>
-<text class="wd-small" x="287" y="362" text-anchor="end">URC.3</text>
+<rect class="wd-part" x="318" y="216" width="8" height="18" rx="1"/>
+<text class="wd-small" x="330" y="230">URC.1</text>
 <rect class="wd-sub" x="154" y="388" width="64" height="66" rx="3"/>
 <text class="wd-label" x="186" y="418" text-anchor="middle">Feel 700</text>
 <text class="wd-small" x="186" y="434" text-anchor="middle">sub 2</text>
@@ -155,7 +155,7 @@ flowchart TD
 <line class="wd-spk" x1="300" y1="0" x2="324" y2="0"/><text class="wd-small" x="332" y="4">Speaker, new wire</text>
 <line class="wd-spk wd-loom" x1="0" y1="24" x2="24" y2="24"/><text class="wd-small" x="32" y="28">Speaker, factory loom</text>
 <line class="wd-rca" x1="150" y1="24" x2="174" y2="24"/><text class="wd-small" x="182" y="28">RCA</text>
-<line class="wd-ctl" x1="300" y1="24" x2="324" y2="24"/><text class="wd-small" x="332" y="28">URC.3 lead</text>
+<line class="wd-ctl" x1="300" y1="24" x2="324" y2="24"/><text class="wd-small" x="332" y="28">URC.1 lead</text>
 <path class="wd-gnd" d="M2,44 H22 M6,49 H18 M10,54 H14"/><text class="wd-small" x="32" y="52">Ground at the driver seat's front bolt</text>
 </g>
 </svg>
@@ -363,13 +363,15 @@ wouldn't fit back on.*
 *The passenger side. The grey patches around the speaker are leftover sticky foam from the old
 speakers, which I couldn't fully remove.*
 
-![Tweeter on the dash at the base of the A-pillar](images/thumbs/25-tweeter.jpg)
-*The tweeter sits on the dash at the base of the A-pillar. Note: the photo shows the previous
-Audison AP1 tweeter, not the upgraded Voce, which is quite a bit bigger.*
-
 The Voce tweeters are really impressive. Honestly they're probably far too much for my small little
 car. They're quite big too, so they stand out on the dash. I've had to turn them down quite a lot in
 the DSP, but they're amazing tweeters.
+
+![Passenger-side tweeter on the dash at the base of the A-pillar](images/thumbs/25-tweeter-passenger.jpg)
+*The passenger-side AV 1.1 II tweeter on the dash at the base of the A-pillar.*
+
+![Driver-side tweeter on the dash at the base of the A-pillar](images/thumbs/25-tweeter-driver.jpg)
+*The driver-side tweeter in the same spot on the other side.*
 
 Mounting the tweeters was fairly straightforward, but I had to take the A-pillar trims off first, to
 make space to push the wires down the side of the dashboard and across to the amp. The trims pulled
@@ -400,6 +402,17 @@ red, then backed it off one step.
 
 ![PC-Tool Advanced Gain Setup screen](images/thumbs/26-pctool-gain.jpg)
 *PC-Tool's Advanced Gain Setup, with all outputs muted while the input gain is set.*
+
+### Routing
+
+Only the amp's front left and right inputs are used. In PC-Tool's routing, front left feeds the left
+tweeter, midbass and rear, front right feeds the right ones, and the sub gets an even mix of both.
+
+![PC-Tool routing from the inputs to the virtual channels](images/thumbs/37-pctool-routing-in.jpg)
+*The two front inputs feed every channel. The sub takes 50% of each.*
+
+![PC-Tool routing from the virtual channels to the outputs](images/thumbs/38-pctool-routing-out.jpg)
+*Each channel then goes to its own output.*
 
 ### Crossovers
 
@@ -444,7 +457,7 @@ starting settings, with every filter at −24dB:
 <line class="xo-line xo-tw" x1="220" y1="-4" x2="244" y2="-4"/><text class="xo-tick" x="252" y="0">Tweeters</text>
 </g>
 </svg>
-<figcaption>My starting crossovers, drawn as ideal −24dB Linkwitz filters. Filters fade out
+<figcaption>My starting crossovers, drawn as ideal −24dB filters, Linkwitz at the handovers. Filters fade out
 rather than cutting off, so each speaker still plays a little beyond its range. The rears are left
 out. They play above 100Hz at a lower level.</figcaption>
 </figure>
@@ -453,9 +466,18 @@ Where two speakers hand over, both use the same frequency with Linkwitz filters,
 designed so the two speakers blend without a bump. The subs take everything below 90Hz because the
 slim midbass has little cone travel.
 
-![PC-Tool crossover screen for the midbass channel](images/thumbs/27-pctool-crossover.jpg)
-*The midbass channel in PC-Tool. The highpass and lowpass make the "hill" shape, with the 30-band EQ
-underneath. This screenshot shows my earlier settings, before the new speakers.*
+![PC-Tool crossover screen for the tweeters](images/thumbs/33-pctool-tweeters.jpg)
+*Tweeters: highpass at 2,500Hz, set 10dB quieter than the midbass.*
+
+![PC-Tool crossover screen for the midbass](images/thumbs/34-pctool-midbass.jpg)
+*Midbass: highpass at 90Hz and lowpass at 2,500Hz make the "hill" shape, with the 30-band EQ
+underneath.*
+
+![PC-Tool crossover screen for the rears](images/thumbs/35-pctool-rears.jpg)
+*Rears: highpass at 100Hz, set 3dB quieter.*
+
+![PC-Tool crossover screen for the sub](images/thumbs/36-pctool-sub.jpg)
+*Sub: 30–90Hz.*
 
 ### Levels
 
@@ -463,14 +485,34 @@ Each output has its own level, so I balanced the speakers against each other by 
 then brought the tweeters in quieter (they're more efficient and sit right in front of you on the
 dash), kept the rears well below the fronts so the sound stays up front, and set the subs to taste.
 
+### Time alignment
+
+Each speaker is a different distance from my head, so sound from the nearest ones arrives first.
+Time alignment delays the nearer speakers so everything arrives together, which pulls the sound to
+the middle of the dash. In PC-Tool's Distance Mode I entered the distance from each speaker to my
+head in the driver's seat, and it worked out the delays. The furthest speakers, the left midbass
+and left rear, get no delay. The sub, right under my seat, gets the most.
+
+![PC-Tool time alignment screen](images/thumbs/39-pctool-time-alignment.jpg)
+*Time alignment in Distance Mode. The nearer the speaker, the longer the delay.*
+
 ### The remote
 
-Day to day I use the URC.3 remote: one knob for sub level, one for rear level. It's on the driver's
-side of the centre console for now, but the knobs are awkward to reach there, so I'll move it higher
-up.
+Day to day I use the URC.1 remote to control the sub volume. It has a single knob. It replaced the URC.3 I fitted
+first, plugs straight into the amp's SCP port, and sits under the dash on the driver's side, next to
+the centre stack, where it's easy to reach.
 
-![URC.3 remote on the side of the centre console](images/thumbs/28-urc3.jpg)
-*The URC.3 remote on the side of the centre console. It'll move somewhere easier to reach.*
+![URC.1 remote under the dash, next to the centre stack](images/thumbs/28-urc1.jpg)
+*The URC.1 under the dash, just right of the centre stack.*
+
+![Close-up of the URC.1 knob](images/thumbs/32-urc1-close.jpg)
+*Close-up of the knob, below the cubby by the steering column.*
+
+The remote is set up in PC-Tool's Remote Control screen, where I picked the URC.1 and gave it the
+subwoofer volume.
+
+![PC-Tool remote control screen with the URC.1 set to subwoofer volume](images/thumbs/40-pctool-remote.jpg)
+*In PC-Tool, the URC.1 is set to control the subwoofer volume.*
 
 ## How it sounds
 
