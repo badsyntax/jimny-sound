@@ -519,6 +519,13 @@ subwoofer volume.
 Really great. I get excited every time I take the car out. There's lots of bass, enough to shake the
 rear-view mirror.
 
+Here's a demo I recorded on my phone. The phone mic doesn't pick up the bass very well, so it
+sounds better in the car.
+
+<iframe style="width:100%; aspect-ratio:16/9; border:0" src="https://www.youtube-nocookie.com/embed/Xjk9my1Hytc"
+  title="Jimny JB43 audio upgrade demo" allow="encrypted-media; picture-in-picture; fullscreen"
+  allowfullscreen loading="lazy"></iframe>
+
 Now that I've tuned the system, with the input gain and sub gains set correctly and the tweeters
 turned right down at -11dB, and with the power wires and fuses all correct, I'm fairly confident
 there's very low risk of me blowing anything. The amp also has a protection mode that shuts it down
