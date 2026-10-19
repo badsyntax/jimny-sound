@@ -90,6 +90,7 @@ It is removable later — heat gun and plastic scraper. Messy, not impossible.
 | Item | Price |
 |---|---|
 | [Orca E2 Isopropyl Alcohol 1L](https://www.screwfix.com/p/orca-e2-isopropyl-alcohol-1ltr/826ch) (826CH) — collection only, 18+ | ~£11.49–£13.99 |
+| [Essentials Microfibre Cleaning Cloths, 10 pack](https://www.screwfix.com/p/essentials-microfibre-cleaning-cloths-blue-380mm-x-380mm-10-pack/6032h) (6032H) — for the IPA wipe-down | — |
 | [Damplas Double-Sided Butyl Tape 10m × 50mm](https://www.screwfix.com/p/damplas-double-sided-butyl-tape-blue-10m-x-50mm/671yn) (671YN) — vapour barrier backup; cut into ~10mm strips | £16.39 |
 | [MCR Safety Mantis-D cut-resistant gloves](https://www.screwfix.com/p/mcr-safety-mantis-d-cut-resistant-gloves-grey-black-large/522ym) (522YM) — cut level D, pick size | £9.19 |
 | [Hilka Pro-Craft Trim & Upholstery Set](https://www.screwfix.com/p/hilka-pro-craft-trim-upholstery-set-6-piece-set/9534r) (9534R) | £15.99 |
