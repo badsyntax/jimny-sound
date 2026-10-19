@@ -13,7 +13,7 @@ One build: Kenwood → Match UP 6DSP MK2 → active front, rears, and two unders
 | **Harman Kardon Feel 700** #1 | Active underseat sub, 125W RMS / 250W max, 7" | Installed, own fused feed |
 | **Harman Kardon Feel 700** #2 | Daisy-chained from #1 | Installed — tidying outstanding |
 | **Match UP 6DSP MK2** | 6-channel amp + 7-channel DSP, 130 × 130 × 46mm | Installed and working — glovebox wiring still to tidy |
-| Sound deadening | Material owned | To fit |
+| Sound deadening | Silent Coat 2mm butyl, front doors — plan in [DOOR-DEADENING.md](DOOR-DEADENING.md) | To fit |
 
 **Fronts run fully active** — no passive crossovers; the DSP does all filtering. The AV 1.1 II's
 10W continuous rating is low: keep the A/B gain conservative and never run it without the DSP
@@ -360,10 +360,10 @@ No RCA is needed between head unit and amp — the amp has no RCA inputs.
 | Tesa 51608 black fleece harness tape — Amazon, **bought** | Wrapping looms behind trim, stops rattles | £5.98 |
 | [Essentials Assorted Cable Ties 1000 Pack](https://www.screwfix.com/p/assorted-cable-ties-1000-pack/45376) — Screwfix | General routing | £17.99 |
 | [Essentials Cable Ties Black 370mm × 7.5mm](https://www.screwfix.com/p/cable-ties-black-370mm-x-7-5mm-100-pack/24453) — Screwfix, 100 pack | Heavy duty | £7.99 |
-| [Vibe CLDR-V7](https://caraudiodirect.co.uk/products/vibe-cldr-v7-critical-link-anti-vibe-sound-deadening-roller) sound deadening roller | For the material already owned | £12.99 |
-| [RS PRO IPA solvent 1L](https://uk.rs-online.com/web/p/precision-cleaners-degreasers/2274427) | Panel wipe before deadening | ~£12.00 |
 
 Already owned: crimping tool, electrical tape, hook-up wire for the blue REM run.
+
+Door deadening materials and tools have their own list in [DOOR-DEADENING.md](DOOR-DEADENING.md#shopping-list).
 
 ### Deferred
 
