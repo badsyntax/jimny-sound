@@ -62,7 +62,9 @@ Also worth checking while it's open: the lock rod tapping against the door metal
 
 ## Fitting
 
-1. Wind the window **fully down** before working on the outer skin.
+1. Wind the window **fully up** before working on the outer skin — with it down, the glass sits
+   inside the door in front of the outer skin and blocks access. Afterwards, wind it down slowly and
+   check the glass and regulator clear the mat all the way.
 2. Degrease with **IPA** on a lint-free cloth; let it flash off. **No rust-proofing wax** where the mat
    goes — wax on any bare metal or the mat edges only afterwards.
 3. Cut the mat **before** peeling the backing, from the paper side, knife + metal ruler on cardboard.
