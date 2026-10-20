@@ -49,7 +49,7 @@ Steps 0–4 and 9 of the build; carpet, sub, amp and wiring come later.
 **Screwfix ≈ £102, RS ≈ £80 — about £182**, plus the Wickes items. Skip any *(tool)* already owned.
 
 - **Leave the sub hole uncut for now if you like** — cut it once the box fits; it's easy to do last.
-- **Speaker wires** (build step 4.3) can go in later through the sub hole.
+- **Speaker wires** (build step 4.6) can go in later through the sub hole.
 - The metal drill set is the cheapest way to get an 8.5 mm bit — RS only sells that size singly in
   boxes of 10 (£49). It also covers whatever size the old compartment bolts turn out to be.
 
