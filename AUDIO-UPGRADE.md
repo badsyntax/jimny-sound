@@ -372,7 +372,7 @@ Door deadening materials and tools have their own list in [DOOR-DEADENING.md](DO
 | Measurement mic (UMIK-1) + REW — for proper tuning | ~£90 |
 | **Windows access for DSP PC-Tool 6** — see below | £0–£80 |
 | Extension Card 2.0 – ANALOG IN — only if the high-level input picks up noise | £99.99 |
-| Boot subwoofer — JL 10TW3-D4 in a down-firing box, Match M 2.1AMP. See [SUB-UPGRADE.md](SUB-UPGRADE.md) | ~£970 |
+| Boot subwoofer — JL 10TW3-D8 in a down-firing box, Match UP 1FX. See [SUB-UPGRADE.md](SUB-UPGRADE.md) | ~£850 |
 
 ### Running total
 

@@ -12,7 +12,7 @@ front stage, and two Harman Kardon Feel 700 underseat subs — no drilling or ch
 | [AUDIO-UPGRADE.md](AUDIO-UPGRADE.md) | The full build plan — kit, wiring tables, power and ground, parts list with prices |
 | [DOOR-DEADENING.md](DOOR-DEADENING.md) | Front door sound deadening — material, coverage, door card removal, shopping list |
 | [DSP-SETUP.md](DSP-SETUP.md) | Step-by-step DSP PC-Tool setup and tuning guide for the UP 6DSP MK2 |
-| [SUB-UPGRADE.md](SUB-UPGRADE.md) | Boot subwoofer build plan — JL 10TW3 in a down-firing box with a Match M 2.1AMP, step-by-step build, parts list |
+| [SUB-UPGRADE.md](SUB-UPGRADE.md) | Boot subwoofer build plan — JL 10TW3 in a down-firing box with a Match UP 1FX, step-by-step build, parts list |
 | [docs/](docs/) | The blog post, published with GitHub Pages |
 | [reference/](reference/) | Manuals and spec sheets |
 

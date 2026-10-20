@@ -2,24 +2,24 @@
 
 **Status: planned, parts not bought.**
 
-One **JL Audio 10TW3-D4** in a home-built sealed box that replaces the boot compartment, driven by a
-**Match M 2.1AMP** mounted on the end of the box. The sub fires **down** at the floor, so the top is
+One **JL Audio 10TW3-D8** in a home-built sealed box that replaces the boot compartment, driven by a
+**Match UP 1FX** mounted on the end of the box. The sub fires **down** at the floor, so the top is
 solid and carpeted: nothing on show, and shopping goes straight on top. The two Feel 700s stay under
 the front seats for upper bass; the 10" adds the deep bass they can't reach (they stop at 40 Hz).
 
 | | |
 |---|---|
-| Sub | JL Audio 10TW3-D4, coils wired to 2Ω |
-| Amp | Match M 2.1AMP, 350W at 2Ω, on the box's end wall |
-| Box | 685 × 300 × 159 mm, 18 mm MDF, ~12.8 L inside |
+| Sub | JL Audio 10TW3-D8, coils wired to 4Ω |
+| Amp | Match UP 1FX, 350W at 4Ω, on the box's end wall |
+| Box | 680 × 300 × 159 mm (+ ~50 mm for the amp), 18 mm MDF, ~12.7 L inside |
 | Fixing | Brackets on the old compartment's bolts + hand-turned knobs. No new holes, no tools to remove |
-| Cost | ≈ £968, plus tools if not owned |
+| Cost | ≈ £849, plus tools if not owned |
 
-**Why this amp:** it's small enough (35 × 85 × 110 mm) to live on the box itself, so there's no
-need to find a place for an amp in the boot, and the sub and amp come out together. The trade-off:
-it has no low-pass filter, so the 10" plays the whole sub range alongside the Feel 700s rather than
-just the deepest notes. That's how most systems run — the DSP still cuts everything above 90 Hz.
-The alternative with a filter is at the end: [Other amp option](#other-amp-option--match-up-1fx).
+**Why this amp:** it has its own **low-pass filter**, so the 10" takes only the deep bass and leaves
+the upper bass and punch to the Feel 700s. It's also the cheaper of the two Match options. At
+46 × 130 × 153 mm it fits on the box's 159 mm-tall end wall standing on its 130 mm edge, so there's
+no need to find a place for it in the boot, and the sub and amp come out together. The smaller
+alternative is at the end: [Other amp option](#other-amp-option--match-m-21amp).
 
 ---
 
@@ -45,7 +45,7 @@ which uses the same 44 mm floor gap but is too big for this boot.
 
 ### Step 0 — Cardboard mock-up
 
-Before cutting any MDF, tape cardboard into a 685 × 300 × 159 mm box (plus ~40 mm at one end for
+Before cutting any MDF, tape cardboard into a 680 × 300 × 159 mm box (plus ~50 mm at one end for
 the amp) and try it in the car:
 
 - [ ] Fits the space with the compartment out
@@ -63,11 +63,11 @@ does everything. Ask Wickes to cut it to size if you can — straight cuts make 
 
 | # | Part | Size (mm) | Qty |
 |---|---|---|---|
-| 1 | Top | 685 × 300 | 1 |
+| 1 | Top | 680 × 300 | 1 |
 | 2 | Brace | 264 × 50 | 1 |
 | 3 | End walls | 300 × 141 | 2 |
-| 4 | Long walls | 649 × 79 | 2 |
-| 5 | Bottom | 649 × 300 | 1 |
+| 4 | Long walls | 644 × 79 | 2 |
+| 5 | Bottom | 644 × 300 | 1 |
 
 ### Step 2 — Cut the sub hole in the bottom panel
 
@@ -105,7 +105,7 @@ Numbers match the cut list. Build it **upside down on a flat floor**, top panel 
 3. **Speaker wires:** drill a small hole in the end wall away from the sub hole, where the amp will
    go. Push two short 12AWG wires through, run them inside to where the sub's terminals will be,
    with slack. Seal the hole with silicone.
-4. **Brace (2) onto the top (1)** — on edge, across the middle, 340 mm from the sub end. Glue and
+4. **Brace (2) onto the top (1)** — on edge, across the middle, 340 mm from the sub end (half the box length). Glue and
    screw down through the top into it.
 5. **Top on**, brace inside. Glue and screw into all four walls.
 6. **Seal:** once the glue's dry, silicone every inside seam — reach in through the sub hole.
@@ -122,7 +122,7 @@ seam means a leak. Or once the sub is fitted, gently press the cone in: it shoul
   Leave the amp's patch of end wall bare.
 - **Top:** reuse the **thick carpet from the old compartment lid** — it matches the boot and takes
   wear. Peel it off carefully (a hairdryer softens old glue), clean the back, and fit it **last** so
-  it overlaps the side carpet. You need about 72 × 32 cm.
+  it overlaps the side carpet. You need about 71 × 32 cm.
 - Run foam strip along the bottom of the end walls to stop buzzing on the floor.
 
 ### Step 7 — Fit the sub
@@ -131,17 +131,16 @@ seam means a leak. Or once the sub is fitted, gently press the cone in: it shoul
 
 1. Box **upside down**.
 2. **Foam strip** round the hole on the outside face — the gasket.
-3. **Connect the wires:** both coils in parallel, + to +, − to − (that makes 2Ω).
+3. **Connect the wires:** both coils in parallel, + to +, − to − (that makes 4Ω).
 4. **Lower the sub in**, magnet first. Screw up through the tab ears with **flat-head screws**, pilot
    holes first. Don't overtighten — the ears can crack.
 5. Flip it back over. The sub can come out later the same way without opening the box.
 
 ### Step 8 — Fit the amp
 
-1. Screw the M 2.1AMP to the end wall on its own mounting plates, **standing on its 85 mm edge**,
-   with rubber washers behind it.
-2. Connect the sub wires to its speaker output. It's in **mono mode** from the factory — leave the
-   jumper in.
+1. Screw the UP 1FX to the end wall on its two mounting plates, **standing on its 130 mm edge**
+   (fins vertical), with rubber washers behind it. Leave the controls facing out.
+2. Connect the sub wires to its speaker output, + to +, − to −.
 3. Fit an **Anderson SB50** on the power and ground leads, so the box unplugs in one go.
 
 ### Step 9 — Fix it in the car
@@ -174,12 +173,15 @@ flowchart TD
     BFD -->|"40A (existing)"| AMP["UP 6DSP MK2"]
     BFD -->|"30A (existing)"| FEEL["Feel 700 x2"]
     BFD -->|"NEW 40A, 8AWG, ~5m along the sill"| SB["Anderson SB50"]
-    SB --> M21["M 2.1AMP on the box"]
+    SB --> FX["UP 1FX on the box"]
     SB -->|"8AWG ground"| GND["Bare metal in the boot"]
 ```
 
-- **8AWG** power and ground. Match ask for 6 mm² minimum; 8AWG is 8.4 mm². It fits the BFD41
-  through one of its 8AWG adapters.
+- **8AWG power and ground, 40A fuse.** Match's manual asks for 25–35 mm² (4–2AWG) on runs over
+  1 m, but that's sized for full power into 1–2Ω (up to 60A). Into 4Ω at 350W the amp draws about
+  30A, where 8AWG loses ~0.3V over this run — fine. 4AWG wouldn't fit the Anderson SB50 (6AWG max),
+  and 8AWG matches the other branches and the BFD41's 8AWG adapters. 6AWG is the step up if a
+  shop has it.
 - **Main fuse 80A → 100A.** Adding the amp takes the worst case past 80A. Real music draw is much
   lower, but 80A would blow first.
 - **Ground:** its own short run to sanded bare metal in the boot, through the SB50 plug.
@@ -196,7 +198,7 @@ both up and down.
 flowchart LR
     DSP["UP 6DSP Line Out<br/>HP 25 Hz, LP 90 Hz"] --> Y["RFIY-1M Y-adapter"]
     Y -->|"existing RCA"| F["Feel 700s"]
-    Y -->|"new 5.5m RCA"| B["M 2.1AMP input A"] --> S["10TW3-D4, 2Ω"]
+    Y -->|"new 5.5m RCA"| B["UP 1FX<br/>low-pass ~60 Hz"] --> S["10TW3-D8, 4Ω"]
 ```
 
 **Remote:** a ~1 mm² wire from the 6DSP's REM OUT to the amp, alongside the power, with a bullet
@@ -207,10 +209,10 @@ connector at the box.
 | Where | Setting |
 |---|---|
 | DSP Line Out | High-pass 30 → **25 Hz** (this also protects the 10"); low-pass 90 Hz as now |
-| M 2.1AMP | Radio at ~90%, pink noise: gain down until the LED is green, up until orange, back to green |
+| UP 1FX | Bandpass mode, low-pass **~60 Hz**, RCA range jumper on **0.5–3V** (the line out is 3V) |
 | Feel 700s | Gain down a little |
 
-1. **Level:** bring the amp up until the 10" just matches the Feel 700s.
+1. **Level:** amp gain from minimum, up until the 10" just matches the Feel 700s.
 2. **Polarity:** there's no phase switch. Play a 40–60 Hz tone, swap the two speaker wires at the
    amp, play again. Keep the **louder** one.
 3. **Rattles:** slow 25–80 Hz sweep, parked. Fix with deadening squares and felt tape.
@@ -226,8 +228,8 @@ string along the route first.
 
 | Item | Qty | Price |
 |---|---|---|
-| [JL Audio 10TW3-D4 — Car Audio Direct](https://caraudiodirect.co.uk/products/jl-audio-10tw3-d4-500w-10-25cm-subwoofer-bass-driver) | 1 | £409.00 |
-| [Match M 2.1AMP — CEN](https://www.cen.uk/products/match-m-2-1-amp-micro-amplifier-mono-subwoofer-mode-or-2-channel-stereo-350w-rms) | 1 | £369.99 |
+| [JL Audio 10TW3-D8 — Audio Visual World](https://audiovisualworld.co.uk/jl-audio-10tw3-d8-shallow-mount-10-dual-8-ohm-car-subwoofer.html) | 1 | £399.99 |
+| [Match UP 1FX — CEN](https://www.cen.uk/products/match-up-1fx-amp-mono-1-channel-subwoofer-amplifier-class-d-900w-rms-at-1-ohms) | 1 | £259.99 |
 | [Powerbass XWS-8P 8AWG power — Car Audio Security](https://www.caraudiosecurity.com/products/xws-8p-8-awg-power-wire-per-metre-100-ofc-wire) | ~5m | £22.45 |
 | [Powerbass XWS-8G 8AWG ground — Car Audio Security](https://www.caraudiosecurity.com/products/xws-8g-8-awg-ground-wire-per-metre-100-ofc-wire) | 1m | £4.49 |
 | [Connection SFA-040 40A fuse](https://caraudiodirect.co.uk/products/connection-by-audison-sfa-040-40a-afs-fuses) — new BFD41 branch | 1 | £7.99 |
@@ -238,7 +240,7 @@ string along the route first.
 | [Rockford Fosgate RFIY-1M Y-adapter](https://caraudiodirect.co.uk/products/rfiy-1m-twisted-pair-y-adapter-1-male-to-2-female) | 1 | £9.99 |
 | [Connection FT2-550.2 5.5m RCA](https://caraudiodirect.co.uk/products/connection-ft2-550-2-5-5m-rca-cable) | 1 | £15.99 |
 | ~1 mm² remote wire — **already owned** | ~5m | — |
-| **Subtotal** | | **£874.84** |
+| **Subtotal** | | **£755.83** |
 
 ### Box and fixing
 
@@ -257,7 +259,7 @@ string along the route first.
 | Bolts, nyloc nuts, washers — match the old compartment's bolts | — | ~ |
 | **Subtotal** | | **£93.32** |
 
-**Total ≈ £968**, plus the MDF, steel angle and bolts.
+**Total ≈ £849**, plus the MDF, steel angle and bolts.
 
 ### Tools
 
@@ -280,7 +282,7 @@ string along the route first.
 
 Once the old compartment is out, in one go:
 
-- [ ] Exact width wall to wall (the box plus amp needs ~725 mm), and is ~160 mm height OK?
+- [ ] Exact width wall to wall (the box plus amp needs ~730 mm), and is ~160 mm height OK?
 - [ ] Do the tools sit under the floor (box lifts off them) or inside the compartment (they'd need a
       new home)?
 - [ ] Old compartment bolts: how many, where, thread size, threaded holes or nuts underneath
@@ -289,25 +291,15 @@ Once the old compartment is out, in one go:
 
 ---
 
-## Other amp option — Match UP 1FX
+## Other amp option — Match M 2.1AMP
 
-[Match UP 1FX — £259.99 at CEN](https://www.cen.uk/products/match-up-1fx-amp-mono-1-channel-subwoofer-amplifier-class-d-900w-rms-at-1-ohms).
-Worth it if a good spot for it turns up in the boot.
+[Match M 2.1AMP — £369.99 at CEN](https://www.cen.uk/products/match-m-2-1-amp-micro-amplifier-mono-subwoofer-mode-or-2-channel-stereo-350w-rms).
 
-- **Better:** £110 cheaper; has a **low-pass filter** (50–250 Hz), so the 10" can take only the
-  deepest notes and leave the upper bass to the Feel 700s; the box keeps its full 730 mm length
-  (~13.7 L).
-- **Worse:** 46 × 130 × 153 mm — too big for the box, so it needs a home on the car body in the
-  boot, and none has been found.
-- **Changes:** use the **10TW3-D8** (coils in parallel = 4Ω, 350W) instead of the D4; box 730 mm
-  long (top 730, bottom and long walls 694); a **Speakon** socket on the box instead of the amp;
-  bandpass mode with the low-pass at ~60 Hz.
-- **Power wire:** Match recommend 25–35 mm² for runs over 1 m, which is aimed at full power into
-  1–2Ω (60A). Into 4Ω at 350W it draws roughly 30A, so **8AWG would work** over ~5 m (about 0.3V
-  drop) — but it's below Match's recommendation. **6AWG** is a sensible middle ground; 4AWG matches
-  the manual. Use a 60A fuse.
-- **Parts that change:** [10TW3-D8 — Audio Visual World](https://audiovisualworld.co.uk/jl-audio-10tw3-d8-shallow-mount-10-dual-8-ohm-car-subwoofer.html)
-  £399.99, [Speakon socket](https://uk.rs-online.com/web/p/speaker-connectors/0464690) £3.70 and
-  [plug](https://uk.rs-online.com/web/p/speaker-connectors/2843472) £7.12,
-  [60A fuse](https://caraudiodirect.co.uk/products/connection-by-audison-sfa-060-60a-afs-fuses)
-  £7.99. No Anderson plug. About **£850–£890** in total, depending on the wire.
+- **Better:** much smaller (35 × 85 × 110 mm), so it sticks out only ~40 mm and the box can be 5 mm
+  longer.
+- **Worse:** £110 more, and **no low-pass filter** — the 10" plays the whole sub range alongside the
+  Feel 700s instead of just the deep bass.
+- **Changes:** use the [10TW3-D4](https://caraudiodirect.co.uk/products/jl-audio-10tw3-d4-500w-10-25cm-subwoofer-bass-driver)
+  (£409, coils in parallel = 2Ω, 350W) instead of the D8. It's in mono mode from the factory; set the
+  gain by its LED (radio ~90%, pink noise: down until green, up until orange, back to green). Same
+  8AWG and 40A fuse. About **£968** in total.
