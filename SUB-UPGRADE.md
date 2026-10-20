@@ -444,6 +444,7 @@ OFC by the metre (only as complete amp kits).
 Once the old compartment is out, in one go:
 
 - [ ] Exact width wall to wall (the box plus amp needs ~730 mm), and is ~160 mm height OK?
+- [ ] Boot floor **front to back**, seat backs to tailgate seal (decides the ready-made boxes below)
 - [ ] Do the tools sit under the floor (box lifts off them) or inside the compartment (they'd need a
       new home)?
 - [ ] Old compartment bolts: how many, where, thread size, threaded holes or nuts underneath
@@ -451,6 +452,29 @@ Once the old compartment is out, in one go:
 - [ ] Power route from the BFD41 to the boot, and its real length
 
 ---
+
+## Ready-made box options
+
+Buy a box instead of building one. The custom box is 680 × 300 × 159 mm (length × front-to-back ×
+height), matching the old compartment's footprint; anything deeper than ~300 mm front to back
+needs the boot floor measured first (see above). Prices checked October 2026.
+
+| Box | Size L × D × H (mm) | Amp | Price | Fits? |
+|---|---|---|---|---|
+| [DLS 610PESB28 2 × 8" slim, down-firing](https://www.winparts.co.uk/interior-fabrics/car-audio-accessories/subwoofers/c1013/dls-2x8-quot-2500mm-slim-subwoofer-box-downfire/p1987404.html) — Winparts | 640 × 300 × 160 | Needs one — UP 1FX (wire it 1Ω or 4Ω) | £143.94 | **Yes** — same footprint as the custom box. Two 8"s, so less deep bass than the 10TW3 |
+| [Kicker 48TRTP102 CompRT 10", down-firing](https://caraudiocentre.co.uk/products/kicker-48trtp102) — Car Audio Centre | 650 × 335 × 142 | Needs one — UP 1FX at 2Ω | £309.95 | **Maybe** — 35 mm deeper, 17 mm lower |
+| [Kicker 53PL7TDF10 powered L7T 10", down-firing](https://caraudiocentre.co.uk/products/kicker-audio-53pl7tdf10-powered-l7t-10-down-firing-loaded-enclosure) — Car Audio Centre | 595 × 365 × 191 | **Built in**, plus bass remote | £499.95 | **Maybe** — 65 mm deeper, 32 mm taller |
+| [Pioneer TS-WX1010LA powered 10"](https://caraudiocentre.co.uk/products/pioneer-ts-wx1010la) — Car Audio Centre | 533 × 300 × 150 | **Built in** | £239.99 | Fits, but fires **up** through a grille — not stealth, nothing on top |
+
+- The Kickers are special-order at Car Audio Centre (3–5 days). Winparts lists the DLS as in stock
+  with free UK delivery.
+- With a passive box (DLS, 48TRTP102) the UP 1FX, wiring and fixing stay as planned; only the box
+  build goes. A powered box (53PL7TDF10, Pioneer) drops the UP 1FX too — it needs the 8AWG power,
+  remote and RCA from section 3, no speaker wires.
+- The brackets and star knobs still fix any of them down — the tee nuts go into whichever wall
+  sits over the brackets.
+- **Ruled out:** DD Audio LE-DF-SL610-1 (340 mm deep, US only), JL Audio CP110LG-TW1 (337 mm deep,
+  fires forward through a port).
 
 ## Other amp option — Match M 2.1AMP
 
