@@ -154,7 +154,9 @@ Numbers match the cut list. Two flips, no blocks, top panel last:
    3. Inside, on each post: another rubber washer, then **two ring terminals** — one from each
       coil (both + wires on red, both − on black) — then the post's nut, tight. That joins the
       coils in parallel (4Ω) and squeezes the washers so the holes are airtight.
-   4. Feed the loose ends towards the sub hole.
+   4. Run the wires along the **inside corner where a long wall meets the bottom panel**, to the
+      sub hole, and fix them with a dab of silicone every ~10 cm so they can't rattle or slap the
+      back of the sub. Leave the last ~15 cm loose so the ends can come out through the sub hole.
 
    **Other option:** an [ACV box terminal plate](https://caraudiodirect.co.uk/products/acv-2-pole-subwoofer-box-terminal)
    (£14.99, Car Audio Direct) does the same job but needs a 67 mm hole and soldering inside.
