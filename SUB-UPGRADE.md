@@ -127,20 +127,25 @@ the glue dries.
 
 ![Exploded view](images/boot-sub/exploded.svg)
 
-Numbers match the cut list. Build it **upside down on a flat floor**, top panel last:
+![Build steps with two flips](images/boot-sub/build-steps.svg)
 
-1. **Long walls (4) onto the bottom (5).** Stand each long wall on a long edge of the bottom panel,
+Numbers match the cut list. Two flips, no blocks, top panel last:
+
+1. **Bottom (5) flat** on the bench.
+2. **Long walls (4) onto the bottom.** Stand each long wall on a long edge of the bottom panel,
    flush with the outside. Glue and screw up through the bottom into the wall.
-2. **End walls (3) on each end.** They cover the ends of the long walls and the bottom panel, and
-   hang **44 mm below the bottom panel**. Tip: put two 44 mm-thick offcuts under the bottom panel
-   while you fix the ends — it sets the gap for you.
-3. **Speaker wires:** drill a small hole in the end wall away from the sub hole, where the amp will
+3. **Flip it** so the long walls sit on the bench and the bottom panel is on top.
+4. **End walls (3) on each end**, standing on the bench. They cover the ends of the long walls and
+   stick up **44 mm past the bottom panel**. Glue and screw through them into the long walls and
+   the bottom panel.
+5. **Flip it back.** The end walls now hold the box 44 mm off the bench — this is the right way up.
+6. **Speaker wires:** drill a small hole in the end wall away from the sub hole, where the amp will
    go. Push two short 12AWG wires through, run them inside to where the sub's terminals will be,
    with slack. Seal the hole with silicone.
-4. **Brace (2) onto the top (1)** — on edge, across the middle, 340 mm from the sub end (half the box length). Glue and
+7. **Brace (2) onto the top (1)** — on edge, across the middle, 340 mm from the sub end (half the box length). Glue and
    screw down through the top into it.
-5. **Top on**, brace inside. Glue and screw into all four walls.
-6. **Seal:** once the glue's dry, silicone every inside seam — reach in through the sub hole.
+8. **Top on**, brace inside. Glue and screw into all four walls.
+9. **Seal:** once the glue's dry, silicone every inside seam — reach in through the sub hole.
 
 ### Step 5 — Leak test
 
