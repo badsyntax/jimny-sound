@@ -212,6 +212,35 @@ installer building it to the measurements in this plan.
   short overlapping plunge cuts just inside the line, then sand back.
 - **Cut small, sand up** until the sub drops in. Practise on an offcut, test-fit before gluing.
 
+### Mock-up first
+
+Before cutting any MDF, tape **cardboard** into a box at the exact outer size — ~730 × 300 ×
+159 mm, end walls to the floor, a 284 mm circle drawn on the bottom for the sub. In the car, check:
+
+- It drops into the space with the compartment out, without rubbing the trims
+- The rear seats fold down and lock back up
+- The tailgate shuts without touching it
+- The old latches reach the tailgate face
+- There's a route for the cables, and room for the amp on the end (option B)
+- It lifts out easily to get at the tools
+- A bag of shopping on top — the height feels right
+
+### Joining the panels
+
+**Glue and screws, not nails.** The glue makes the joint strong and airtight; the screws only
+clamp it while the glue sets. Nails work loose with vibration.
+
+![Joining two panels at 90°, step by step](images/boot-sub/joint-steps.svg)
+
+1. **Pilot holes** — dry-fit and mark. A **4 mm countersunk** clearance hole through the panel the
+   screw passes through, then a **2.5–3 mm** pilot into the middle of the other panel's 18 mm edge.
+   MDF splits without them.
+2. **Glue** — a bead of PVA wood glue along the edge.
+3. **Screw** — **4 × 40 mm**, every **100–150 mm**, at least **25 mm** in from the ends.
+4. **Check it's square** before the glue grabs; wipe off the squeeze-out.
+5. **Seal** — once the glue's dry, silicone along every inside seam.
+6. **Repeat** for every joint.
+
 ---
 
 ## Quick release
@@ -442,7 +471,7 @@ Plus the steel angle and bolts in both. The end walls come from the 18 mm MDF al
 2. **Measure the bare space** — everything in [Open questions](#open-questions) in one go.
 3. **Decide A or B** — if there's no good amp spot in the boot, it's B.
 4. **Cut list** from those numbers; check the volume against the table above.
-5. **Cardboard mock-up** at the exact outer size, **160 mm tall**. Seats fold, tailgate closes,
+5. **Cardboard mock-up** at the exact outer size, **160 mm tall** — see [Mock-up first](#mock-up-first). Seats fold, tailgate closes,
    latches line up.
 6. **Build the box** — glue, screw, seal, brace; bottom panel set 44 mm up between the end walls. Leak test (light inside, dark car; or press on the
    cone and it should return slowly).
