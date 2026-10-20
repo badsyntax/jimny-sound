@@ -23,6 +23,38 @@ alternative is at the end: [Other amp option](#other-amp-option--match-m-21amp).
 
 ---
 
+## Phase 1 — build the box and fix it down
+
+Build and fit the empty box first. Only buy the sub and amp once the box fits and holds down well.
+Steps 0–4 and 9 of the build; carpet, sub, amp and wiring come later.
+
+| Shop | Item | Price |
+|---|---|---|
+| Wickes | [18 mm MDF, 606 × 1829 mm](https://www.wickes.co.uk/General-Purpose-MDF-Sheet---18-x-606-x-1829mm/p/207740) — ask them to cut the panels | ~ |
+| Wickes | [30 × 30 × 3 mm steel angle](https://www.wickes.co.uk/Rothley-30mm-Hot-Rolled-Steel-Angle---1m/p/188290) — brackets | ~ |
+| Screwfix | [Gorilla PVA wood glue](https://www.screwfix.com/p/gorilla-glue-wood-glue-236ml/43424) | £7.69 |
+| Screwfix | [TurboGold screw pack (4 × 40 mm)](https://www.screwfix.com/p/turbogold-pz-double-countersunk-woodscrew-handy-pack-380-pieces/459jj) | £9.99 |
+| Screwfix | [Clear silicone](https://www.screwfix.com/p/no-nonsense-general-purpose-silicone-clear-310ml/35887) | £4.79 |
+| Screwfix | [Easyfix M8 tee nuts, 10](https://www.screwfix.com/p/easyfix-4-pronged-tee-nuts-m8-x-11mm-10-pack/47225) | £2.69 |
+| Screwfix | [120 grit sanding sheets](https://www.screwfix.com/p/essentials-120-grit-multi-material-sanding-sheets-280mm-x-230mm-10-pack/209jg) | £3.98 |
+| Screwfix | [Titan 600W jigsaw](https://www.screwfix.com/p/titan-ttb1471jsw-600w-electric-jigsaw-240v/135AN) *(tool)* | £23.99 |
+| Screwfix | [Bosch T101AO jigsaw blades](https://www.screwfix.com/p/bosch-t101ao-wood-jigsaw-blades-83mm-5-pack/36303) *(tool)* | £5.99 |
+| Screwfix | [Erbauer brad point wood bits, 3–10 mm](https://www.screwfix.com/p/erbauer-straight-shank-double-flute-brad-point-wood-drill-bit-set-8-pieces/793PH) *(tool)* | £8.99 |
+| Screwfix | [Erbauer countersink](https://www.screwfix.com/p/erbauer-dra46881-hex-shank-wood-135-countersink-9-5mm-x-45mm-with-65mm-pilot-drill/86156) *(tool)* | £4.79 |
+| Screwfix | [Magnusson hacksaw](https://www.screwfix.com/p/magnusson-24tpi-multi-material-hacksaw-12-300mm-/4686v) *(tool)* | £11.98 |
+| Screwfix | [3M P2 dust masks, 5](https://www.screwfix.com/p/3m-8822-cool-flow-disposable-valved-masks-p2-5-pack/449ej) *(tool)* | £16.99 |
+| RS | [M8 star knobs, 10](https://uk.rs-online.com/web/p/clamping-knobs/0686632) | £32.96 |
+| RS | [HSS metal drill set, 1–10 mm](https://uk.rs-online.com/web/p/drill-bit-sets/6734709) *(tool)* — holes in the steel brackets | £47.15 |
+
+**Screwfix ≈ £102, RS ≈ £80 — about £182**, plus the Wickes items. Skip any *(tool)* already owned.
+
+- **Leave the sub hole uncut for now if you like** — cut it once the box fits; it's easy to do last.
+- **Speaker wires** (build step 4.3) can go in later through the sub hole.
+- The metal drill set is the cheapest way to get an 8.5 mm bit — RS only sells that size singly in
+  boxes of 10 (£49). It also covers whatever size the old compartment bolts turn out to be.
+
+---
+
 ## 1. The box
 
 ![Box side view](images/boot-sub/box-side-section.svg)
@@ -95,20 +127,25 @@ the glue dries.
 
 ![Exploded view](images/boot-sub/exploded.svg)
 
-Numbers match the cut list. Build it **upside down on a flat floor**, top panel last:
+![Build steps with two flips](images/boot-sub/build-steps.svg)
 
-1. **Long walls (4) onto the bottom (5).** Stand each long wall on a long edge of the bottom panel,
+Numbers match the cut list. Two flips, no blocks, top panel last:
+
+1. **Bottom (5) flat** on the bench.
+2. **Long walls (4) onto the bottom.** Stand each long wall on a long edge of the bottom panel,
    flush with the outside. Glue and screw up through the bottom into the wall.
-2. **End walls (3) on each end.** They cover the ends of the long walls and the bottom panel, and
-   hang **44 mm below the bottom panel**. Tip: put two 44 mm-thick offcuts under the bottom panel
-   while you fix the ends — it sets the gap for you.
-3. **Speaker wires:** drill a small hole in the end wall away from the sub hole, where the amp will
+3. **Flip it** so the long walls sit on the bench and the bottom panel is on top.
+4. **End walls (3) on each end**, standing on the bench. They cover the ends of the long walls and
+   stick up **44 mm past the bottom panel**. Glue and screw through them into the long walls and
+   the bottom panel.
+5. **Flip it back.** The end walls now hold the box 44 mm off the bench — this is the right way up.
+6. **Speaker wires:** drill a small hole in the end wall away from the sub hole, where the amp will
    go. Push two short 12AWG wires through, run them inside to where the sub's terminals will be,
    with slack. Seal the hole with silicone.
-4. **Brace (2) onto the top (1)** — on edge, across the middle, 340 mm from the sub end (half the box length). Glue and
+7. **Brace (2) onto the top (1)** — on edge, across the middle, 340 mm from the sub end (half the box length). Glue and
    screw down through the top into it.
-5. **Top on**, brace inside. Glue and screw into all four walls.
-6. **Seal:** once the glue's dry, silicone every inside seam — reach in through the sub hole.
+8. **Top on**, brace inside. Glue and screw into all four walls.
+9. **Seal:** once the glue's dry, silicone every inside seam — reach in through the sub hole.
 
 ### Step 5 — Leak test
 
@@ -141,7 +178,25 @@ seam means a leak. Or once the sub is fitted, gently press the cone in: it shoul
 1. Screw the UP 1FX to the end wall on its two mounting plates, **standing on its 130 mm edge**
    (fins vertical), with rubber washers behind it. Leave the controls facing out.
 2. Connect the sub wires to its speaker output, + to +, − to −.
-3. Fit an **Anderson SB50** on the power and ground leads, so the box unplugs in one go.
+3. Fit an **Anderson SB50** on the power and ground leads, so the box unplugs in one go — see
+   below.
+
+#### How the Anderson plug works
+
+It isn't a usual car audio part — most installs wire the amp in permanently. It's a heavy-duty DC
+power connector (used on winches, caravans and battery packs). Here it lets the amp's power come
+off with the box, with no tools.
+
+- **Two identical halves** — one on the car side (power and ground from the front), one on the amp
+  side. They push together and click; pull straight apart to separate.
+- **One plug carries both wires** — red +12V and black ground. Rated 50A; the amp draws about 30A.
+- **Fitting:** crimp or solder a contact onto each 8AWG wire and push it into the housing until it
+  clicks. The fuse stays at the BFD41 as normal.
+- **Unplug with the stereo off** so it doesn't spark.
+
+**Simpler alternative:** skip it and wire the amp in permanently. Getting the box out then means
+undoing the amp's two power screws with a screwdriver and doing them up again — fine if the jack is
+only needed now and then, but it loses the "no tools" goal.
 
 ### Step 9 — Fix it in the car
 
