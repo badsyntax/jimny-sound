@@ -13,7 +13,7 @@ the front seats for upper bass; the 10" adds the deep bass they can't reach (the
 | Amp | Match UP 1FX, 350W at 4Ω, on the box's end wall |
 | Box | 680 × 300 × 159 mm (+ ~50 mm for the amp), 18 mm MDF, ~12.7 L inside |
 | Fixing | Brackets on the old compartment's bolts + hand-turned knobs. No new holes, no tools to remove |
-| Cost | ≈ £918, plus tools if not owned |
+| Cost | ≈ £925, plus tools if not owned |
 
 **Why this amp:** it has its own **low-pass filter**, so the 10" takes only the deep bass and leaves
 the upper bass and punch to the Feel 700s. It's also the cheaper of the two Match options. At
@@ -155,8 +155,8 @@ Numbers match the cut list. Two flips, no blocks, top panel last:
       coil (both + wires on red, both − on black) — then the post's nut, tight. That joins the
       coils in parallel (4Ω) and squeezes the washers so the holes are airtight.
    4. Run the wires along the **inside corner where a long wall meets the bottom panel**, to the
-      sub hole, and fix them with a dab of silicone every ~10 cm so they can't rattle or slap the
-      back of the sub. Leave the last ~15 cm loose so the ends can come out through the sub hole.
+      sub hole. Every ~10 cm, stick a **cable tie base** to the wall and tie the wires to it, so they
+      can't rattle or slap the back of the sub. Sand the spot first so the base sticks. Leave the last ~15 cm loose so the ends can come out through the sub hole.
 
    **Other option:** an [ACV box terminal plate](https://caraudiodirect.co.uk/products/acv-2-pole-subwoofer-box-terminal)
    (£14.99, Car Audio Direct) does the same job but needs a 67 mm hole and soldering inside.
@@ -164,7 +164,7 @@ Numbers match the cut list. Two flips, no blocks, top panel last:
    **Simplest — wires through a sealed hole.** Skip the posts.
    Drill a hole just big enough for the four 12AWG wires, push them through, and pull a
    [cable tie](https://www.screwfix.com/p/essentials-cable-ties-black-200mm-x-4-5mm-100-pack/44334)
-   (Screwfix, £2.49 for 100) tight round them on **each side**, right up against the wall — a tug
+   (on the list) tight round them on **each side**, right up against the wall — a tug
    from outside then pulls on the tie, not the seal. Silicone both faces and let it cure a full day.
    Join the coils at the amp instead: both + wires into its +, both − into −. Cheaper and smaller,
    but it's the DIY way — posts or a terminal are what shop-built boxes use, and keep the wires
@@ -348,16 +348,18 @@ string along the route first.
 | [M8 star knobs, pack of 10 — RS](https://uk.rs-online.com/web/p/clamping-knobs/0686632) | 1 | £32.96 |
 | [Easyfix M8 tee nuts, 10 — Screwfix](https://www.screwfix.com/p/easyfix-4-pronged-tee-nuts-m8-x-11mm-10-pack/47225) — for the knobs | 1 | £2.69 |
 | [Screw-Tite pan head screws 4 × 20 mm, 200 — Screwfix](https://www.screwfix.com/p/screw-tite-tfstpz4020-pz-pan-self-drilling-multi-purpose-screws-4mm-x-20mm-200-pack/159va) — sub tab ears and amp plates (flat-underside head, not countersunk) | 1 | £5.69 |
+| [Essentials cable tie bases, 100 — Screwfix](https://www.screwfix.com/p/essentials-cable-tie-bases-black-20mm-x-19mm-100-pack/93380) — hold the speaker wires inside the box | 1 | £4.69 |
+| [Essentials cable ties 200 mm, 100 — Screwfix](https://www.screwfix.com/p/essentials-cable-ties-black-200mm-x-4-5mm-100-pack/44334) | 1 | £2.49 |
 | [Timco rubber washers M6 × 28 mm, 75 — Screwfix](https://www.screwfix.com/p/timco-rubber-sela-washers-m6-x-28mm-75-pack/1120x) — behind the amp's mounting plates | 1 | £15.49 |
 | [RS PRO M8 external tooth washers, 100 — RS](https://uk.rs-online.com/web/p/washers/0276897) — ground point | 1 | £7.19 |
 | [Essentials 120 grit sanding sheets, 10 — Screwfix](https://www.screwfix.com/p/essentials-120-grit-multi-material-sanding-sheets-280mm-x-230mm-10-pack/209jg) — sub hole, ground point to bare metal | 1 | £3.98 |
 | Old compartment bolts — reused for the brackets | — | — |
-| **Subtotal** | | **£127.24** |
+| **Subtotal** | | **£134.42** |
 
 **Already owned:** Vibe bullet connectors (remote wire at the box), sound deadening and Tesa fleece
 tape (rattles), crimping tool.
 
-**Total ≈ £918**, plus the MDF and steel angle (prices not shown online).
+**Total ≈ £925**, plus the MDF and steel angle (prices not shown online).
 
 ### Tools
 
@@ -389,7 +391,7 @@ The same parts, grouped so each shop is one order. *(tool)* = only if not alread
 |---|---|---|
 | [Match UP 1FX](https://www.cen.uk/products/match-up-1fx-amp-mono-1-channel-subwoofer-amplifier-class-d-900w-rms-at-1-ohms) | 1 | £259.99 |
 
-**Screwfix** — £139.82
+**Screwfix** — £147.00
 
 | Item | Qty | Price |
 |---|---|---|
@@ -400,6 +402,8 @@ The same parts, grouped so each shop is one order. *(tool)* = only if not alread
 | [Stormguard foam strip](https://www.screwfix.com/p/stormguard-sureseal-3-self-adhesive-foam-draught-excluder-weatherstrips-black-7-5m-2-pack/493VV) | 1 | £6.19 |
 | [Easyfix M8 tee nuts, 10](https://www.screwfix.com/p/easyfix-4-pronged-tee-nuts-m8-x-11mm-10-pack/47225) | 1 | £2.69 |
 | [Screw-Tite pan head screws 4 × 20 mm, 200](https://www.screwfix.com/p/screw-tite-tfstpz4020-pz-pan-self-drilling-multi-purpose-screws-4mm-x-20mm-200-pack/159va) | 1 | £5.69 |
+| [Essentials cable tie bases, 100](https://www.screwfix.com/p/essentials-cable-tie-bases-black-20mm-x-19mm-100-pack/93380) | 1 | £4.69 |
+| [Essentials cable ties 200 mm, 100](https://www.screwfix.com/p/essentials-cable-ties-black-200mm-x-4-5mm-100-pack/44334) | 1 | £2.49 |
 | [Timco rubber washers M6 × 28 mm, 75](https://www.screwfix.com/p/timco-rubber-sela-washers-m6-x-28mm-75-pack/1120x) | 1 | £15.49 |
 | [Essentials 120 grit sanding sheets, 10](https://www.screwfix.com/p/essentials-120-grit-multi-material-sanding-sheets-280mm-x-230mm-10-pack/209jg) | 1 | £3.98 |
 | [Titan 600W jigsaw](https://www.screwfix.com/p/titan-ttb1471jsw-600w-electric-jigsaw-240v/135AN) *(tool)* | 1 | £23.99 |
@@ -452,7 +456,7 @@ The same parts, grouped so each shop is one order. *(tool)* = only if not alread
 | [Wickes 18 mm MDF, 606 × 1829 mm](https://www.wickes.co.uk/General-Purpose-MDF-Sheet---18-x-606-x-1829mm/p/207740) | 1 | ~ |
 | [Rothley 30 × 30 × 3 mm steel angle](https://www.wickes.co.uk/Rothley-30mm-Hot-Rolled-Steel-Angle---1m/p/188290) | 1 | ~ |
 
-**Everything, including tools: ≈ £1043**, plus the Wickes MDF and steel angle.
+**Everything, including tools: ≈ £1050**, plus the Wickes MDF and steel angle.
 
 Audio Visual World, Car Audio Security and Wilmslow Audio are single-purpose orders on purpose — Wilmslow is the only UK shop found with in-stock binding posts for a thick wooden wall; the 10TW3-D8 is
 out of stock at CEN and Car Audio Direct only lists the D4, and none of the other shops sell 8AWG
