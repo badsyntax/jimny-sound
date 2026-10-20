@@ -1,12 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 330" width="640" font-family="Helvetica, Arial, sans-serif" font-size="12">
 <rect width="520" height="330" fill="#ffffff"/>
-<!-- 1 px = 1 mm. Down-firing: box 300 mm front-to-back, 115 mm tall, 18 mm MDF, on 44 mm feet -->
+<!-- 1 px = 1 mm. Down-firing: box 300 mm front-to-back, 115 mm tall, 18 mm MDF; end walls extend 44 mm to the floor -->
 <line x1="10" y1="270" x2="400" y2="270" stroke="#888780" stroke-width="1.5"/>
-<!-- feet sit at the ends of the box, behind this section: dashed -->
-<g fill="none" stroke="#854F0B" stroke-width="0.8" stroke-dasharray="3 2">
-<rect x="56" y="226" width="44" height="44"/>
-<rect x="312" y="226" width="44" height="44"/>
-</g>
+<!-- the two end walls extend 44 mm to the floor; they're in front of / behind this section: dashed -->
+<rect x="56" y="226" width="300" height="44" fill="none" stroke="#854F0B" stroke-width="0.8" stroke-dasharray="3 2"/>
 <!-- seat side: steel angle bolted to the floor; peg on the box face drops into its upright -->
 <g fill="#B4B2A9" stroke="#5F5E5A" stroke-width="0.5">
 <rect x="14" y="262" width="40" height="8"/>
@@ -49,14 +46,14 @@
 <g fill="#3d3d3a">
 <text x="410" y="102">Solid carpeted top</text>
 <text x="410" y="172">115 mm box</text>
-<text x="410" y="254">44 mm feet</text>
+<text x="410" y="254">44 mm gap</text>
 <text x="308" y="140" font-size="10">14 mm</text>
 <text x="388" y="196">Latch</text>
 <text x="6" y="132">Peg into</text>
 <text x="6" y="146">floor angle</text>
 <text x="180" y="160" font-size="10">Magnet</text>
-<text x="206" y="290" text-anchor="middle">Cone faces the floor — bass escapes under the edges</text>
+<text x="206" y="290" text-anchor="middle">Cone faces the floor — bass escapes under the long sides</text>
 <text x="410" y="290">Boot floor</text>
 </g>
-<text x="10" y="318" fill="#73726c">Side view through the sub, ~160 mm total. Seat side left, tailgate right. Feet (dashed) are at the box ends. To scale.</text>
+<text x="10" y="318" fill="#73726c">Side view through the sub, ~160 mm total. Seat side left, tailgate right. Dashed = end walls reaching the floor. To scale.</text>
 </svg>
