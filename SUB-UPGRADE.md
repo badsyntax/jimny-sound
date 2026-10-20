@@ -13,7 +13,7 @@ the front seats for upper bass; the 10" adds the deep bass they can't reach (the
 | Amp | Match UP 1FX, 350W at 4Ω, on the box's end wall |
 | Box | 680 × 300 × 159 mm (+ ~50 mm for the amp), 18 mm MDF, ~12.7 L inside |
 | Fixing | Brackets on the old compartment's bolts + hand-turned knobs. No new holes, no tools to remove |
-| Cost | ≈ £883, plus tools if not owned |
+| Cost | ≈ £889, plus tools if not owned |
 
 **Why this amp:** it has its own **low-pass filter**, so the 10" takes only the deep bass and leaves
 the upper bass and punch to the Feel 700s. It's also the cheaper of the two Match options. At
@@ -141,8 +141,9 @@ Numbers match the cut list. Two flips, no blocks, top panel last:
    the bottom panel.
 5. **Flip it back.** The end walls now hold the box 44 mm off the bench — this is the right way up.
 6. **Speaker wires:** drill a small hole in the end wall away from the sub hole, where the amp will
-   go. Push two short 12AWG wires through, run them inside to where the sub's terminals will be,
-   with slack. Seal the hole with silicone.
+   go — just big enough for the wires. Push **two pairs** of 12AWG through (one pair per voice
+   coil), run them inside to where the sub's terminals will be, with slack. Fill the hole with
+   silicone on both faces so it's airtight.
 7. **Brace (2) onto the top (1)** — on edge, across the middle, 340 mm from the sub end (half the box length). Glue and
    screw down through the top into it.
 8. **Top on**, brace inside. Glue and screw into all four walls.
@@ -170,7 +171,8 @@ seam means a leak. Or once the sub is fitted, gently press the cone in: it shoul
 
 1. Box **upside down**.
 2. **Foam strip** round the hole on the outside face — the gasket.
-3. **Connect the wires:** both coils in parallel, + to +, − to − (that makes 4Ω).
+3. **Connect the wires:** one pair to each voice coil, + to +, − to −. The sub's terminals are
+   spring clips — strip ~10 mm, push the clip, insert, let go. No solder.
 4. **Lower the sub in**, magnet first. Screw up through the tab ears with **4 × 20 mm pan-head screws** (not countersunk), pilot
    holes first. Don't overtighten — the ears can crack.
 5. Flip it back over. The sub can come out later the same way without opening the box.
@@ -180,7 +182,9 @@ seam means a leak. Or once the sub is fitted, gently press the cone in: it shoul
 1. Screw the UP 1FX to the end wall on its two mounting plates, **standing on its 130 mm edge**
    (fins vertical), with rubber washers behind it. Use the 4 × 20 mm pan-heads — longer ones poke
    through the 18 mm wall. Leave the controls facing out.
-2. Connect the sub wires to its speaker output, + to +, − to −.
+2. Connect the sub wires to its speaker output: **both + wires twisted together into +, both −
+   into −**. That joins the two coils in parallel (4Ω) at the amp, so each spring clip on the
+   sub only holds one wire.
 3. Fit an **Anderson SB50** on the power and ground leads, so the box unplugs in one go — see
    below.
 
@@ -297,11 +301,11 @@ string along the route first.
 | [Connection SFA-100 100A main fuse](https://caraudiodirect.co.uk/products/connection-by-audison-sfa-100-100a-afs-fuses) | 1 | £7.99 |
 | [Connection FRT8 8AWG ring terminals](https://caraudiodirect.co.uk/products/connection-frt8-8-gauge-ring-terminals) | 1 pack | £4.99 |
 | [Anderson SB50 connector — RS](https://uk.rs-online.com/web/p/battery-connectors/6120150) — two make one plug + socket | 2 | £16.46 |
-| [Connection SL212.2 12AWG speaker cable](https://caraudiodirect.co.uk/products/connection-by-audison-sl212-2-silver-series-high-resolution-12-gauge-speaker-cable-per-metre) | ~1m | £5.50 |
+| [Connection SL212.2 12AWG speaker cable](https://caraudiodirect.co.uk/products/connection-by-audison-sl212-2-silver-series-high-resolution-12-gauge-speaker-cable-per-metre) | ~2m | £11.00 |
 | [Rockford Fosgate RFIY-1M Y-adapter](https://caraudiodirect.co.uk/products/rfiy-1m-twisted-pair-y-adapter-1-male-to-2-female) | 1 | £9.99 |
 | [Connection FT2-550.2 5.5m RCA](https://caraudiodirect.co.uk/products/connection-ft2-550-2-5-5m-rca-cable) | 1 | £15.99 |
 | ~1 mm² remote wire — **already owned** | ~5m | — |
-| **Subtotal** | | **£755.83** |
+| **Subtotal** | | **£761.33** |
 
 ### Box and fixing
 
@@ -327,7 +331,7 @@ string along the route first.
 **Already owned:** Vibe bullet connectors (remote wire at the box), sound deadening and Tesa fleece
 tape (rattles), crimping tool.
 
-**Total ≈ £883**, plus the MDF and steel angle (prices not shown online).
+**Total ≈ £889**, plus the MDF and steel angle (prices not shown online).
 
 ### Tools
 
@@ -389,14 +393,14 @@ The same parts, grouped so each shop is one order. *(tool)* = only if not alread
 | [RS PRO M8 external tooth washers, 100](https://uk.rs-online.com/web/p/washers/0276897) | 1 | £7.19 |
 | [RS PRO HSS metal drill set](https://uk.rs-online.com/web/p/drill-bit-sets/6734709) *(tool)* | 1 | £47.15 |
 
-**Car Audio Direct** — £77.44
+**Car Audio Direct** — £82.94
 
 | Item | Qty | Price |
 |---|---|---|
 | [Connection SFA-040 40A fuse](https://caraudiodirect.co.uk/products/connection-by-audison-sfa-040-40a-afs-fuses) | 1 | £7.99 |
 | [Connection SFA-100 100A main fuse](https://caraudiodirect.co.uk/products/connection-by-audison-sfa-100-100a-afs-fuses) | 1 | £7.99 |
 | [Connection FRT8 8AWG ring terminals](https://caraudiodirect.co.uk/products/connection-frt8-8-gauge-ring-terminals) | 1 pack | £4.99 |
-| [Connection SL212.2 12AWG speaker cable](https://caraudiodirect.co.uk/products/connection-by-audison-sl212-2-silver-series-high-resolution-12-gauge-speaker-cable-per-metre) | ~1m | £5.50 |
+| [Connection SL212.2 12AWG speaker cable](https://caraudiodirect.co.uk/products/connection-by-audison-sl212-2-silver-series-high-resolution-12-gauge-speaker-cable-per-metre) | ~2m | £11.00 |
 | [Rockford Fosgate RFIY-1M Y-adapter](https://caraudiodirect.co.uk/products/rfiy-1m-twisted-pair-y-adapter-1-male-to-2-female) | 1 | £9.99 |
 | [Connection FT2-550.2 5.5m RCA](https://caraudiodirect.co.uk/products/connection-ft2-550-2-5-5m-rca-cable) | 1 | £15.99 |
 | [ACV black carpet 70 × 140 cm](https://caraudiodirect.co.uk/products/acv-30-1231-04-black-carpet-70cm-x-140cm) | 1 | £24.99 |
@@ -415,7 +419,7 @@ The same parts, grouped so each shop is one order. *(tool)* = only if not alread
 | [Wickes 18 mm MDF, 606 × 1829 mm](https://www.wickes.co.uk/General-Purpose-MDF-Sheet---18-x-606-x-1829mm/p/207740) | 1 | ~ |
 | [Rothley 30 × 30 × 3 mm steel angle](https://www.wickes.co.uk/Rothley-30mm-Hot-Rolled-Steel-Angle---1m/p/188290) | 1 | ~ |
 
-**Everything, including tools: ≈ £1008**, plus the Wickes MDF and steel angle.
+**Everything, including tools: ≈ £1013**, plus the Wickes MDF and steel angle.
 
 Audio Visual World and Car Audio Security are single-purpose orders on purpose: the 10TW3-D8 is
 out of stock at CEN and Car Audio Direct only lists the D4, and none of the other shops sell 8AWG
