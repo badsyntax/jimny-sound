@@ -155,7 +155,8 @@ Numbers match the cut list. Two flips, no blocks, top panel last:
       with four 4 × 20 mm pan-heads (3 mm pilots first).
 7. **Brace (2) onto the top (1)** — on edge, across the middle, 340 mm from the sub end (half the box length). Glue and
    screw down through the top into it.
-8. **Top on**, brace inside. Glue and screw into all four walls.
+8. **Top on**, brace inside. Glue and screw into all four walls — but **no screws over the terminal
+   hole**: there's only ~6 mm of MDF above it, and a screw would split it. Glue alone holds there.
 9. **Seal:** once the glue's dry, silicone every inside seam — reach in through the sub hole.
 
 ### Step 5 — Leak test
