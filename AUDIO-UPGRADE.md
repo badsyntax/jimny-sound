@@ -372,7 +372,7 @@ Already owned: crimping tool, electrical tape, hook-up wire for the blue REM run
 | Measurement mic (UMIK-1) + REW — for proper tuning | ~£90 |
 | **Windows access for DSP PC-Tool 6** — see below | £0–£80 |
 | Extension Card 2.0 – ANALOG IN — only if the high-level input picks up noise | £99.99 |
-| Boot subwoofer — JL 10TW3-D8 in a custom sealed box, Match UP 1FX. See [SUB-UPGRADE.md](SUB-UPGRADE.md) | ~£900 |
+| Boot subwoofer — JL 10TW3 in a custom sealed box, Match UP 1FX or M 2.1AMP. See [SUB-UPGRADE.md](SUB-UPGRADE.md) | ~£900–£975 |
 
 ### Running total
 
