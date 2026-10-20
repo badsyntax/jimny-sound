@@ -1,8 +1,9 @@
 # Boot subwoofer — build plan
 
-**Status: planned, parts not bought.** One JL Audio 10TW3 in a custom sealed box that replaces the
-boot compartment. The two Feel 700s stay under the front seats. **Two amp options** — the sub, box
-and power feed are the same; what changes is where the amp lives and how the bass is split.
+**Status: planned, parts not bought.** One JL Audio 10TW3 in a custom sealed, **down-firing** box
+that replaces the boot compartment — the top is solid and carpeted, so the sub is completely hidden
+and the box takes any load. The two Feel 700s stay under the front seats. **Two amp options** — the
+sub, box and power feed are the same; what changes is where the amp lives and how the bass is split.
 
 Hard constraints: **stealthy** (looks like a carpeted boot floor), **not in the way** (the rear seats
 still fold and the boot still takes shopping, boxes and timber), and the **tools underneath stay
@@ -20,7 +21,8 @@ reachable without tools**.
 | Lifting the box out | 2 latches + 1 speaker plug | 2 latches + power plug + RCA + remote |
 | Power wire to the boot | 4AWG, 60A branch | 8AWG, 40A branch — lighter, easier to route |
 | Box | 730 mm long, ~13.7 L | ~685 mm long, ~12.8 L |
-| Price | £259.99 amp, **≈ £894 all-in** | £369.99 amp, **≈ £974 all-in** |
+| Height, both | ~160 mm (end walls extend to the floor) | ~160 mm (end walls extend to the floor) |
+| Price | £259.99 amp, **≈ £888 all-in** | £369.99 amp, **≈ £968 all-in** |
 
 **A — pros:** cheapest; proper deep/upper split; simplest quick release; the box keeps all its air.
 **A — cons:** needs a home for a 13 × 15 cm amp in the boot, and there isn't an obvious one.
@@ -72,6 +74,11 @@ so the box replaces it. The tools (jack, wheel brace, small bag) sit underneath.
 - **Premium compact mono amps on the box** — Helix M ONE (230 × 154 mm), JL JD500/1 (251 × 191 mm)
   and Hertz HCP 1D (215 × 190 mm) all have a short side over 15 cm, so none fits the 11.5 cm box
   face. They'd work in option A's position if one is found.
+- **Up-firing with a grille or steel plate on top** — works, but leaves a grille in the load floor to
+  protect. Down-firing gives a solid top for ~3.5 cm more height.
+- **Ready-made down-firing 10TW3 box** — [Audio Intensity's](https://audiointensity.com/products/performance-optimized-down-fire-sealed-10-enclosure-jl-audio-10tw3-d4)
+  is 762 × 381 × 125 mm plus 44 mm feet: ~8 cm too deep for the 30 cm space, and US-only. Used
+  below as the reference design.
 - **M 2.1AMP plus an inline RCA low-pass** — the plug-in filters found (Harrison Labs FMOD) are
   fixed-frequency, a gentle 6 dB/octave, and US-only.
 
@@ -106,7 +113,7 @@ joined + to +, − to − (parallel).
 
 Use flat-head screws on the tab ears, not countersunk — JL warn countersunk screws can crack them.
 
-## The box
+## The box — down-firing
 
 ![Box side view](images/boot-sub/box-side-section.svg)
 
@@ -115,10 +122,21 @@ Use flat-head screws on the tab ears, not countersunk — JL warn countersunk sc
 *Top view is option A. In option B the Speakon is replaced by the amp on the right-hand end face,
 and the box is ~45 mm shorter to make room for it.*
 
-**Height.** Mounting depth is measured from the **top** of the baffle, so the magnet hangs
+The sub mounts in the **bottom** panel, cone facing the floor, magnet pointing up into the box.
+The two **short end walls extend 44 mm below the bottom panel** and stand on the floor, so the cone
+has room to breathe. The two long sides stay open underneath and the bass spills out there — in a
+car, bass doesn't care which way the sub faces.
+
+**Reference design:** [Audio Intensity's down-fire 10TW3 box](https://audiointensity.com/products/performance-optimized-down-fire-sealed-10-enclosure-jl-audio-10tw3-d4)
+(US, $259.99). Too big for this space (762 × 381 × 125 mm), but it's the same idea built for the
+same sub: 0.55 cu ft (15.6 L) net, 3/4" MDF, a double-thickness 1.5" baffle, and **1.75" (44 mm)
+of floor clearance** — which is where the 44 mm gap here comes from. That box uses separate feet;
+extended walls do the same job and are simpler (see Layout).
+
+**Height.** Mounting depth is measured from the outside face of the baffle, so the magnet reaches
 83 − 18 = 65 mm into the box. Add the 6 mm clearance and the minimum inside height is **71 mm**,
-or **107 mm** outside with 18 mm top and bottom. The plan uses **115 mm outside** (79 mm inside)
-for more air and a 14 mm gap under the magnet.
+or **107 mm** outside with 18 mm top and bottom. The plan uses **115 mm** (79 mm inside) for more
+air and a 14 mm gap above the magnet, **plus the 44 mm gap = ~160 mm total**.
 
 **Volume.** Wider and taller is better; JL's figure is 16.3 L. Net figures below allow for the sub
 (0.54 L) and one 18 × 50 mm brace. 30 cm front to back, 18 mm MDF:
@@ -137,32 +155,77 @@ tool bay together don't fit.
 
 **Layout.**
 
-- **Sub up-firing**, centred front to back, ~200 mm in from one end. The tab ears land 8 mm from
-  the front and back edges, so the 30 cm depth is used to the millimetre.
-- **Brace** — one strip of 18 mm MDF across the inside of the top panel, clear of the magnet, so the
-  span doesn't flex.
+- **Sub down-firing** in the bottom panel, centred front to back, ~200 mm in from one end. The tab
+  ears land 8 mm from the front and back edges, so the 30 cm depth is used to the millimetre.
+- **Extended end walls instead of feet** — cut the two short end walls **159 mm** tall (115 + 44)
+  and fix the bottom panel between them 44 mm up. They stand on the floor and carry the load
+  straight down; no separate feet to make or line up.
+- **Long sides open underneath** — the seat-side and tailgate-side walls stop at the bottom panel,
+  leaving two ~69 cm × 44 mm openings for the bass. Don't extend these instead: the ends sit close
+  to the boot's side trims, so openings there would be choked. Don't let the carpet hang over the
+  openings, and run foam strip under the end walls to stop buzzing.
+- **Brace** — 264 × 50 mm of 18 mm MDF, on edge, glued and screwed under the **middle** of the
+  top panel (365 mm from the sub end), running front to back between the long walls. Clear of the
+  magnet, and where the 73 cm span needs it most.
+- **Optional:** a second layer of 18 mm MDF on the bottom panel around the sub (the reference box
+  uses a 1.5" baffle). Stiffer, and it cuts the magnet's reach into the box to 47 mm.
 - **The end away from the sub** carries the connection:
   - **A:** a Speakon socket — the box's terminal *and* its quick-disconnect.
   - **B:** the M 2.1AMP, standing on its 85 mm edge so it fits the 115 mm face, on its own mounting
-    plates with rubber washers behind. Keep the carpet off it — it needs air. Speaker wires pass
+    plates with rubber washers behind (the end face is 159 mm tall). Keep the carpet off it — it needs air. Speaker wires pass
     through a drilled hole into the box, sealed with silicone.
 - **Joints** — glue and screw every joint, pilot holes first (MDF splits), silicone along every
   inside seam. Foam strip under the sub's flange as a gasket.
-- **Carpet** the outside, spray adhesive, wrap the edges under.
+- **Carpet** the outside, spray adhesive, wrap the edges under — on the long sides, wrap to the
+  bottom panel's edge so the openings stay clear.
 
-### Protecting the sub
+### Cut list
 
-Shopping, boxes and timber go on top, so the grille must sit below the load surface.
+All 18 mm MDF. One [Wickes 606 × 1829 mm sheet](https://www.wickes.co.uk/General-Purpose-MDF-Sheet---18-x-606-x-1829mm/p/207740)
+is enough — the 1220 mm sheet isn't long enough.
 
-**Option 1 — recessed grille (preferred).** A 9 mm MDF layer on top with a larger hole; the JL
-grille sits below it. Adds ~1 cm (125 mm total).
+![Cut list, to scale](images/boot-sub/cut-list.svg)
 
-![Option 1 — recessed grille](images/boot-sub/option1-recessed-grille.svg)
+| # | Part | Size (mm) | Qty |
+|---|---|---|---|
+| 1 | Top | 730 × 300 | 1 |
+| 2 | Brace, on edge under the middle of the top | 264 × 50 | 1 |
+| 3 | End walls, reaching the floor | 300 × 141 | 2 |
+| 4 | Long walls, front and back | 694 × 79 | 2 |
+| 5 | Bottom, 244 mm hole centred 182 mm from one end | 694 × 300 | 1 |
 
-**Option 2 — perforated steel plate.** The plate spans the hole and takes the load. The cone moves
-~15 mm up at full volume, so the top layer must be **~18 mm** to leave an air gap. Adds ~2 cm.
+That gives 730 × 300 × 159 mm outside and 694 × 264 × 79 mm inside. Option B's box is 45 mm
+shorter: take 45 mm off the top, bottom and long walls.
 
-![Option 2 — steel plate](images/boot-sub/option2-steel-plate.svg)
+**Build order:** cut the sub hole in the bottom → long walls onto the bottom's long edges → end walls
+on each end, hanging 44 mm below → Speakon (or amp) and leads → brace under the top, then the top
+on → silicone the inside seams through the sub hole → carpet → sub in from below.
+
+### Down-firing, in practice
+
+- **The top is solid** — shopping, boxes and timber go straight on the carpet. No grille to buy,
+  fit or protect.
+- **The cone faces the floor**, 44 mm above it, between the extended end walls. At full volume it moves 15 mm toward the floor,
+  leaving ~29 mm. Nothing may sit under the box — the tools live under the floor board, not in
+  the gap.
+- **Crumbs and grit collect underneath.** Give it a clean when the box comes out for the tools.
+
+### Ready-made boxes checked (October 2026)
+
+Searched for a pre-built down-firing or slim sealed 10" box that fits **~730 × 300 mm and ~160 mm
+tall**. Nothing UK-stocked fits; everything that comes close is US-only:
+
+| Box | Outside size (W × D × H) | Verdict |
+|---|---|---|
+| [Audio Intensity down-fire, JL 10TW3](https://audiointensity.com/products/performance-optimized-down-fire-sealed-10-enclosure-jl-audio-10tw3-d4) — empty, $259.99 | 762 × 381 × 125 mm + 44 mm feet (1.75") | **~8 cm too deep.** The reference design. They list "custom build — contact us", so a 730 × 300 mm version could be asked for |
+| [Zenclosures down-fire, JL 10TW3](https://www.zenclosures.com/JL-Audio-10tw3-d4-Subwoofer-Box-p/jlaudio10tw3df.htm) — empty, $184.99 | 559 × 343 × 178 mm | ~4 cm too deep, ~2 cm too tall |
+| [DS18 EN-DF10](https://ds18.com/products/ds18-en-df10-10-shallow-subwoofer-enclosure-and-down-firing-design-300-watts) — loaded with a DS18 sub, 300W 4Ω, $239.95 | 515 × 295 × 160 mm | **Fits**, but a budget driver in place of the JL, and no UK stockist found |
+| [Rockford Fosgate T1S-1X10](https://rockfordfosgate.com/products/details/t1s-1x10) — loaded, 500W 1Ω | 680 × 318 mm wedge, 108–159 mm | Built to stand behind a seat, not down-fire; 1Ω suits neither Match amp |
+| JL CS110TG-TW3 / CS110LG-TW3 PowerWedges | 486–527 × 315–357 mm wedges, up to 165 mm | Wedges built to stand behind a seat; too deep laid flat |
+
+**Building it is still the route.** If building feels like too much, the realistic alternatives are
+asking Audio Intensity for a 730 × 300 mm version of their box (US shipping), or a local car audio
+installer building it to the measurements in this plan.
 
 ### Cutting the 244 mm hole
 
@@ -172,11 +235,57 @@ grille sits below it. Adds ~1 cm (125 mm total).
   short overlapping plunge cuts just inside the line, then sand back.
 - **Cut small, sand up** until the sub drops in. Practise on an offcut, test-fit before gluing.
 
+### Mock-up first
+
+Before cutting any MDF, tape **cardboard** into a box at the exact outer size — ~730 × 300 ×
+159 mm, end walls to the floor, a 284 mm circle drawn on the bottom for the sub. In the car, check:
+
+- It drops into the space with the compartment out, without rubbing the trims
+- The rear seats fold down and lock back up
+- The tailgate shuts without touching it
+- The old latches reach the tailgate face
+- There's a route for the cables, and room for the amp on the end (option B)
+- It lifts out easily to get at the tools
+- A bag of shopping on top — the height feels right
+
+### Joining the panels
+
+**Glue and screws, not nails.** The glue makes the joint strong and airtight; the screws only
+clamp it while the glue sets. Nails work loose with vibration.
+
+![Joining two panels at 90°, step by step](images/boot-sub/joint-steps.svg)
+
+1. **Pilot holes** — dry-fit and mark. A **4 mm countersunk** clearance hole through the panel the
+   screw passes through, then a **2.5–3 mm** pilot into the middle of the other panel's 18 mm edge.
+   MDF splits without them.
+2. **Glue** — a bead of PVA wood glue along the edge.
+3. **Screw** — **4 × 40 mm**, every **100–150 mm**, at least **25 mm** in from the ends.
+4. **Check it's square** before the glue grabs; wipe off the squeeze-out.
+5. **Seal** — once the glue's dry, silicone along every inside seam.
+6. **Repeat** for every joint.
+
 ---
 
 ## Quick release
 
-No tools needed to reach the jack.
+No tools needed to reach the jack, and **no new holes in the car** — both fixing options below use
+only the old compartment's existing bolt holes.
+
+### Fixing option 1 — brackets and star knobs (simpler, preferred)
+
+![Bracket and star knob fixing at one end of the box](images/boot-sub/end-fixing.svg)
+
+1. **Floor brackets** — short pieces of steel angle, bolted to the floor with the **old
+   compartment's own bolts in its own holes**. They stay in the car.
+2. **Threaded inserts** — one M8 insert in the outside face of each end wall, low down, where it
+   meets the bracket's upright leg.
+3. **Star knobs** — an M8 knob through the bracket's upright into each insert, done up by hand.
+
+To reach the tools: undo the knobs by hand, unplug, lift the box out. Bolted down at both ends,
+it's stronger than the latches, and there's nothing to line up but the brackets. Two knobs (one
+per end) is the minimum; four (two per end) is better if the old bolt holes allow.
+
+### Fixing option 2 — pegs and latches
 
 ```mermaid
 flowchart LR
@@ -191,10 +300,11 @@ flowchart LR
   compartment's bolt holes. Two short bolts sticking out of the box's seat-side face drop into
   holes in its upright. This stops the box sliding toward the seats under braking and stops that
   edge lifting.
-- **Tailgate side — toggle latches.** **Reuse the compartment's own latches** — they're already
-  bolted to the floor brackets. Screw new catch plates to the box's tailgate face. Spare latches
-  listed below in case the old ones don't line up.
-- **Anti-rattle** — foam strip on the angle and under the box. A 10" pushes enough air to buzz any
+- **Tailgate side — toggle latches.** **Reuse the compartment's own latches** if they line up —
+  they're already bolted to the floor brackets. The tailgate face now starts 44 mm off the floor
+  (the opening is below it), so the catch plates go low on that face, or on the ends of the
+  extended end walls. Spare latches listed below if the old ones don't reach.
+- **Anti-rattle** — foam strip on the angle and under the end walls. A 10" pushes enough air to buzz any
   hard contact.
 - **A — the amp stays in the car.** Only the speaker lead crosses to the box, through the Speakon:
   a locking connector rated 40A, so it can't shake loose.
@@ -203,8 +313,8 @@ flowchart LR
   the remote wire uses one of the Vibe bullet connectors already owned. Leave enough slack that
   the box lifts clear before anything pulls tight.
 
-The latches and pegs together are what hold the box in a crash, so the floor angle must be steel,
-bolted, not screwed into trim.
+Whichever fixing is used, it's what holds the box in a crash — steel brackets or angle, bolted
+through the old holes, never screwed into trim.
 
 ---
 
@@ -366,33 +476,49 @@ run a string along the route before ordering.
 
 | Item | Qty | Price |
 |---|---|---|
-| [JL Audio SGR-10TW3 grille — Car Audio Direct](https://caraudiodirect.co.uk/products/jl-audio-sgr-10tw3-10-black-steel-mesh-grille-insert) (option 1) | 1 | £39.90 |
 | [Connection SFA-100 100A AFS](https://caraudiodirect.co.uk/products/connection-by-audison-sfa-100-100a-afs-fuses) — replaces the 80A main | 1 | £7.99 |
 | [Rockford Fosgate RFIY-1M Y-adapter, 1 male → 2 female](https://caraudiodirect.co.uk/products/rfiy-1m-twisted-pair-y-adapter-1-male-to-2-female) — at Line Out | 1 | £9.99 |
 | [Connection FT2-550.2 5.5m RCA](https://caraudiodirect.co.uk/products/connection-ft2-550-2-5-5m-rca-cable) — amp → boot | 1 | £15.99 |
 | ~1 mm² hook-up wire, REM OUT → boot amp — **already owned** (check there's ~5m) | — | — |
-| 18 mm MDF — **already owned** | — | — |
-| [Wickes 9 mm MDF, 606 × 1220 mm](https://www.wickes.co.uk/General-Purpose-MDF-Sheet---9-x-606-x-1220mm/p/110512) — option 1 top layer | 1 | ~ |
+| [Wickes 18 mm MDF, 606 × 1829 mm](https://www.wickes.co.uk/General-Purpose-MDF-Sheet---18-x-606-x-1829mm/p/207740) — one sheet does every panel | 1 | ~ |
 | [Gorilla PVA Wood Glue 236ml — Screwfix](https://www.screwfix.com/p/gorilla-glue-wood-glue-236ml/43424) | 1 | £7.69 |
 | [TurboGold woodscrew handy pack, 380 — Screwfix](https://www.screwfix.com/p/turbogold-pz-double-countersunk-woodscrew-handy-pack-380-pieces/459jj) — 4 × 40 mm for the box | 1 | £9.99 |
 | [No Nonsense 101 silicone, clear 310ml — Screwfix](https://www.screwfix.com/p/no-nonsense-general-purpose-silicone-clear-310ml/35887) — inside seams | 1 | £4.79 |
 | [ACV 30.1231-04 black carpet 70 × 140 cm — Car Audio Direct](https://caraudiodirect.co.uk/products/acv-30-1231-04-black-carpet-70cm-x-140cm) | 1 | £24.99 |
 | [OB41 Fast Tack spray adhesive 500ml — Screwfix](https://www.screwfix.com/p/ob41-fast-tack-spray-adhesive-clear-500ml/524YE) — carpet; collect only, 18+ | 1 | £5.59 |
-| [Stormguard self-adhesive foam strip, 2 × 7.5m — Screwfix](https://www.screwfix.com/p/stormguard-sureseal-3-self-adhesive-foam-draught-excluder-weatherstrips-black-7-5m-2-pack/493VV) — sub gasket, anti-rattle | 1 | £6.19 |
-| [Rothley 30 × 30 × 3 mm steel angle, 1m — Wickes](https://www.wickes.co.uk/Rothley-30mm-Hot-Rolled-Steel-Angle---1m/p/188290) — seat-side floor angle | 1 | ~ |
-| [Savigny stainless toggle latch, pack of 2 — RS](https://uk.rs-online.com/web/p/door-latches/1974154) — **only if** the old latches don't line up | (1) | (£26.08) |
-| M6 bolts, nyloc nuts, washers for the pegs and floor angle — match the old compartment's bolts | — | ~ |
-| **Subtotal** | | **£133.11** |
+| [Stormguard self-adhesive foam strip, 2 × 7.5m — Screwfix](https://www.screwfix.com/p/stormguard-sureseal-3-self-adhesive-foam-draught-excluder-weatherstrips-black-7-5m-2-pack/493VV) — sub gasket, under the end walls, anti-rattle | 1 | £6.19 |
+| [Rothley 30 × 30 × 3 mm steel angle, 1m — Wickes](https://www.wickes.co.uk/Rothley-30mm-Hot-Rolled-Steel-Angle---1m/p/188290) — fixing 1: cut into short floor brackets; fixing 2: seat-side floor angle | 1 | ~ |
+| [RS PRO 4-arm clamping knob, M8 × 20 mm stud, pack of 10 — RS](https://uk.rs-online.com/web/p/clamping-knobs/0686632) — fixing 1 | 1 | £32.96 |
+| [M8 × 25 mm flanged threaded insert for wood — Fusion Fixings](https://fusionfixings.co.uk/products/m8-x-25mm-type-d-threaded-insert-nut-yellow-zinc) — fixing 1; 11.1–11.5 mm hole, 8 mm hex key | 4 @ £0.28 | £1.12 |
+| [Savigny stainless toggle latch, pack of 2 — RS](https://uk.rs-online.com/web/p/door-latches/1974154) — fixing 2, **only if** the old latches don't line up | (1) | (£26.08) |
+| Bolts, nyloc nuts, washers for the brackets or floor angle — match the old compartment's bolts | — | ~ |
+| **Subtotal** | | **£127.29** |
 
 ### Totals
 
 | | Option A | Option B |
 |---|---|---|
 | Option-specific | £760.72 | £840.87 |
-| Shared | £133.11 | £133.11 |
-| **Total** | **≈ £894** | **≈ £974** |
+| Shared | £127.29 | £127.29 |
+| **Total** | **≈ £888** | **≈ £968** |
 
-Plus the 9 mm MDF, steel angle and bolts in both.
+Plus the MDF sheet, steel angle and bolts (prices not shown online), and the tools below if not
+already owned.
+
+### Tools
+
+| Item | Price |
+|---|---|
+| [Titan 600W electric jigsaw — Screwfix](https://www.screwfix.com/p/titan-ttb1471jsw-600w-electric-jigsaw-240v/135AN) — comes with a wood and a metal blade | £23.99 |
+| [Bosch T101AO wood jigsaw blades, 5 — Screwfix](https://www.screwfix.com/p/bosch-t101ao-wood-jigsaw-blades-83mm-5-pack/36303) — clean curves for the sub hole | £5.99 |
+| [Erbauer brad point wood bits, 3–10 mm — Screwfix](https://www.screwfix.com/p/erbauer-straight-shank-double-flute-brad-point-wood-drill-bit-set-8-pieces/793PH) — 3 mm pilots, 4 mm clearance holes | £8.99 |
+| [Erbauer 9.5 mm countersink — Screwfix](https://www.screwfix.com/p/erbauer-dra46881-hex-shank-wood-135-countersink-9-5mm-x-45mm-with-65mm-pilot-drill/86156) | £4.79 |
+| [DeWalt 11 mm brad point bit — Rapid](https://rapidonline.com/catalogue/product/84-3574) — for the M8 inserts | £3.29 |
+| [Magnusson 12" hacksaw — Screwfix](https://www.screwfix.com/p/magnusson-24tpi-multi-material-hacksaw-12-300mm-/4686v) — cuts the steel angle | £11.98 |
+| [Magnusson 12" hacksaw blades, 5 — Screwfix](https://www.screwfix.com/p/magnusson-hacksaw-blades-24tpi-12-5-pack/9262v) — spares | £4.99 |
+| [RS PRO HSS metal drill set, 1–10 mm — RS](https://uk.rs-online.com/web/p/drill-bit-sets/6734709) — holes in the steel brackets (8.5 mm for M8); a single 8.5 mm HSS bit also does | £47.15 |
+| Dust mask — MDF dust | — |
+| **Tools total** | **£111.17** |
 
 ---
 
@@ -403,8 +529,9 @@ Plus the 9 mm MDF, steel angle and bolts in both.
 2. **Measure the bare space** — everything in [Open questions](#open-questions) in one go.
 3. **Decide A or B** — if there's no good amp spot in the boot, it's B.
 4. **Cut list** from those numbers; check the volume against the table above.
-5. **Cardboard mock-up** at the exact outer size. Seats fold, tailgate closes, latches line up.
-6. **Build the box** — glue, screw, seal, brace. Leak test (light inside, dark car; or press on the
+5. **Cardboard mock-up** at the exact outer size, **160 mm tall** — see [Mock-up first](#mock-up-first). Seats fold, tailgate closes,
+   latches line up.
+6. **Build the box** — glue, screw, seal, brace; bottom panel set 44 mm up between the end walls. Leak test (light inside, dark car; or press on the
    cone and it should return slowly).
 7. **Power and signal** — main fuse swap, new branch, power along the sill, RCA and REM alongside.
    Power and RCA down opposite sides of the car if the trim allows, to keep noise out.
@@ -416,12 +543,13 @@ Wear a dust mask when cutting MDF.
 
 ## Open questions
 
-- [ ] Exact width wall to wall, and how high the box can go (top of the old lid is the reference)
+- [ ] Exact width wall to wall, and is **~160 mm** total height OK? (top of the old lid is the
+      reference — the old compartment was ~10 cm inside)
 - [ ] Do the tools sit **under the floor** (box lifts off them) or **inside the compartment**
       (they need a new home or a bay at one end — 650 mm box, which rules out option B)?
-- [ ] Bolt points and thread size of the old compartment
+- [ ] Old compartment bolts: how many, where (relative to its ends), thread size, and whether they go into threaded holes or through with nuts underneath — decides the bracket positions for fixing 1
 - [ ] **Option A only:** a spot for a 130 × 153 mm amp on the body in the boot — photos of each side
       wall with the trim on and off, and the gap between each end of the compartment and the wall
 - [ ] A bare-metal ground bolt near the boot amp
-- [ ] Do the old latches line up with a box face 115–125 mm tall?
+- [ ] Do the old latches reach catch plates low on the tailgate face, 44 mm off the floor?
 - [ ] Power route: BFD41 → boot along which sill, and its real length
