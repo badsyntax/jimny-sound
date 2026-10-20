@@ -141,7 +141,25 @@ seam means a leak. Or once the sub is fitted, gently press the cone in: it shoul
 1. Screw the UP 1FX to the end wall on its two mounting plates, **standing on its 130 mm edge**
    (fins vertical), with rubber washers behind it. Leave the controls facing out.
 2. Connect the sub wires to its speaker output, + to +, − to −.
-3. Fit an **Anderson SB50** on the power and ground leads, so the box unplugs in one go.
+3. Fit an **Anderson SB50** on the power and ground leads, so the box unplugs in one go — see
+   below.
+
+#### How the Anderson plug works
+
+It isn't a usual car audio part — most installs wire the amp in permanently. It's a heavy-duty DC
+power connector (used on winches, caravans and battery packs). Here it lets the amp's power come
+off with the box, with no tools.
+
+- **Two identical halves** — one on the car side (power and ground from the front), one on the amp
+  side. They push together and click; pull straight apart to separate.
+- **One plug carries both wires** — red +12V and black ground. Rated 50A; the amp draws about 30A.
+- **Fitting:** crimp or solder a contact onto each 8AWG wire and push it into the housing until it
+  clicks. The fuse stays at the BFD41 as normal.
+- **Unplug with the stereo off** so it doesn't spark.
+
+**Simpler alternative:** skip it and wire the amp in permanently. Getting the box out then means
+undoing the amp's two power screws with a screwdriver and doing them up again — fine if the jack is
+only needed now and then, but it loses the "no tools" goal.
 
 ### Step 9 — Fix it in the car
 
