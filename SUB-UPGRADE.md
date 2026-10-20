@@ -42,11 +42,12 @@ Steps 0–4 and 9 of the build; carpet, sub, amp and wiring come later.
 | Screwfix | [Erbauer brad point wood bits, 3–10 mm](https://www.screwfix.com/p/erbauer-straight-shank-double-flute-brad-point-wood-drill-bit-set-8-pieces/793PH) *(tool)* | £8.99 |
 | Screwfix | [Erbauer countersink](https://www.screwfix.com/p/erbauer-dra46881-hex-shank-wood-135-countersink-9-5mm-x-45mm-with-65mm-pilot-drill/86156) *(tool)* | £4.79 |
 | Screwfix | [Magnusson hacksaw](https://www.screwfix.com/p/magnusson-24tpi-multi-material-hacksaw-12-300mm-/4686v) *(tool)* | £11.98 |
+| Screwfix | [Magnusson hacksaw blades, 5](https://www.screwfix.com/p/magnusson-hacksaw-blades-24tpi-12-5-pack/9262v) *(tool)* | £4.99 |
 | Screwfix | [3M P2 dust masks, 5](https://www.screwfix.com/p/3m-8822-cool-flow-disposable-valved-masks-p2-5-pack/449ej) *(tool)* | £16.99 |
 | RS | [M8 star knobs, 10](https://uk.rs-online.com/web/p/clamping-knobs/0686632) | £32.96 |
 | RS | [HSS metal drill set, 1–10 mm](https://uk.rs-online.com/web/p/drill-bit-sets/6734709) *(tool)* — holes in the steel brackets | £47.15 |
 
-**Screwfix ≈ £102, RS ≈ £80 — about £182**, plus the Wickes items. Skip any *(tool)* already owned.
+**Screwfix ≈ £107, RS ≈ £80 — about £187**, plus the Wickes items. Skip any *(tool)* already owned.
 
 - **Leave the sub hole uncut for now if you like** — cut it once the box fits; it's easy to do last.
 - **Speaker wires** (build step 4.6) can go in later through the sub hole.
@@ -156,7 +157,8 @@ seam means a leak. Or once the sub is fitted, gently press the cone in: it shoul
 
 - **Sides and ends:** the [ACV black carpet](https://caraudiodirect.co.uk/products/acv-30-1231-04-black-carpet-70cm-x-140cm),
   spray adhesive. On the long sides, stop at the bottom panel's edge — **don't cover the openings**.
-  Leave the amp's patch of end wall bare.
+  Leave the amp's patch of end wall bare, and the spots where the brackets touch the end walls —
+  the knobs' 20 mm studs need every bit of thread.
 - **Top:** reuse the **thick carpet from the old compartment lid** — it matches the boot and takes
   wear. Peel it off carefully (a hairdryer softens old glue), clean the back, and fit it **last** so
   it overlaps the side carpet. You need about 71 × 32 cm.
@@ -169,14 +171,15 @@ seam means a leak. Or once the sub is fitted, gently press the cone in: it shoul
 1. Box **upside down**.
 2. **Foam strip** round the hole on the outside face — the gasket.
 3. **Connect the wires:** both coils in parallel, + to +, − to − (that makes 4Ω).
-4. **Lower the sub in**, magnet first. Screw up through the tab ears with **4 × 25 mm pan-head screws** (not countersunk), pilot
+4. **Lower the sub in**, magnet first. Screw up through the tab ears with **4 × 20 mm pan-head screws** (not countersunk), pilot
    holes first. Don't overtighten — the ears can crack.
 5. Flip it back over. The sub can come out later the same way without opening the box.
 
 ### Step 8 — Fit the amp
 
 1. Screw the UP 1FX to the end wall on its two mounting plates, **standing on its 130 mm edge**
-   (fins vertical), with rubber washers behind it. Leave the controls facing out.
+   (fins vertical), with rubber washers behind it. Use the 4 × 20 mm pan-heads — longer ones poke
+   through the 18 mm wall. Leave the controls facing out.
 2. Connect the sub wires to its speaker output, + to +, − to −.
 3. Fit an **Anderson SB50** on the power and ground leads, so the box unplugs in one go — see
    below.
@@ -190,8 +193,8 @@ off with the box, with no tools.
 - **Two identical halves** — one on the car side (power and ground from the front), one on the amp
   side. They push together and click; pull straight apart to separate.
 - **One plug carries both wires** — red +12V and black ground. Rated 50A; the amp draws about 30A.
-- **Fitting:** crimp or solder a contact onto each 8AWG wire and push it into the housing until it
-  clicks. The fuse stays at the BFD41 as normal.
+- **Fitting:** the RS kit's contacts are sized for 6AWG, so **solder** each 8AWG wire into its
+  contact (a small crimper won't grip it), then push it into the housing until it clicks. The fuse stays at the BFD41 as normal.
 - **Unplug with the stereo off** so it doesn't spark.
 
 **Simpler alternative:** skip it and wire the amp in permanently. Getting the box out then means
@@ -314,12 +317,12 @@ string along the route first.
 | [Rothley 30 × 30 × 3 mm steel angle — Wickes](https://www.wickes.co.uk/Rothley-30mm-Hot-Rolled-Steel-Angle---1m/p/188290) — cut into brackets | 1 | ~ |
 | [M8 star knobs, pack of 10 — RS](https://uk.rs-online.com/web/p/clamping-knobs/0686632) | 1 | £32.96 |
 | [Easyfix M8 tee nuts, 10 — Screwfix](https://www.screwfix.com/p/easyfix-4-pronged-tee-nuts-m8-x-11mm-10-pack/47225) — for the knobs | 1 | £2.69 |
-| [Screw-Tite pan head screws 4 × 25 mm, 200 — Screwfix](https://www.screwfix.com/p/screw-tite-tfstpz4025-pz-pan-self-drilling-multi-purpose-screws-4mm-x-25mm-200-pack/415va) — sub tab ears (flat-underside head, not countersunk) | 1 | £5.79 |
+| [Screw-Tite pan head screws 4 × 20 mm, 200 — Screwfix](https://www.screwfix.com/p/screw-tite-tfstpz4020-pz-pan-self-drilling-multi-purpose-screws-4mm-x-20mm-200-pack/159va) — sub tab ears and amp plates (flat-underside head, not countersunk) | 1 | £5.69 |
 | [Timco rubber washers M6 × 28 mm, 75 — Screwfix](https://www.screwfix.com/p/timco-rubber-sela-washers-m6-x-28mm-75-pack/1120x) — behind the amp's mounting plates | 1 | £15.49 |
 | [RS PRO M8 external tooth washers, 100 — RS](https://uk.rs-online.com/web/p/washers/0276897) — ground point | 1 | £7.19 |
 | [Essentials 120 grit sanding sheets, 10 — Screwfix](https://www.screwfix.com/p/essentials-120-grit-multi-material-sanding-sheets-280mm-x-230mm-10-pack/209jg) — sub hole, ground point to bare metal | 1 | £3.98 |
 | Old compartment bolts — reused for the brackets | — | — |
-| **Subtotal** | | **£127.34** |
+| **Subtotal** | | **£127.24** |
 
 **Already owned:** Vibe bullet connectors (remote wire at the box), sound deadening and Tesa fleece
 tape (rattles), crimping tool.
@@ -356,7 +359,7 @@ The same parts, grouped so each shop is one order. *(tool)* = only if not alread
 |---|---|---|
 | [Match UP 1FX](https://www.cen.uk/products/match-up-1fx-amp-mono-1-channel-subwoofer-amplifier-class-d-900w-rms-at-1-ohms) | 1 | £259.99 |
 
-**Screwfix** — £139.92
+**Screwfix** — £139.82
 
 | Item | Qty | Price |
 |---|---|---|
@@ -366,7 +369,7 @@ The same parts, grouped so each shop is one order. *(tool)* = only if not alread
 | [OB41 spray adhesive](https://www.screwfix.com/p/ob41-fast-tack-spray-adhesive-clear-500ml/524YE) | 1 | £5.59 |
 | [Stormguard foam strip](https://www.screwfix.com/p/stormguard-sureseal-3-self-adhesive-foam-draught-excluder-weatherstrips-black-7-5m-2-pack/493VV) | 1 | £6.19 |
 | [Easyfix M8 tee nuts, 10](https://www.screwfix.com/p/easyfix-4-pronged-tee-nuts-m8-x-11mm-10-pack/47225) | 1 | £2.69 |
-| [Screw-Tite pan head screws 4 × 25 mm, 200](https://www.screwfix.com/p/screw-tite-tfstpz4025-pz-pan-self-drilling-multi-purpose-screws-4mm-x-25mm-200-pack/415va) | 1 | £5.79 |
+| [Screw-Tite pan head screws 4 × 20 mm, 200](https://www.screwfix.com/p/screw-tite-tfstpz4020-pz-pan-self-drilling-multi-purpose-screws-4mm-x-20mm-200-pack/159va) | 1 | £5.69 |
 | [Timco rubber washers M6 × 28 mm, 75](https://www.screwfix.com/p/timco-rubber-sela-washers-m6-x-28mm-75-pack/1120x) | 1 | £15.49 |
 | [Essentials 120 grit sanding sheets, 10](https://www.screwfix.com/p/essentials-120-grit-multi-material-sanding-sheets-280mm-x-230mm-10-pack/209jg) | 1 | £3.98 |
 | [Titan 600W jigsaw](https://www.screwfix.com/p/titan-ttb1471jsw-600w-electric-jigsaw-240v/135AN) *(tool)* | 1 | £23.99 |
