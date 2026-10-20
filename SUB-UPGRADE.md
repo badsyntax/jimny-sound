@@ -153,6 +153,15 @@ Numbers match the cut list. Two flips, no blocks, top panel last:
    4. Stick a ring of foam strip round the hole, then screw the
       [ACV terminal](https://caraudiodirect.co.uk/products/acv-2-pole-subwoofer-box-terminal) on
       with four 4 × 20 mm pan-heads (3 mm pilots first).
+
+   **Simpler alternative — wires through a sealed hole.** Skip the terminal and its 67 mm hole.
+   Drill a hole just big enough for the four 12AWG wires, push them through, and pull a
+   [cable tie](https://www.screwfix.com/p/essentials-cable-ties-black-200mm-x-4-5mm-100-pack/44334)
+   (Screwfix, £2.49 for 100) tight round them on **each side**, right up against the wall — a tug
+   from outside then pulls on the tie, not the seal. Silicone both faces and let it cure a full day.
+   Join the coils at the amp instead: both + wires into its +, both − into −. Cheaper and smaller,
+   but it's the DIY way — the terminal is what shop-built boxes use, and keeps the wires
+   replaceable.
 7. **Brace (2) onto the top (1)** — on edge, across the middle, 340 mm from the sub end (half the box length). Glue and
    screw down through the top into it.
 8. **Top on**, brace inside. Glue and screw into all four walls — but **no screws over the terminal
