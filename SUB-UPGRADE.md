@@ -102,7 +102,7 @@ does everything. Ask Wickes to cut it to size if you can — straight cuts make 
 | 4 | Long walls | 644 × 79 | 2 |
 | 5 | Bottom | 644 × 300 | 1 |
 
-### Step 2 — Cut the sub hole in the bottom panel
+### Step 2 — Cut the sub hole and the terminal hole
 
 1. **Mark the centre:** 182 mm from one end, 150 mm from either long edge.
 2. **Draw the circle:** a strip of scrap wood with a screw at one end as the pivot and a pencil hole
@@ -110,6 +110,11 @@ does everything. Ask Wickes to cut it to size if you can — straight cuts make 
 3. **Drill a starter hole** just inside the line, big enough for the jigsaw blade.
 4. **Cut slowly** with the jigsaw (T101AO blade), staying just inside the line.
 5. **Sand up to the line** until the sub drops in. Practise on an offcut first.
+6. **Terminal hole:** on **one end wall**, the same way: a **67 mm** circle (33.5 mm pencil
+   radius), centre **70 mm in from one long edge and 40 mm down from the top edge** — the middle
+   of the box's inside height. Cut it now while the panel is flat. The amp goes beside it.
+
+   ![Amp end wall with the box terminal](images/boot-sub/amp-end-wall.svg)
 
 ### Step 3 — How every joint is made
 
@@ -140,16 +145,18 @@ Numbers match the cut list. Two flips, no blocks, top panel last:
    stick up **44 mm past the bottom panel**. Glue and screw through them into the long walls and
    the bottom panel.
 5. **Flip it back.** The end walls now hold the box 44 mm off the bench — this is the right way up.
-6. **Box terminal:** cut a **67 mm hole** in the amp end wall, beside where the amp goes, centred
-   between the bottom and top panels. Cut **two pairs** of 12AWG (one per voice coil), long enough
-   to reach the sub hole with slack. Twist both + ends together and solder them to the terminal's
-   + tab, both − to the − tab — that joins the coils in parallel (4Ω). Fit the
-   [ACV terminal](https://caraudiodirect.co.uk/products/acv-2-pole-subwoofer-box-terminal) with a
-   ring of foam strip behind it and four 4 × 20 mm pan-heads. Feed the loose ends towards the sub
-   hole.
+6. **Box terminal** (its hole was cut in step 2):
+   1. Cut **two pairs** of 12AWG (one per voice coil), long enough to reach the sub hole with slack.
+   2. Twist both + ends together and solder them to the terminal's + tab; both − ends to the − tab.
+      That joins the coils in parallel (4Ω).
+   3. Feed the loose ends in through the 67 mm hole towards the sub hole.
+   4. Stick a ring of foam strip round the hole, then screw the
+      [ACV terminal](https://caraudiodirect.co.uk/products/acv-2-pole-subwoofer-box-terminal) on
+      with four 4 × 20 mm pan-heads (3 mm pilots first).
 7. **Brace (2) onto the top (1)** — on edge, across the middle, 340 mm from the sub end (half the box length). Glue and
    screw down through the top into it.
-8. **Top on**, brace inside. Glue and screw into all four walls.
+8. **Top on**, brace inside. Glue and screw into all four walls — but **no screws over the terminal
+   hole**: there's only ~6 mm of MDF above it, and a screw would split it. Glue alone holds there.
 9. **Seal:** once the glue's dry, silicone every inside seam — reach in through the sub hole.
 
 ### Step 5 — Leak test
@@ -213,7 +220,8 @@ only needed now and then, but it loses the "no tools" goal.
 1. **Remove the old compartment** and keep every bolt.
 2. **Brackets:** cut short pieces of the steel angle with the hacksaw. Drill one hole to match the
    old bolt and one 8.5 mm hole in the upright for the knob. Bolt them to the floor with the **old
-   bolts in the old holes**. One per end minimum, two per end if the holes allow.
+   bolts in the old holes**. One per end minimum, two per end if the holes allow — but on the amp
+   end only under the terminal, where the amp can't hit the knob.
 3. **Tee nuts:** drop the box in place and mark through each bracket's knob hole onto the end wall.
    That spot is in the 44 mm gap below the bottom panel, so the inside face is reachable from
    underneath. Drill straight through to fit the tee nut's barrel (usually 10 mm — check it against
