@@ -23,6 +23,38 @@ alternative is at the end: [Other amp option](#other-amp-option--match-m-21amp).
 
 ---
 
+## Phase 1 — build the box and fix it down
+
+Build and fit the empty box first. Only buy the sub and amp once the box fits and holds down well.
+Steps 0–4 and 9 of the build; carpet, sub, amp and wiring come later.
+
+| Shop | Item | Price |
+|---|---|---|
+| Wickes | [18 mm MDF, 606 × 1829 mm](https://www.wickes.co.uk/General-Purpose-MDF-Sheet---18-x-606-x-1829mm/p/207740) — ask them to cut the panels | ~ |
+| Wickes | [30 × 30 × 3 mm steel angle](https://www.wickes.co.uk/Rothley-30mm-Hot-Rolled-Steel-Angle---1m/p/188290) — brackets | ~ |
+| Screwfix | [Gorilla PVA wood glue](https://www.screwfix.com/p/gorilla-glue-wood-glue-236ml/43424) | £7.69 |
+| Screwfix | [TurboGold screw pack (4 × 40 mm)](https://www.screwfix.com/p/turbogold-pz-double-countersunk-woodscrew-handy-pack-380-pieces/459jj) | £9.99 |
+| Screwfix | [Clear silicone](https://www.screwfix.com/p/no-nonsense-general-purpose-silicone-clear-310ml/35887) | £4.79 |
+| Screwfix | [Easyfix M8 tee nuts, 10](https://www.screwfix.com/p/easyfix-4-pronged-tee-nuts-m8-x-11mm-10-pack/47225) | £2.69 |
+| Screwfix | [120 grit sanding sheets](https://www.screwfix.com/p/essentials-120-grit-multi-material-sanding-sheets-280mm-x-230mm-10-pack/209jg) | £3.98 |
+| Screwfix | [Titan 600W jigsaw](https://www.screwfix.com/p/titan-ttb1471jsw-600w-electric-jigsaw-240v/135AN) *(tool)* | £23.99 |
+| Screwfix | [Bosch T101AO jigsaw blades](https://www.screwfix.com/p/bosch-t101ao-wood-jigsaw-blades-83mm-5-pack/36303) *(tool)* | £5.99 |
+| Screwfix | [Erbauer brad point wood bits, 3–10 mm](https://www.screwfix.com/p/erbauer-straight-shank-double-flute-brad-point-wood-drill-bit-set-8-pieces/793PH) *(tool)* | £8.99 |
+| Screwfix | [Erbauer countersink](https://www.screwfix.com/p/erbauer-dra46881-hex-shank-wood-135-countersink-9-5mm-x-45mm-with-65mm-pilot-drill/86156) *(tool)* | £4.79 |
+| Screwfix | [Magnusson hacksaw](https://www.screwfix.com/p/magnusson-24tpi-multi-material-hacksaw-12-300mm-/4686v) *(tool)* | £11.98 |
+| Screwfix | [3M P2 dust masks, 5](https://www.screwfix.com/p/3m-8822-cool-flow-disposable-valved-masks-p2-5-pack/449ej) *(tool)* | £16.99 |
+| RS | [M8 star knobs, 10](https://uk.rs-online.com/web/p/clamping-knobs/0686632) | £32.96 |
+| RS | [HSS metal drill set, 1–10 mm](https://uk.rs-online.com/web/p/drill-bit-sets/6734709) *(tool)* — holes in the steel brackets | £47.15 |
+
+**Screwfix ≈ £102, RS ≈ £80 — about £182**, plus the Wickes items. Skip any *(tool)* already owned.
+
+- **Leave the sub hole uncut for now if you like** — cut it once the box fits; it's easy to do last.
+- **Speaker wires** (build step 4.3) can go in later through the sub hole.
+- The metal drill set is the cheapest way to get an 8.5 mm bit — RS only sells that size singly in
+  boxes of 10 (£49). It also covers whatever size the old compartment bolts turn out to be.
+
+---
+
 ## 1. The box
 
 ![Box side view](images/boot-sub/box-side-section.svg)
