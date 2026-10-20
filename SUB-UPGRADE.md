@@ -284,6 +284,98 @@ tape (rattles), crimping tool.
 | [3M 8822 P2 dust masks, 5 — Screwfix](https://www.screwfix.com/p/3m-8822-cool-flow-disposable-valved-masks-p2-5-pack/449ej) — MDF dust | £16.99 |
 | **Tools total** | **£135.15** |
 
+### Shopping list by shop
+
+The same parts, grouped so each shop is one order. *(tool)* = only if not already owned.
+
+**Audio Visual World** — £399.99
+
+| Item | Qty | Price |
+|---|---|---|
+| [JL Audio 10TW3-D8](https://audiovisualworld.co.uk/jl-audio-10tw3-d8-shallow-mount-10-dual-8-ohm-car-subwoofer.html) | 1 | £399.99 |
+
+**CEN** — £259.99
+
+| Item | Qty | Price |
+|---|---|---|
+| [Match UP 1FX](https://www.cen.uk/products/match-up-1fx-amp-mono-1-channel-subwoofer-amplifier-class-d-900w-rms-at-1-ohms) | 1 | £259.99 |
+
+**Screwfix** — £144.22
+
+| Item | Qty | Price |
+|---|---|---|
+| [Gorilla PVA wood glue](https://www.screwfix.com/p/gorilla-glue-wood-glue-236ml/43424) | 1 | £7.69 |
+| [TurboGold screw pack (4 × 40 mm)](https://www.screwfix.com/p/turbogold-pz-double-countersunk-woodscrew-handy-pack-380-pieces/459jj) | 1 | £9.99 |
+| [Clear silicone](https://www.screwfix.com/p/no-nonsense-general-purpose-silicone-clear-310ml/35887) | 1 | £4.79 |
+| [OB41 spray adhesive](https://www.screwfix.com/p/ob41-fast-tack-spray-adhesive-clear-500ml/524YE) | 1 | £5.59 |
+| [Stormguard foam strip](https://www.screwfix.com/p/stormguard-sureseal-3-self-adhesive-foam-draught-excluder-weatherstrips-black-7-5m-2-pack/493VV) | 1 | £6.19 |
+| [Screw-Tite pan head screws 4 × 25 mm, 200](https://www.screwfix.com/p/screw-tite-tfstpz4025-pz-pan-self-drilling-multi-purpose-screws-4mm-x-25mm-200-pack/415va) | 1 | £5.79 |
+| [Timco rubber washers M6 × 28 mm, 75](https://www.screwfix.com/p/timco-rubber-sela-washers-m6-x-28mm-75-pack/1120x) | 1 | £15.49 |
+| [Essentials 120 grit sanding sheets, 10](https://www.screwfix.com/p/essentials-120-grit-multi-material-sanding-sheets-280mm-x-230mm-10-pack/209jg) | 1 | £3.98 |
+| [Titan 600W jigsaw](https://www.screwfix.com/p/titan-ttb1471jsw-600w-electric-jigsaw-240v/135AN) *(tool)* | 1 | £23.99 |
+| [Bosch T101AO blades](https://www.screwfix.com/p/bosch-t101ao-wood-jigsaw-blades-83mm-5-pack/36303) *(tool)* | 1 | £5.99 |
+| [Erbauer brad point bits, 3–10 mm](https://www.screwfix.com/p/erbauer-straight-shank-double-flute-brad-point-wood-drill-bit-set-8-pieces/793PH) *(tool)* | 1 | £8.99 |
+| [Erbauer countersink](https://www.screwfix.com/p/erbauer-dra46881-hex-shank-wood-135-countersink-9-5mm-x-45mm-with-65mm-pilot-drill/86156) *(tool)* | 1 | £4.79 |
+| [Magnusson hacksaw](https://www.screwfix.com/p/magnusson-24tpi-multi-material-hacksaw-12-300mm-/4686v) *(tool)* | 1 | £11.98 |
+| [Magnusson hacksaw blades, 5](https://www.screwfix.com/p/magnusson-hacksaw-blades-24tpi-12-5-pack/9262v) *(tool)* | 1 | £4.99 |
+| [Magnusson folding hex key set, incl. 8 mm](https://www.screwfix.com/p/magnusson-metric-folding-hex-key-set-8-pcs/1850v) *(tool)* | 1 | £6.99 |
+| [3M 8822 P2 dust masks, 5](https://www.screwfix.com/p/3m-8822-cool-flow-disposable-valved-masks-p2-5-pack/449ej) *(tool)* | 1 | £16.99 |
+
+**RS** — £96.57
+
+| Item | Qty | Price |
+|---|---|---|
+| [Anderson SB50 connector](https://uk.rs-online.com/web/p/battery-connectors/6120150) | 2 | £16.46 |
+| [M8 star knobs, pack of 10](https://uk.rs-online.com/web/p/clamping-knobs/0686632) | 1 | £32.96 |
+| [RS PRO HSS metal drill set](https://uk.rs-online.com/web/p/drill-bit-sets/6734709) *(tool)* | 1 | £47.15 |
+
+**Car Audio Direct** — £77.44
+
+| Item | Qty | Price |
+|---|---|---|
+| [Connection SFA-040 40A fuse](https://caraudiodirect.co.uk/products/connection-by-audison-sfa-040-40a-afs-fuses) | 1 | £7.99 |
+| [Connection SFA-100 100A main fuse](https://caraudiodirect.co.uk/products/connection-by-audison-sfa-100-100a-afs-fuses) | 1 | £7.99 |
+| [Connection FRT8 8AWG ring terminals](https://caraudiodirect.co.uk/products/connection-frt8-8-gauge-ring-terminals) | 1 pack | £4.99 |
+| [Connection SL212.2 12AWG speaker cable](https://caraudiodirect.co.uk/products/connection-by-audison-sl212-2-silver-series-high-resolution-12-gauge-speaker-cable-per-metre) | ~1m | £5.50 |
+| [Rockford Fosgate RFIY-1M Y-adapter](https://caraudiodirect.co.uk/products/rfiy-1m-twisted-pair-y-adapter-1-male-to-2-female) | 1 | £9.99 |
+| [Connection FT2-550.2 5.5m RCA](https://caraudiodirect.co.uk/products/connection-ft2-550-2-5-5m-rca-cable) | 1 | £15.99 |
+| [ACV black carpet 70 × 140 cm](https://caraudiodirect.co.uk/products/acv-30-1231-04-black-carpet-70cm-x-140cm) | 1 | £24.99 |
+
+**Car Audio Security** — £26.94
+
+| Item | Qty | Price |
+|---|---|---|
+| [Powerbass XWS-8P 8AWG power](https://www.caraudiosecurity.com/products/xws-8p-8-awg-power-wire-per-metre-100-ofc-wire) | ~5m | £22.45 |
+| [Powerbass XWS-8G 8AWG ground](https://www.caraudiosecurity.com/products/xws-8g-8-awg-ground-wire-per-metre-100-ofc-wire) | 1m | £4.49 |
+
+**Rapid** — £3.29
+
+| Item | Qty | Price |
+|---|---|---|
+| [DeWalt 11 mm brad point bit](https://rapidonline.com/catalogue/product/84-3574) *(tool)* | 1 | £3.29 |
+
+**Bolts.co.uk** — £2.01
+
+| Item | Qty | Price |
+|---|---|---|
+| [M8 serrated shakeproof washers, 25](https://bolts.co.uk/m8-serrated-shakeproof-washer-external-type-a-din6798-a2-stainless-steel-pack-of-100-p-SWEMA208) | 1 | £2.01 |
+
+**Fusion Fixings** — £1.12
+
+| Item | Qty | Price |
+|---|---|---|
+| [M8 threaded inserts for wood](https://fusionfixings.co.uk/products/m8-x-25mm-type-d-threaded-insert-nut-yellow-zinc) | 4 | £1.12 |
+
+**Wickes** — prices not shown online; pay in store
+
+| Item | Qty | Price |
+|---|---|---|
+| [Wickes 18 mm MDF, 606 × 1829 mm](https://www.wickes.co.uk/General-Purpose-MDF-Sheet---18-x-606-x-1829mm/p/207740) | 1 | ~ |
+| [Rothley 30 × 30 × 3 mm steel angle](https://www.wickes.co.uk/Rothley-30mm-Hot-Rolled-Steel-Angle---1m/p/188290) | 1 | ~ |
+
+**Everything, including tools: ≈ £1012**, plus the Wickes MDF and steel angle.
+
+
 ---
 
 ## 5. Still to find out
