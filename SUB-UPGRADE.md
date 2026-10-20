@@ -13,7 +13,7 @@ the front seats for upper bass; the 10" adds the deep bass they can't reach (the
 | Amp | Match UP 1FX, 350W at 4Ω, on the box's end wall |
 | Box | 680 × 300 × 159 mm (+ ~50 mm for the amp), 18 mm MDF, ~12.7 L inside |
 | Fixing | Brackets on the old compartment's bolts + hand-turned knobs. No new holes, no tools to remove |
-| Cost | ≈ £849, plus tools if not owned |
+| Cost | ≈ £876, plus tools if not owned |
 
 **Why this amp:** it has its own **low-pass filter**, so the 10" takes only the deep bass and leaves
 the upper bass and punch to the Feel 700s. It's also the cheaper of the two Match options. At
@@ -132,7 +132,7 @@ seam means a leak. Or once the sub is fitted, gently press the cone in: it shoul
 1. Box **upside down**.
 2. **Foam strip** round the hole on the outside face — the gasket.
 3. **Connect the wires:** both coils in parallel, + to +, − to − (that makes 4Ω).
-4. **Lower the sub in**, magnet first. Screw up through the tab ears with **flat-head screws**, pilot
+4. **Lower the sub in**, magnet first. Screw up through the tab ears with **4 × 25 mm pan-head screws** (not countersunk), pilot
    holes first. Don't overtighten — the ears can crack.
 5. Flip it back over. The sub can come out later the same way without opening the box.
 
@@ -256,10 +256,17 @@ string along the route first.
 | [Rothley 30 × 30 × 3 mm steel angle — Wickes](https://www.wickes.co.uk/Rothley-30mm-Hot-Rolled-Steel-Angle---1m/p/188290) — cut into brackets | 1 | ~ |
 | [M8 star knobs, pack of 10 — RS](https://uk.rs-online.com/web/p/clamping-knobs/0686632) | 1 | £32.96 |
 | [M8 threaded inserts for wood — Fusion Fixings](https://fusionfixings.co.uk/products/m8-x-25mm-type-d-threaded-insert-nut-yellow-zinc) | 4 | £1.12 |
-| Bolts, nyloc nuts, washers — match the old compartment's bolts | — | ~ |
-| **Subtotal** | | **£93.32** |
+| [Screw-Tite pan head screws 4 × 25 mm, 200 — Screwfix](https://www.screwfix.com/p/screw-tite-tfstpz4025-pz-pan-self-drilling-multi-purpose-screws-4mm-x-25mm-200-pack/415va) — sub tab ears (flat-underside head, not countersunk) | 1 | £5.79 |
+| [Timco rubber washers M6 × 28 mm, 75 — Screwfix](https://www.screwfix.com/p/timco-rubber-sela-washers-m6-x-28mm-75-pack/1120x) — behind the amp's mounting plates | 1 | £15.49 |
+| [M8 serrated shakeproof washers, 25 — Bolts.co.uk](https://bolts.co.uk/m8-serrated-shakeproof-washer-external-type-a-din6798-a2-stainless-steel-pack-of-100-p-SWEMA208) — ground point | 1 | £2.01 |
+| [Essentials 120 grit sanding sheets, 10 — Screwfix](https://www.screwfix.com/p/essentials-120-grit-multi-material-sanding-sheets-280mm-x-230mm-10-pack/209jg) — sub hole, ground point to bare metal | 1 | £3.98 |
+| Old compartment bolts — reused for the brackets | — | — |
+| **Subtotal** | | **£120.59** |
 
-**Total ≈ £849**, plus the MDF, steel angle and bolts.
+**Already owned:** Vibe bullet connectors (remote wire at the box), sound deadening and Tesa fleece
+tape (rattles), crimping tool.
+
+**Total ≈ £876**, plus the MDF and steel angle (prices not shown online).
 
 ### Tools
 
@@ -273,8 +280,9 @@ string along the route first.
 | [Magnusson hacksaw — Screwfix](https://www.screwfix.com/p/magnusson-24tpi-multi-material-hacksaw-12-300mm-/4686v) — for the steel angle | £11.98 |
 | [Magnusson hacksaw blades, 5 — Screwfix](https://www.screwfix.com/p/magnusson-hacksaw-blades-24tpi-12-5-pack/9262v) | £4.99 |
 | [RS PRO HSS metal drill set — RS](https://uk.rs-online.com/web/p/drill-bit-sets/6734709) — or a single 8.5 mm HSS bit | £47.15 |
-| Dust mask | — |
-| **Tools total** | **£111.17** |
+| [Magnusson folding hex key set, incl. 8 mm — Screwfix](https://www.screwfix.com/p/magnusson-metric-folding-hex-key-set-8-pcs/1850v) — screws in the M8 inserts | £6.99 |
+| [3M 8822 P2 dust masks, 5 — Screwfix](https://www.screwfix.com/p/3m-8822-cool-flow-disposable-valved-masks-p2-5-pack/449ej) — MDF dust | £16.99 |
+| **Tools total** | **£135.15** |
 
 ---
 
