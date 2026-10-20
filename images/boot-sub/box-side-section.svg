@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 300" width="640" font-family="Helvetica, Arial, sans-serif" font-size="12">
+<rect width="520" height="300" fill="#ffffff"/>
+<!-- 1 px = 1 mm. Box 300 mm front-to-back, 115 mm tall, 18 mm MDF -->
+<line x1="10" y1="226" x2="400" y2="226" stroke="#888780" stroke-width="1.5"/>
+<!-- seat side: steel angle bolted to the floor; two pegs on the box face drop into holes in its upright -->
+<g fill="#B4B2A9" stroke="#5F5E5A" stroke-width="0.5">
+<rect x="14" y="218" width="40" height="8"/>
+<rect x="46" y="150" width="8" height="76"/>
+<rect x="38" y="164" width="18" height="7" fill="#5F5E5A"/>
+</g>
+<g fill="#FAC775" stroke="#854F0B" stroke-width="0.5">
+<rect x="56" y="111" width="300" height="18"/>
+<rect x="56" y="208" width="300" height="18"/>
+<rect x="56" y="129" width="18" height="79"/>
+<rect x="338" y="129" width="18" height="79"/>
+</g>
+<!-- sub: tab ears on top of the baffle, mounting depth 83 mm from the baffle top -->
+<rect x="64" y="106" width="284" height="5" fill="#5F5E5A"/>
+<polygon points="84,111 328,111 268,167 144,167" fill="#D3D1C7" stroke="#5F5E5A" stroke-width="0.5"/>
+<rect x="141" y="167" width="130" height="27" rx="2" fill="#B4B2A9" stroke="#5F5E5A" stroke-width="0.5"/>
+<line x1="70" y1="98" x2="342" y2="98" stroke="#5F5E5A" stroke-width="2" stroke-dasharray="3 2"/>
+<!-- toggle latch on the tailgate face -->
+<g fill="#B4B2A9" stroke="#5F5E5A" stroke-width="0.5">
+<rect x="356" y="156" width="10" height="24"/>
+<rect x="366" y="172" width="16" height="54"/>
+</g>
+<g stroke="#888780" stroke-width="0.5" fill="none">
+<line x1="56" y1="246" x2="356" y2="246"/>
+<line x1="56" y1="240" x2="56" y2="252"/>
+<line x1="356" y1="240" x2="356" y2="252"/>
+<line x1="400" y1="111" x2="400" y2="226"/>
+<line x1="394" y1="111" x2="406" y2="111"/>
+<line x1="394" y1="226" x2="406" y2="226"/>
+<line x1="300" y1="194" x2="300" y2="208"/>
+<line x1="295" y1="194" x2="305" y2="194"/>
+<line x1="295" y1="208" x2="305" y2="208"/>
+</g>
+<g fill="#3d3d3a">
+<text x="206" y="264" text-anchor="middle">300 mm (front to back)</text>
+<text x="410" y="172">115 mm</text>
+<text x="308" y="205" font-size="10">14 mm</text>
+<text x="410" y="102">Grille</text>
+<text x="6" y="132">Peg into</text>
+<text x="6" y="146">floor angle</text>
+<text x="388" y="152">Latch</text>
+<text x="190" y="146">Cone</text>
+<text x="178" y="185" font-size="10">Magnet</text>
+<text x="410" y="230">Boot floor</text>
+</g>
+<text x="10" y="288" fill="#73726c">Side view through the sub. Seat side left, tailgate right. 18 mm MDF, to scale.</text>
+</svg>
