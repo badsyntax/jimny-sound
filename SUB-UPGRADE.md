@@ -15,6 +15,10 @@ the front seats for upper bass; the 10" adds the deep bass they can't reach (the
 | Fixing | Brackets on the old compartment's bolts + hand-turned knobs. No new holes, no tools to remove |
 | Cost | ≈ £904, plus tools if not owned |
 
+**Check first — a ready-made box may fit.** If the boot floor is at least 335 mm front to back with
+the compartment out, buy the [Kicker 48TRTP102](#pick-kicker-48trtp102--if-the-floor-is-deep-enough)
+(£310, down-firing 10", 142 mm tall) instead of building — same amp, wiring and fixing.
+
 **Why this amp:** it has its own **low-pass filter**, so the 10" takes only the deep bass and leaves
 the upper bass and punch to the Feel 700s. It's also the cheaper of the two Match options. At
 46 × 130 × 153 mm it fits on the box's 159 mm-tall end wall standing on its 130 mm edge, so there's
@@ -459,10 +463,30 @@ Buy a box instead of building one. The custom box is 680 × 300 × 159 mm (lengt
 height), matching the old compartment's footprint; anything deeper than ~300 mm front to back
 needs the boot floor measured first (see above). Prices checked October 2026.
 
+### Pick: Kicker 48TRTP102 — if the floor is deep enough
+
+[Kicker 48TRTP102 CompRT 10" down-firing loaded enclosure](https://caraudiocentre.co.uk/products/kicker-48trtp102)
+— £309.95 at Car Audio Centre (special order, 3–5 days). **650 × 335 × 142 mm**, 2Ω, 400 W RMS,
+96.5 dB.
+
+- **Why:** no build — a finished, carpeted, braced box with the sub fitted. A CompRT 10" plus a
+  **passive radiator**, which deepens the bass the way a port would, so it goes low from a 142 mm box.
+- **Cheaper:** £310 against ~£400 for the 10TW3 plus ~£130 of box materials and ~£125 of tools.
+- **Lower:** 142 mm against 159 mm for the custom box.
+- **Same everything else:** the UP 1FX (wired at 2Ω, gain set for 400 W) on its end wall — 650 mm
+  + the amp fits the ~730 mm — plus the same wiring, brackets and star knobs. Speaker wires go
+  straight from the amp to the box's terminals.
+- **Trade-off:** the 10TW3 is the more refined sub — a bit tighter and more controlled.
+- **Before ordering:** with the compartment out, the floor from the seat backs to the tailgate seal
+  must be **at least 335 mm (ideally ~345 mm)**. Try a 650 × 335 × 142 mm cardboard box in the boot.
+  If it doesn't fit, build the custom box.
+
+### All the options
+
 | Box | Size L × D × H (mm) | Amp | Price | Fits? |
 |---|---|---|---|---|
 | [DLS 610PESB28 2 × 8" slim, down-firing](https://www.winparts.co.uk/interior-fabrics/car-audio-accessories/subwoofers/c1013/dls-2x8-quot-2500mm-slim-subwoofer-box-downfire/p1987404.html) — Winparts | 640 × 300 × 160 | Needs one — UP 1FX (wire it 1Ω or 4Ω) | £143.94 | **Yes** — same footprint as the custom box. Two 8"s, so less deep bass than the 10TW3 |
-| [Kicker 48TRTP102 CompRT 10", down-firing](https://caraudiocentre.co.uk/products/kicker-48trtp102) — Car Audio Centre | 650 × 335 × 142 | Needs one — UP 1FX at 2Ω | £309.95 | **Maybe** — 35 mm deeper, 17 mm lower |
+| **[Kicker 48TRTP102 CompRT 10", down-firing](https://caraudiocentre.co.uk/products/kicker-48trtp102) — pick** | 650 × 335 × 142 | Needs one — UP 1FX at 2Ω | £309.95 | **Maybe** — 35 mm deeper, 17 mm lower |
 | [Kicker 53PL7TDF10 powered L7T 10", down-firing](https://caraudiocentre.co.uk/products/kicker-audio-53pl7tdf10-powered-l7t-10-down-firing-loaded-enclosure) — Car Audio Centre | 595 × 365 × 191 | **Built in**, plus bass remote | £499.95 | **Maybe** — 65 mm deeper, 32 mm taller |
 | [Pioneer TS-WX1010LA powered 10"](https://caraudiocentre.co.uk/products/pioneer-ts-wx1010la) — Car Audio Centre | 533 × 300 × 150 | **Built in** | £239.99 | Fits, but fires **up** through a grille — not stealth, nothing on top |
 
@@ -474,7 +498,9 @@ needs the boot floor measured first (see above). Prices checked October 2026.
 - The brackets and star knobs still fix any of them down — the tee nuts go into whichever wall
   sits over the brackets.
 - **Ruled out:** DD Audio LE-DF-SL610-1 (340 mm deep, US only), JL Audio CP110LG-TW1 (337 mm deep,
-  fires forward through a port).
+  fires forward through a port), JL CS110LG-TW3 (the only ready-made 10TW3 box — a seat-back
+  wedge, fires forward), DS18 EN-DF10 / EN-DF10A (would fit at 515 × 295 × 160, but US only),
+  Axton ATB120A (8", only 100 W).
 
 ## Other amp option — Match M 2.1AMP
 
