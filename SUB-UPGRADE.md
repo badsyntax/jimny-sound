@@ -22,7 +22,7 @@ reachable without tools**.
 | Power wire to the boot | 4AWG, 60A branch | 8AWG, 40A branch — lighter, easier to route |
 | Box | 730 mm long, ~13.7 L | ~685 mm long, ~12.8 L |
 | Height, both | ~160 mm (end walls extend to the floor) | ~160 mm (end walls extend to the floor) |
-| Price | £259.99 amp, **≈ £854 all-in** | £369.99 amp, **≈ £934 all-in** |
+| Price | £259.99 amp, **≈ £888 all-in** | £369.99 amp, **≈ £968 all-in** |
 
 **A — pros:** cheapest; proper deep/upper split; simplest quick release; the box keeps all its air.
 **A — cons:** needs a home for a 13 × 15 cm amp in the boot, and there isn't an obvious one.
@@ -245,7 +245,24 @@ clamp it while the glue sets. Nails work loose with vibration.
 
 ## Quick release
 
-No tools needed to reach the jack.
+No tools needed to reach the jack, and **no new holes in the car** — both fixing options below use
+only the old compartment's existing bolt holes.
+
+### Fixing option 1 — brackets and star knobs (simpler, preferred)
+
+![Bracket and star knob fixing at one end of the box](images/boot-sub/end-fixing.svg)
+
+1. **Floor brackets** — short pieces of steel angle, bolted to the floor with the **old
+   compartment's own bolts in its own holes**. They stay in the car.
+2. **Threaded inserts** — one M8 insert in the outside face of each end wall, low down, where it
+   meets the bracket's upright leg.
+3. **Star knobs** — an M8 knob through the bracket's upright into each insert, done up by hand.
+
+To reach the tools: undo the knobs by hand, unplug, lift the box out. Bolted down at both ends,
+it's stronger than the latches, and there's nothing to line up but the brackets. Two knobs (one
+per end) is the minimum; four (two per end) is better if the old bolt holes allow.
+
+### Fixing option 2 — pegs and latches
 
 ```mermaid
 flowchart LR
@@ -273,8 +290,8 @@ flowchart LR
   the remote wire uses one of the Vibe bullet connectors already owned. Leave enough slack that
   the box lifts clear before anything pulls tight.
 
-The latches and pegs together are what hold the box in a crash, so the floor angle must be steel,
-bolted, not screwed into trim.
+Whichever fixing is used, it's what holds the box in a crash — steel brackets or angle, bolted
+through the old holes, never screwed into trim.
 
 ---
 
@@ -447,18 +464,20 @@ run a string along the route before ordering.
 | [ACV 30.1231-04 black carpet 70 × 140 cm — Car Audio Direct](https://caraudiodirect.co.uk/products/acv-30-1231-04-black-carpet-70cm-x-140cm) | 1 | £24.99 |
 | [OB41 Fast Tack spray adhesive 500ml — Screwfix](https://www.screwfix.com/p/ob41-fast-tack-spray-adhesive-clear-500ml/524YE) — carpet; collect only, 18+ | 1 | £5.59 |
 | [Stormguard self-adhesive foam strip, 2 × 7.5m — Screwfix](https://www.screwfix.com/p/stormguard-sureseal-3-self-adhesive-foam-draught-excluder-weatherstrips-black-7-5m-2-pack/493VV) — sub gasket, under the end walls, anti-rattle | 1 | £6.19 |
-| [Rothley 30 × 30 × 3 mm steel angle, 1m — Wickes](https://www.wickes.co.uk/Rothley-30mm-Hot-Rolled-Steel-Angle---1m/p/188290) — seat-side floor angle | 1 | ~ |
-| [Savigny stainless toggle latch, pack of 2 — RS](https://uk.rs-online.com/web/p/door-latches/1974154) — **only if** the old latches don't line up | (1) | (£26.08) |
-| M6 bolts, nyloc nuts, washers for the pegs and floor angle — match the old compartment's bolts | — | ~ |
-| **Subtotal** | | **£93.21** |
+| [Rothley 30 × 30 × 3 mm steel angle, 1m — Wickes](https://www.wickes.co.uk/Rothley-30mm-Hot-Rolled-Steel-Angle---1m/p/188290) — fixing 1: cut into short floor brackets; fixing 2: seat-side floor angle | 1 | ~ |
+| [RS PRO 4-arm clamping knob, M8 × 20 mm stud, pack of 10 — RS](https://uk.rs-online.com/web/p/clamping-knobs/0686632) — fixing 1 | 1 | £32.96 |
+| [M8 × 25 mm flanged threaded insert for wood — Fusion Fixings](https://fusionfixings.co.uk/products/m8-x-25mm-type-d-threaded-insert-nut-yellow-zinc) — fixing 1; 11.1–11.5 mm hole, 8 mm hex key | 4 @ £0.28 | £1.12 |
+| [Savigny stainless toggle latch, pack of 2 — RS](https://uk.rs-online.com/web/p/door-latches/1974154) — fixing 2, **only if** the old latches don't line up | (1) | (£26.08) |
+| Bolts, nyloc nuts, washers for the brackets or floor angle — match the old compartment's bolts | — | ~ |
+| **Subtotal** | | **£127.29** |
 
 ### Totals
 
 | | Option A | Option B |
 |---|---|---|
 | Option-specific | £760.72 | £840.87 |
-| Shared | £93.21 | £93.21 |
-| **Total** | **≈ £854** | **≈ £934** |
+| Shared | £127.29 | £127.29 |
+| **Total** | **≈ £888** | **≈ £968** |
 
 Plus the steel angle and bolts in both. The end walls come from the 18 mm MDF already owned.
 
@@ -489,7 +508,7 @@ Wear a dust mask when cutting MDF.
       reference — the old compartment was ~10 cm inside)
 - [ ] Do the tools sit **under the floor** (box lifts off them) or **inside the compartment**
       (they need a new home or a bay at one end — 650 mm box, which rules out option B)?
-- [ ] Bolt points and thread size of the old compartment
+- [ ] Old compartment bolts: how many, where (relative to its ends), thread size, and whether they go into threaded holes or through with nuts underneath — decides the bracket positions for fixing 1
 - [ ] **Option A only:** a spot for a 130 × 153 mm amp on the body in the boot — photos of each side
       wall with the trim on and off, and the gap between each end of the compartment and the wall
 - [ ] A bare-metal ground bolt near the boot amp
