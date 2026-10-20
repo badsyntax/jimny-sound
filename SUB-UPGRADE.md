@@ -164,8 +164,9 @@ tool bay together don't fit.
   leaving two ~69 cm × 44 mm openings for the bass. Don't extend these instead: the ends sit close
   to the boot's side trims, so openings there would be choked. Don't let the carpet hang over the
   openings, and run foam strip under the end walls to stop buzzing.
-- **Brace** — one strip of 18 mm MDF across the inside of the top panel, clear of the magnet. The
-  top carries the load, so this matters more than before.
+- **Brace** — 264 × 50 mm of 18 mm MDF, on edge, glued and screwed under the **middle** of the
+  top panel (365 mm from the sub end), running front to back between the long walls. Clear of the
+  magnet, and where the 73 cm span needs it most.
 - **Optional:** a second layer of 18 mm MDF on the bottom panel around the sub (the reference box
   uses a 1.5" baffle). Stiffer, and it cuts the magnet's reach into the box to 47 mm.
 - **The end away from the sub** carries the connection:
@@ -177,6 +178,28 @@ tool bay together don't fit.
   inside seam. Foam strip under the sub's flange as a gasket.
 - **Carpet** the outside, spray adhesive, wrap the edges under — on the long sides, wrap to the
   bottom panel's edge so the openings stay clear.
+
+### Cut list
+
+All 18 mm MDF. One [Wickes 606 × 1829 mm sheet](https://www.wickes.co.uk/General-Purpose-MDF-Sheet---18-x-606-x-1829mm/p/207740)
+is enough — the 1220 mm sheet isn't long enough.
+
+![Cut list, to scale](images/boot-sub/cut-list.svg)
+
+| # | Part | Size (mm) | Qty |
+|---|---|---|---|
+| 1 | Top | 730 × 300 | 1 |
+| 2 | Brace, on edge under the middle of the top | 264 × 50 | 1 |
+| 3 | End walls, reaching the floor | 300 × 141 | 2 |
+| 4 | Long walls, front and back | 694 × 79 | 2 |
+| 5 | Bottom, 244 mm hole centred 182 mm from one end | 694 × 300 | 1 |
+
+That gives 730 × 300 × 159 mm outside and 694 × 264 × 79 mm inside. Option B's box is 45 mm
+shorter: take 45 mm off the top, bottom and long walls.
+
+**Build order:** cut the sub hole in the bottom → long walls onto the bottom's long edges → end walls
+on each end, hanging 44 mm below → Speakon (or amp) and leads → brace under the top, then the top
+on → silicone the inside seams through the sub hole → carpet → sub in from below.
 
 ### Down-firing, in practice
 
@@ -457,7 +480,7 @@ run a string along the route before ordering.
 | [Rockford Fosgate RFIY-1M Y-adapter, 1 male → 2 female](https://caraudiodirect.co.uk/products/rfiy-1m-twisted-pair-y-adapter-1-male-to-2-female) — at Line Out | 1 | £9.99 |
 | [Connection FT2-550.2 5.5m RCA](https://caraudiodirect.co.uk/products/connection-ft2-550-2-5-5m-rca-cable) — amp → boot | 1 | £15.99 |
 | ~1 mm² hook-up wire, REM OUT → boot amp — **already owned** (check there's ~5m) | — | — |
-| 18 mm MDF — **already owned** | — | — |
+| [Wickes 18 mm MDF, 606 × 1829 mm](https://www.wickes.co.uk/General-Purpose-MDF-Sheet---18-x-606-x-1829mm/p/207740) — one sheet does every panel | 1 | ~ |
 | [Gorilla PVA Wood Glue 236ml — Screwfix](https://www.screwfix.com/p/gorilla-glue-wood-glue-236ml/43424) | 1 | £7.69 |
 | [TurboGold woodscrew handy pack, 380 — Screwfix](https://www.screwfix.com/p/turbogold-pz-double-countersunk-woodscrew-handy-pack-380-pieces/459jj) — 4 × 40 mm for the box | 1 | £9.99 |
 | [No Nonsense 101 silicone, clear 310ml — Screwfix](https://www.screwfix.com/p/no-nonsense-general-purpose-silicone-clear-310ml/35887) — inside seams | 1 | £4.79 |
@@ -479,7 +502,23 @@ run a string along the route before ordering.
 | Shared | £127.29 | £127.29 |
 | **Total** | **≈ £888** | **≈ £968** |
 
-Plus the steel angle and bolts in both. The end walls come from the 18 mm MDF already owned.
+Plus the MDF sheet, steel angle and bolts (prices not shown online), and the tools below if not
+already owned.
+
+### Tools
+
+| Item | Price |
+|---|---|
+| [Titan 600W electric jigsaw — Screwfix](https://www.screwfix.com/p/titan-ttb1471jsw-600w-electric-jigsaw-240v/135AN) — comes with a wood and a metal blade | £23.99 |
+| [Bosch T101AO wood jigsaw blades, 5 — Screwfix](https://www.screwfix.com/p/bosch-t101ao-wood-jigsaw-blades-83mm-5-pack/36303) — clean curves for the sub hole | £5.99 |
+| [Erbauer brad point wood bits, 3–10 mm — Screwfix](https://www.screwfix.com/p/erbauer-straight-shank-double-flute-brad-point-wood-drill-bit-set-8-pieces/793PH) — 3 mm pilots, 4 mm clearance holes | £8.99 |
+| [Erbauer 9.5 mm countersink — Screwfix](https://www.screwfix.com/p/erbauer-dra46881-hex-shank-wood-135-countersink-9-5mm-x-45mm-with-65mm-pilot-drill/86156) | £4.79 |
+| [DeWalt 11 mm brad point bit — Rapid](https://rapidonline.com/catalogue/product/84-3574) — for the M8 inserts | £3.29 |
+| [Magnusson 12" hacksaw — Screwfix](https://www.screwfix.com/p/magnusson-24tpi-multi-material-hacksaw-12-300mm-/4686v) — cuts the steel angle | £11.98 |
+| [Magnusson 12" hacksaw blades, 5 — Screwfix](https://www.screwfix.com/p/magnusson-hacksaw-blades-24tpi-12-5-pack/9262v) — spares | £4.99 |
+| [RS PRO HSS metal drill set, 1–10 mm — RS](https://uk.rs-online.com/web/p/drill-bit-sets/6734709) — holes in the steel brackets (8.5 mm for M8); a single 8.5 mm HSS bit also does | £47.15 |
+| Dust mask — MDF dust | — |
+| **Tools total** | **£111.17** |
 
 ---
 
