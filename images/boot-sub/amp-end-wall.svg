@@ -9,16 +9,14 @@
 <rect x="38" y="59" width="264" height="79"/>
 <rect x="38" y="138" width="264" height="18"/>
 </g>
-<!-- box terminal: 78 mm square flange, 67 mm hole behind, centred 70 mm from the left edge, middle of the inside height -->
-<rect x="50.9" y="59.4" width="78.3" height="78.3" rx="6" fill="#5F5E5A" stroke="#2C2C2A" stroke-width="0.5"/>
-<circle cx="90" cy="98.5" r="33.5" fill="none" stroke="#D3D1C7" stroke-width="1" stroke-dasharray="3 2"/>
-<circle cx="78" cy="98.5" r="7" fill="#A32D2D"/>
-<circle cx="102" cy="98.5" r="7" fill="#2C2C2A" stroke="#D3D1C7" stroke-width="0.8"/>
-<g fill="#D3D1C7"><circle cx="61" cy="69" r="2"/><circle cx="119" cy="69" r="2"/><circle cx="61" cy="128" r="2"/><circle cx="119" cy="128" r="2"/></g>
-<!-- amp standing on its 130 mm edge, beside the terminal -->
+<!-- two binding posts, 40 mm down from the top edge, 50 and 90 mm in from the left edge, 40 mm apart -->
+<circle cx="70" cy="99" r="8" fill="#A32D2D" stroke="#5F5E5A" stroke-width="0.5"/>
+<circle cx="110" cy="99" r="8" fill="#2C2C2A" stroke="#5F5E5A" stroke-width="0.5"/>
+<g fill="#ffffff" font-size="11" font-weight="bold" text-anchor="middle"><text x="70" y="103">+</text><text x="110" y="103">−</text></g>
+<!-- amp standing on its 130 mm edge, beside the posts -->
 <rect x="145" y="60" width="153" height="130" rx="3" fill="#444441"/>
 <text x="221.5" y="130" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="bold">UP 1FX</text>
-<!-- bracket + knob below the terminal, in the 44 mm gap -->
+<!-- bracket + knob below the posts, in the 44 mm gap -->
 <rect x="60" y="170" width="30" height="30" fill="#B4B2A9" stroke="#5F5E5A" stroke-width="0.5"/>
 <circle cx="75" cy="178" r="9" fill="#444441"/>
 <!-- dimensions -->
@@ -27,7 +25,7 @@
 <line x1="328" y1="156" x2="328" y2="200"/><line x1="323" y1="156" x2="333" y2="156"/><line x1="323" y1="200" x2="333" y2="200"/>
 </g>
 <g fill="#3d3d3a">
-<text x="90" y="30" text-anchor="middle">Box terminal, 67 mm hole</text>
+<text x="90" y="80" text-anchor="middle">Binding posts</text>
 <text x="338" y="54">Top panel</text>
 <text x="338" y="96">Inside the box</text>
 <text x="338" y="110" font-size="10" fill="#73726c">(behind, dashed)</text>
@@ -37,8 +35,8 @@
 <text x="75" y="218" text-anchor="middle">Bracket + knob</text>
 </g>
 <g fill="#73726c" font-size="10">
-<text x="20" y="246">Amp end wall from outside, to scale. Cut the hole in step 2, fit the terminal in step 4.6.</text>
-<text x="20" y="260">The bracket sits under the terminal, where the amp can't hit the knob.</text>
-<text x="20" y="274">If the old bolt is on the other side, mirror it: terminal and bracket that side, amp this side.</text>
+<text x="20" y="246">Amp end wall from outside, to scale. Drill the holes in step 2, fit the posts in step 4.6.</text>
+<text x="20" y="260">The bracket sits under the posts, where the amp can't hit the knob.</text>
+<text x="20" y="274">If the old bolt is on the other side, mirror it: posts and bracket that side, amp this side.</text>
 </g>
 </svg>

@@ -13,7 +13,7 @@ the front seats for upper bass; the 10" adds the deep bass they can't reach (the
 | Amp | Match UP 1FX, 350W at 4Ω, on the box's end wall |
 | Box | 680 × 300 × 159 mm (+ ~50 mm for the amp), 18 mm MDF, ~12.7 L inside |
 | Fixing | Brackets on the old compartment's bolts + hand-turned knobs. No new holes, no tools to remove |
-| Cost | ≈ £904, plus tools if not owned |
+| Cost | ≈ £918, plus tools if not owned |
 
 **Why this amp:** it has its own **low-pass filter**, so the 10" takes only the deep bass and leaves
 the upper bass and punch to the Feel 700s. It's also the cheaper of the two Match options. At
@@ -50,7 +50,7 @@ Steps 0–4 and 9 of the build; carpet, sub, amp and wiring come later.
 **Screwfix ≈ £107, RS ≈ £80 — about £187**, plus the Wickes items. Skip any *(tool)* already owned.
 
 - **Leave the sub hole uncut for now if you like** — cut it once the box fits; it's easy to do last.
-- **Box terminal** (build step 4.6) can go in later — the wires reach it through the sub hole.
+- **Binding posts** (build step 4.6) can go in later — reach the inside nuts through the sub hole.
 - The metal drill set is the cheapest way to get an 8.5 mm bit — RS only sells that size singly in
   boxes of 10 (£49). It also covers whatever size the old compartment bolts turn out to be.
 
@@ -102,7 +102,7 @@ does everything. Ask Wickes to cut it to size if you can — straight cuts make 
 | 4 | Long walls | 644 × 79 | 2 |
 | 5 | Bottom | 644 × 300 | 1 |
 
-### Step 2 — Cut the sub hole and the terminal hole
+### Step 2 — Cut the sub hole and the post holes
 
 1. **Mark the centre:** 182 mm from one end, 150 mm from either long edge.
 2. **Draw the circle:** a strip of scrap wood with a screw at one end as the pivot and a pencil hole
@@ -110,11 +110,11 @@ does everything. Ask Wickes to cut it to size if you can — straight cuts make 
 3. **Drill a starter hole** just inside the line, big enough for the jigsaw blade.
 4. **Cut slowly** with the jigsaw (T101AO blade), staying just inside the line.
 5. **Sand up to the line** until the sub drops in. Practise on an offcut first.
-6. **Terminal hole:** on **one end wall**, the same way: a **67 mm** circle (33.5 mm pencil
-   radius), centre **70 mm in from one long edge and 40 mm down from the top edge** — the middle
-   of the box's inside height. Cut it now while the panel is flat. The amp goes beside it.
+6. **Post holes:** on **one end wall**, two holes **40 mm down from the top edge**, at **50 mm and
+   90 mm in from one long edge** — inside the box, 40 mm apart. Drill them to fit the posts' shaft
+   (they're 5 mm — likely a 5–6 mm bit; check against the post). The amp goes beside them.
 
-   ![Amp end wall with the box terminal](images/boot-sub/amp-end-wall.svg)
+   ![Amp end wall with the binding posts](images/boot-sub/amp-end-wall.svg)
 
 ### Step 3 — How every joint is made
 
@@ -145,27 +145,31 @@ Numbers match the cut list. Two flips, no blocks, top panel last:
    stick up **44 mm past the bottom panel**. Glue and screw through them into the long walls and
    the bottom panel.
 5. **Flip it back.** The end walls now hold the box 44 mm off the bench — this is the right way up.
-6. **Box terminal** (its hole was cut in step 2):
+6. **Binding posts** ([Wilmslow BP-270G](https://wilmslowaudio.co.uk/connectors/binding-posts-bp-270g-pair),
+   made for wooden cabinets up to 33 mm):
    1. Cut **two pairs** of 12AWG (one per voice coil), long enough to reach the sub hole with slack.
-   2. Twist both + ends together and solder them to the terminal's + tab; both − ends to the − tab.
-      That joins the coils in parallel (4Ω).
-   3. Feed the loose ends in through the 67 mm hole towards the sub hole.
-   4. Stick a ring of foam strip round the hole, then screw the
-      [ACV terminal](https://caraudiodirect.co.uk/products/acv-2-pole-subwoofer-box-terminal) on
-      with four 4 × 20 mm pan-heads (3 mm pilots first).
+      Crimp a **ring terminal** on one end of each wire.
+   2. Push each post through its hole from outside, **red in the + hole**, with a rubber washer
+      under its head.
+   3. Inside, on each post: another rubber washer, then **two ring terminals** — one from each
+      coil (both + wires on red, both − on black) — then the post's nut, tight. That joins the
+      coils in parallel (4Ω) and squeezes the washers so the holes are airtight.
+   4. Feed the loose ends towards the sub hole.
 
-   **Simpler alternative — wires through a sealed hole.** Skip the terminal and its 67 mm hole.
+   **Other option:** an [ACV box terminal plate](https://caraudiodirect.co.uk/products/acv-2-pole-subwoofer-box-terminal)
+   (£14.99, Car Audio Direct) does the same job but needs a 67 mm hole and soldering inside.
+
+   **Simplest — wires through a sealed hole.** Skip the posts.
    Drill a hole just big enough for the four 12AWG wires, push them through, and pull a
    [cable tie](https://www.screwfix.com/p/essentials-cable-ties-black-200mm-x-4-5mm-100-pack/44334)
    (Screwfix, £2.49 for 100) tight round them on **each side**, right up against the wall — a tug
    from outside then pulls on the tie, not the seal. Silicone both faces and let it cure a full day.
    Join the coils at the amp instead: both + wires into its +, both − into −. Cheaper and smaller,
-   but it's the DIY way — the terminal is what shop-built boxes use, and keeps the wires
+   but it's the DIY way — posts or a terminal are what shop-built boxes use, and keep the wires
    replaceable.
 7. **Brace (2) onto the top (1)** — on edge, across the middle, 340 mm from the sub end (half the box length). Glue and
    screw down through the top into it.
-8. **Top on**, brace inside. Glue and screw into all four walls — but **no screws over the terminal
-   hole**: there's only ~6 mm of MDF above it, and a screw would split it. Glue alone holds there.
+8. **Top on**, brace inside. Glue and screw into all four walls.
 9. **Seal:** once the glue's dry, silicone every inside seam — reach in through the sub hole.
 
 ### Step 5 — Leak test
@@ -201,7 +205,7 @@ seam means a leak. Or once the sub is fitted, gently press the cone in: it shoul
 1. Screw the UP 1FX to the end wall on its two mounting plates, **standing on its 130 mm edge**
    (fins vertical), with rubber washers behind it. Use the 4 × 20 mm pan-heads — longer ones poke
    through the 18 mm wall. Leave the controls facing out.
-2. A short pair of 12AWG from the box terminal's posts to the amp's speaker output, + to +, − to −.
+2. A short pair of 12AWG from the binding posts to the amp's speaker output, red to +, black to −.
 3. Fit an **Anderson SB50** on the power and ground leads, so the box unplugs in one go — see
    below.
 
@@ -230,7 +234,7 @@ only needed now and then, but it loses the "no tools" goal.
 2. **Brackets:** cut short pieces of the steel angle with the hacksaw. Drill one hole to match the
    old bolt and one 8.5 mm hole in the upright for the knob. Bolt them to the floor with the **old
    bolts in the old holes**. One per end minimum, two per end if the holes allow — but on the amp
-   end only under the terminal, where the amp can't hit the knob.
+   end only under the posts, where the amp can't hit the knob.
 3. **Tee nuts:** drop the box in place and mark through each bracket's knob hole onto the end wall.
    That spot is in the 44 mm gap below the bottom panel, so the inside face is reachable from
    underneath. Drill straight through to fit the tee nut's barrel (usually 10 mm — check it against
@@ -320,11 +324,12 @@ string along the route first.
 | [Connection FRT8 8AWG ring terminals](https://caraudiodirect.co.uk/products/connection-frt8-8-gauge-ring-terminals) | 1 pack | £4.99 |
 | [Anderson SB50 connector — RS](https://uk.rs-online.com/web/p/battery-connectors/6120150) — two make one plug + socket | 2 | £16.46 |
 | [Connection SL212.2 12AWG speaker cable](https://caraudiodirect.co.uk/products/connection-by-audison-sl212-2-silver-series-high-resolution-12-gauge-speaker-cable-per-metre) | ~2m | £11.00 |
-| [ACV two-pole subwoofer box terminal](https://caraudiodirect.co.uk/products/acv-2-pole-subwoofer-box-terminal) — speaker wires through the box wall, airtight | 1 | £14.99 |
+| [Wilmslow Audio BP-270G binding posts, pair](https://wilmslowaudio.co.uk/connectors/binding-posts-bp-270g-pair) — speaker wires through the box wall | 1 | £15.00 |
+| [RS PRO ring terminals, 12–10AWG, 5.3 mm, 100](https://uk.rs-online.com/web/p/ring-terminals/1788668) — coil wires onto the posts | 1 | £14.20 |
 | [Rockford Fosgate RFIY-1M Y-adapter](https://caraudiodirect.co.uk/products/rfiy-1m-twisted-pair-y-adapter-1-male-to-2-female) | 1 | £9.99 |
 | [Connection FT2-550.2 5.5m RCA](https://caraudiodirect.co.uk/products/connection-ft2-550-2-5-5m-rca-cable) | 1 | £15.99 |
 | ~1 mm² remote wire — **already owned** | ~5m | — |
-| **Subtotal** | | **£776.32** |
+| **Subtotal** | | **£790.53** |
 
 ### Box and fixing
 
@@ -350,7 +355,7 @@ string along the route first.
 **Already owned:** Vibe bullet connectors (remote wire at the box), sound deadening and Tesa fleece
 tape (rattles), crimping tool.
 
-**Total ≈ £904**, plus the MDF and steel angle (prices not shown online).
+**Total ≈ £918**, plus the MDF and steel angle (prices not shown online).
 
 ### Tools
 
@@ -403,16 +408,23 @@ The same parts, grouped so each shop is one order. *(tool)* = only if not alread
 | [Magnusson hacksaw blades, 5](https://www.screwfix.com/p/magnusson-hacksaw-blades-24tpi-12-5-pack/9262v) *(tool)* | 1 | £4.99 |
 | [3M 8822 P2 dust masks, 5](https://www.screwfix.com/p/3m-8822-cool-flow-disposable-valved-masks-p2-5-pack/449ej) *(tool)* | 1 | £16.99 |
 
-**RS** — £103.76
+**RS** — £117.96
 
 | Item | Qty | Price |
 |---|---|---|
 | [Anderson SB50 connector](https://uk.rs-online.com/web/p/battery-connectors/6120150) | 2 | £16.46 |
 | [M8 star knobs, pack of 10](https://uk.rs-online.com/web/p/clamping-knobs/0686632) | 1 | £32.96 |
 | [RS PRO M8 external tooth washers, 100](https://uk.rs-online.com/web/p/washers/0276897) | 1 | £7.19 |
+| [RS PRO ring terminals, 12–10AWG, 5.3 mm, 100](https://uk.rs-online.com/web/p/ring-terminals/1788668) | 1 | £14.20 |
 | [RS PRO HSS metal drill set](https://uk.rs-online.com/web/p/drill-bit-sets/6734709) *(tool)* | 1 | £47.15 |
 
-**Car Audio Direct** — £97.93
+**Wilmslow Audio** — £15.00 plus delivery
+
+| Item | Qty | Price |
+|---|---|---|
+| [BP-270G binding posts, pair](https://wilmslowaudio.co.uk/connectors/binding-posts-bp-270g-pair) | 1 | £15.00 |
+
+**Car Audio Direct** — £82.94
 
 | Item | Qty | Price |
 |---|---|---|
@@ -420,7 +432,6 @@ The same parts, grouped so each shop is one order. *(tool)* = only if not alread
 | [Connection SFA-100 100A main fuse](https://caraudiodirect.co.uk/products/connection-by-audison-sfa-100-100a-afs-fuses) | 1 | £7.99 |
 | [Connection FRT8 8AWG ring terminals](https://caraudiodirect.co.uk/products/connection-frt8-8-gauge-ring-terminals) | 1 pack | £4.99 |
 | [Connection SL212.2 12AWG speaker cable](https://caraudiodirect.co.uk/products/connection-by-audison-sl212-2-silver-series-high-resolution-12-gauge-speaker-cable-per-metre) | ~2m | £11.00 |
-| [ACV two-pole subwoofer box terminal](https://caraudiodirect.co.uk/products/acv-2-pole-subwoofer-box-terminal) — speaker wires through the box wall, airtight | 1 | £14.99 |
 | [Rockford Fosgate RFIY-1M Y-adapter](https://caraudiodirect.co.uk/products/rfiy-1m-twisted-pair-y-adapter-1-male-to-2-female) | 1 | £9.99 |
 | [Connection FT2-550.2 5.5m RCA](https://caraudiodirect.co.uk/products/connection-ft2-550-2-5-5m-rca-cable) | 1 | £15.99 |
 | [ACV black carpet 70 × 140 cm](https://caraudiodirect.co.uk/products/acv-30-1231-04-black-carpet-70cm-x-140cm) | 1 | £24.99 |
@@ -439,9 +450,9 @@ The same parts, grouped so each shop is one order. *(tool)* = only if not alread
 | [Wickes 18 mm MDF, 606 × 1829 mm](https://www.wickes.co.uk/General-Purpose-MDF-Sheet---18-x-606-x-1829mm/p/207740) | 1 | ~ |
 | [Rothley 30 × 30 × 3 mm steel angle](https://www.wickes.co.uk/Rothley-30mm-Hot-Rolled-Steel-Angle---1m/p/188290) | 1 | ~ |
 
-**Everything, including tools: ≈ £1028**, plus the Wickes MDF and steel angle.
+**Everything, including tools: ≈ £1043**, plus the Wickes MDF and steel angle.
 
-Audio Visual World and Car Audio Security are single-purpose orders on purpose: the 10TW3-D8 is
+Audio Visual World, Car Audio Security and Wilmslow Audio are single-purpose orders on purpose — Wilmslow is the only UK shop found with in-stock binding posts for a thick wooden wall; the 10TW3-D8 is
 out of stock at CEN and Car Audio Direct only lists the D4, and none of the other shops sell 8AWG
 OFC by the metre (only as complete amp kits).
 
