@@ -13,7 +13,7 @@ the front seats for upper bass; the 10" adds the deep bass they can't reach (the
 | Amp | Match UP 1FX, 350W at 4Ω, on the box's end wall |
 | Box | 680 × 300 × 159 mm (+ ~50 mm for the amp), 18 mm MDF, ~12.7 L inside |
 | Fixing | Brackets on the old compartment's bolts + hand-turned knobs. No new holes, no tools to remove |
-| Cost | ≈ £876, plus tools if not owned |
+| Cost | ≈ £883, plus tools if not owned |
 
 **Why this amp:** it has its own **low-pass filter**, so the 10" takes only the deep bass and leaves
 the upper bass and punch to the Feel 700s. It's also the cheaper of the two Match options. At
@@ -151,9 +151,12 @@ seam means a leak. Or once the sub is fitted, gently press the cone in: it shoul
 2. **Brackets:** cut short pieces of the steel angle with the hacksaw. Drill one hole to match the
    old bolt and one 8.5 mm hole in the upright for the knob. Bolt them to the floor with the **old
    bolts in the old holes**. One per end minimum, two per end if the holes allow.
-3. **Inserts:** drop the box in place and mark through each bracket's knob hole onto the end wall.
-   Drill 11 mm, about 13 mm deep, and screw in the M8 insert with an 8 mm hex key.
-4. **Knobs:** screw an M8 star knob through each bracket into its insert, hand tight.
+3. **Tee nuts:** drop the box in place and mark through each bracket's knob hole onto the end wall.
+   That spot is in the 44 mm gap below the bottom panel, so the inside face is reachable from
+   underneath. Drill straight through to fit the tee nut's barrel (usually 10 mm — check it against
+   the nut), then tap the M8 tee nut in from the **inside** face so its prongs bite.
+4. **Knobs:** screw an M8 star knob through each bracket into its tee nut, hand tight. Tightening
+   pulls the nut into the wood, so it can't come loose.
 
 **To reach the tools:** undo the knobs, unplug the Anderson plug, the RCA and the remote wire, lift
 the box out.
@@ -255,18 +258,18 @@ string along the route first.
 | [Stormguard foam strip — Screwfix](https://www.screwfix.com/p/stormguard-sureseal-3-self-adhesive-foam-draught-excluder-weatherstrips-black-7-5m-2-pack/493VV) — sub gasket, under the end walls | 1 | £6.19 |
 | [Rothley 30 × 30 × 3 mm steel angle — Wickes](https://www.wickes.co.uk/Rothley-30mm-Hot-Rolled-Steel-Angle---1m/p/188290) — cut into brackets | 1 | ~ |
 | [M8 star knobs, pack of 10 — RS](https://uk.rs-online.com/web/p/clamping-knobs/0686632) | 1 | £32.96 |
-| [M8 threaded inserts for wood — Fusion Fixings](https://fusionfixings.co.uk/products/m8-x-25mm-type-d-threaded-insert-nut-yellow-zinc) | 4 | £1.12 |
+| [Easyfix M8 tee nuts, 10 — Screwfix](https://www.screwfix.com/p/easyfix-4-pronged-tee-nuts-m8-x-11mm-10-pack/47225) — for the knobs | 1 | £2.69 |
 | [Screw-Tite pan head screws 4 × 25 mm, 200 — Screwfix](https://www.screwfix.com/p/screw-tite-tfstpz4025-pz-pan-self-drilling-multi-purpose-screws-4mm-x-25mm-200-pack/415va) — sub tab ears (flat-underside head, not countersunk) | 1 | £5.79 |
 | [Timco rubber washers M6 × 28 mm, 75 — Screwfix](https://www.screwfix.com/p/timco-rubber-sela-washers-m6-x-28mm-75-pack/1120x) — behind the amp's mounting plates | 1 | £15.49 |
-| [M8 serrated shakeproof washers, 25 — Bolts.co.uk](https://bolts.co.uk/m8-serrated-shakeproof-washer-external-type-a-din6798-a2-stainless-steel-pack-of-100-p-SWEMA208) — ground point | 1 | £2.01 |
+| [RS PRO M8 external tooth washers, 100 — RS](https://uk.rs-online.com/web/p/washers/0276897) — ground point | 1 | £7.19 |
 | [Essentials 120 grit sanding sheets, 10 — Screwfix](https://www.screwfix.com/p/essentials-120-grit-multi-material-sanding-sheets-280mm-x-230mm-10-pack/209jg) — sub hole, ground point to bare metal | 1 | £3.98 |
 | Old compartment bolts — reused for the brackets | — | — |
-| **Subtotal** | | **£120.59** |
+| **Subtotal** | | **£127.34** |
 
 **Already owned:** Vibe bullet connectors (remote wire at the box), sound deadening and Tesa fleece
 tape (rattles), crimping tool.
 
-**Total ≈ £876**, plus the MDF and steel angle (prices not shown online).
+**Total ≈ £883**, plus the MDF and steel angle (prices not shown online).
 
 ### Tools
 
@@ -274,15 +277,13 @@ tape (rattles), crimping tool.
 |---|---|
 | [Titan 600W jigsaw — Screwfix](https://www.screwfix.com/p/titan-ttb1471jsw-600w-electric-jigsaw-240v/135AN) — comes with a wood and a metal blade | £23.99 |
 | [Bosch T101AO blades — Screwfix](https://www.screwfix.com/p/bosch-t101ao-wood-jigsaw-blades-83mm-5-pack/36303) — clean curves for the sub hole | £5.99 |
-| [Erbauer brad point bits, 3–10 mm — Screwfix](https://www.screwfix.com/p/erbauer-straight-shank-double-flute-brad-point-wood-drill-bit-set-8-pieces/793PH) | £8.99 |
+| [Erbauer brad point bits, 3–10 mm — Screwfix](https://www.screwfix.com/p/erbauer-straight-shank-double-flute-brad-point-wood-drill-bit-set-8-pieces/793PH) — includes the 10 mm for the tee nuts | £8.99 |
 | [Erbauer countersink — Screwfix](https://www.screwfix.com/p/erbauer-dra46881-hex-shank-wood-135-countersink-9-5mm-x-45mm-with-65mm-pilot-drill/86156) | £4.79 |
-| [DeWalt 11 mm brad point bit — Rapid](https://rapidonline.com/catalogue/product/84-3574) — for the inserts | £3.29 |
 | [Magnusson hacksaw — Screwfix](https://www.screwfix.com/p/magnusson-24tpi-multi-material-hacksaw-12-300mm-/4686v) — for the steel angle | £11.98 |
 | [Magnusson hacksaw blades, 5 — Screwfix](https://www.screwfix.com/p/magnusson-hacksaw-blades-24tpi-12-5-pack/9262v) | £4.99 |
 | [RS PRO HSS metal drill set — RS](https://uk.rs-online.com/web/p/drill-bit-sets/6734709) — or a single 8.5 mm HSS bit | £47.15 |
-| [Magnusson folding hex key set, incl. 8 mm — Screwfix](https://www.screwfix.com/p/magnusson-metric-folding-hex-key-set-8-pcs/1850v) — screws in the M8 inserts | £6.99 |
 | [3M 8822 P2 dust masks, 5 — Screwfix](https://www.screwfix.com/p/3m-8822-cool-flow-disposable-valved-masks-p2-5-pack/449ej) — MDF dust | £16.99 |
-| **Tools total** | **£135.15** |
+| **Tools total** | **£124.87** |
 
 ### Shopping list by shop
 
@@ -300,7 +301,7 @@ The same parts, grouped so each shop is one order. *(tool)* = only if not alread
 |---|---|---|
 | [Match UP 1FX](https://www.cen.uk/products/match-up-1fx-amp-mono-1-channel-subwoofer-amplifier-class-d-900w-rms-at-1-ohms) | 1 | £259.99 |
 
-**Screwfix** — £144.22
+**Screwfix** — £139.92
 
 | Item | Qty | Price |
 |---|---|---|
@@ -309,6 +310,7 @@ The same parts, grouped so each shop is one order. *(tool)* = only if not alread
 | [Clear silicone](https://www.screwfix.com/p/no-nonsense-general-purpose-silicone-clear-310ml/35887) | 1 | £4.79 |
 | [OB41 spray adhesive](https://www.screwfix.com/p/ob41-fast-tack-spray-adhesive-clear-500ml/524YE) | 1 | £5.59 |
 | [Stormguard foam strip](https://www.screwfix.com/p/stormguard-sureseal-3-self-adhesive-foam-draught-excluder-weatherstrips-black-7-5m-2-pack/493VV) | 1 | £6.19 |
+| [Easyfix M8 tee nuts, 10](https://www.screwfix.com/p/easyfix-4-pronged-tee-nuts-m8-x-11mm-10-pack/47225) | 1 | £2.69 |
 | [Screw-Tite pan head screws 4 × 25 mm, 200](https://www.screwfix.com/p/screw-tite-tfstpz4025-pz-pan-self-drilling-multi-purpose-screws-4mm-x-25mm-200-pack/415va) | 1 | £5.79 |
 | [Timco rubber washers M6 × 28 mm, 75](https://www.screwfix.com/p/timco-rubber-sela-washers-m6-x-28mm-75-pack/1120x) | 1 | £15.49 |
 | [Essentials 120 grit sanding sheets, 10](https://www.screwfix.com/p/essentials-120-grit-multi-material-sanding-sheets-280mm-x-230mm-10-pack/209jg) | 1 | £3.98 |
@@ -318,15 +320,15 @@ The same parts, grouped so each shop is one order. *(tool)* = only if not alread
 | [Erbauer countersink](https://www.screwfix.com/p/erbauer-dra46881-hex-shank-wood-135-countersink-9-5mm-x-45mm-with-65mm-pilot-drill/86156) *(tool)* | 1 | £4.79 |
 | [Magnusson hacksaw](https://www.screwfix.com/p/magnusson-24tpi-multi-material-hacksaw-12-300mm-/4686v) *(tool)* | 1 | £11.98 |
 | [Magnusson hacksaw blades, 5](https://www.screwfix.com/p/magnusson-hacksaw-blades-24tpi-12-5-pack/9262v) *(tool)* | 1 | £4.99 |
-| [Magnusson folding hex key set, incl. 8 mm](https://www.screwfix.com/p/magnusson-metric-folding-hex-key-set-8-pcs/1850v) *(tool)* | 1 | £6.99 |
 | [3M 8822 P2 dust masks, 5](https://www.screwfix.com/p/3m-8822-cool-flow-disposable-valved-masks-p2-5-pack/449ej) *(tool)* | 1 | £16.99 |
 
-**RS** — £96.57
+**RS** — £103.76
 
 | Item | Qty | Price |
 |---|---|---|
 | [Anderson SB50 connector](https://uk.rs-online.com/web/p/battery-connectors/6120150) | 2 | £16.46 |
 | [M8 star knobs, pack of 10](https://uk.rs-online.com/web/p/clamping-knobs/0686632) | 1 | £32.96 |
+| [RS PRO M8 external tooth washers, 100](https://uk.rs-online.com/web/p/washers/0276897) | 1 | £7.19 |
 | [RS PRO HSS metal drill set](https://uk.rs-online.com/web/p/drill-bit-sets/6734709) *(tool)* | 1 | £47.15 |
 
 **Car Audio Direct** — £77.44
@@ -348,24 +350,6 @@ The same parts, grouped so each shop is one order. *(tool)* = only if not alread
 | [Powerbass XWS-8P 8AWG power](https://www.caraudiosecurity.com/products/xws-8p-8-awg-power-wire-per-metre-100-ofc-wire) | ~5m | £22.45 |
 | [Powerbass XWS-8G 8AWG ground](https://www.caraudiosecurity.com/products/xws-8g-8-awg-ground-wire-per-metre-100-ofc-wire) | 1m | £4.49 |
 
-**Rapid** — £3.29
-
-| Item | Qty | Price |
-|---|---|---|
-| [DeWalt 11 mm brad point bit](https://rapidonline.com/catalogue/product/84-3574) *(tool)* | 1 | £3.29 |
-
-**Bolts.co.uk** — £2.01
-
-| Item | Qty | Price |
-|---|---|---|
-| [M8 serrated shakeproof washers, 25](https://bolts.co.uk/m8-serrated-shakeproof-washer-external-type-a-din6798-a2-stainless-steel-pack-of-100-p-SWEMA208) | 1 | £2.01 |
-
-**Fusion Fixings** — £1.12
-
-| Item | Qty | Price |
-|---|---|---|
-| [M8 threaded inserts for wood](https://fusionfixings.co.uk/products/m8-x-25mm-type-d-threaded-insert-nut-yellow-zinc) | 4 | £1.12 |
-
 **Wickes** — prices not shown online; pay in store
 
 | Item | Qty | Price |
@@ -373,7 +357,11 @@ The same parts, grouped so each shop is one order. *(tool)* = only if not alread
 | [Wickes 18 mm MDF, 606 × 1829 mm](https://www.wickes.co.uk/General-Purpose-MDF-Sheet---18-x-606-x-1829mm/p/207740) | 1 | ~ |
 | [Rothley 30 × 30 × 3 mm steel angle](https://www.wickes.co.uk/Rothley-30mm-Hot-Rolled-Steel-Angle---1m/p/188290) | 1 | ~ |
 
-**Everything, including tools: ≈ £1012**, plus the Wickes MDF and steel angle.
+**Everything, including tools: ≈ £1008**, plus the Wickes MDF and steel angle.
+
+Audio Visual World and Car Audio Security are single-purpose orders on purpose: the 10TW3-D8 is
+out of stock at CEN and Car Audio Direct only lists the D4, and none of the other shops sell 8AWG
+OFC by the metre (only as complete amp kits).
 
 
 ---
