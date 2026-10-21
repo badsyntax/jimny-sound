@@ -102,6 +102,8 @@ flowchart LR
 - **Feel 700 #2's RCA out is free** — nothing uses it today. Taking the signal from there needs no
   Y-adapters at the amp, and the run from under the passenger seat to the boot is shorter than from
   the glovebox.
+- **Route:** RCA along the **left** sill, power and ground along the **right** — keeping signal
+  away from power cuts the chance of noise pickup.
 - **The KISL** turns RCA into the bare-wire input on the HS10's harness. It's two-channel: channel
   1 now, channel 2 ready for a second HS10. Kicker's own recommendation for RCA sources.
 - **HS10 Input Level switch on LO** — that's its RCA-level range (250 mV–10 V); HI is for speaker
