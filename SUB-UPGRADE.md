@@ -182,4 +182,5 @@ is at least ~80 cm long inside for two units plus cable room.
 - [ ] **Compartment inside length** — at least ~40 cm for one HS10 with its harness (~80 cm for two)
 - [ ] **Felt-backed holes go right through** to the seat side — peel one back to check
 - [ ] **Ground route length** — compartment to the seat bolt
+- [ ] **Seat bolt size** — so the Vibe ring terminal hole fits (not listed on the product page)
 - [ ] **RCA route length** — passenger seat to the compartment; the FT2 only comes in 5.5 m here
