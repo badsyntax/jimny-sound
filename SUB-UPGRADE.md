@@ -13,8 +13,8 @@ Feel 700s stay under the front seats for upper bass; the 10" adds the deep bass 
 | Size | 249 × 356 × 81 mm (one listing gives 381 mm long including the knob and harness) |
 | Where | Inside the aluminium compartment, firing up, venting through the compartment's holes |
 | Signal | Feel 700 #2's spare RCA out → 5.5 m RCA → Kicker KISL → HS10 low-level input |
-| Power | Spare BFD41 way, 30A AFS, 8AWG along the sill |
-| Cost | ≈ £460 |
+| Power | Spare BFD41 way, 30A AFS, 8AWG along the sill; 8AWG ground back to the shared seat-bolt ground |
+| Cost | ≈ £480 |
 | Later | A second HS10 alongside it — everything below is sized for two |
 
 **Why this sub:** it's the only slim 10" from a brand worth trusting that fits the compartment. The
@@ -70,7 +70,7 @@ flowchart TD
     BFD -->|"30A (existing)"| FEEL["Feel 700 x2"]
     BFD -->|"NEW 30A AFS, 8AWG, ~5m along the sill"| SPL["Butt splice<br/>in the compartment"]
     SPL --> HS["HS10 harness<br/>own 15A in-line fuse"]
-    HS -->|"HS10 ground lead"| GND["Bare metal in the boot"]
+    HS -->|"HS10 ground lead → butt splice → 8AWG, ~5m"| GND["Seat bolt<br/>shared with amp + Feel 700s"]
 ```
 
 - **8AWG, 30A.** One HS10 draws 15A max; 8AWG and 30A are sized so a **second HS10** can share the
@@ -81,7 +81,11 @@ flowchart TD
   *Unknown: the gauge of the HS10's power lead — check when it arrives.*
 - **Main fuse.** Worst case with one HS10: amp 35A + Feel 700s 28A + HS10 15A = **78A**, just under
   the 80A main fuse. A second HS10 takes it to 93A — swap to **100A** then (or now).
-- **Ground:** the HS10's own ground lead, short, to sanded bare metal in the boot.
+- **Ground: same seat bolt as the amp and Feel 700s, not the boot.** The RCA shield already ties
+  the HS10's ground to Feel 700 #2's ground at that bolt; a second ground point in the boot would
+  make a loop through the body — the usual cause of alternator whine. Run 8AWG back alongside the
+  power, butt-spliced to the HS10's ground lead at the compartment, with its own 8AWG ring terminal
+  stacked on the bolt (bare metal both faces). 8AWG so a second HS10 can share it.
 - **Afterwards:** voltage-drop test with everything playing hard — under 0.2V from the HS10's
   ground to battery negative.
 
@@ -133,12 +137,13 @@ terminal.
 
 Prices checked October 2026. Wire lengths are estimates — run a string along the route first.
 
-### Car Audio Security — £442.42
+### Car Audio Security — £464.87
 
 | Item | Qty | Price |
 |---|---|---|
 | [Kicker HS10](https://www.caraudiosecurity.com/products/kicker-ka46hs10-10-hideaway-compact-powered-loaded-enclosure-180w-rms) | 1 | £399.99 |
 | [Powerbass XWS-8P 8AWG power, 100% OFC](https://www.caraudiosecurity.com/products/xws-8p-8-awg-power-wire-per-metre-100-ofc-wire) — BFD41 → boot | ~5 m | £22.45 |
+| [Powerbass XWS-8G 8AWG ground, 100% OFC](https://www.caraudiosecurity.com/products/xws-8g-8-awg-ground-wire-per-metre-100-ofc-wire) — boot → seat bolt | ~5 m | £22.45 |
 | [Phonocar 30A AFS fuse](https://www.caraudiosecurity.com/products/4-463-2-afs-fuses-30a) — spare BFD41 way | 1 | £4.99 |
 | [Connection FT2 5.5 m RCA](https://www.caraudiosecurity.com/products/connection-by-audison-ft2-professional-grade-ft-series-rca-cable) — Feel 700 #2 → boot | 1 | £14.99 |
 
@@ -151,7 +156,7 @@ Prices checked October 2026. Wire lengths are estimates — run a string along t
 **Already owned:** JTAREA butt connector kit, remote wire, Vibe bullet connectors, crimping tool,
 adhesive heat shrink. The HS10 comes with its own fused power lead and ring terminals.
 
-**Total ≈ £460.**
+**Total ≈ £483.**
 
 ### When the second HS10 goes in
 
@@ -169,4 +174,6 @@ is at least ~80 cm long inside for two units plus cable room.
 
 - [ ] **Compartment inside length** — at least ~40 cm for one HS10 with its harness (~80 cm for two)
 - [ ] **Felt-backed holes go right through** to the seat side — peel one back to check
+- [ ] **Ground route length** — compartment to the seat bolt
+- [ ] **8AWG ring terminal** for the seat bolt — leftover FRT8 from the amp install?
 - [ ] **RCA route length** — passenger seat to the compartment; the FT2 only comes in 5.5 m here
