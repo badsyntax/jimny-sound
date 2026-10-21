@@ -95,7 +95,7 @@ flowchart TD
 flowchart LR
     DSP["UP 6DSP Line Out"] --> F1["Feel 700 #1"]
     F1 -->|"RCA out → in (existing)"| F2["Feel 700 #2"]
-    F2 -->|"RCA out (spare) — 5.5m"| KISL["Kicker KISL<br/>ch 1 (ch 2 spare)"]
+    F2 -->|"RCA out (spare) — 5.5m"| KISL["F-F barrels → Kicker KISL<br/>both channels"]
     KISL --> HS["HS10<br/>Input Level: LO"]
 ```
 
@@ -104,8 +104,13 @@ flowchart LR
   the glovebox.
 - **Route:** RCA along the **left** sill, power and ground along the **right** — keeping signal
   away from power cuts the chance of noise pickup.
-- **The KISL** turns RCA into the bare-wire input on the HS10's harness. It's two-channel: channel
-  1 now, channel 2 ready for a second HS10. Kicker's own recommendation for RCA sources.
+- **The KISL** turns RCA into the bare-wire input on the HS10's harness — Kicker's own
+  recommendation for RCA sources. Its RCA ends are male, so it joins the FT2 with the
+  female-to-female barrels in the box. Use **both channels**: the Feel's L and R carry the same mono
+  signal, and feeding both HS10 inputs avoids one sitting dead (quieter), as with the Feel 700s.
+- **Hook-up:** FT2 red and white → barrels → KISL's two RCAs. KISL tails butt-spliced to the HS10
+  harness: channel 1 + → **White** (L+), − → **White/Black** (L−); channel 2 + → **Grey** (R+),
+  − → **Grey/Black** (R−). Polarity matters. Tape the barrels so they can't rattle or short.
 - **HS10 Input Level switch on LO** — that's its RCA-level range (250 mV–10 V); HI is for speaker
   level.
 - *Unknown: whether the Feel 700's RCA out is a straight pass-through or comes after its own
@@ -174,7 +179,7 @@ Prices checked October 2026. Wire lengths are estimates — run a string along t
 | [Kicker HS10](https://www.caraudiosecurity.com/products/kicker-ka46hs10-10-hideaway-compact-powered-loaded-enclosure-180w-rms) | 1 | £399.99 |
 | [Connection SFA-100.1 100A AFS main fuse](https://www.caraudiosecurity.com/products/sfa-100-100a-afs-fuses) | 1 | £7.00 |
 
-Re-crimp the power splice two-into-one, use the KISL's second channel, and check the compartment
+Re-crimp the power splice two-into-one, add a second KISL (or a Y-adapter pair) for its inputs, and check the compartment
 is at least ~80 cm long inside for two units plus cable room.
 
 ---
