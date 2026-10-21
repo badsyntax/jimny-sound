@@ -372,7 +372,7 @@ Door deadening materials and tools have their own list in [DOOR-DEADENING.md](DO
 | Measurement mic (UMIK-1) + REW — for proper tuning | ~£90 |
 | **Windows access for DSP PC-Tool 6** — see below | £0–£80 |
 | Extension Card 2.0 – ANALOG IN — only if the high-level input picks up noise | £99.99 |
-| Boot subwoofer — Kicker HS10 powered sub in the boot compartment. See [SUB-UPGRADE.md](SUB-UPGRADE.md) | ~£480 |
+| Boot subwoofer — Kicker HS10 powered sub in the boot compartment. See [SUB-UPGRADE.md](SUB-UPGRADE.md) | ~£515 |
 
 ### Running total
 

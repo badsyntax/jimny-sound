@@ -14,7 +14,7 @@ Feel 700s stay under the front seats for upper bass; the 10" adds the deep bass 
 | Where | Inside the aluminium compartment, firing up, venting through the compartment's holes |
 | Signal | Feel 700 #2's spare RCA out → 5.5 m RCA → Kicker KISL → HS10 low-level input |
 | Power | Spare BFD41 way, 30A AFS, 8AWG along the sill; 8AWG ground back to the shared seat-bolt ground |
-| Cost | ≈ £480 |
+| Cost | ≈ £515 including a crimper |
 | Later | A second HS10 alongside it — everything below is sized for two |
 
 **Why this sub:** it's the only slim 10" from a brand worth trusting that fits the compartment. The
@@ -112,7 +112,7 @@ flowchart LR
 
 ### Remote
 
-A ~1 mm² wire (already owned) from the 6DSP's **REM OUT** to the HS10's remote input, joined with a
+One core of 18AWG cable (~6 m) from the 6DSP's **REM OUT** to the HS10's remote input, joined with a
 bullet connector at the compartment. REM OUT already feeds Feel 700 #1 — branch from the same
 terminal.
 
@@ -137,13 +137,15 @@ terminal.
 
 Prices checked October 2026. Wire lengths are estimates — run a string along the route first.
 
-### Car Audio Security — £464.87
+### Car Audio Security — £480.36
 
 | Item | Qty | Price |
 |---|---|---|
 | [Kicker HS10](https://www.caraudiosecurity.com/products/kicker-ka46hs10-10-hideaway-compact-powered-loaded-enclosure-180w-rms) | 1 | £399.99 |
 | [Powerbass XWS-8P 8AWG power, 100% OFC](https://www.caraudiosecurity.com/products/xws-8p-8-awg-power-wire-per-metre-100-ofc-wire) — BFD41 → boot | ~5 m | £22.45 |
 | [Powerbass XWS-8G 8AWG ground, 100% OFC](https://www.caraudiosecurity.com/products/xws-8g-8-awg-ground-wire-per-metre-100-ofc-wire) — boot → seat bolt | ~5 m | £22.45 |
+| [Connection B218.2 18AWG cable](https://www.caraudiosecurity.com/products/b-218-18-gauge-speaker-cable) — remote wire, glovebox → boot (sold per metre; one core used) | ~6 m | £10.50 |
+| [Vibe CLRT8-V7 8AWG ring terminals](https://www.caraudiosecurity.com/products/clrt8-v7-8-awg-ring-termainal-pack-of-1-pair) — HS10 ground at the seat bolt (hole size not listed — must fit the seat bolt) | 1 pair | £4.99 |
 | [Phonocar 30A AFS fuse](https://www.caraudiosecurity.com/products/4-463-2-afs-fuses-30a) — spare BFD41 way | 1 | £4.99 |
 | [Connection FT2 5.5 m RCA](https://www.caraudiosecurity.com/products/connection-by-audison-ft2-professional-grade-ft-series-rca-cable) — Feel 700 #2 → boot | 1 | £14.99 |
 
@@ -153,10 +155,15 @@ Prices checked October 2026. Wire lengths are estimates — run a string along t
 |---|---|---|
 | [Kicker KISL](https://kickeruk.com/products/kisl) — RCA to HS10 input, 2 channels | 1 | £17.95 |
 
-**Already owned:** JTAREA butt connector kit, remote wire, Vibe bullet connectors, crimping tool,
-adhesive heat shrink. The HS10 comes with its own fused power lead and ring terminals.
+**Already owned:** JTAREA butt connector kit, Vibe bullet connectors, adhesive heat shrink. The HS10 comes with its own fused power lead and ring terminals.
 
-**Total ≈ £483.**
+### Toolstation — £16.98
+
+| Item | Qty | Price |
+|---|---|---|
+| [Heavy Duty Semi Ratchet Crimping Tool](https://www.toolstation.com/heavy-duty-semi-ratchet-crimping-tool/p42429) — for the JTAREA uninsulated butts and the 8AWG ring terminal; non-insulated copper terminals, 1.5–16 mm² (8AWG ≈ 8.4 mm²) | 1 | £16.98 |
+
+**Total ≈ £515.**
 
 ### When the second HS10 goes in
 
@@ -175,5 +182,4 @@ is at least ~80 cm long inside for two units plus cable room.
 - [ ] **Compartment inside length** — at least ~40 cm for one HS10 with its harness (~80 cm for two)
 - [ ] **Felt-backed holes go right through** to the seat side — peel one back to check
 - [ ] **Ground route length** — compartment to the seat bolt
-- [ ] **8AWG ring terminal** for the seat bolt — leftover FRT8 from the amp install?
 - [ ] **RCA route length** — passenger seat to the compartment; the FT2 only comes in 5.5 m here
