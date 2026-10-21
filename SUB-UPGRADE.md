@@ -155,7 +155,7 @@ Prices checked October 2026. Wire lengths are estimates — run a string along t
 |---|---|---|
 | [Kicker KISL](https://kickeruk.com/products/kisl) — RCA to HS10 input, 2 channels | 1 | £17.95 |
 
-**Already owned:** JTAREA butt connector kit, Vibe bullet connectors, adhesive heat shrink. The HS10 comes with its own fused power lead and ring terminals.
+**Already owned:** JTAREA butt connector kit, Vibe bullet connectors, adhesive heat shrink. Butts: one 8AWG each for the HS10 power and ground leads, small ones (22–16AWG) for the four KISL → HS10 input joins. The HS10 manual lists no ring terminals or connectors in the box.
 
 ### Toolstation — £16.98
 
