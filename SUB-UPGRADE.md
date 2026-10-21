@@ -2,465 +2,192 @@
 
 **Status: planned, parts not bought.**
 
-One **JL Audio 10TW3-D8** in a home-built sealed box that replaces the boot compartment, driven by a
-**Match UP 1FX** mounted on the end of the box. The sub fires **down** at the floor, so the top is
-solid and carpeted: nothing on show, and shopping goes straight on top. The two Feel 700s stay under
-the front seats for upper bass; the 10" adds the deep bass they can't reach (they stop at 40 Hz).
+One **Kicker Hideaway HS10** powered sub, hidden **inside the existing aluminium boot compartment**.
+The compartment stays, the boot floor stays flat, and the tyre tools stay where they are. The two
+Feel 700s stay under the front seats for upper bass; the 10" adds the deep bass they can't reach
+(they stop at 40 Hz).
 
 | | |
 |---|---|
-| Sub | JL Audio 10TW3-D8, coils wired to 4Ω |
-| Amp | Match UP 1FX, 350W at 4Ω, on the box's end wall |
-| Box | 680 × 300 × 159 mm (+ ~50 mm for the amp), 18 mm MDF, ~12.7 L inside |
-| Fixing | Brackets on the old compartment's bolts + hand-turned knobs. No new holes, no tools to remove |
-| Cost | ≈ £904, plus tools if not owned |
+| Sub | Kicker HS10 (51HS10 / KA46HS10) — 10", built-in 180W RMS amp, rated 25–120 Hz |
+| Size | 249 × 356 × 81 mm (one listing gives 381 mm long including the knob and harness) |
+| Where | Inside the aluminium compartment, firing up, venting through the compartment's holes |
+| Signal | Feel 700 #2's spare RCA out → 5.5 m RCA → Kicker KISL → HS10 low-level input |
+| Power | Spare BFD41 way, 30A AFS, 8AWG along the sill; 8AWG ground back to the shared seat-bolt ground |
+| Cost | ≈ £515 including a crimper |
+| Later | A second HS10 alongside it — everything below is sized for two |
 
-**Why this amp:** it has its own **low-pass filter**, so the 10" takes only the deep bass and leaves
-the upper bass and punch to the Feel 700s. It's also the cheaper of the two Match options. At
-46 × 130 × 153 mm it fits on the box's 159 mm-tall end wall standing on its 130 mm edge, so there's
-no need to find a place for it in the boot, and the sub and amp come out together. The smaller
-alternative is at the end: [Other amp option](#other-amp-option--match-m-21amp).
+**Why this sub:** it's the only slim 10" from a brand worth trusting that fits the compartment. The
+compartment is **28 cm front to back and ~10 cm tall inside**, but runs almost the full width of the
+boot. The HS10 is 24.9 cm deep and 8.1 cm tall, so it drops in with ~3 cm and ~2 cm to spare. The
+HS12 (30.8 cm deep) doesn't fit inside. Slim 10"s from other brands (Helix U 10A, Ground Zero
+GZCS SW-1000A) are the same 150–220W class; at ~8 cm tall the box volume limits the deep bass more
+than the amp does.
 
----
-
-## Phase 1 — build the box and fix it down
-
-Build and fit the empty box first. Only buy the sub and amp once the box fits and holds down well.
-Steps 0–4 and 9 of the build; carpet, sub, amp and wiring come later.
-
-| Shop | Item | Price |
-|---|---|---|
-| Wickes | [18 mm MDF, 606 × 1829 mm](https://www.wickes.co.uk/General-Purpose-MDF-Sheet---18-x-606-x-1829mm/p/207740) — ask them to cut the panels | ~ |
-| Wickes | [30 × 30 × 3 mm steel angle](https://www.wickes.co.uk/Rothley-30mm-Hot-Rolled-Steel-Angle---1m/p/188290) — brackets | ~ |
-| Screwfix | [Gorilla PVA wood glue](https://www.screwfix.com/p/gorilla-glue-wood-glue-236ml/43424) | £7.69 |
-| Screwfix | [TurboGold screw pack (4 × 40 mm)](https://www.screwfix.com/p/turbogold-pz-double-countersunk-woodscrew-handy-pack-380-pieces/459jj) | £9.99 |
-| Screwfix | [Clear silicone](https://www.screwfix.com/p/no-nonsense-general-purpose-silicone-clear-310ml/35887) | £4.79 |
-| Screwfix | [Easyfix M8 tee nuts, 10](https://www.screwfix.com/p/easyfix-4-pronged-tee-nuts-m8-x-11mm-10-pack/47225) | £2.69 |
-| Screwfix | [120 grit sanding sheets](https://www.screwfix.com/p/essentials-120-grit-multi-material-sanding-sheets-280mm-x-230mm-10-pack/209jg) | £3.98 |
-| Screwfix | [Titan 600W jigsaw](https://www.screwfix.com/p/titan-ttb1471jsw-600w-electric-jigsaw-240v/135AN) *(tool)* | £23.99 |
-| Screwfix | [Bosch T101AO jigsaw blades](https://www.screwfix.com/p/bosch-t101ao-wood-jigsaw-blades-83mm-5-pack/36303) *(tool)* | £5.99 |
-| Screwfix | [Erbauer brad point wood bits, 3–10 mm](https://www.screwfix.com/p/erbauer-straight-shank-double-flute-brad-point-wood-drill-bit-set-8-pieces/793PH) *(tool)* | £8.99 |
-| Screwfix | [Erbauer countersink](https://www.screwfix.com/p/erbauer-dra46881-hex-shank-wood-135-countersink-9-5mm-x-45mm-with-65mm-pilot-drill/86156) *(tool)* | £4.79 |
-| Screwfix | [Magnusson hacksaw](https://www.screwfix.com/p/magnusson-24tpi-multi-material-hacksaw-12-300mm-/4686v) *(tool)* | £11.98 |
-| Screwfix | [Magnusson hacksaw blades, 5](https://www.screwfix.com/p/magnusson-hacksaw-blades-24tpi-12-5-pack/9262v) *(tool)* | £4.99 |
-| Screwfix | [3M P2 dust masks, 5](https://www.screwfix.com/p/3m-8822-cool-flow-disposable-valved-masks-p2-5-pack/449ej) *(tool)* | £16.99 |
-| RS | [M8 star knobs, 10](https://uk.rs-online.com/web/p/clamping-knobs/0686632) | £32.96 |
-| RS | [HSS metal drill set, 1–10 mm](https://uk.rs-online.com/web/p/drill-bit-sets/6734709) *(tool)* — holes in the steel brackets | £47.15 |
-
-**Screwfix ≈ £107, RS ≈ £80 — about £187**, plus the Wickes items. Skip any *(tool)* already owned.
-
-- **Leave the sub hole uncut for now if you like** — cut it once the box fits; it's easy to do last.
-- **Box terminal** (build step 4.6) can go in later — the wires reach it through the sub hole.
-- The metal drill set is the cheapest way to get an 8.5 mm bit — RS only sells that size singly in
-  boxes of 10 (£49). It also covers whatever size the old compartment bolts turn out to be.
+**Why not the old plan:** the previous plan here was a home-built down-firing box with a JL 10TW3
+and a Match UP 1FX, replacing the compartment. Dropped — building the box is the hard part, and a
+pro-made enclosure will do it better. It's in the git history if it's ever needed.
 
 ---
 
-## 1. The box
+## The compartment
 
-![Box side view](images/boot-sub/box-side-section.svg)
+From the bottom up:
 
-![Box top view](images/boot-sub/box-top-view.svg)
+1. **Tool well** — a hole in the boot floor with the tyre tools in it
+2. **Thin wooden lid** over the well
+3. **Aluminium compartment**, ~10 cm tall, with a carpeted lid hinged at the seat end and two
+   toggle latches at the tailgate end
 
-- **Sub in the bottom panel, firing down**, 200 mm from one end. Magnet points up inside the box.
-- **End walls run to the floor**, holding the box 44 mm up. The long sides are open underneath —
-  that's where the bass comes out. Keep those openings clear.
-- **Brace** under the middle of the top, so it doesn't flex under load.
-- **Amp** on the end wall away from the sub, on rubber washers, with air around it — no carpet
-  over it.
+The seat-side wall has **two rows of holes, backed with grey felt** — a row of larger ones (~6 cm)
+and a row of smaller ones (~4–5 cm).
 
-Design based on [Audio Intensity's down-fire 10TW3 box](https://audiointensity.com/products/performance-optimized-down-fire-sealed-10-enclosure-jl-audio-10tw3-d4),
-which uses the same 44 mm floor gap but is too big for this boot.
+### Venting
 
----
+Inside a closed compartment the sub would trap its own bass and its amp's heat. **Pull the felt out
+of the holes** so the compartment breathes into the gap behind the seats.
 
-## 2. Build it
+- Rough target: open area of at least **~100 cm²** for one 10" (about a third of the cone's
+  ~330 cm²). The lower row alone is roughly 8 × 16 cm² ≈ 130 cm² — sizes estimated from a photo.
+- If it still sounds choked, open the larger row too.
 
-### Step 0 — Cardboard mock-up
+### Reaching the tools
 
-Before cutting any MDF, tape cardboard into a 680 × 300 × 159 mm box (plus ~50 mm at one end for
-the amp) and try it in the car:
-
-- [ ] Fits the space with the compartment out
-- [ ] Rear seats fold and lock back up
-- [ ] Tailgate shuts
-- [ ] Lifts out easily to reach the tools
-- [ ] Shopping on top — height feels right
-
-### Step 1 — Cut the panels
-
-One [Wickes 18 mm MDF sheet, 606 × 1829 mm](https://www.wickes.co.uk/General-Purpose-MDF-Sheet---18-x-606-x-1829mm/p/207740)
-does everything. Ask Wickes to cut it to size if you can — straight cuts make an airtight box.
-
-![Cut list](images/boot-sub/cut-list.svg)
-
-| # | Part | Size (mm) | Qty |
-|---|---|---|---|
-| 1 | Top | 680 × 300 | 1 |
-| 2 | Brace | 264 × 50 | 1 |
-| 3 | End walls | 300 × 141 | 2 |
-| 4 | Long walls | 644 × 79 | 2 |
-| 5 | Bottom | 644 × 300 | 1 |
-
-### Step 2 — Cut the sub hole and the terminal hole
-
-1. **Mark the centre:** 182 mm from one end, 150 mm from either long edge.
-2. **Draw the circle:** a strip of scrap wood with a screw at one end as the pivot and a pencil hole
-   **122 mm** away. Swing it round — that's the 244 mm hole.
-3. **Drill a starter hole** just inside the line, big enough for the jigsaw blade.
-4. **Cut slowly** with the jigsaw (T101AO blade), staying just inside the line.
-5. **Sand up to the line** until the sub drops in. Practise on an offcut first.
-6. **Terminal hole:** on **one end wall**, the same way: a **67 mm** circle (33.5 mm pencil
-   radius), centre **70 mm in from one long edge and 40 mm down from the top edge** — the middle
-   of the box's inside height. Cut it now while the panel is flat. The amp goes beside it.
-
-   ![Amp end wall with the box terminal](images/boot-sub/amp-end-wall.svg)
-
-### Step 3 — How every joint is made
-
-**Glue and screws, never nails.** The glue makes it strong and airtight; the screws hold it while
-the glue dries.
-
-![Joining two panels](images/boot-sub/joint-steps.svg)
-
-1. **Drill** a 4 mm hole through the outer panel and countersink it. Then a 3 mm pilot into the
-   middle of the other panel's edge — MDF splits without it.
-2. **Glue** a bead along the edge.
-3. **Screw** with 4 × 40 mm screws, every 100–150 mm, at least 25 mm from the ends.
-4. **Check it's square**, wipe off squeeze-out.
-
-### Step 4 — Put it together
-
-![Exploded view](images/boot-sub/exploded.svg)
-
-![Build steps with two flips](images/boot-sub/build-steps.svg)
-
-Numbers match the cut list. Two flips, no blocks, top panel last:
-
-1. **Bottom (5) flat** on the bench.
-2. **Long walls (4) onto the bottom.** Stand each long wall on a long edge of the bottom panel,
-   flush with the outside. Glue and screw up through the bottom into the wall.
-3. **Flip it** so the long walls sit on the bench and the bottom panel is on top.
-4. **End walls (3) on each end**, standing on the bench. They cover the ends of the long walls and
-   stick up **44 mm past the bottom panel**. Glue and screw through them into the long walls and
-   the bottom panel.
-5. **Flip it back.** The end walls now hold the box 44 mm off the bench — this is the right way up.
-6. **Box terminal** (its hole was cut in step 2):
-   1. Cut **two pairs** of 12AWG (one per voice coil), long enough to reach the sub hole with slack.
-   2. Twist both + ends together and solder them to the terminal's + tab; both − ends to the − tab.
-      That joins the coils in parallel (4Ω).
-   3. Feed the loose ends in through the 67 mm hole towards the sub hole.
-   4. Stick a ring of foam strip round the hole, then screw the
-      [ACV terminal](https://caraudiodirect.co.uk/products/acv-2-pole-subwoofer-box-terminal) on
-      with four 4 × 20 mm pan-heads (3 mm pilots first).
-7. **Brace (2) onto the top (1)** — on edge, across the middle, 340 mm from the sub end (half the box length). Glue and
-   screw down through the top into it.
-8. **Top on**, brace inside. Glue and screw into all four walls — but **no screws over the terminal
-   hole**: there's only ~6 mm of MDF above it, and a screw would split it. Glue alone holds there.
-9. **Seal:** once the glue's dry, silicone every inside seam — reach in through the sub hole.
-
-### Step 5 — Leak test
-
-Push the sub into the hole (not screwed yet) and shine a torch inside in a dark garage — light at a
-seam means a leak. Or once the sub is fitted, gently press the cone in: it should come back slowly.
-
-### Step 6 — Carpet
-
-- **Sides and ends:** the [ACV black carpet](https://caraudiodirect.co.uk/products/acv-30-1231-04-black-carpet-70cm-x-140cm),
-  spray adhesive. On the long sides, stop at the bottom panel's edge — **don't cover the openings**.
-  Leave the amp's patch of end wall bare, and the spots where the brackets touch the end walls —
-  the knobs' 20 mm studs need every bit of thread.
-- **Top:** reuse the **thick carpet from the old compartment lid** — it matches the boot and takes
-  wear. Peel it off carefully (a hairdryer softens old glue), clean the back, and fit it **last** so
-  it overlaps the side carpet. You need about 71 × 32 cm.
-- Run foam strip along the bottom of the end walls to stop buzzing on the floor.
-
-### Step 7 — Fit the sub
-
-![Sub mounted in the bottom panel](images/boot-sub/sub-mount.svg)
-
-1. Box **upside down**.
-2. **Foam strip** round the hole on the outside face — the gasket.
-3. **Connect the wires:** one pair to each voice coil, + to +, − to −. The sub's terminals are
-   spring clips — strip ~10 mm, push the clip, insert, let go.
-4. **Lower the sub in**, magnet first. Screw up through the tab ears with **4 × 20 mm pan-head screws** (not countersunk), pilot
-   holes first. Don't overtighten — the ears can crack.
-5. Flip it back over. The sub can come out later the same way without opening the box.
-
-### Step 8 — Fit the amp
-
-1. Screw the UP 1FX to the end wall on its two mounting plates, **standing on its 130 mm edge**
-   (fins vertical), with rubber washers behind it. Use the 4 × 20 mm pan-heads — longer ones poke
-   through the 18 mm wall. Leave the controls facing out.
-2. A short pair of 12AWG from the box terminal's posts to the amp's speaker output, + to +, − to −.
-3. Fit an **Anderson SB50** on the power and ground leads, so the box unplugs in one go — see
-   below.
-
-#### How the Anderson plug works
-
-It isn't a usual car audio part — most installs wire the amp in permanently. It's a heavy-duty DC
-power connector (used on winches, caravans and battery packs). Here it lets the amp's power come
-off with the box, with no tools.
-
-- **Two identical halves** — one on the car side (power and ground from the front), one on the amp
-  side. They push together and click; pull straight apart to separate.
-- **One plug carries both wires** — red +12V and black ground. Rated 50A; the amp draws about 30A.
-- **Fitting:** the RS kit's contacts are sized for 6AWG, so **solder** each 8AWG wire into its
-  contact (a small crimper won't grip it), then push it into the housing until it clicks. The fuse stays at the BFD41 as normal.
-- **Unplug with the stereo off** so it doesn't spark.
-
-**Simpler alternative:** skip it and wire the amp in permanently. Getting the box out then means
-undoing the amp's two power screws with a screwdriver and doing them up again — fine if the jack is
-only needed now and then, but it loses the "no tools" goal.
-
-### Step 9 — Fix it in the car
-
-![Bracket and star knob at one end](images/boot-sub/end-fixing.svg)
-
-1. **Remove the old compartment** and keep every bolt.
-2. **Brackets:** cut short pieces of the steel angle with the hacksaw. Drill one hole to match the
-   old bolt and one 8.5 mm hole in the upright for the knob. Bolt them to the floor with the **old
-   bolts in the old holes**. One per end minimum, two per end if the holes allow — but on the amp
-   end only under the terminal, where the amp can't hit the knob.
-3. **Tee nuts:** drop the box in place and mark through each bracket's knob hole onto the end wall.
-   That spot is in the 44 mm gap below the bottom panel, so the inside face is reachable from
-   underneath. Drill straight through to fit the tee nut's barrel (usually 10 mm — check it against
-   the nut), then tap the M8 tee nut in from the **inside** face so its prongs bite.
-4. **Knobs:** screw an M8 star knob through each bracket into its tee nut, hand tight. Tightening
-   pulls the nut into the wood, so it can't come loose.
-
-**To reach the tools:** undo the knobs, unplug the Anderson plug, the RCA and the remote wire, lift
-the box out.
+Open the aluminium lid, unplug the HS10's quick-connect harness, lift it out, lift the wooden lid.
+Leave enough slack on the power, RCA and remote leads to lift the sub clear.
 
 ---
 
-## 3. Wiring
+## Wiring
 
 ### Power
 
-Uses the **spare output on the existing BFD41** — no new connection at the battery.
-
 ```mermaid
 flowchart TD
-    BAT["Battery +"] --> FFH["Main fuse<br/>80A → 100A"]
+    BAT["Battery +"] --> FFH["Main fuse<br/>80A (100A once a 2nd HS10 goes in)"]
     FFH --> BFD["BFD41 distribution block"]
     BFD -->|"40A (existing)"| AMP["UP 6DSP MK2"]
     BFD -->|"30A (existing)"| FEEL["Feel 700 x2"]
-    BFD -->|"NEW 40A, 8AWG, ~5m along the sill"| SB["Anderson SB50"]
-    SB --> FX["UP 1FX on the box"]
-    SB -->|"8AWG ground"| GND["Bare metal in the boot"]
+    BFD -->|"NEW 30A AFS, 8AWG, ~5m along the sill"| SPL["Butt splice<br/>in the compartment"]
+    SPL --> HS["HS10 harness<br/>own 15A in-line fuse"]
+    HS -->|"HS10 ground lead → butt splice → 8AWG, ~5m"| GND["Seat bolt<br/>shared with amp + Feel 700s"]
 ```
 
-- **8AWG power and ground, 40A fuse.** Match's manual asks for 25–35 mm² (4–2AWG) on runs over
-  1 m, but that's sized for full power into 1–2Ω (up to 60A). Into 4Ω at 350W the amp draws about
-  30A, where 8AWG loses ~0.3V over this run — fine. 4AWG wouldn't fit the Anderson SB50 (6AWG max),
-  and 8AWG matches the other branches and the BFD41's 8AWG adapters. 6AWG is the step up if a
-  shop has it.
-- **Main fuse 80A → 100A.** Adding the amp takes the worst case past 80A. Real music draw is much
-  lower, but 80A would blow first.
-- **Ground:** its own short run to sanded bare metal in the boot, through the SB50 plug.
-- **Afterwards:** voltage-drop test with everything playing hard — under 0.2V from each amp's
-  ground to battery negative. Lights dimming on heavy bass → do the Big 3 (alternator is 75A).
+- **8AWG, 30A.** One HS10 draws 15A max; 8AWG and 30A are sized so a **second HS10** can share the
+  same run later. The fuse protects the wire; each HS10 has its own 15A fuse in its harness.
+- **Butt splice, not a block.** One 8AWG butt from the JTAREA kit joins the 8AWG to the HS10's power
+  lead. For two HS10s later, twist both leads together into the same end. If they sit loose in the
+  barrel, fold the stripped ends back to bulk them up. Adhesive heat shrink over it, zip-tied down.
+  *Unknown: the gauge of the HS10's power lead — check when it arrives.*
+- **Main fuse.** Worst case with one HS10: amp 35A + Feel 700s 28A + HS10 15A = **78A**, just under
+  the 80A main fuse. A second HS10 takes it to 93A — swap to **100A** then (or now).
+- **Ground: same seat bolt as the amp and Feel 700s, not the boot.** The RCA shield already ties
+  the HS10's ground to Feel 700 #2's ground at that bolt; a second ground point in the boot would
+  make a loop through the body — the usual cause of alternator whine. Run 8AWG back alongside the
+  power, butt-spliced to the HS10's ground lead at the compartment, with its own 8AWG ring terminal
+  stacked on the bolt (bare metal both faces). 8AWG so a second HS10 can share it.
+- **Afterwards:** voltage-drop test with everything playing hard — under 0.2V from the HS10's
+  ground to battery negative.
 
 ### Signal
 
-The UP 6DSP's one line out is **split** with a Y-adapter: one side to the Feel 700s (as now), the
-other to the boot amp. Both subs share the DSP's sub channel, so the URC.3 knob still turns them
-both up and down.
-
 ```mermaid
 flowchart LR
-    DSP["UP 6DSP Line Out<br/>HP 25 Hz, LP 90 Hz"] --> Y["RFIY-1M Y-adapter"]
-    Y -->|"existing RCA"| F["Feel 700s"]
-    Y -->|"new 5.5m RCA"| B["UP 1FX<br/>low-pass ~60 Hz"] --> S["10TW3-D8, 4Ω"]
+    DSP["UP 6DSP Line Out"] --> F1["Feel 700 #1"]
+    F1 -->|"RCA out → in (existing)"| F2["Feel 700 #2"]
+    F2 -->|"RCA out (spare) — 5.5m"| KISL["F-F barrels → Kicker KISL<br/>both channels"]
+    KISL --> HS["HS10<br/>Input Level: LO"]
 ```
 
-**Remote:** a ~1 mm² wire from the 6DSP's REM OUT to the amp, alongside the power, with a bullet
-connector at the box.
+- **Feel 700 #2's RCA out is free** — nothing uses it today. Taking the signal from there needs no
+  Y-adapters at the amp, and the run from under the passenger seat to the boot is shorter than from
+  the glovebox.
+- **Route:** RCA along the **left** sill, power and ground along the **right** — keeping signal
+  away from power cuts the chance of noise pickup.
+- **The KISL** turns RCA into the bare-wire input on the HS10's harness — Kicker's own
+  recommendation for RCA sources. Its RCA ends are male, so it joins the FT2 with the
+  female-to-female barrels in the box. Use **both channels**: the Feel's L and R carry the same mono
+  signal, and feeding both HS10 inputs avoids one sitting dead (quieter), as with the Feel 700s.
+- **Hook-up:** FT2 red and white → barrels → KISL's two RCAs. KISL tails butt-spliced to the HS10
+  harness: channel 1 + → **White** (L+), − → **White/Black** (L−); channel 2 + → **Grey** (R+),
+  − → **Grey/Black** (R−). Polarity matters. Tape the barrels so they can't rattle or short.
+- **HS10 Input Level switch on LO** — that's its RCA-level range (250 mV–10 V); HI is for speaker
+  level.
+- *Unknown: whether the Feel 700's RCA out is a straight pass-through or comes after its own
+  crossover and gain.* Test once wired: change the Feel 700s' gain and listen to whether the HS10
+  changes too. If it does, the Feel gains need setting before the HS10's.
 
-### Tuning
+### Remote
+
+One core of 18AWG cable (~6 m) from the 6DSP's **REM OUT** to the HS10's remote input, joined with a
+bullet connector at the compartment. REM OUT already feeds Feel 700 #1 — branch from the same
+terminal.
+
+---
+
+## Tuning
 
 | Where | Setting |
 |---|---|
-| DSP Line Out | High-pass 30 → **25 Hz** (this also protects the 10"); low-pass 90 Hz as now |
-| UP 1FX | Bandpass mode, low-pass **~60 Hz**, RCA range jumper on **0.5–3V** (the line out is 3V) |
-| Feel 700s | Gain down a little |
+| DSP Line Out | As now — feeds all the subs |
+| Feel 700s | Gain down a little — they handle upper bass |
+| HS10 | Input Level **LO**; low-pass ~60 Hz; bass boost off to start |
 
-1. **Level:** amp gain from minimum, up until the 10" just matches the Feel 700s.
-2. **Polarity:** there's no phase switch. Play a 40–60 Hz tone, swap the two speaker wires at the
-   amp, play again. Keep the **louder** one.
-3. **Rattles:** slow 25–80 Hz sweep, parked. Fix with deadening squares and felt tape.
-
----
-
-## 4. Parts list
-
-Prices checked October 2026. **~** = price not shown online. Wire lengths are estimates — run a
-string along the route first.
-
-### Sub, amp and wiring
-
-| Item | Qty | Price |
-|---|---|---|
-| [JL Audio 10TW3-D8 — Audio Visual World](https://audiovisualworld.co.uk/jl-audio-10tw3-d8-shallow-mount-10-dual-8-ohm-car-subwoofer.html) | 1 | £399.99 |
-| [Match UP 1FX — CEN](https://www.cen.uk/products/match-up-1fx-amp-mono-1-channel-subwoofer-amplifier-class-d-900w-rms-at-1-ohms) | 1 | £259.99 |
-| [Powerbass XWS-8P 8AWG power — Car Audio Security](https://www.caraudiosecurity.com/products/xws-8p-8-awg-power-wire-per-metre-100-ofc-wire) | ~5m | £22.45 |
-| [Powerbass XWS-8G 8AWG ground — Car Audio Security](https://www.caraudiosecurity.com/products/xws-8g-8-awg-ground-wire-per-metre-100-ofc-wire) | 1m | £4.49 |
-| [Connection SFA-040 40A fuse](https://caraudiodirect.co.uk/products/connection-by-audison-sfa-040-40a-afs-fuses) — new BFD41 branch | 1 | £7.99 |
-| [Connection SFA-100 100A main fuse](https://caraudiodirect.co.uk/products/connection-by-audison-sfa-100-100a-afs-fuses) | 1 | £7.99 |
-| [Connection FRT8 8AWG ring terminals](https://caraudiodirect.co.uk/products/connection-frt8-8-gauge-ring-terminals) | 1 pack | £4.99 |
-| [Anderson SB50 connector — RS](https://uk.rs-online.com/web/p/battery-connectors/6120150) — two make one plug + socket | 2 | £16.46 |
-| [Connection SL212.2 12AWG speaker cable](https://caraudiodirect.co.uk/products/connection-by-audison-sl212-2-silver-series-high-resolution-12-gauge-speaker-cable-per-metre) | ~2m | £11.00 |
-| [ACV two-pole subwoofer box terminal](https://caraudiodirect.co.uk/products/acv-2-pole-subwoofer-box-terminal) — speaker wires through the box wall, airtight | 1 | £14.99 |
-| [Rockford Fosgate RFIY-1M Y-adapter](https://caraudiodirect.co.uk/products/rfiy-1m-twisted-pair-y-adapter-1-male-to-2-female) | 1 | £9.99 |
-| [Connection FT2-550.2 5.5m RCA](https://caraudiodirect.co.uk/products/connection-ft2-550-2-5-5m-rca-cable) | 1 | £15.99 |
-| ~1 mm² remote wire — **already owned** | ~5m | — |
-| **Subtotal** | | **£776.32** |
-
-### Box and fixing
-
-| Item | Qty | Price |
-|---|---|---|
-| [Wickes 18 mm MDF, 606 × 1829 mm](https://www.wickes.co.uk/General-Purpose-MDF-Sheet---18-x-606-x-1829mm/p/207740) | 1 | ~ |
-| [Gorilla PVA wood glue — Screwfix](https://www.screwfix.com/p/gorilla-glue-wood-glue-236ml/43424) | 1 | £7.69 |
-| [TurboGold screw pack (4 × 40 mm) — Screwfix](https://www.screwfix.com/p/turbogold-pz-double-countersunk-woodscrew-handy-pack-380-pieces/459jj) | 1 | £9.99 |
-| [Clear silicone — Screwfix](https://www.screwfix.com/p/no-nonsense-general-purpose-silicone-clear-310ml/35887) | 1 | £4.79 |
-| [ACV black carpet 70 × 140 cm](https://caraudiodirect.co.uk/products/acv-30-1231-04-black-carpet-70cm-x-140cm) — sides and ends; top reuses the old lid carpet | 1 | £24.99 |
-| [OB41 spray adhesive — Screwfix](https://www.screwfix.com/p/ob41-fast-tack-spray-adhesive-clear-500ml/524YE) — collect only, 18+ | 1 | £5.59 |
-| [Stormguard foam strip — Screwfix](https://www.screwfix.com/p/stormguard-sureseal-3-self-adhesive-foam-draught-excluder-weatherstrips-black-7-5m-2-pack/493VV) — sub gasket, under the end walls | 1 | £6.19 |
-| [Rothley 30 × 30 × 3 mm steel angle — Wickes](https://www.wickes.co.uk/Rothley-30mm-Hot-Rolled-Steel-Angle---1m/p/188290) — cut into brackets | 1 | ~ |
-| [M8 star knobs, pack of 10 — RS](https://uk.rs-online.com/web/p/clamping-knobs/0686632) | 1 | £32.96 |
-| [Easyfix M8 tee nuts, 10 — Screwfix](https://www.screwfix.com/p/easyfix-4-pronged-tee-nuts-m8-x-11mm-10-pack/47225) — for the knobs | 1 | £2.69 |
-| [Screw-Tite pan head screws 4 × 20 mm, 200 — Screwfix](https://www.screwfix.com/p/screw-tite-tfstpz4020-pz-pan-self-drilling-multi-purpose-screws-4mm-x-20mm-200-pack/159va) — sub tab ears and amp plates (flat-underside head, not countersunk) | 1 | £5.69 |
-| [Timco rubber washers M6 × 28 mm, 75 — Screwfix](https://www.screwfix.com/p/timco-rubber-sela-washers-m6-x-28mm-75-pack/1120x) — behind the amp's mounting plates | 1 | £15.49 |
-| [RS PRO M8 external tooth washers, 100 — RS](https://uk.rs-online.com/web/p/washers/0276897) — ground point | 1 | £7.19 |
-| [Essentials 120 grit sanding sheets, 10 — Screwfix](https://www.screwfix.com/p/essentials-120-grit-multi-material-sanding-sheets-280mm-x-230mm-10-pack/209jg) — sub hole, ground point to bare metal | 1 | £3.98 |
-| Old compartment bolts — reused for the brackets | — | — |
-| **Subtotal** | | **£127.24** |
-
-**Already owned:** Vibe bullet connectors (remote wire at the box), sound deadening and Tesa fleece
-tape (rattles), crimping tool.
-
-**Total ≈ £904**, plus the MDF and steel angle (prices not shown online).
-
-### Tools
-
-| Item | Price |
-|---|---|
-| [Titan 600W jigsaw — Screwfix](https://www.screwfix.com/p/titan-ttb1471jsw-600w-electric-jigsaw-240v/135AN) — comes with a wood and a metal blade | £23.99 |
-| [Bosch T101AO blades — Screwfix](https://www.screwfix.com/p/bosch-t101ao-wood-jigsaw-blades-83mm-5-pack/36303) — clean curves for the sub hole | £5.99 |
-| [Erbauer brad point bits, 3–10 mm — Screwfix](https://www.screwfix.com/p/erbauer-straight-shank-double-flute-brad-point-wood-drill-bit-set-8-pieces/793PH) — includes the 10 mm for the tee nuts | £8.99 |
-| [Erbauer countersink — Screwfix](https://www.screwfix.com/p/erbauer-dra46881-hex-shank-wood-135-countersink-9-5mm-x-45mm-with-65mm-pilot-drill/86156) | £4.79 |
-| [Magnusson hacksaw — Screwfix](https://www.screwfix.com/p/magnusson-24tpi-multi-material-hacksaw-12-300mm-/4686v) — for the steel angle | £11.98 |
-| [Magnusson hacksaw blades, 5 — Screwfix](https://www.screwfix.com/p/magnusson-hacksaw-blades-24tpi-12-5-pack/9262v) | £4.99 |
-| [RS PRO HSS metal drill set — RS](https://uk.rs-online.com/web/p/drill-bit-sets/6734709) — or a single 8.5 mm HSS bit | £47.15 |
-| [3M 8822 P2 dust masks, 5 — Screwfix](https://www.screwfix.com/p/3m-8822-cool-flow-disposable-valved-masks-p2-5-pack/449ej) — MDF dust | £16.99 |
-| **Tools total** | **£124.87** |
-
-### Shopping list by shop
-
-The same parts, grouped so each shop is one order. *(tool)* = only if not already owned.
-
-**Audio Visual World** — £399.99
-
-| Item | Qty | Price |
-|---|---|---|
-| [JL Audio 10TW3-D8](https://audiovisualworld.co.uk/jl-audio-10tw3-d8-shallow-mount-10-dual-8-ohm-car-subwoofer.html) | 1 | £399.99 |
-
-**CEN** — £259.99
-
-| Item | Qty | Price |
-|---|---|---|
-| [Match UP 1FX](https://www.cen.uk/products/match-up-1fx-amp-mono-1-channel-subwoofer-amplifier-class-d-900w-rms-at-1-ohms) | 1 | £259.99 |
-
-**Screwfix** — £139.82
-
-| Item | Qty | Price |
-|---|---|---|
-| [Gorilla PVA wood glue](https://www.screwfix.com/p/gorilla-glue-wood-glue-236ml/43424) | 1 | £7.69 |
-| [TurboGold screw pack (4 × 40 mm)](https://www.screwfix.com/p/turbogold-pz-double-countersunk-woodscrew-handy-pack-380-pieces/459jj) | 1 | £9.99 |
-| [Clear silicone](https://www.screwfix.com/p/no-nonsense-general-purpose-silicone-clear-310ml/35887) | 1 | £4.79 |
-| [OB41 spray adhesive](https://www.screwfix.com/p/ob41-fast-tack-spray-adhesive-clear-500ml/524YE) | 1 | £5.59 |
-| [Stormguard foam strip](https://www.screwfix.com/p/stormguard-sureseal-3-self-adhesive-foam-draught-excluder-weatherstrips-black-7-5m-2-pack/493VV) | 1 | £6.19 |
-| [Easyfix M8 tee nuts, 10](https://www.screwfix.com/p/easyfix-4-pronged-tee-nuts-m8-x-11mm-10-pack/47225) | 1 | £2.69 |
-| [Screw-Tite pan head screws 4 × 20 mm, 200](https://www.screwfix.com/p/screw-tite-tfstpz4020-pz-pan-self-drilling-multi-purpose-screws-4mm-x-20mm-200-pack/159va) | 1 | £5.69 |
-| [Timco rubber washers M6 × 28 mm, 75](https://www.screwfix.com/p/timco-rubber-sela-washers-m6-x-28mm-75-pack/1120x) | 1 | £15.49 |
-| [Essentials 120 grit sanding sheets, 10](https://www.screwfix.com/p/essentials-120-grit-multi-material-sanding-sheets-280mm-x-230mm-10-pack/209jg) | 1 | £3.98 |
-| [Titan 600W jigsaw](https://www.screwfix.com/p/titan-ttb1471jsw-600w-electric-jigsaw-240v/135AN) *(tool)* | 1 | £23.99 |
-| [Bosch T101AO blades](https://www.screwfix.com/p/bosch-t101ao-wood-jigsaw-blades-83mm-5-pack/36303) *(tool)* | 1 | £5.99 |
-| [Erbauer brad point bits, 3–10 mm](https://www.screwfix.com/p/erbauer-straight-shank-double-flute-brad-point-wood-drill-bit-set-8-pieces/793PH) *(tool)* | 1 | £8.99 |
-| [Erbauer countersink](https://www.screwfix.com/p/erbauer-dra46881-hex-shank-wood-135-countersink-9-5mm-x-45mm-with-65mm-pilot-drill/86156) *(tool)* | 1 | £4.79 |
-| [Magnusson hacksaw](https://www.screwfix.com/p/magnusson-24tpi-multi-material-hacksaw-12-300mm-/4686v) *(tool)* | 1 | £11.98 |
-| [Magnusson hacksaw blades, 5](https://www.screwfix.com/p/magnusson-hacksaw-blades-24tpi-12-5-pack/9262v) *(tool)* | 1 | £4.99 |
-| [3M 8822 P2 dust masks, 5](https://www.screwfix.com/p/3m-8822-cool-flow-disposable-valved-masks-p2-5-pack/449ej) *(tool)* | 1 | £16.99 |
-
-**RS** — £103.76
-
-| Item | Qty | Price |
-|---|---|---|
-| [Anderson SB50 connector](https://uk.rs-online.com/web/p/battery-connectors/6120150) | 2 | £16.46 |
-| [M8 star knobs, pack of 10](https://uk.rs-online.com/web/p/clamping-knobs/0686632) | 1 | £32.96 |
-| [RS PRO M8 external tooth washers, 100](https://uk.rs-online.com/web/p/washers/0276897) | 1 | £7.19 |
-| [RS PRO HSS metal drill set](https://uk.rs-online.com/web/p/drill-bit-sets/6734709) *(tool)* | 1 | £47.15 |
-
-**Car Audio Direct** — £97.93
-
-| Item | Qty | Price |
-|---|---|---|
-| [Connection SFA-040 40A fuse](https://caraudiodirect.co.uk/products/connection-by-audison-sfa-040-40a-afs-fuses) | 1 | £7.99 |
-| [Connection SFA-100 100A main fuse](https://caraudiodirect.co.uk/products/connection-by-audison-sfa-100-100a-afs-fuses) | 1 | £7.99 |
-| [Connection FRT8 8AWG ring terminals](https://caraudiodirect.co.uk/products/connection-frt8-8-gauge-ring-terminals) | 1 pack | £4.99 |
-| [Connection SL212.2 12AWG speaker cable](https://caraudiodirect.co.uk/products/connection-by-audison-sl212-2-silver-series-high-resolution-12-gauge-speaker-cable-per-metre) | ~2m | £11.00 |
-| [ACV two-pole subwoofer box terminal](https://caraudiodirect.co.uk/products/acv-2-pole-subwoofer-box-terminal) — speaker wires through the box wall, airtight | 1 | £14.99 |
-| [Rockford Fosgate RFIY-1M Y-adapter](https://caraudiodirect.co.uk/products/rfiy-1m-twisted-pair-y-adapter-1-male-to-2-female) | 1 | £9.99 |
-| [Connection FT2-550.2 5.5m RCA](https://caraudiodirect.co.uk/products/connection-ft2-550-2-5-5m-rca-cable) | 1 | £15.99 |
-| [ACV black carpet 70 × 140 cm](https://caraudiodirect.co.uk/products/acv-30-1231-04-black-carpet-70cm-x-140cm) | 1 | £24.99 |
-
-**Car Audio Security** — £26.94
-
-| Item | Qty | Price |
-|---|---|---|
-| [Powerbass XWS-8P 8AWG power](https://www.caraudiosecurity.com/products/xws-8p-8-awg-power-wire-per-metre-100-ofc-wire) | ~5m | £22.45 |
-| [Powerbass XWS-8G 8AWG ground](https://www.caraudiosecurity.com/products/xws-8g-8-awg-ground-wire-per-metre-100-ofc-wire) | 1m | £4.49 |
-
-**Wickes** — prices not shown online; pay in store
-
-| Item | Qty | Price |
-|---|---|---|
-| [Wickes 18 mm MDF, 606 × 1829 mm](https://www.wickes.co.uk/General-Purpose-MDF-Sheet---18-x-606-x-1829mm/p/207740) | 1 | ~ |
-| [Rothley 30 × 30 × 3 mm steel angle](https://www.wickes.co.uk/Rothley-30mm-Hot-Rolled-Steel-Angle---1m/p/188290) | 1 | ~ |
-
-**Everything, including tools: ≈ £1028**, plus the Wickes MDF and steel angle.
-
-Audio Visual World and Car Audio Security are single-purpose orders on purpose: the 10TW3-D8 is
-out of stock at CEN and Car Audio Direct only lists the D4, and none of the other shops sell 8AWG
-OFC by the metre (only as complete amp kits).
-
+1. **Level:** HS10 gain from minimum, up until it fills in under the Feel 700s without booming.
+2. **Phase:** the HS10 has a phase switch. Play a 40–60 Hz tone, try both, keep the **louder**.
+3. **Rattles:** slow 25–80 Hz sweep, parked. The compartment lid and latches are the likely
+   culprits — felt tape where metal meets metal.
 
 ---
 
-## 5. Still to find out
+## Parts list
 
-Once the old compartment is out, in one go:
+Prices checked October 2026. Wire lengths are estimates — run a string along the route first.
 
-- [ ] Exact width wall to wall (the box plus amp needs ~730 mm), and is ~160 mm height OK?
-- [ ] Do the tools sit under the floor (box lifts off them) or inside the compartment (they'd need a
-      new home)?
-- [ ] Old compartment bolts: how many, where, thread size, threaded holes or nuts underneath
-- [ ] A bare-metal ground point near the box
-- [ ] Power route from the BFD41 to the boot, and its real length
+### Car Audio Security — £480.36
+
+| Item | Qty | Price |
+|---|---|---|
+| [Kicker HS10](https://www.caraudiosecurity.com/products/kicker-ka46hs10-10-hideaway-compact-powered-loaded-enclosure-180w-rms) | 1 | £399.99 |
+| [Powerbass XWS-8P 8AWG power, 100% OFC](https://www.caraudiosecurity.com/products/xws-8p-8-awg-power-wire-per-metre-100-ofc-wire) — BFD41 → boot | ~5 m | £22.45 |
+| [Powerbass XWS-8G 8AWG ground, 100% OFC](https://www.caraudiosecurity.com/products/xws-8g-8-awg-ground-wire-per-metre-100-ofc-wire) — boot → seat bolt | ~5 m | £22.45 |
+| [Connection B218.2 18AWG cable](https://www.caraudiosecurity.com/products/b-218-18-gauge-speaker-cable) — remote wire, glovebox → boot (sold per metre; one core used) | ~6 m | £10.50 |
+| [Vibe CLRT8-V7 8AWG ring terminals](https://www.caraudiosecurity.com/products/clrt8-v7-8-awg-ring-termainal-pack-of-1-pair) — HS10 ground at the seat bolt (hole size not listed — must fit the seat bolt) | 1 pair | £4.99 |
+| [Phonocar 30A AFS fuse](https://www.caraudiosecurity.com/products/4-463-2-afs-fuses-30a) — spare BFD41 way | 1 | £4.99 |
+| [Connection FT2 5.5 m RCA](https://www.caraudiosecurity.com/products/connection-by-audison-ft2-professional-grade-ft-series-rca-cable) — Feel 700 #2 → boot | 1 | £14.99 |
+
+### Kicker UK — £17.95
+
+| Item | Qty | Price |
+|---|---|---|
+| [Kicker KISL](https://kickeruk.com/products/kisl) — RCA to HS10 input, 2 channels | 1 | £17.95 |
+
+**Already owned:** JTAREA butt connector kit, Vibe bullet connectors, adhesive heat shrink. Butts: one 8AWG each for the HS10 power and ground leads, small ones (22–16AWG) for the four KISL → HS10 input joins. The HS10 manual lists no ring terminals or connectors in the box.
+
+### Toolstation — £16.98
+
+| Item | Qty | Price |
+|---|---|---|
+| [Heavy Duty Semi Ratchet Crimping Tool](https://www.toolstation.com/heavy-duty-semi-ratchet-crimping-tool/p42429) — for the JTAREA uninsulated butts and the 8AWG ring terminal; non-insulated copper terminals, 1.5–16 mm² (8AWG ≈ 8.4 mm²) | 1 | £16.98 |
+
+**Total ≈ £515.**
+
+### When the second HS10 goes in
+
+| Item | Qty | Price |
+|---|---|---|
+| [Kicker HS10](https://www.caraudiosecurity.com/products/kicker-ka46hs10-10-hideaway-compact-powered-loaded-enclosure-180w-rms) | 1 | £399.99 |
+| [Connection SFA-100.1 100A AFS main fuse](https://www.caraudiosecurity.com/products/sfa-100-100a-afs-fuses) | 1 | £7.00 |
+
+Re-crimp the power splice two-into-one, add a second KISL (or a Y-adapter pair) for its inputs, and check the compartment
+is at least ~80 cm long inside for two units plus cable room.
 
 ---
 
-## Other amp option — Match M 2.1AMP
+## Before buying
 
-[Match M 2.1AMP — £369.99 at CEN](https://www.cen.uk/products/match-m-2-1-amp-micro-amplifier-mono-subwoofer-mode-or-2-channel-stereo-350w-rms).
-
-- **Better:** much smaller (35 × 85 × 110 mm), so it sticks out only ~40 mm and the box can be 5 mm
-  longer.
-- **Worse:** £110 more, and **no low-pass filter** — the 10" plays the whole sub range alongside the
-  Feel 700s instead of just the deep bass.
-- **Changes:** use the [10TW3-D4](https://caraudiodirect.co.uk/products/jl-audio-10tw3-d4-500w-10-25cm-subwoofer-bass-driver)
-  (£409, coils in parallel = 2Ω, 350W) instead of the D8. It's in mono mode from the factory; set the
-  gain by its LED (radio ~90%, pink noise: down until green, up until orange, back to green). Same
-  8AWG and 40A fuse. About **£968** in total.
+- [ ] **Compartment inside length** — at least ~40 cm for one HS10 with its harness (~80 cm for two)
+- [ ] **Felt-backed holes go right through** to the seat side — peel one back to check
+- [ ] **Ground route length** — compartment to the seat bolt
+- [ ] **Seat bolt size** — so the Vibe ring terminal hole fits (not listed on the product page)
+- [ ] **RCA route length** — passenger seat to the compartment; the FT2 only comes in 5.5 m here
