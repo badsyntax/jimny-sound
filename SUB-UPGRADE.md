@@ -14,7 +14,7 @@ Feel 700s stay under the front seats for upper bass; the 10" adds the deep bass 
 | Where | Inside the aluminium compartment, firing up, venting through the compartment's holes |
 | Signal | Feel 700 #2's spare RCA out → 5.5 m RCA → Kicker KISL → HS10 low-level input |
 | Power | Spare BFD41 way, 30A AFS, 8AWG along the sill; 8AWG ground back to the shared seat-bolt ground |
-| Cost | ≈ £515 including a crimper |
+| Cost | ≈ £498 (crimper already owned) |
 | Later | A second HS10 alongside it — everything below is sized for two |
 
 **Why this sub:** it's the only slim 10" from a brand worth trusting that fits the compartment. The
@@ -69,12 +69,25 @@ flowchart TD
     BFD -->|"40A (existing)"| AMP["UP 6DSP MK2"]
     BFD -->|"30A (existing)"| FEEL["Feel 700 x2"]
     BFD -->|"NEW 30A AFS, 8AWG, ~5m along the sill"| SPL["Butt splice<br/>in the compartment"]
-    SPL --> HS["HS10 harness<br/>own 15A in-line fuse"]
+    SPL --> FUSE["15A in-line fuse<br/>(supplied), right at the splice"]
+    FUSE --> HS["HS10<br/>onboard 15A blade fuse"]
     HS -->|"HS10 ground lead → butt splice → 8AWG, ~5m"| GND["Seat bolt<br/>shared with amp + Feel 700s"]
 ```
 
 - **8AWG, 30A.** One HS10 draws 15A max; 8AWG and 30A are sized so a **second HS10** can share the
-  same run later. The fuse protects the wire; each HS10 has its own 15A fuse in its harness.
+  same run later. The 30A fuse protects the 8AWG run.
+- **Fuses — three layers, each protecting the wire after it:**
+  | Fuse | Where | Protects |
+  |---|---|---|
+  | 30A AFS | BFD41 | the 8AWG run to the boot |
+  | 15A in-line (supplied with each HS10) | each HS10's power lead, **right at the splice** — sub side, within a few cm | that HS10's ~15 cm lead |
+  | 15A blade | on the HS10's end panel | the HS10 itself |
+
+  The in-line fuse goes at the splice end, not the sub end — a fuse only protects wire downstream of
+  it. With two HS10s on one 30A fuse, a lead chafed through on the aluminium edge could carry 20–30A
+  without blowing the 30A; the 15A in-line catches it. One per sub. Tie the holders down so they
+  can't rattle on the aluminium, and keep them reachable. (The Feel 700s don't need this: their 3mm²
+  / 27A cable is already matched to their 30A fuse.)
 - **Butt splice, not a block.** One 8AWG butt from the JTAREA kit joins the 8AWG to the HS10's power
   lead. For two HS10s later, twist both leads together into the same end. If they sit loose in the
   barrel, fold the stripped ends back to bulk them up. Adhesive heat shrink over it, zip-tied down.
@@ -86,6 +99,16 @@ flowchart TD
   make a loop through the body — the usual cause of alternator whine. Run 8AWG back alongside the
   power, butt-spliced to the HS10's ground lead at the compartment, with its own 8AWG ring terminal
   stacked on the bolt (bare metal both faces). 8AWG so a second HS10 can share it.
+- **Seat-bolt terminals — fix before finishing.** Now two rings on the bolt: one carrying the
+  combined amp + Feel 700 ground (bottom, on bare metal), one for the boot run (on top). Both holes
+  were filed out with a round needle file to fit the bolt (a drill tears thin rings). Problem: the
+  crimped barrels sit under the seat bracket, so the seat rides on them instead of sitting flat —
+  bad for the seat bolt's clamp and for the ground. Fix: rotate the rings so the barrels point clear
+  of the bracket; if that doesn't clear, clamp each ring in a vice and bend 30–45° once at the neck
+  (between ring and barrel, never at the crimp), away from the bracket, then refit. Don't rely on the
+  bolt to bend them — they kink at the neck. Check the seat sits flat with no rocking and the bolt is
+  back to full tightness. Fallback: a dedicated M8 ground bolt in the floor pan near the seat, with
+  all three grounds moved to it.
 - **Afterwards:** voltage-drop test with everything playing hard — under 0.2V from the HS10's
   ground to battery negative.
 
@@ -164,13 +187,19 @@ Prices checked October 2026. Wire lengths are estimates — run a string along t
 
 **Already owned:** JTAREA butt connector kit, Vibe bullet connectors, adhesive heat shrink. Butts: one 8AWG each for the HS10 power and ground leads, small ones (22–16AWG) for the four KISL → HS10 input joins. The HS10 manual lists no ring terminals or connectors in the box.
 
-### Toolstation — £16.98
+### Already owned — crimper
+
+[Essentials Ratchet Crimping Tool 7" (Screwfix)](https://www.screwfix.com/p/essentials-ratchet-crimping-tool-7-180mm-/96561) —
+non-insulated terminals, 1–10 mm²; use the 10 position for 8AWG. Pull-test a crimp on an offcut first.
+
+### Toolstation — small bits
 
 | Item | Qty | Price |
 |---|---|---|
-| [Heavy Duty Semi Ratchet Crimping Tool](https://www.toolstation.com/heavy-duty-semi-ratchet-crimping-tool/p42429) — for the JTAREA uninsulated butts and the 8AWG ring terminal; non-insulated copper terminals, 1.5–16 mm² (8AWG ≈ 8.4 mm²) | 1 | £16.98 |
+| [Minotaur Needle File Set](https://www.toolstation.com/minotaur-needle-file-set/p60202) — round file to open up ring terminal holes | 1 | £3.99 |
+| [Termination Technology Copper Tube Butt Connectors 10mm²](https://www.toolstation.com/termination-technology-copper-tube-butt-connectors/pAE649) — spare 8AWG butts if the JTAREA kit runs out (need 2) | 10 pack | £1.89 |
 
-**Total ≈ £515.**
+**Total ≈ £498** (plus ~£6 of small bits).
 
 ### When the second HS10 goes in
 
@@ -187,7 +216,9 @@ is at least ~80 cm long inside for two units plus cable room.
 ## Before buying
 
 - [ ] **Compartment inside length** — at least ~40 cm for one HS10 with its harness (~80 cm for two)
-- [ ] **Felt-backed holes go right through** to the seat side — peel one back to check
+- [x] **Lid holes go right through** — confirmed open; the only thing over them is the velcro'd
+  carpet, which stays on for stealth (A/B test lid open / closed / closed with carpet once fitted;
+  foam-tape the lid edges and latches)
 - [ ] **Ground route length** — compartment to the seat bolt
-- [ ] **Seat bolt size** — so the Vibe ring terminal hole fits (not listed on the product page)
+- [x] **Seat bolt size** — ring holes too small; filed out to fit (see seat-bolt terminals above)
 - [ ] **RCA route length** — passenger seat to the compartment; the FT2 only comes in 5.5 m here
