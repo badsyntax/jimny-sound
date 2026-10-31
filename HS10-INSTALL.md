@@ -31,7 +31,7 @@
 
 **Cutting and drilling**
 - [ ] Circular saw + extension lead
-- [ ] Jigsaw, if available (corners)
+- [ ] Multi-tool + wood blades (corners, notches)
 - [ ] Clamps
 - [ ] Scrap wood to drill/cut on
 - [ ] Drill + pilot bits
