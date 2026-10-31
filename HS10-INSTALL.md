@@ -132,6 +132,20 @@ everything so the board and sub can lift out.
   loud playing, so it stays for now. Tidy it (rotate or bend the rings at the neck) if the seat is
   ever out.
 
+## Settings
+
+From [SUB-UPGRADE.md](SUB-UPGRADE.md#tuning) and [DSP-SETUP.md](DSP-SETUP.md), in one place:
+
+| Where | Setting |
+|---|---|
+| DSP Line Out (feeds all the subs) | As is: high-pass 30 Hz, low-pass 90 Hz |
+| Feel 700s | Low-pass knob max, bass boost 0, gain a little below the current ~25% |
+| HS10 | Input level **LO**, low-pass ~**60 Hz**, bass boost **off**, gain from minimum |
+
+1. **HS10 gain:** up from minimum until the deep bass fills in under the Feel 700s without booming.
+2. **HS10 phase:** play a 40–60 Hz tone, try both settings, keep the louder.
+3. **Feel 700 gain:** nudge down if the upper bass now sounds too heavy.
+
 ## 5. First tests
 
 - [ ] Sub powers on with the head unit, off with it
