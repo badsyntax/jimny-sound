@@ -77,9 +77,10 @@ everything so the board and sub can lift out.
 - **Power:** run the 8AWG along the trim panels, under the steering wheel, across the dash to the
   distribution block. 30A fuse. If the block only takes 4AWG, fold the stripped 8AWG strands back
   on themselves to double the thickness so the set screw grips.
-- **Ground:** second ring on the seat bolt — **fix the terminal clash first** (see
-  [SUB-UPGRADE.md](SUB-UPGRADE.md)): rotate the rings so the barrels clear the seat bracket, or bend
-  once at the neck in a vice. Seat must sit flat; bolt back to full tightness.
+- **Ground:** second ring on the seat bolt. The crimp barrels sit under the seat bracket — not
+  ideal, but the seat is level, doesn't rock, the bolt is tight and the terminals stay cold after
+  loud playing, so it stays for now. Tidy it (rotate or bend the rings at the neck) if the seat is
+  ever out.
 
 ## 5. First tests
 
@@ -89,16 +90,65 @@ everything so the board and sub can lift out.
 - [ ] No "puffing" air noise at volume (means it's too tight under the lid)
 - [ ] After a drive at normal volume: fuse holder and seat-bolt terminals cold
 
+## Day plan
+
+1. **Safe:** disconnect the battery negative.
+2. **Boot wiring:** cut the harness down; power through the 15A in-line fuse to the 8AWG, ground,
+   remote, white/grey to the KISL.
+3. **Test loose:** reconnect the battery, head unit on — sub plays, and switches off with the head
+   unit.
+4. **Mount:** MDF to the brown board, sub brackets down, finger holes, tidy the wires.
+5. **Final checks:** lid shut — no rattles, lid clear of the grille — then a drive.
+
+If time runs out, stopping after step 3 is fine.
+
+(Front end is already done: 8AWG run to the block; seat-bolt ground stays as is — seat level, no
+rock, terminals cold after loud playing.)
+
 ## Bring to the garage
 
-- [ ] HS10, brackets, harness, supplied 15A in-line fuse
-- [ ] Kicker KISL
-- [ ] 9mm MDF, brown board, carpet liner
-- [ ] Bolts, nuts, penny washers (countersunk) — or Velcro
-- [ ] Drill, pilot bits, 32mm spade bit, screwdriver
-- [ ] Short wood screws (12–15mm), mending plates
-- [ ] Crimper, 10mm² butts, small butts, adhesive heat shrink, heat gun
-- [ ] Wire cutters, strippers, knife (for stripping 8AWG)
+**Sub and parts**
+- [ ] Kicker HS10, brackets, harness, 15A in-line fuse
+- [ ] Kicker KISL + the RCA barrels in its box
+- [ ] 10mm² butt connectors (power and ground)
+- [ ] Small butt connectors (remote and KISL joins)
+- [ ] Adhesive heat shrink
+- [ ] Heat gun (or lighter)
+- [ ] Insulating tape
+
+**Wiring tools**
+- [ ] Crimper
+- [ ] Wire cutters
+- [ ] Wire strippers
+- [ ] Sharp knife (stripping 8AWG)
+- [ ] Spanner for the battery terminal
+
+**Board and mounting**
+- [ ] 9mm MDF
+- [ ] Spare 12mm MDF
+- [ ] Countersunk bolts, nuts, penny washers
+- [ ] Heavy-duty Velcro (backup)
+- [ ] Short wood screws (12–15mm)
+- [ ] Mending plates
 - [ ] Cable tie bases and cable ties
-- [ ] Foam roll, black spray paint, sandpaper
-- [ ] Round needle file (seat-bolt rings)
+- [ ] Foam roll
+- [ ] Black spray paint (spray early so it dries)
+
+**Cutting and drilling**
+- [ ] Circular saw + extension lead
+- [ ] Jigsaw, if available (corners)
+- [ ] Clamps
+- [ ] Scrap wood to drill/cut on
+- [ ] Drill + pilot bits
+- [ ] 32mm spade bit
+- [ ] Countersink bit
+- [ ] Screwdrivers
+- [ ] Sandpaper
+- [ ] Tape measure, pencil, straight edge
+
+**Safety and general**
+- [ ] Goggles
+- [ ] Dust mask (MDF)
+- [ ] Torch
+- [ ] Rags
+- [ ] Phone charged (photos)
