@@ -1,5 +1,55 @@
 # HS10 install — working plan
 
+## Bring to the garage
+
+**Sub and parts**
+- [ ] Kicker HS10, brackets, harness, 15A in-line fuse
+- [ ] Kicker KISL + the RCA barrels in its box
+- [ ] 10mm² butt connectors (power and ground)
+- [ ] Small butt connectors (remote and KISL joins)
+- [ ] Adhesive heat shrink
+- [ ] Heat gun (or lighter)
+- [ ] Insulating tape
+
+**Wiring tools**
+- [ ] Crimper
+- [ ] Wire cutters
+- [ ] Wire strippers
+- [ ] Sharp knife (stripping 8AWG)
+- [ ] Spanner for the battery terminal
+
+**Board and mounting**
+- [ ] 9mm MDF
+- [ ] Spare 12mm MDF
+- [ ] Countersunk bolts, nuts, penny washers
+- [ ] Heavy-duty Velcro (backup)
+- [ ] Short wood screws (12–15mm)
+- [ ] Mending plates
+- [ ] Cable tie bases and cable ties
+- [ ] Foam roll
+- [ ] Black spray paint (spray early so it dries)
+
+**Cutting and drilling**
+- [ ] Circular saw + extension lead
+- [ ] Jigsaw, if available (corners)
+- [ ] Clamps
+- [ ] Scrap wood to drill/cut on
+- [ ] Drill + pilot bits
+- [ ] 32mm spade bit
+- [ ] Countersink bit
+- [ ] Screwdrivers
+- [ ] Sandpaper
+- [ ] Tape measure, pencil, straight edge
+
+**Safety and general**
+- [ ] Goggles
+- [ ] Dust mask (MDF)
+- [ ] Torch
+- [ ] Rags
+- [ ] Phone charged (photos)
+
+---
+
 The hands-on install log for the boot sub. The why (sub choice, fusing, grounding, parts) lives in
 [SUB-UPGRADE.md](SUB-UPGRADE.md); this is what's actually being done, step by step. Baby steps —
 try things, keep what works, update this as it goes.
@@ -104,51 +154,3 @@ If time runs out, stopping after step 3 is fine.
 
 (Front end is already done: 8AWG run to the block; seat-bolt ground stays as is — seat level, no
 rock, terminals cold after loud playing.)
-
-## Bring to the garage
-
-**Sub and parts**
-- [ ] Kicker HS10, brackets, harness, 15A in-line fuse
-- [ ] Kicker KISL + the RCA barrels in its box
-- [ ] 10mm² butt connectors (power and ground)
-- [ ] Small butt connectors (remote and KISL joins)
-- [ ] Adhesive heat shrink
-- [ ] Heat gun (or lighter)
-- [ ] Insulating tape
-
-**Wiring tools**
-- [ ] Crimper
-- [ ] Wire cutters
-- [ ] Wire strippers
-- [ ] Sharp knife (stripping 8AWG)
-- [ ] Spanner for the battery terminal
-
-**Board and mounting**
-- [ ] 9mm MDF
-- [ ] Spare 12mm MDF
-- [ ] Countersunk bolts, nuts, penny washers
-- [ ] Heavy-duty Velcro (backup)
-- [ ] Short wood screws (12–15mm)
-- [ ] Mending plates
-- [ ] Cable tie bases and cable ties
-- [ ] Foam roll
-- [ ] Black spray paint (spray early so it dries)
-
-**Cutting and drilling**
-- [ ] Circular saw + extension lead
-- [ ] Jigsaw, if available (corners)
-- [ ] Clamps
-- [ ] Scrap wood to drill/cut on
-- [ ] Drill + pilot bits
-- [ ] 32mm spade bit
-- [ ] Countersink bit
-- [ ] Screwdrivers
-- [ ] Sandpaper
-- [ ] Tape measure, pencil, straight edge
-
-**Safety and general**
-- [ ] Goggles
-- [ ] Dust mask (MDF)
-- [ ] Torch
-- [ ] Rags
-- [ ] Phone charged (photos)
