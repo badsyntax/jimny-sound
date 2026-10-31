@@ -101,6 +101,23 @@ Revisit once it's in and playing. Must still be removable to reach the jack.
 Two lid holes sit right over the grille (good, that's where the sound gets out). Any foam goes on
 the box corners, never the grille.
 
+**Clearance and the carpet on top.** The gap between the grille and the lid is small (~0.5–1 cm).
+That won't muffle bass like covering a tweeter, but it costs some output and can cause "puffing" at
+volume. Kicker's manual gives no figure for clearance above the grille. In order:
+
+1. Position the sub so the grille sits under as many lid holes as possible.
+2. A/B test, same track and volume: lid shut with the carpet off, then with it on. Barely different
+   → keep the carpet.
+3. Clearly duller → take the carpet off and stick
+   [black acoustically transparent grille cloth](https://falconacoustics.co.uk/kits-cabinet-parts-accessories/loudspeaker-grille-cloth-acoustically-transparent/loudspeaker-grille-cloth-acoustic-transparent-black.html)
+   (Falcon Acoustics, per metre, 1.85 m wide; 1 m is plenty) to the **underside** of the lid across
+   the holes, with spray adhesive or double-sided tape. Sound passes through; crumbs and grit don't
+   fall in. Underside so the edges are hidden and shopping on the lid can't scuff or peel it.
+4. Still tight → skip the MDF and mount the sub straight on the brown board (+9 mm).
+
+**Amp ventilation:** Kicker asks for ~10 cm of open space at the amp end (the panel with the knobs
+and harness plug). Face that end into the open part of the compartment, not against a wall.
+
 ## 3. Wiring at the compartment
 
 Cut the HS10 harness down — the leads are far longer than needed. Leave a loop of slack on
