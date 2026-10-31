@@ -54,9 +54,10 @@ The hands-on install log for the boot sub. The why (sub choice, fusing, groundin
 [SUB-UPGRADE.md](SUB-UPGRADE.md); this is what's actually being done, step by step. Baby steps —
 try things, keep what works, update this as it goes.
 
-**Status:** HS10 arrived. 8AWG power, 8AWG ground, RCA and remote are run to the boot (under the
-rear seatbelt anchors, tucked down the sides of the seats). Not yet connected at the front. Install
-moved to the folks' garage (more privacy).
+**Status:** HS10 arrived. **Front end done:** 8AWG power connected at the distribution block, 8AWG
+ground on the seat bolt, remote run, RCA from Feel 700 #2 — all fed into the aluminium compartment
+(routed under the rear seatbelt anchors, tucked down the sides of the seats). **Left to do:** the
+boot-end connections, mounting, and tuning. Install moved to the folks' garage (more privacy).
 
 ---
 
@@ -122,11 +123,10 @@ everything so the board and sub can lift out.
 - Wires to the board: cable tie bases screwed through the carpet into the MDF (adhesive alone won't
   hold on carpet). Power and ground together, RCA on the other side.
 
-## 4. At the front
+## 4. At the front — done
 
-- **Power:** run the 8AWG along the trim panels, under the steering wheel, across the dash to the
-  distribution block. 30A fuse. If the block only takes 4AWG, fold the stripped 8AWG strands back
-  on themselves to double the thickness so the set screw grips.
+- **Power:** 8AWG connected at the distribution block, 30A fuse.
+- **Remote and RCA:** run to the compartment; the RCA comes from Feel 700 #2's output.
 - **Ground:** second ring on the seat bolt. The crimp barrels sit under the seat bracket — not
   ideal, but the seat is level, doesn't rock, the bolt is tight and the terminals stay cold after
   loud playing, so it stays for now. Tidy it (rotate or bend the rings at the neck) if the seat is
