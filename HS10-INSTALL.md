@@ -56,12 +56,36 @@ The hands-on install log for the boot sub. The why (sub choice, fusing, groundin
 [SUB-UPGRADE.md](SUB-UPGRADE.md); this is what's actually being done, step by step. Baby steps —
 try things, keep what works, update this as it goes.
 
-**Status:** HS10 arrived. **Front end done:** 8AWG power connected at the distribution block, 8AWG
-ground on the seat bolt, remote run, RCA from Feel 700 #2 — all fed into the aluminium compartment
-(routed under the rear seatbelt anchors, tucked down the sides of the seats). **Left to do:** the
-boot-end connections, mounting, and tuning. Install moved to the folks' garage (more privacy).
+**Status: installed and working (1 Nov 2026).** Front end and boot end all connected; sub mounted;
+carpet back on. **Left to do:** balance the bass against the front stage, last rattles, tidy wiring
+(move the 15A fuse holder up to the splice).
 
----
+### Install day — 1 Nov 2026
+
+**Result:** works first time. Powerful, and it adds the deep lows the Feel 700s couldn't reach.
+
+- **HS10 settings used:** Auto Turn On **+12V**, Input Level **LO**, Phase **180°**, Bass Boost
+  **0**, X-Over ~**60 Hz**, Gain ~**50%** (needed a fair bit to come up to level).
+- **Phase 180°:** on some tracks the bass seemed to disappear — the HS10 and Feel 700s cancelling.
+  Flipping to 180° fixed it.
+- **Carpet stays on.** With the grille ~1 cm below the lid, the lid and carpet on top sounded fine —
+  no need for grille cloth.
+- **Mounting as built:** HS10 screwed to the 9mm MDF; MDF bolted through the brown board (one bolt,
+  washers both sides, tight). The brown board's jack clips poke up, so the boards don't sit flat —
+  **foam packed between them** before bolting stopped the worst rattle. **Foam under the brown
+  board** where it rests on the ledge. Not fixed to the car: the stack is heavy and slots into the
+  recess; would take a proper jolt to move. No Velcro, no tape, no mending plates needed.
+- **Rattles:** the boards were the main one — fixed as above. Next: the loose covers on the plastic
+  side compartments in the boot. Couldn't pop them off even with a trim tool, so the plan is foam
+  or felt tape pushed into the gap around the edges, or tape over the seam.
+- **Sound:** bass may now be overpowering the mids and tweeters (less clarity). To try, one at a
+  time:
+  1. URC.1 down a step or two (sets all the subs together)
+  2. HS10 gain down from ~50% until it fills in underneath rather than standing out
+  3. HS10 crossover 60 → ~50 Hz if it's still boomy or muddy (less overlap with the Feel 700s)
+- **Open question:** whether the Feel 700's RCA out is a straight pass-through or follows its gain
+  knob — couldn't confirm from any Harman source. Test: turn Feel #1's gain down while listening; if
+  #2 and the HS10 don't change, it's a pass-through.
 
 ## 1. The base: 9mm MDF on the stock board
 
