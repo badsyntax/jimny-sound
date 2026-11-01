@@ -47,6 +47,8 @@
 - [ ] Torch
 - [ ] Rags
 - [ ] Phone charged (photos)
+- [ ] Laptop (charged) + USB cable for the amp — DSP PC-Tool tuning
+- [ ] USB stick with test tracks
 
 ---
 
