@@ -70,8 +70,8 @@ carpet back on. **Left to do:** balance the bass against the front stage, last r
   Flipping to 180° fixed it.
 - **Carpet stays on.** With the grille ~1 cm below the lid, the lid and carpet on top sounded fine —
   no need for grille cloth.
-- **Mounting as built:** HS10 screwed to the 9mm MDF; MDF bolted through the brown board (one bolt,
-  washers both sides, tight). The brown board's jack clips poke up, so the boards don't sit flat —
+- **Mounting as built:** four bolts through the HS10's mounting brackets, the 9mm MDF and the
+  brown board — a washer each end, done up tight. Sub, MDF and brown board are one unit. The brown board's jack clips poke up, so the boards don't sit flat —
   **foam packed between them** before bolting stopped the worst rattle. **Foam under the brown
   board** where it rests on the ledge. Not fixed to the car: the stack is heavy and slots into the
   recess; would take a proper jolt to move. No Velcro, no tape, no mending plates needed.
