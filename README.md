@@ -13,6 +13,7 @@ front stage, and two Harman Kardon Feel 700 underseat subs — no drilling or ch
 | [DOOR-DEADENING.md](DOOR-DEADENING.md) | Front door sound deadening — material, coverage, door card removal, shopping list |
 | [DSP-SETUP.md](DSP-SETUP.md) | Step-by-step DSP PC-Tool setup and tuning guide for the UP 6DSP MK2 |
 | [SUB-UPGRADE.md](SUB-UPGRADE.md) | Boot subwoofer plan — Kicker HS10 powered sub inside the aluminium boot compartment, wiring, tuning, parts list |
+| [HS10-INSTALL.md](HS10-INSTALL.md) | HS10 install working plan — mounting, wiring at the compartment, first tests, what to bring |
 | [docs/](docs/) | The blog post, published with GitHub Pages |
 | [reference/](reference/) | Manuals and spec sheets |
 
