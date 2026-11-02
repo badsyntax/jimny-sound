@@ -311,7 +311,7 @@ mounted really well and provides a bit of padding.
 There are three subs, and they share the work. The two Feel 700s under the front seats give the
 punch, from about 40 to 90Hz. The 10" Kicker HS10 in the boot plays only the deepest notes, below
 about 50Hz, which the Feel 700s can't reach. Together they cover the low end without any one of
-them having to do everything, and without losing any space in the cabin or the boot.
+them having to do everything, and without taking up any space in the cabin or on the boot floor.
 
 ### Under the seats
 
@@ -360,7 +360,7 @@ passengers can still get in and out without any trouble.*
 
 ### In the boot
 
-For the deep bass I wanted a proper 10" sub, but without losing any boot space, so the rear seats
+For the deep bass I wanted a proper 10" sub, but without losing any space on the boot floor, so the rear seats
 still fold and the boot is still usable.
 
 My Jimny is a JDM import, and its previous Japanese owner made quite a few quality-of-life
