@@ -366,9 +366,9 @@ still fold and the boot is still usable.
 My Jimny is a JDM import, and its previous Japanese owner made quite a few quality-of-life
 upgrades, including custom suspension and a lidded aluminium compartment on the boot floor, a sort
 of secret storage box. It's about 10cm deep inside, with the tools for changing a tyre underneath it. The Kicker Hideaway HS10 is a 10" sub with its own amp in a
-case only 8.1cm tall, so it just fits inside. It was a really nice coincidence that it fits so perfectly. I can still use
-the compartment as before, the lid opens and latches as it always did, and from the outside you'd
-never know there's a sub in there.
+case only 8.1cm tall, so it just fits inside. It was a really nice coincidence that it fits so perfectly. The sub fills
+the compartment, so I can't store anything inside it any more, but I can still put things on top of
+it, and from the outside you'd never know there's a sub in there.
 
 ![The aluminium compartment with the lid open, before the install](images/thumbs/42-boot-compartment-open.jpg)
 *The compartment before the install. The lid is full of holes, which lets the bass out.*
