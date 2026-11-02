@@ -278,8 +278,6 @@ mess back there, I did my best to tidy up.*
 ![The dash stripped during the install](images/thumbs/20-dash-stripped.jpg)
 *The dash stripped mid-install.*
 
-![The amp with its harnesses](images/thumbs/21-amp-harnesses.jpg)
-*The amp's plug-in harnesses, ready to be wired to the head unit harness.*
 
 ## The amp in the glovebox
 
@@ -296,6 +294,9 @@ mounted really well and provides a bit of padding.
 
 ![The glovebox packed with wiring](images/thumbs/22-glovebox-before.jpg)
 *Before tidying: everything comes together in the glovebox.*
+
+![The amp with its harnesses](images/thumbs/21-amp-harnesses.jpg)
+*The amp's plug-in harnesses, ready to be wired to the head unit harness.*
 
 ![Wiring the amp](images/thumbs/08-amp-wiring.jpg)
 *Mid-install. The amp's harnesses come with bare wire ends, so nothing needs terminating at the amp.*
