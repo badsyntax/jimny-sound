@@ -1,9 +1,8 @@
 title: Jimny Sound
-description: Suzuki Jimny JB43 sound system upgrade — DSP amp, active front speakers and underseat subs.
+description: Suzuki Jimny JB43 sound system upgrade — DSP amp, active front speakers and three subs.
 url: https://badsyntax.github.io
 baseurl: /jimny-sound
 lang: en_GB
-author: Richard Willis
 markdown: kramdown
 kramdown:
   input: GFM
