@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Upgrading the audio in a 2015 Suzuki Jimny (JB43)
-description: "How I upgraded the sound system in a 2015 Suzuki Jimny JB43: a DSP amp in the glovebox, Morel and Audison front speakers, two underseat subs and a 10" sub hidden in the boot, with wiring, photos, tuning and costs."
+description: "How I upgraded the sound system in a 2015 Suzuki Jimny JB43: a DSP amp in the glovebox, Morel and Audison front speakers, two underseat subs and a 10-inch sub hidden in the boot, with wiring, photos, tuning and costs."
 date: 2026-09-29
 image: images/share.png
 ---
