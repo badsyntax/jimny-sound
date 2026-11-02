@@ -92,7 +92,7 @@ Set the Kenwood flat before tuning: EQ off, loudness off, crossovers full-range,
 | A, B | 65W @ 4Ω | Front tweeters — AV 1.1 II, L + R |
 | C, D | 65W @ 4Ω | Front midbass — MW4, L + R |
 | E, F | 75W @ 4Ω | Rear — Focal ICU 100, L + R |
-| DSP ch 7 → line out | 3V RMS | Feel 700 #1, which chains on to #2 |
+| DSP ch 7 → line out | 3V RMS | Feel 700 #1, which chains on to #2; #2's spare RCA out feeds the HS10 in the boot |
 
 All 7 DSP channels used. Amp power exceeds speaker ratings — set gains conservatively.
 
@@ -107,6 +107,7 @@ flowchart TD
     DSP -->|"line out RCA 3V, mono"| YLEAD["RFIY-1F Y-adapter<br/>1 female in -> 2 male out"]
     YLEAD -->|"L + R"| SUB1["Feel 700 #1<br/>RCA in (L+R) + power in"]
     SUB1 -->|"daisy chain — signal + power + REM"| SUB2["Feel 700 #2"]
+    SUB2 -->|"spare RCA out → Kicker KISL"| HS10["Kicker HS10 — boot compartment"]
 ```
 
 **Connections:** the amp's high-level inputs and speaker outputs are supplied as plug-in harnesses
@@ -195,7 +196,10 @@ a signal on both L and R; without it one input sits dead and the sub plays quiet
 flowchart LR
     S1["Feel 700 #1<br/>own fused feed"] -->|"RCA out → RCA in"| S2["Feel 700 #2"]
     S1 -->|"POWER OUT pigtail — red / black / blue<br/>spliced to sub 2's pigtail"| S2
+    S2 -->|"spare RCA out → 5.5 m RCA → Kicker KISL"| HS["Kicker HS10<br/>boot compartment, Input Level LO"]
 ```
+
+The HS10 has its own power, ground and remote runs — see [SUB-UPGRADE.md](SUB-UPGRADE.md).
 
 ---
 
@@ -217,14 +221,15 @@ a flooded starter battery gives ~25Ah usable and degrades under repeated partial
 |---|---|---|
 | Match UP 6DSP | 35A (internal 30A LP-Mini) | 40A AFS branch |
 | HK Feel 700 x2, daisy-chained | 28A combined | **30A** AFS branch + each unit's own 15A fuse |
-| **Worst case** | **63A** | 80A main |
+| Kicker HS10 (boot) | 15A | **30A** AFS branch + 15A in-line + onboard 15A |
+| **Worst case** | **78A** | 80A main (100A if a second HS10 goes in) |
 
 ### Topology
 
 1. **4AWG** from battery positive → 80A main fuse **within 300mm of the battery** (manufacturer
-   maximum) → through firewall grommet → distribution block. The only positive run carrying 63A;
+   maximum) → through firewall grommet → distribution block. The only positive run carrying 78A;
    the 4AWG battery ground carries it back.
-2. Two **8AWG** fused branches from the block: amp (40A) and sub 1 (30A).
+2. Three **8AWG** fused branches from the block: amp (40A), sub 1 (30A) and the boot HS10 (30A).
    Audiotec Fischer specify **6mm² minimum for runs under 1m, 6–10mm² for longer**. 8AWG is
    8.37mm², inside spec. **Ground must match the positive's cross-section** and land on bare,
    non-insulated chassis — their words, and insufficient ground contact is called out as a direct
@@ -253,9 +258,12 @@ flowchart TD
     S1 -->|"POWER OUT block<br/>GND/GND/+12V/+12V/REM"| S2["Feel 700 #2<br/>own 15A panel fuse"]
     AMP -->|"8AWG"| GND["Common chassis ground<br/>sanded to bare metal"]
     S1 -->|"8AWG"| GND
+    BFD -->|"30A AFS — 8AWG, ~5m"| HS["Kicker HS10 (boot)<br/>15A in-line + onboard 15A"]
+    HS -->|"8AWG, own ring on the seat bolt"| GND
     REM["Kenwood Blue/White"] --> AMPREM["UP 6DSP REM IN"]
     AMPREM --> AMPROUT["UP 6DSP REM OUT"]
     AMPROUT --> S1R["Feel 700 #1 remote — passes to #2 via POWER OUT"]
+    AMPROUT -->|"18AWG, ~6m"| HSR["HS10 remote"]
 ```
 
 ---

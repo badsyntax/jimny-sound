@@ -129,6 +129,7 @@ flowchart TD
 <text class="wd-small" x="204" y="280" text-anchor="middle">Fuses</text>
 <text class="wd-small" x="210" y="262">40A</text>
 <text class="wd-small" x="330" y="296">30A</text>
+<text class="wd-small" x="198" y="334">30A</text>
 <rect class="wd-part" x="318" y="216" width="8" height="18" rx="1"/>
 <text class="wd-small" x="330" y="230">URC.1</text>
 <rect class="wd-sub" x="154" y="388" width="64" height="66" rx="3"/>
@@ -198,6 +199,7 @@ flowchart TD
     SPLICE -->|"8AWG"| GND["Seat bolt ground<br/>bare metal"]
     HU["Kenwood blue/white lead"] -->|"remote"| AMP
     AMP -->|"REM OUT"| S1
+    AMP -->|"REM OUT"| HS
 ```
 
 ![The Jimny ready to start, bonnet up](images/thumbs/00-before.jpg)
@@ -222,7 +224,8 @@ block, but it's out of the way, so it's fine.*
 ### Ground
 
 The amp and sub grounds join in one heavy crimped splice and go to the front bolt of the driver's
-seat, sanded to bare metal on both faces. Using one ground point for everything stops alternator
+seat, sanded to bare metal on both faces. The boot sub's ground runs back to the same bolt on its
+own ring terminal. Using one ground point for everything stops alternator
 whine, and I haven't had any.
 
 I planned to upgrade the battery-to-body strap to 4AWG too, but on the JB43 the factory strap is
@@ -235,7 +238,7 @@ very short and already sized for the starter motor, which pulls far more than 78
 *The factory battery-to-body strap is short enough to leave alone.*
 
 Remote turn-on switches the amp and subs on and off with the head unit. The Kenwood's blue/white
-power-control lead goes to the amp's REM IN, and the amp's REM OUT switches the subs. There's no
+power-control lead goes to the amp's REM IN, and the amp's REM OUT switches all three subs. There's no
 splicing into the car's wiring.
 
 ## Signal
@@ -313,6 +316,7 @@ flowchart LR
     Y -->|"L + R"| S1["Feel 700 #1"]
     S1 -->|"RCA out → RCA in"| S2["Feel 700 #2"]
     S1 -->|"POWER OUT pigtails<br/>joined red-red, black-black, blue-blue"| S2
+    S2 -->|"spare RCA out → Kicker KISL"| HS["Kicker HS10<br/>in the boot"]
 ```
 
 ![Sub power run along the seat](images/thumbs/13-sub-power-run.jpg)
