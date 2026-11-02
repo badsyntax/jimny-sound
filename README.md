@@ -1,7 +1,7 @@
 # Jimny Sound
 
 Audio upgrade for a 2015 Suzuki Jimny (JB43): a Match UP 6DSP MK2 amp in the glovebox, an active
-front stage, two Harman Kardon Feel 700 underseat subs and a Kicker HS10 in the boot — no drilling or changes to the car body.
+front stage, two Harman Kardon Feel 700 underseat subs and a Kicker HS10 in the boot. The only changes to the car body are new screw holes for the front midbass.
 
 **Read the write-up: [badsyntax.github.io/jimny-sound](https://badsyntax.github.io/jimny-sound/)**
 
