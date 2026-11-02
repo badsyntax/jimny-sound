@@ -15,6 +15,10 @@ then upgraded the front speakers in the footwells. Even though they were quite d
 just couldn't get good sound coming through, with them hidden down in the footwells and all. So I've
 kept going, upgrading the system to a level I'm satisfied with, and this post outlines that journey.
 
+What I'm going for is sound quality, not volume. I want the full range: deep bass I can feel, and
+clear, detailed mids and highs on top. But nothing should overpower anything else. The bass should
+sit underneath the music, not drown it out, so it all sounds natural and balanced.
+
 <details class="toc" id="contents" markdown="1">
 <summary>Contents</summary>
 
