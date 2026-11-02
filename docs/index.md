@@ -694,8 +694,7 @@ if there's a short, it overheats or the voltage goes funny.
 ## How it sounds
 
 Really great. I get excited every time I take the car out. It sounds clean and balanced, and with
-the HS10 the bass goes deep enough to feel through the accelerator pedal, without drowning out the
-music.
+the HS10 the bass goes really deep without drowning out the music.
 
 I can't really play it past about 60%, it's just too loud. At high volume the bass shakes the
 rear-view mirror, and certain frequencies, especially on house tracks, make the bodywork rattle: one
