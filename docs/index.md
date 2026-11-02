@@ -294,6 +294,12 @@ So it went inside the glovebox on heavy-duty velcro, with the cables fed through
 the back. Nothing was drilled, and I can still reach the USB port for tuning. The velcro keeps it
 mounted really well and provides a bit of padding.
 
+Here's a video from install day, explaining why the amp ended up in the glovebox.
+
+<iframe style="width:100%; aspect-ratio:16/9; border:0" src="https://www.youtube-nocookie.com/embed/l3FhHYNiOcM"
+  title="Fitting the amp in the Jimny's glovebox" allow="encrypted-media; picture-in-picture; fullscreen"
+  allowfullscreen loading="lazy"></iframe>
+
 ![The glovebox packed with wiring](images/thumbs/22-glovebox-before.jpg)
 *Before tidying: everything comes together in the glovebox.*
 
@@ -689,13 +695,6 @@ if there's a short, it overheats or the voltage goes funny.
 Really great. I get excited every time I take the car out. There's lots of bass, enough to shake the
 rear-view mirror. With the HS10 I can feel it through the accelerator pedal, and from
 outside the car the number plate rattles on certain notes, but inside it still sounds clean.
-
-Here's a demo I recorded on my phone. The phone mic doesn't pick up the bass very well, so it
-sounds better in the car.
-
-<iframe style="width:100%; aspect-ratio:16/9; border:0" src="https://www.youtube-nocookie.com/embed/Xjk9my1Hytc"
-  title="Jimny JB43 audio upgrade demo" allow="encrypted-media; picture-in-picture; fullscreen"
-  allowfullscreen loading="lazy"></iframe>
 
 I can't really play it past about 60%, it's just too loud. At high volume the rear-view mirror
 goes crazy, it shakes a lot. Certain bass frequencies, especially on house tracks, set off a rattle
