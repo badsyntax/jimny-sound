@@ -696,10 +696,8 @@ if there's a short, it overheats or the voltage goes funny.
 Really great. I get excited every time I take the car out. It sounds clean and balanced, and with
 the HS10 the bass goes really deep without drowning out the music.
 
-I can't really play it past about 60%, it's just too loud. At high volume the bass shakes the
-rear-view mirror, and certain frequencies, especially on house tracks, make the bodywork rattle: one
-of the panels on the left side, and from outside, the number plate. Sound deadening should sort
-that out (see [What's next](#whats-next)).
+I can't really play it past about 60%, it's just too loud. Certain bass frequencies make the
+bodywork rattle, which sound deadening should sort out (see [What's next](#whats-next)).
 
 ## What it cost
 
