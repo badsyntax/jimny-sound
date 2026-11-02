@@ -419,9 +419,8 @@ passengers can still get in and out without any trouble.*
 For the deep bass I wanted a proper 10" sub, but without losing any space on the boot floor, so the rear seats
 still fold and the boot is still usable.
 
-My Jimny is a JDM import, and its previous Japanese owner made quite a few quality-of-life
-upgrades, including custom suspension and a lidded aluminium compartment on the boot floor, a sort
-of secret storage box. It's about 10cm deep inside, with the tools for changing a tyre underneath it. The Kicker Hideaway HS10 is a 10" sub with its own amp in a
+The previous owner in Japan fitted a lidded aluminium compartment on the boot floor, about 10cm
+deep inside, with the tools for changing a tyre underneath it. The Kicker Hideaway HS10 is a 10" sub with its own amp in a
 case only 8.1cm tall, so it just fits inside. It was a really nice coincidence that it fits so perfectly. The sub fills
 the compartment, so I can't store anything inside it any more, but I can still put things on top of
 it, and from the outside you'd never know there's a sub in there.
