@@ -306,6 +306,62 @@ mounted really well and provides a bit of padding.
 ![Amp mounted in the glovebox](images/thumbs/10-amp-in-glovebox.jpg)
 *Mounted. The glovebox still opens and closes freely, but can't be used for storage any more.*
 
+## Speakers
+
+### Front speakers
+
+The front stage is Morel Virtus Nano MW4 midbass and Audison Voce II AV 1.1 II tweeters. The MW4 is
+from Morel's high-end range, with a carbon-fibre cone and a neodymium magnet. The AV 1.1 II is a
+soft-dome tweeter that plays up to 40kHz.
+
+- The MW4 is only 17mm deep, which suits the Jimny's kick panels.
+- The AV 1.1 II can cross lower than most tweeters (down to 1.8kHz), which lifts the vocals from the
+  footwells up to the dash.
+
+The midbass sit in the footwell side panels (the kick panels). Getting to them was simple:
+
+1. I undid the screws on the silver sill plate along the bottom of the door opening and lifted it off.
+2. The plastic trim underneath popped off.
+3. Then the kick panel popped off, exposing the speaker.
+
+Fitting the MW4s was a **big job**. They come with small screws, and their mounting holes don't line up
+with the Jimny's existing speaker screw holes. I first made MDF spacer rings to bridge the two, but
+with the rings in, the kick panel wouldn't fit back on, and I wasn't willing to cut the panel to
+make it fit. So I drilled new holes in the bodywork instead, using a spacer ring as a template, as
+there's very little room to work in the footwell.
+
+![MDF spacer ring test-fitted in the driver-side kick panel](images/thumbs/31-mw4-spacer-ring.jpg)
+*One of the MDF spacer rings, test-fitted on the driver side. With the ring in, the kick panel
+wouldn't fit back on.*
+
+![MW4 fitted in the driver-side kick panel](images/thumbs/29-mw4-driver.jpg)
+*The MW4 in the driver-side kick panel, with the panel off.*
+
+![MW4 fitted in the passenger-side kick panel](images/thumbs/30-mw4-passenger.jpg)
+*The passenger side. The grey patches around the speaker are leftover sticky foam from the old
+speakers, which I couldn't fully remove.*
+
+The Voce tweeters are really impressive. Honestly they're probably far too much for my small little
+car. They're quite big too, so they stand out on the dash. I've had to turn them down quite a lot in
+the DSP, but they're amazing tweeters.
+
+![Passenger-side tweeter on the dash at the base of the A-pillar](images/thumbs/25-tweeter-passenger.jpg)
+*The passenger-side AV 1.1 II tweeter on the dash at the base of the A-pillar.*
+
+![Driver-side tweeter on the dash at the base of the A-pillar](images/thumbs/25-tweeter-driver.jpg)
+*The driver-side tweeter in the same spot on the other side.*
+
+Mounting the tweeters was fairly straightforward, but I had to take the A-pillar trims off first, to
+make space to push the wires down the side of the dashboard and across to the amp. The trims pulled
+off from the top once I'd peeled back the door rubber.
+
+### Rear speakers
+
+The rear Focal ICU 100s were fitted by a shop quite a while ago, since getting to them means taking
+the rear seats out. If I upgrade them in future, I'd be tempted to do it myself now I've got more
+experience. There's a good step-by-step guide here:
+[Installation of the rear speakers on the Suzuki Jimny](https://web.archive.org/web/20180319083057/http://www.danbp.org/p/node/104).
+
 ## Subs
 
 There are three subs, and they share the work. The two Feel 700s under the front seats give the
@@ -471,62 +527,6 @@ need to open anything up.
 
 The HS10 takes its signal from the second Feel 700's spare RCA output, through a Kicker KISL adapter
 that turns the RCA into the HS10's wire input.
-
-## Speakers
-
-### Front speakers
-
-The front stage is Morel Virtus Nano MW4 midbass and Audison Voce II AV 1.1 II tweeters. The MW4 is
-from Morel's high-end range, with a carbon-fibre cone and a neodymium magnet. The AV 1.1 II is a
-soft-dome tweeter that plays up to 40kHz.
-
-- The MW4 is only 17mm deep, which suits the Jimny's kick panels.
-- The AV 1.1 II can cross lower than most tweeters (down to 1.8kHz), which lifts the vocals from the
-  footwells up to the dash.
-
-The midbass sit in the footwell side panels (the kick panels). Getting to them was simple:
-
-1. I undid the screws on the silver sill plate along the bottom of the door opening and lifted it off.
-2. The plastic trim underneath popped off.
-3. Then the kick panel popped off, exposing the speaker.
-
-Fitting the MW4s was a **big job**. They come with small screws, and their mounting holes don't line up
-with the Jimny's existing speaker screw holes. I first made MDF spacer rings to bridge the two, but
-with the rings in, the kick panel wouldn't fit back on, and I wasn't willing to cut the panel to
-make it fit. So I drilled new holes in the bodywork instead, using a spacer ring as a template, as
-there's very little room to work in the footwell.
-
-![MDF spacer ring test-fitted in the driver-side kick panel](images/thumbs/31-mw4-spacer-ring.jpg)
-*One of the MDF spacer rings, test-fitted on the driver side. With the ring in, the kick panel
-wouldn't fit back on.*
-
-![MW4 fitted in the driver-side kick panel](images/thumbs/29-mw4-driver.jpg)
-*The MW4 in the driver-side kick panel, with the panel off.*
-
-![MW4 fitted in the passenger-side kick panel](images/thumbs/30-mw4-passenger.jpg)
-*The passenger side. The grey patches around the speaker are leftover sticky foam from the old
-speakers, which I couldn't fully remove.*
-
-The Voce tweeters are really impressive. Honestly they're probably far too much for my small little
-car. They're quite big too, so they stand out on the dash. I've had to turn them down quite a lot in
-the DSP, but they're amazing tweeters.
-
-![Passenger-side tweeter on the dash at the base of the A-pillar](images/thumbs/25-tweeter-passenger.jpg)
-*The passenger-side AV 1.1 II tweeter on the dash at the base of the A-pillar.*
-
-![Driver-side tweeter on the dash at the base of the A-pillar](images/thumbs/25-tweeter-driver.jpg)
-*The driver-side tweeter in the same spot on the other side.*
-
-Mounting the tweeters was fairly straightforward, but I had to take the A-pillar trims off first, to
-make space to push the wires down the side of the dashboard and across to the amp. The trims pulled
-off from the top once I'd peeled back the door rubber.
-
-### Rear speakers
-
-The rear Focal ICU 100s were fitted by a shop quite a while ago, since getting to them means taking
-the rear seats out. If I upgrade them in future, I'd be tempted to do it myself now I've got more
-experience. There's a good step-by-step guide here:
-[Installation of the rear speakers on the Suzuki Jimny](https://web.archive.org/web/20180319083057/http://www.danbp.org/p/node/104).
 
 ## Tuning
 
