@@ -294,12 +294,6 @@ So it went inside the glovebox on heavy-duty velcro, with the cables fed through
 the back. Nothing was drilled, and I can still reach the USB port for tuning. The velcro keeps it
 mounted really well and provides a bit of padding.
 
-Here's a video from install day, explaining why the amp ended up in the glovebox.
-
-<iframe style="width:100%; aspect-ratio:16/9; border:0" src="https://www.youtube-nocookie.com/embed/l3FhHYNiOcM"
-  title="Fitting the amp in the Jimny's glovebox" allow="encrypted-media; picture-in-picture; fullscreen"
-  allowfullscreen loading="lazy"></iframe>
-
 ![The glovebox packed with wiring](images/thumbs/22-glovebox-before.jpg)
 *Before tidying: everything comes together in the glovebox.*
 
@@ -311,6 +305,12 @@ Here's a video from install day, explaining why the amp ended up in the glovebox
 
 ![Amp mounted in the glovebox](images/thumbs/10-amp-in-glovebox.jpg)
 *Mounted. The glovebox still opens and closes freely, but can't be used for storage any more.*
+
+Here's a video from install day, explaining why the amp ended up in the glovebox.
+
+<iframe style="width:100%; aspect-ratio:16/9; border:0" src="https://www.youtube-nocookie.com/embed/l3FhHYNiOcM"
+  title="Fitting the amp in the Jimny's glovebox" allow="encrypted-media; picture-in-picture; fullscreen"
+  allowfullscreen loading="lazy"></iframe>
 
 ## Speakers
 
