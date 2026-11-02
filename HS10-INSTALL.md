@@ -57,7 +57,7 @@ The hands-on install log for the boot sub. The why (sub choice, fusing, groundin
 try things, keep what works, update this as it goes.
 
 **Status: installed and working (1 Nov 2026).** Front end and boot end all connected; sub mounted;
-carpet back on. **Left to do:** balance the bass against the front stage, last rattles, tidy wiring
+carpet back on. **Left to do:** last rattles, tidy wiring
 (move the 15A fuse holder up to the splice).
 
 ### Install day — 1 Nov 2026
@@ -83,6 +83,11 @@ carpet back on. **Left to do:** balance the bass against the front stage, last r
   1. URC.1 down a step or two (sets all the subs together)
   2. HS10 gain down from ~50% until it fills in underneath rather than standing out
   3. HS10 crossover 60 → ~50 Hz if it's still boomy or muddy (less overlap with the Feel 700s)
+- **Tuned (2 Nov 2026):** crossover **60 → 50 Hz** (its lowest), gain down to **~25–30%**, phase
+  **180°**, bass boost **0**. Sounds right: the HS10 now fills in the deep lows the Feel 700s can't
+  reach without overpowering the mids. Lesson: it's there to add what's missing, not to add more bass.
+  Lots of bass now — felt through the accelerator pedal; outside, the number plate and spare wheel
+  cover rattle on some notes (not heard from inside).
 - **Open question:** whether the Feel 700's RCA out is a straight pass-through or follows its gain
   knob — couldn't confirm from any Harman source. Test: turn Feel #1's gain down while listening; if
   #2 and the HS10 don't change, it's a pass-through.
