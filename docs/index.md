@@ -693,13 +693,11 @@ if there's a short, it overheats or the voltage goes funny.
 
 ## How it sounds
 
-Really great. I get excited every time I take the car out. There's lots of bass, enough to shake the
-rear-view mirror. With the HS10 I can feel it through the accelerator pedal, and from
-outside the car the number plate rattles on certain notes, but inside it still sounds clean.
+Really great. I get excited every time I take the car out. It sounds clean and balanced, and with
+the HS10 the bass goes really deep without drowning out the music.
 
-I can't really play it past about 60%, it's just too loud. At high volume the rear-view mirror
-goes crazy, it shakes a lot. It sounds great, but certain bass frequencies, especially on house
-tracks, make the bodywork rattle, like one of the panels on the left side.
+I can't really play it past about 60%, it's just too loud. Certain bass frequencies make the
+bodywork rattle, which sound deadening should sort out (see [What's next](#whats-next)).
 
 ## What it cost
 
