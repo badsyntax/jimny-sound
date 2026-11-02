@@ -698,9 +698,8 @@ rear-view mirror. With the HS10 I can feel it through the accelerator pedal, and
 outside the car the number plate rattles on certain notes, but inside it still sounds clean.
 
 I can't really play it past about 60%, it's just too loud. At high volume the rear-view mirror
-goes crazy, it shakes a lot. Certain bass frequencies, especially on house tracks, set off a rattle
-in one of the panels on the left side. But otherwise it's a really clean sounding system, as long as
-you're not doing 60mph 😉
+goes crazy, it shakes a lot. It sounds great, but certain bass frequencies, especially on house
+tracks, make the bodywork rattle, like one of the panels on the left side.
 
 ## What it cost
 
@@ -734,8 +733,9 @@ of separate wires. There'd be far fewer runs to route and tidy.
 
 ## What's next
 
-My only real complaint is the Jimny doesn't do much to block road noise, so the sound suffers a bit
-when you're going fast. The fix for that is sound deadening, and it's the last piece of the puzzle. It's
+The main thing left is those rattles. Certain bass frequencies make the Jimny's metal panels
+vibrate and rattle. The fix is sound deadening: mats stuck to the inside of the panels that stop them
+resonating, which should also cut down road noise a bit. It's the last piece of the puzzle. It's
 a lot of work, taking off all the panels and door cards to fit it, and once that sticky stuff goes
 on, it's never really coming off again. I do know a place in West Yorkshire that could do it for
 me, but I haven't decided yet whether to do it myself.
