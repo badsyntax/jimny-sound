@@ -61,250 +61,6 @@ flowchart TD
     SUB2 -->|"RCA out"| HS10["Kicker HS10<br/>in the boot"]
 ```
 
-## Speakers
-
-### Front speakers
-
-The front stage is Morel Virtus Nano MW4 midbass and Audison Voce II AV 1.1 II tweeters. The MW4 is
-from Morel's high-end range, with a carbon-fibre cone and a neodymium magnet. The AV 1.1 II is a
-soft-dome tweeter that plays up to 40kHz.
-
-- The MW4 is only 17mm deep, which suits the Jimny's kick panels.
-- The AV 1.1 II can cross lower than most tweeters (down to 1.8kHz), which lifts the vocals from the
-  footwells up to the dash.
-
-The midbass sit in the footwell side panels (the kick panels). Getting to them was simple:
-
-1. I undid the screws on the silver sill plate along the bottom of the door opening and lifted it off.
-2. The plastic trim underneath popped off.
-3. Then the kick panel popped off, exposing the speaker.
-
-Fitting the MW4s was a **big job**. They come with small screws, and their mounting holes don't line up
-with the Jimny's existing speaker screw holes. I first made MDF spacer rings to bridge the two, but
-with the rings in, the kick panel wouldn't fit back on, and I wasn't willing to cut the panel to
-make it fit. So I drilled new holes in the bodywork instead, using a spacer ring as a template, as
-there's very little room to work in the footwell.
-
-![MDF spacer ring test-fitted in the driver-side kick panel](images/thumbs/31-mw4-spacer-ring.jpg)
-*One of the MDF spacer rings, test-fitted on the driver side. With the ring in, the kick panel
-wouldn't fit back on.*
-
-![MW4 fitted in the driver-side kick panel](images/thumbs/29-mw4-driver.jpg)
-*The MW4 in the driver-side kick panel, with the panel off.*
-
-![MW4 fitted in the passenger-side kick panel](images/thumbs/30-mw4-passenger.jpg)
-*The passenger side. The grey patches around the speaker are leftover sticky foam from the old
-speakers, which I couldn't fully remove.*
-
-The Voce tweeters are really impressive. Honestly they're probably far too much for my small little
-car. They're quite big too, so they stand out on the dash. I've had to turn them down quite a lot in
-the DSP, but they're amazing tweeters.
-
-![Passenger-side tweeter on the dash at the base of the A-pillar](images/thumbs/25-tweeter-passenger.jpg)
-*The passenger-side AV 1.1 II tweeter on the dash at the base of the A-pillar.*
-
-![Driver-side tweeter on the dash at the base of the A-pillar](images/thumbs/25-tweeter-driver.jpg)
-*The driver-side tweeter in the same spot on the other side.*
-
-Mounting the tweeters was fairly straightforward, but I had to take the A-pillar trims off first, to
-make space to push the wires down the side of the dashboard and across to the amp. The trims pulled
-off from the top once I'd peeled back the door rubber.
-
-### Rear speakers
-
-The rear Focal ICU 100s were fitted by a shop quite a while ago, since getting to them means taking
-the rear seats out. If I upgrade them in future, I'd be tempted to do it myself now I've got more
-experience. There's a good step-by-step guide here:
-[Installation of the rear speakers on the Suzuki Jimny](https://web.archive.org/web/20180319083057/http://www.danbp.org/p/node/104).
-
-## The amp in the glovebox
-
-Why the Match: it's a good DSP (digital sound processor), and it lets each speaker have its own
-crossover, level, delay and EQ. It's Class D, so it doesn't get very hot, and it's small enough to
-fit in the glovebox.
-The Kenwood head unit on its own didn't have the power to drive the speakers properly.
-
-
-I planned to mount the amp behind the glovebox, but the space back there was too awkward to work in.
-So it went inside the glovebox on heavy-duty velcro, with the cables fed through the existing gap at
-the back. Nothing was drilled, and I can still reach the USB port for tuning. The velcro keeps it
-mounted really well and provides a bit of padding.
-
-![The glovebox packed with wiring](images/thumbs/22-glovebox-before.jpg)
-*Before tidying: everything comes together in the glovebox.*
-
-![Wiring the amp](images/thumbs/08-amp-wiring.jpg)
-*Mid-install. The amp's harnesses come with bare wire ends, so nothing needs terminating at the amp.*
-
-![Behind the glovebox](images/thumbs/09-behind-glovebox.jpg)
-*Behind the glovebox. The cables come through the gap at the back.*
-
-![Amp mounted in the glovebox](images/thumbs/10-amp-in-glovebox.jpg)
-*Mounted. The glovebox still opens and closes freely, but can't be used for storage any more.*
-
-## Subs
-
-There are three subs, and they share the work. The two Feel 700s under the front seats give the
-punch, from about 40 to 90Hz. The 10" Kicker HS10 in the boot plays only the deepest notes, below
-about 50Hz, which the Feel 700s can't reach. Together they cover the low end without any one of
-them having to do everything, and without losing any space in the cabin or the boot.
-
-### Under the seats
-
-The Feel 700 is 260 × 195 × 58mm and fits under both front seats. The second sub is chained from
-the first: power through the POWER OUT block, and signal through an RCA lead from the first sub's
-output.
-
-The supplied pigtails didn't reach between the seats on their own, so I extended them with 27A cable
-(about 3mm²), red for +12V and black for ground, and ~1mm² hook-up wire for the blue remote lead.
-All the joins are crimped butt connectors.
-
-The amp's sub output is mono, with one RCA socket, but the Feel 700 needs a signal on both its left
-and right inputs. A cheap 1-female-to-2-male Y-adapter at the sub end sorts that out. Without it the
-sub plays quieter.
-
-```mermaid
-flowchart LR
-    AMP["Amp line out<br/>mono RCA"] -->|"one RCA lead"| Y["Y-adapter<br/>1 female → 2 male"]
-    Y -->|"L + R"| S1["Feel 700 #1"]
-    S1 -->|"RCA out → RCA in"| S2["Feel 700 #2"]
-    S1 -->|"POWER OUT pigtails<br/>joined red-red, black-black, blue-blue"| S2
-    S2 -->|"spare RCA out → Kicker KISL"| HS["Kicker HS10<br/>in the boot"]
-```
-
-![Sub power run along the seat](images/thumbs/13-sub-power-run.jpg)
-*The main power run comes in under the driver's seat, where the amp ground joins the sub ground. These runs will get a proper tidy-up.*
-
-![Wiring in progress between the seats](images/thumbs/02-wiring-in-progress.jpg)
-*Wiring in progress. The seats stayed in.*
-
-![Sub fitted under the seat](images/thumbs/14-sub-fitted.jpg)
-*Subs connected. They'll be turned 90° to save as much space as possible.*
-
-![Sub wiring under the seat](images/thumbs/11-sub-wiring.jpg)
-*Starting to tidy the sub wiring, running it over the centre console.*
-
-![Joining the sub pigtails](images/thumbs/12-sub-join.jpg)
-*More work to make it neat over the centre console.*
-
-![Tidied up between the seats](images/thumbs/15-tidied.jpg)
-*Mostly tidy. A few wires still show beside the console.*
-
-![Finished sub under the seat, from behind](images/thumbs/24-sub-finished.jpg)
-*The finished sub, seen from the back seat with the front seat slid all the way forward. Rear
-passengers can still get in and out without any trouble.*
-
-### In the boot
-
-For the deep bass I wanted a proper 10" sub, but without losing any boot space, so the rear seats
-still fold and the boot is still usable.
-
-The Jimny's boot has a lidded aluminium compartment on the floor, about 10cm deep inside, with the
-tools for changing a tyre underneath it. The Kicker Hideaway HS10 is a 10" sub with its own amp in a
-case only 8.1cm tall, so it just fits inside. From the outside you'd never know it's there.
-
-![The aluminium compartment with the lid open, before the install](images/thumbs/42-boot-compartment-open.jpg)
-*The compartment before the install. The lid is full of holes, which lets the bass out.*
-
-![The HS10 bolted to the MDF inside the compartment](images/thumbs/43-hs10-fitted.jpg)
-*In it goes, bolted to the MDF, with the wiring still to tidy.*
-
-![Wiring joined to the HS10 harness at the compartment](images/thumbs/44-hs10-wiring.jpg)
-*The 8AWG power and ground, RCA and remote, joined to the HS10's harness.*
-
-![The HS10's control panel](images/thumbs/45-hs10-controls.jpg)
-*The controls: +12V turn-on, LO input level, phase at 180°.*
-
-#### Mounting it
-
-The sub sits on 9mm MDF, bolted through its own brackets, the MDF and the stock brown board with a
-washer at each end, so the three lift out together as one unit. The brown board's jack clips poke up,
-so the boards don't sit flat on each other. Foam packed between them stopped them rattling, and more
-foam under the brown board stops it knocking on the ledge it rests on. It isn't fixed to the car, but
-it's heavy and sits snugly in the recess. To get to the tools I unplug the sub's harness and lift
-the whole thing out.
-
-<figure class="wiring">
-<svg viewBox="0 0 540 312" role="img" aria-label="Cross-section of the boot compartment, not to scale. From the bottom: the tool well in the floor holds the jack and wheel brace. The stock brown board rests on the ledges on foam pads. On top of it is a layer of foam, then 9mm MDF. The Kicker HS10 sits on the MDF on its own brackets, bolted through the brackets, the MDF and the brown board with a washer at each end. About half a centimetre above the grille is the aluminium compartment lid with its open holes, and the carpet on top.">
-<rect class="mt-carpet" x="30" y="36" width="342" height="8"/>
-<rect class="mt-alu" x="36" y="44" width="330" height="6"/>
-<rect class="mt-hole" x="70" y="45" width="14" height="4"/>
-<rect class="mt-hole" x="120" y="45" width="14" height="4"/>
-<rect class="mt-hole" x="170" y="45" width="14" height="4"/>
-<rect class="mt-hole" x="220" y="45" width="14" height="4"/>
-<rect class="mt-hole" x="270" y="45" width="14" height="4"/>
-<rect class="mt-hole" x="320" y="45" width="14" height="4"/>
-<rect class="mt-alu" x="30" y="44" width="6" height="156"/>
-<rect class="mt-alu" x="366" y="44" width="6" height="156"/>
-<path class="wd-body" d="M14,200 H58 V276 H344 V200 H388 V300 H14 Z"/>
-<path class="mt-tool" d="M104,276 L124,256 H184 L204,276 Z"/>
-<rect class="mt-tool" x="222" y="266" width="96" height="6" rx="3"/>
-<rect class="mt-tool" x="232" y="255" width="72" height="5" rx="2"/>
-<rect class="mt-foam" x="40" y="195" width="18" height="5"/>
-<rect class="mt-foam" x="344" y="195" width="18" height="5"/>
-<rect class="mt-board" x="40" y="190" width="322" height="5"/>
-<rect class="mt-foam" x="50" y="183" width="302" height="7"/>
-<rect class="mt-board" x="150" y="184" width="10" height="6"/>
-<rect class="mt-board" x="240" y="184" width="10" height="6"/>
-<rect class="mt-mdf" x="50" y="170" width="302" height="13"/>
-<rect class="mt-sub" x="96" y="58" width="210" height="112" rx="4"/>
-<rect class="mt-grille" x="116" y="60" width="170" height="8"/>
-<rect class="mt-alu" x="80" y="164" width="16" height="6"/>
-<rect class="mt-alu" x="306" y="164" width="16" height="6"/>
-<line class="mt-bolt" x1="88" y1="158" x2="88" y2="203"/>
-<line class="mt-bolt" x1="314" y1="158" x2="314" y2="203"/>
-<rect class="mt-washer" x="81" y="160" width="14" height="3"/>
-<rect class="mt-washer" x="307" y="160" width="14" height="3"/>
-<rect class="mt-washer" x="81" y="195" width="14" height="3"/>
-<rect class="mt-washer" x="307" y="195" width="14" height="3"/>
-<text class="wd-label wd-bold" x="201" y="116" text-anchor="middle">Kicker HS10</text>
-<text class="wd-small" x="201" y="134" text-anchor="middle">8.1 cm tall</text>
-<path class="mt-dim" d="M290,50 V58 M286,50 H294 M286,58 H294"/>
-<path class="mt-lead" d="M360,40 L384,26 H388"/>
-<text class="wd-small" x="392" y="30">Carpet, kept on</text>
-<path class="mt-lead" d="M350,47 L384,50 H388"/>
-<text class="wd-small" x="392" y="54">Aluminium lid, holes</text>
-<path class="mt-lead" d="M294,54 L384,74 H388"/>
-<text class="wd-small" x="392" y="78">~0.5 cm above grille</text>
-<path class="mt-lead" d="M306,108 H388"/>
-<text class="wd-small" x="392" y="112">The sub, on its</text>
-<text class="wd-small" x="392" y="126">own brackets</text>
-<path class="mt-lead" d="M316,161 L384,150 H388"/>
-<text class="wd-small" x="392" y="154">4 bolts, washer</text>
-<text class="wd-small" x="392" y="168">at each end</text>
-<path class="mt-lead" d="M352,176 L384,186 H388"/>
-<text class="wd-small" x="392" y="190">9 mm MDF</text>
-<path class="mt-lead" d="M352,187 L384,208 H388"/>
-<text class="wd-small" x="392" y="212">Foam between boards</text>
-<path class="mt-lead" d="M362,192 L384,230 H388"/>
-<text class="wd-small" x="392" y="234">Stock brown board</text>
-<path class="mt-lead" d="M360,198 L384,252 H388"/>
-<text class="wd-small" x="392" y="256">Foam on the ledges</text>
-<path class="mt-lead" d="M318,266 L384,278 H388"/>
-<text class="wd-small" x="392" y="282">Tool well: jack</text>
-<text class="wd-small" x="392" y="296">and wheel brace</text>
-</svg>
-<figcaption>How the HS10 sits in the boot compartment, side on and not to scale. The sub, MDF and
-brown board bolt together into one unit that lifts out to get to the tools underneath.</figcaption>
-</figure>
-
-The grille ends up only about half a centimetre below the lid. Before bolting it down I pressed hard
-on the middle of the lid while sliding the sub around underneath, and it never touched. I kept the
-carpet on top too. I can still hear the low bass clearly through the lid and carpet, so there's no
-need to open anything up.
-
-![Eye level with the lid, the grille just below it](images/thumbs/46-hs10-clearance.jpg)
-*Eye level with the lid. The grille sits just below it, without touching.*
-
-![The sub's grille showing through the holes in the lid](images/thumbs/47-hs10-lid-holes.jpg)
-*The grille shows through the holes in the lid, before the carpet goes back on.*
-
-![The boot finished, with the carpet back on the compartment](images/thumbs/48-boot-finished.jpg)
-*Finished. The carpet is back on, the seats still fold, and you'd never know there's a 10" sub in there.*
-
-The HS10 takes its signal from the second Feel 700's spare RCA output, through a Kicker KISL adapter
-that turns the RCA into the HS10's wire input.
-
 ## Power and wiring
 
 <figure class="wiring">
@@ -524,6 +280,250 @@ mess back there, I did my best to tidy up.*
 
 ![The amp with its harnesses](images/thumbs/21-amp-harnesses.jpg)
 *The amp's plug-in harnesses, ready to be wired to the head unit harness.*
+
+## The amp in the glovebox
+
+Why the Match: it's a good DSP (digital sound processor), and it lets each speaker have its own
+crossover, level, delay and EQ. It's Class D, so it doesn't get very hot, and it's small enough to
+fit in the glovebox.
+The Kenwood head unit on its own didn't have the power to drive the speakers properly.
+
+
+I planned to mount the amp behind the glovebox, but the space back there was too awkward to work in.
+So it went inside the glovebox on heavy-duty velcro, with the cables fed through the existing gap at
+the back. Nothing was drilled, and I can still reach the USB port for tuning. The velcro keeps it
+mounted really well and provides a bit of padding.
+
+![The glovebox packed with wiring](images/thumbs/22-glovebox-before.jpg)
+*Before tidying: everything comes together in the glovebox.*
+
+![Wiring the amp](images/thumbs/08-amp-wiring.jpg)
+*Mid-install. The amp's harnesses come with bare wire ends, so nothing needs terminating at the amp.*
+
+![Behind the glovebox](images/thumbs/09-behind-glovebox.jpg)
+*Behind the glovebox. The cables come through the gap at the back.*
+
+![Amp mounted in the glovebox](images/thumbs/10-amp-in-glovebox.jpg)
+*Mounted. The glovebox still opens and closes freely, but can't be used for storage any more.*
+
+## Subs
+
+There are three subs, and they share the work. The two Feel 700s under the front seats give the
+punch, from about 40 to 90Hz. The 10" Kicker HS10 in the boot plays only the deepest notes, below
+about 50Hz, which the Feel 700s can't reach. Together they cover the low end without any one of
+them having to do everything, and without losing any space in the cabin or the boot.
+
+### Under the seats
+
+The Feel 700 is 260 × 195 × 58mm and fits under both front seats. The second sub is chained from
+the first: power through the POWER OUT block, and signal through an RCA lead from the first sub's
+output.
+
+The supplied pigtails didn't reach between the seats on their own, so I extended them with 27A cable
+(about 3mm²), red for +12V and black for ground, and ~1mm² hook-up wire for the blue remote lead.
+All the joins are crimped butt connectors.
+
+The amp's sub output is mono, with one RCA socket, but the Feel 700 needs a signal on both its left
+and right inputs. A cheap 1-female-to-2-male Y-adapter at the sub end sorts that out. Without it the
+sub plays quieter.
+
+```mermaid
+flowchart LR
+    AMP["Amp line out<br/>mono RCA"] -->|"one RCA lead"| Y["Y-adapter<br/>1 female → 2 male"]
+    Y -->|"L + R"| S1["Feel 700 #1"]
+    S1 -->|"RCA out → RCA in"| S2["Feel 700 #2"]
+    S1 -->|"POWER OUT pigtails<br/>joined red-red, black-black, blue-blue"| S2
+    S2 -->|"spare RCA out → Kicker KISL"| HS["Kicker HS10<br/>in the boot"]
+```
+
+![Sub power run along the seat](images/thumbs/13-sub-power-run.jpg)
+*The main power run comes in under the driver's seat, where the amp ground joins the sub ground. These runs will get a proper tidy-up.*
+
+![Wiring in progress between the seats](images/thumbs/02-wiring-in-progress.jpg)
+*Wiring in progress. The seats stayed in.*
+
+![Sub fitted under the seat](images/thumbs/14-sub-fitted.jpg)
+*Subs connected. They'll be turned 90° to save as much space as possible.*
+
+![Sub wiring under the seat](images/thumbs/11-sub-wiring.jpg)
+*Starting to tidy the sub wiring, running it over the centre console.*
+
+![Joining the sub pigtails](images/thumbs/12-sub-join.jpg)
+*More work to make it neat over the centre console.*
+
+![Tidied up between the seats](images/thumbs/15-tidied.jpg)
+*Mostly tidy. A few wires still show beside the console.*
+
+![Finished sub under the seat, from behind](images/thumbs/24-sub-finished.jpg)
+*The finished sub, seen from the back seat with the front seat slid all the way forward. Rear
+passengers can still get in and out without any trouble.*
+
+### In the boot
+
+For the deep bass I wanted a proper 10" sub, but without losing any boot space, so the rear seats
+still fold and the boot is still usable.
+
+The Jimny's boot has a lidded aluminium compartment on the floor, about 10cm deep inside, with the
+tools for changing a tyre underneath it. The Kicker Hideaway HS10 is a 10" sub with its own amp in a
+case only 8.1cm tall, so it just fits inside. From the outside you'd never know it's there.
+
+![The aluminium compartment with the lid open, before the install](images/thumbs/42-boot-compartment-open.jpg)
+*The compartment before the install. The lid is full of holes, which lets the bass out.*
+
+![The HS10 bolted to the MDF inside the compartment](images/thumbs/43-hs10-fitted.jpg)
+*In it goes, bolted to the MDF, with the wiring still to tidy.*
+
+![Wiring joined to the HS10 harness at the compartment](images/thumbs/44-hs10-wiring.jpg)
+*The 8AWG power and ground, RCA and remote, joined to the HS10's harness.*
+
+![The HS10's control panel](images/thumbs/45-hs10-controls.jpg)
+*The controls: +12V turn-on, LO input level, phase at 180°.*
+
+#### Mounting it
+
+The sub sits on 9mm MDF, bolted through its own brackets, the MDF and the stock brown board with a
+washer at each end, so the three lift out together as one unit. The brown board's jack clips poke up,
+so the boards don't sit flat on each other. Foam packed between them stopped them rattling, and more
+foam under the brown board stops it knocking on the ledge it rests on. It isn't fixed to the car, but
+it's heavy and sits snugly in the recess. To get to the tools I unplug the sub's harness and lift
+the whole thing out.
+
+<figure class="wiring">
+<svg viewBox="0 0 540 312" role="img" aria-label="Cross-section of the boot compartment, not to scale. From the bottom: the tool well in the floor holds the jack and wheel brace. The stock brown board rests on the ledges on foam pads. On top of it is a layer of foam, then 9mm MDF. The Kicker HS10 sits on the MDF on its own brackets, bolted through the brackets, the MDF and the brown board with a washer at each end. About half a centimetre above the grille is the aluminium compartment lid with its open holes, and the carpet on top.">
+<rect class="mt-carpet" x="30" y="36" width="342" height="8"/>
+<rect class="mt-alu" x="36" y="44" width="330" height="6"/>
+<rect class="mt-hole" x="70" y="45" width="14" height="4"/>
+<rect class="mt-hole" x="120" y="45" width="14" height="4"/>
+<rect class="mt-hole" x="170" y="45" width="14" height="4"/>
+<rect class="mt-hole" x="220" y="45" width="14" height="4"/>
+<rect class="mt-hole" x="270" y="45" width="14" height="4"/>
+<rect class="mt-hole" x="320" y="45" width="14" height="4"/>
+<rect class="mt-alu" x="30" y="44" width="6" height="156"/>
+<rect class="mt-alu" x="366" y="44" width="6" height="156"/>
+<path class="wd-body" d="M14,200 H58 V276 H344 V200 H388 V300 H14 Z"/>
+<path class="mt-tool" d="M104,276 L124,256 H184 L204,276 Z"/>
+<rect class="mt-tool" x="222" y="266" width="96" height="6" rx="3"/>
+<rect class="mt-tool" x="232" y="255" width="72" height="5" rx="2"/>
+<rect class="mt-foam" x="40" y="195" width="18" height="5"/>
+<rect class="mt-foam" x="344" y="195" width="18" height="5"/>
+<rect class="mt-board" x="40" y="190" width="322" height="5"/>
+<rect class="mt-foam" x="50" y="183" width="302" height="7"/>
+<rect class="mt-board" x="150" y="184" width="10" height="6"/>
+<rect class="mt-board" x="240" y="184" width="10" height="6"/>
+<rect class="mt-mdf" x="50" y="170" width="302" height="13"/>
+<rect class="mt-sub" x="96" y="58" width="210" height="112" rx="4"/>
+<rect class="mt-grille" x="116" y="60" width="170" height="8"/>
+<rect class="mt-alu" x="80" y="164" width="16" height="6"/>
+<rect class="mt-alu" x="306" y="164" width="16" height="6"/>
+<line class="mt-bolt" x1="88" y1="158" x2="88" y2="203"/>
+<line class="mt-bolt" x1="314" y1="158" x2="314" y2="203"/>
+<rect class="mt-washer" x="81" y="160" width="14" height="3"/>
+<rect class="mt-washer" x="307" y="160" width="14" height="3"/>
+<rect class="mt-washer" x="81" y="195" width="14" height="3"/>
+<rect class="mt-washer" x="307" y="195" width="14" height="3"/>
+<text class="wd-label wd-bold" x="201" y="116" text-anchor="middle">Kicker HS10</text>
+<text class="wd-small" x="201" y="134" text-anchor="middle">8.1 cm tall</text>
+<path class="mt-dim" d="M290,50 V58 M286,50 H294 M286,58 H294"/>
+<path class="mt-lead" d="M360,40 L384,26 H388"/>
+<text class="wd-small" x="392" y="30">Carpet, kept on</text>
+<path class="mt-lead" d="M350,47 L384,50 H388"/>
+<text class="wd-small" x="392" y="54">Aluminium lid, holes</text>
+<path class="mt-lead" d="M294,54 L384,74 H388"/>
+<text class="wd-small" x="392" y="78">~0.5 cm above grille</text>
+<path class="mt-lead" d="M306,108 H388"/>
+<text class="wd-small" x="392" y="112">The sub, on its</text>
+<text class="wd-small" x="392" y="126">own brackets</text>
+<path class="mt-lead" d="M316,161 L384,150 H388"/>
+<text class="wd-small" x="392" y="154">4 bolts, washer</text>
+<text class="wd-small" x="392" y="168">at each end</text>
+<path class="mt-lead" d="M352,176 L384,186 H388"/>
+<text class="wd-small" x="392" y="190">9 mm MDF</text>
+<path class="mt-lead" d="M352,187 L384,208 H388"/>
+<text class="wd-small" x="392" y="212">Foam between boards</text>
+<path class="mt-lead" d="M362,192 L384,230 H388"/>
+<text class="wd-small" x="392" y="234">Stock brown board</text>
+<path class="mt-lead" d="M360,198 L384,252 H388"/>
+<text class="wd-small" x="392" y="256">Foam on the ledges</text>
+<path class="mt-lead" d="M318,266 L384,278 H388"/>
+<text class="wd-small" x="392" y="282">Tool well: jack</text>
+<text class="wd-small" x="392" y="296">and wheel brace</text>
+</svg>
+<figcaption>How the HS10 sits in the boot compartment, side on and not to scale. The sub, MDF and
+brown board bolt together into one unit that lifts out to get to the tools underneath.</figcaption>
+</figure>
+
+The grille ends up only about half a centimetre below the lid. Before bolting it down I pressed hard
+on the middle of the lid while sliding the sub around underneath, and it never touched. I kept the
+carpet on top too. I can still hear the low bass clearly through the lid and carpet, so there's no
+need to open anything up.
+
+![Eye level with the lid, the grille just below it](images/thumbs/46-hs10-clearance.jpg)
+*Eye level with the lid. The grille sits just below it, without touching.*
+
+![The sub's grille showing through the holes in the lid](images/thumbs/47-hs10-lid-holes.jpg)
+*The grille shows through the holes in the lid, before the carpet goes back on.*
+
+![The boot finished, with the carpet back on the compartment](images/thumbs/48-boot-finished.jpg)
+*Finished. The carpet is back on, the seats still fold, and you'd never know there's a 10" sub in there.*
+
+The HS10 takes its signal from the second Feel 700's spare RCA output, through a Kicker KISL adapter
+that turns the RCA into the HS10's wire input.
+
+## Speakers
+
+### Front speakers
+
+The front stage is Morel Virtus Nano MW4 midbass and Audison Voce II AV 1.1 II tweeters. The MW4 is
+from Morel's high-end range, with a carbon-fibre cone and a neodymium magnet. The AV 1.1 II is a
+soft-dome tweeter that plays up to 40kHz.
+
+- The MW4 is only 17mm deep, which suits the Jimny's kick panels.
+- The AV 1.1 II can cross lower than most tweeters (down to 1.8kHz), which lifts the vocals from the
+  footwells up to the dash.
+
+The midbass sit in the footwell side panels (the kick panels). Getting to them was simple:
+
+1. I undid the screws on the silver sill plate along the bottom of the door opening and lifted it off.
+2. The plastic trim underneath popped off.
+3. Then the kick panel popped off, exposing the speaker.
+
+Fitting the MW4s was a **big job**. They come with small screws, and their mounting holes don't line up
+with the Jimny's existing speaker screw holes. I first made MDF spacer rings to bridge the two, but
+with the rings in, the kick panel wouldn't fit back on, and I wasn't willing to cut the panel to
+make it fit. So I drilled new holes in the bodywork instead, using a spacer ring as a template, as
+there's very little room to work in the footwell.
+
+![MDF spacer ring test-fitted in the driver-side kick panel](images/thumbs/31-mw4-spacer-ring.jpg)
+*One of the MDF spacer rings, test-fitted on the driver side. With the ring in, the kick panel
+wouldn't fit back on.*
+
+![MW4 fitted in the driver-side kick panel](images/thumbs/29-mw4-driver.jpg)
+*The MW4 in the driver-side kick panel, with the panel off.*
+
+![MW4 fitted in the passenger-side kick panel](images/thumbs/30-mw4-passenger.jpg)
+*The passenger side. The grey patches around the speaker are leftover sticky foam from the old
+speakers, which I couldn't fully remove.*
+
+The Voce tweeters are really impressive. Honestly they're probably far too much for my small little
+car. They're quite big too, so they stand out on the dash. I've had to turn them down quite a lot in
+the DSP, but they're amazing tweeters.
+
+![Passenger-side tweeter on the dash at the base of the A-pillar](images/thumbs/25-tweeter-passenger.jpg)
+*The passenger-side AV 1.1 II tweeter on the dash at the base of the A-pillar.*
+
+![Driver-side tweeter on the dash at the base of the A-pillar](images/thumbs/25-tweeter-driver.jpg)
+*The driver-side tweeter in the same spot on the other side.*
+
+Mounting the tweeters was fairly straightforward, but I had to take the A-pillar trims off first, to
+make space to push the wires down the side of the dashboard and across to the amp. The trims pulled
+off from the top once I'd peeled back the door rubber.
+
+### Rear speakers
+
+The rear Focal ICU 100s were fitted by a shop quite a while ago, since getting to them means taking
+the rear seats out. If I upgrade them in future, I'd be tempted to do it myself now I've got more
+experience. There's a good step-by-step guide here:
+[Installation of the rear speakers on the Suzuki Jimny](https://web.archive.org/web/20180319083057/http://www.danbp.org/p/node/104).
 
 ## Tuning
 
