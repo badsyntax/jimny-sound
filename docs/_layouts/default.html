@@ -231,6 +231,7 @@
         <div class="meta">
           {% if page.author %}<span>By {{ page.author }}</span>{% endif %}
           {% if page.date %}<span><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d %B %Y" }}</time></span>{% endif %}
+          {% if page.last_modified_at %}<span>Updated <time datetime="{{ page.last_modified_at | date_to_xmlschema }}">{{ page.last_modified_at | date: "%-d %B %Y" }}</time></span>{% endif %}
         </div>
       </header>
       {% if page.hero %}
