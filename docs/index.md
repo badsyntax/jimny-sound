@@ -4,32 +4,14 @@ title: Upgrading the audio in a 2015 Suzuki Jimny (JB43)
 description: "How I upgraded the sound system in a 2015 Suzuki Jimny JB43: a DSP amp in the glovebox, Morel and Audison front speakers, two underseat subs and a 10-inch sub hidden in the boot, with wiring, photos, tuning and costs."
 date: 2026-09-29
 last_modified_at: 2026-11-07
-image: images/share.png
-hero: images/49-hero-dales.jpg
-hero_caption: Out in the hills, with the sheep for company.
+image: images/share.jpg
+hero: images/49-hero-fog.jpg
+hero_caption: My Jimny, out on the moors in the fog.
 ---
 
 I really love my Suzuki Jimny. It's a top of the range 2015
 [Jimny Sierra Land Venture](https://en.wikipedia.org/wiki/Suzuki_Jimny#Third_generation_%281998%29) (JB43W), a
 tiny but seriously capable Japanese 4x4, and there are few things I love more than this car.
-
-![Front on, in the fog on the moors](images/thumbs/50-front-fog.jpg)
-*Front on, in the fog on the moors.*
-
-![Head on, with the bonnet scoop and chrome grille](images/thumbs/53-front-close.jpg)
-*Head on, with the bonnet scoop and chrome grille.*
-
-![Front three-quarter view on a muddy moorland car park](images/thumbs/54-front-moor.jpg)
-*Front three-quarter, on a muddy moorland car park.*
-
-![Side on, on the same moorland car park](images/thumbs/51-side-moor.jpg)
-*Side on, in the same spot.*
-
-![Side on, parked up in town](images/thumbs/55-side-town.jpg)
-*Parked up in town.*
-
-![From the back, with the Land Venture spare wheel cover](images/thumbs/52-rear.jpg)
-*From the back, with the Land Venture spare wheel cover.*
 
 I've been on a journey to upgrade the sound system. I started with a new head unit, the Kenwood, and
 then upgraded the front speakers in the footwells. Even though they were quite decent speakers, I
@@ -761,6 +743,22 @@ me, but I haven't decided yet whether to do it myself.
 
 Other than that, it's a bit of cleanup, tidying the wiring under the seats and in the boot, and
 carrying on with the tuning, which is a lot of trial and error really.
+
+## Out and about
+
+It's not all about the audio, so here's the Jimny out and about.
+
+![Out in the hills, with the sheep for company](images/thumbs/56-hills.jpg)
+*Out in the hills, with the sheep for company.*
+
+![Head on, with the bonnet scoop and chrome grille](images/thumbs/53-front-close.jpg)
+*Head on, with the bonnet scoop and chrome grille.*
+
+![Side on, on a muddy moorland car park](images/thumbs/51-side-moor.jpg)
+*Side on, on a muddy moorland car park.*
+
+![From the back, with the Land Venture spare wheel cover](images/thumbs/52-rear.jpg)
+*From the back, with the Land Venture spare wheel cover.*
 
 ## Full build notes
 
