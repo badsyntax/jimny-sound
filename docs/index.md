@@ -278,8 +278,8 @@ new Kenwood harness would put it all back to standard.
 *Head unit out. The speaker wires on the Kenwood's harness got cut behind here. It's an absolute
 mess back there, I did my best to tidy up.*
 
-![Head unit and glovebox out mid-install](images/thumbs/20-dash-stripped.jpg)
-*Mid-install: head unit pulled out, glovebox removed and wires everywhere while I connected the amp.*
+![Head unit out mid-install](images/thumbs/20-dash-stripped.jpg)
+*Mid-install: head unit pulled out and wires everywhere while I connected the amp.*
 
 
 ## The amp in the glovebox
