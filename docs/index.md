@@ -3,6 +3,7 @@ layout: default
 title: Upgrading the audio in a 2015 Suzuki Jimny (JB43)
 description: "How I upgraded the sound system in a 2015 Suzuki Jimny JB43: a DSP amp in the glovebox, Morel and Audison front speakers, two underseat subs and a 10-inch sub hidden in the boot, with wiring, photos, tuning and costs."
 date: 2026-09-29
+last_modified_at: 2026-11-07
 image: images/share.png
 ---
 
@@ -47,7 +48,7 @@ tweeters and subs fill in the top and bottom.
 | **[Audison Voce II AV 1.1 II](https://audison.com/product/av-1-1-ii/)** | Tweeters on the dash |
 | **[Focal ICU 100](https://www.focal.com/products/icu-100)** | 4" coaxials in the rear |
 | **2 × [Harman Kardon Feel 700](https://caraudiodirect.co.uk/products/harmon-kardon-feel-700-active-underseat-car-subwoofer)** | Active underseat subs, 125W RMS each, daisy-chained |
-| **[Kicker Hideaway HS10](https://www.caraudiosecurity.com/products/kicker-ka46hs10-10-hideaway-compact-powered-loaded-enclosure-180w-rms)** | 10" active sub, 180W RMS, hidden in the boot compartment |
+| **[Kicker Hideaway HS10](https://www.kicker.com/hideaway-hs10)** | 10" active sub, 180W RMS, hidden in the boot compartment |
 | **[Audiotec Fischer URC.1](https://www.audiotec-fischer.de/en/accessories/urc-1)** | Remote knob for sub level |
 
 ```mermaid
@@ -228,7 +229,7 @@ block, but it's out of the way, so it's fine.*
 The amp and sub grounds join in one heavy crimped splice and go to the front bolt of the driver's
 seat, sanded to bare metal on both faces. The boot sub's ground runs back to the same bolt on its
 own ring terminal, rather than a second ground point in the boot. Using one ground point for
-everything stops alternator whine, and I haven't had any.
+everything helps avoid alternator whine, and I haven't had any.
 
 I planned to upgrade the battery-to-body strap to 4AWG too, but on the JB43 the factory strap is
 very short and already sized for the starter motor, which pulls far more than 78A. So I left it.
@@ -275,8 +276,8 @@ new Kenwood harness would put it all back to standard.
 *Head unit out. The speaker wires on the Kenwood's harness got cut behind here. It's an absolute
 mess back there, I did my best to tidy up.*
 
-![The dash stripped during the install](images/thumbs/20-dash-stripped.jpg)
-*The dash stripped mid-install.*
+![Head unit and glovebox out mid-install](images/thumbs/20-dash-stripped.jpg)
+*Mid-install: head unit pulled out, glovebox removed and wires everywhere while I connected the amp.*
 
 
 ## The amp in the glovebox
@@ -372,8 +373,8 @@ experience. There's a good step-by-step guide here:
 ## Subs
 
 There are three subs, and they share the work. The two Feel 700s under the front seats give the
-punch, from about 40 to 90Hz. The 10" Kicker HS10 in the boot plays only the deepest notes, below
-about 50Hz, which the Feel 700s can't reach. Together they cover the low end without any one of
+punch, from about 40 to 90Hz. The 10" Kicker HS10 in the boot focuses on the deepest notes, below
+about 50Hz, where the small 7" Feel 700s run out of steam. Together they cover the low end without any one of
 them having to do everything, and without taking up any space in the cabin or on the boot floor.
 
 ### Under the seats
@@ -693,7 +694,7 @@ if there's a short, it overheats or the voltage goes funny.
 
 ## How it sounds
 
-Really great. I get excited every time I take the car out. It sounds clean and balanced, and with
+Really great! Amazing. I get excited every time I take the car out. It sounds clean and balanced, and with
 the HS10 the bass goes really deep without drowning out the music.
 
 I can't really play it past about 60%, it's just too loud. Certain bass frequencies make the
