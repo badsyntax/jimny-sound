@@ -13,11 +13,20 @@ I really love my Suzuki Jimny. It's a top of the range 2015
 [Jimny Sierra Land Venture](https://en.wikipedia.org/wiki/Suzuki_Jimny#Third_generation_%281998%29) (JB43W), a
 tiny but seriously capable Japanese 4x4, and there are few things I love more than this car.
 
-![Front on, in the fog by a Coast to Coast Path signpost](images/thumbs/50-front-fog.jpg)
-*Front on, in the fog by a Coast to Coast Path signpost.*
+![Front on, in the fog on the moors](images/thumbs/50-front-fog.jpg)
+*Front on, in the fog on the moors.*
 
-![Side on, on a muddy moorland car park](images/thumbs/51-side-moor.jpg)
-*Side on, on a muddy moorland car park.*
+![Head on, with the bonnet scoop and chrome grille](images/thumbs/53-front-close.jpg)
+*Head on, with the bonnet scoop and chrome grille.*
+
+![Front three-quarter view on a muddy moorland car park](images/thumbs/54-front-moor.jpg)
+*Front three-quarter, on a muddy moorland car park.*
+
+![Side on, on the same moorland car park](images/thumbs/51-side-moor.jpg)
+*Side on, in the same spot.*
+
+![Side on, parked up in town](images/thumbs/55-side-town.jpg)
+*Parked up in town.*
 
 ![From the back, with the Land Venture spare wheel cover](images/thumbs/52-rear.jpg)
 *From the back, with the Land Venture spare wheel cover.*
