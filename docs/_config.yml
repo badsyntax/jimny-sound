@@ -10,3 +10,5 @@ kramdown:
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+webmaster_verifications:
+  google: hydQdLf4Zr__gi2HUIy4V6p8qIPhZRfTiVFsudtjbw0
