@@ -47,7 +47,7 @@ tweeters and subs fill in the top and bottom.
 | **[Audison Voce II AV 1.1 II](https://audison.com/product/av-1-1-ii/)** | Tweeters on the dash |
 | **[Focal ICU 100](https://www.focal.com/products/icu-100)** | 4" coaxials in the rear |
 | **2 × [Harman Kardon Feel 700](https://caraudiodirect.co.uk/products/harmon-kardon-feel-700-active-underseat-car-subwoofer)** | Active underseat subs, 125W RMS each, daisy-chained |
-| **[Kicker Hideaway HS10](https://www.caraudiosecurity.com/products/kicker-ka46hs10-10-hideaway-compact-powered-loaded-enclosure-180w-rms)** | 10" active sub, 180W RMS, hidden in the boot compartment |
+| **[Kicker Hideaway HS10](https://www.kicker.com/hideaway-hs10)** | 10" active sub, 180W RMS, hidden in the boot compartment |
 | **[Audiotec Fischer URC.1](https://www.audiotec-fischer.de/en/accessories/urc-1)** | Remote knob for sub level |
 
 ```mermaid
@@ -275,8 +275,8 @@ new Kenwood harness would put it all back to standard.
 *Head unit out. The speaker wires on the Kenwood's harness got cut behind here. It's an absolute
 mess back there, I did my best to tidy up.*
 
-![The dash stripped during the install](images/thumbs/20-dash-stripped.jpg)
-*The dash stripped mid-install.*
+![Head unit and glovebox out mid-install](images/thumbs/20-dash-stripped.jpg)
+*Mid-install: head unit pulled out, glovebox removed and wires everywhere while I connected the amp.*
 
 
 ## The amp in the glovebox
@@ -693,7 +693,7 @@ if there's a short, it overheats or the voltage goes funny.
 
 ## How it sounds
 
-Really great. I get excited every time I take the car out. It sounds clean and balanced, and with
+Really great! Amazing. I get excited every time I take the car out. It sounds clean and balanced, and with
 the HS10 the bass goes really deep without drowning out the music.
 
 I can't really play it past about 60%, it's just too loud. Certain bass frequencies make the
