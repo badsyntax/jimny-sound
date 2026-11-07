@@ -744,9 +744,9 @@ me, but I haven't decided yet whether to do it myself.
 Other than that, it's a bit of cleanup, tidying the wiring under the seats and in the boot, and
 carrying on with the tuning, which is a lot of trial and error really.
 
-## Out and about
+## Meet the Jimny
 
-It's not all about the audio, so here's the Jimny out and about.
+A few photos of the car itself, from days out on the moors.
 
 ![Out in the hills, with the sheep for company](images/thumbs/56-hills.jpg)
 *Out in the hills, with the sheep for company.*
