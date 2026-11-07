@@ -746,7 +746,7 @@ carrying on with the tuning, which is a lot of trial and error really.
 
 ## Meet the Jimny
 
-A few photos of the car itself, from days out on the moors.
+A few photos of the car itself, from a few days out.
 
 ![Out in the hills, with the sheep for company](images/thumbs/56-hills.jpg)
 *Out in the hills, with the sheep for company.*
