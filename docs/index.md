@@ -5,11 +5,22 @@ description: "How I upgraded the sound system in a 2015 Suzuki Jimny JB43: a DSP
 date: 2026-09-29
 last_modified_at: 2026-11-07
 image: images/share.png
+hero: images/49-hero-dales.jpg
+hero_caption: Out in the hills, with the sheep for company.
 ---
 
 I really love my Suzuki Jimny. It's a top of the range 2015
 [Jimny Sierra Land Venture](https://en.wikipedia.org/wiki/Suzuki_Jimny#Third_generation_%281998%29) (JB43W), a
 tiny but seriously capable Japanese 4x4, and there are few things I love more than this car.
+
+![Front on, in the fog by a Coast to Coast Path signpost](images/thumbs/50-front-fog.jpg)
+*Front on, in the fog by a Coast to Coast Path signpost.*
+
+![Side on, on a muddy moorland car park](images/thumbs/51-side-moor.jpg)
+*Side on, on a muddy moorland car park.*
+
+![From the back, with the Land Venture spare wheel cover](images/thumbs/52-rear.jpg)
+*From the back, with the Land Venture spare wheel cover.*
 
 I've been on a journey to upgrade the sound system. I started with a new head unit, the Kenwood, and
 then upgraded the front speakers in the footwells. Even though they were quite decent speakers, I
