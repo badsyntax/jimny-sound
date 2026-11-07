@@ -228,7 +228,7 @@ block, but it's out of the way, so it's fine.*
 The amp and sub grounds join in one heavy crimped splice and go to the front bolt of the driver's
 seat, sanded to bare metal on both faces. The boot sub's ground runs back to the same bolt on its
 own ring terminal, rather than a second ground point in the boot. Using one ground point for
-everything stops alternator whine, and I haven't had any.
+everything helps avoid alternator whine, and I haven't had any.
 
 I planned to upgrade the battery-to-body strap to 4AWG too, but on the JB43 the factory strap is
 very short and already sized for the starter motor, which pulls far more than 78A. So I left it.
@@ -372,8 +372,8 @@ experience. There's a good step-by-step guide here:
 ## Subs
 
 There are three subs, and they share the work. The two Feel 700s under the front seats give the
-punch, from about 40 to 90Hz. The 10" Kicker HS10 in the boot plays only the deepest notes, below
-about 50Hz, which the Feel 700s can't reach. Together they cover the low end without any one of
+punch, from about 40 to 90Hz. The 10" Kicker HS10 in the boot focuses on the deepest notes, below
+about 50Hz, where the small 7" Feel 700s run out of steam. Together they cover the low end without any one of
 them having to do everything, and without taking up any space in the cabin or on the boot floor.
 
 ### Under the seats
