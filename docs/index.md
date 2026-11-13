@@ -438,8 +438,8 @@ it, and from the outside you'd never know there's a sub in there.
 ![The aluminium compartment with the lid open, before the install](images/thumbs/42-boot-compartment-open.jpg)
 *The compartment before the install. The lid is full of holes, which lets the bass out.*
 
-![The HS10 bolted to the MDF inside the compartment](images/thumbs/43-hs10-fitted.jpg)
-*In it goes, bolted to the MDF, with the wiring still to tidy.*
+![The HS10 in the compartment, with a handle either side](images/thumbs/59-boot-handles-fitted.jpg)
+*The HS10 in the compartment, bolted to the board, with a handle either side for lifting it out.*
 
 ![Wiring joined to the HS10 harness at the compartment](images/thumbs/44-hs10-wiring.jpg)
 *The 8AWG power and ground, RCA and remote, joined to the HS10's harness.*
@@ -449,15 +449,27 @@ it, and from the outside you'd never know there's a sub in there.
 
 #### Mounting it
 
-The sub sits on 9mm MDF, bolted through its own brackets, the MDF and the stock brown board with a
-washer at each end, so the three lift out together as one unit. The brown board's jack clips poke up,
-so the boards don't sit flat on each other. Foam packed between them stopped them rattling, and more
-foam under the brown board stops it knocking on the ledge it rests on. It isn't fixed to the car, but
-it's heavy and sits snugly in the recess. To get to the tools I unplug the sub's harness and lift
-the whole thing out.
+The sub sits on 9mm MDF, sprayed black, bolted through its own brackets, the MDF and the stock brown
+board with a washer at each end, so the three lift out together as one unit. The brown board's jack
+clips poke up, so the boards don't sit flat on each other, and there's foam packed between them. Two
+T-bar handles screw up from underneath through both boards, which clamps them together on the foam
+and gives me something to lift it out with. Fitting them was a real struggle: the handles are thick
+metal, so the holes have to be exactly in the right place, with no play in the wood.
+
+![The MDF sprayed black, with the two handles laid on top to work out where they go](images/thumbs/57-boot-board-handles.jpg)
+*The board, sprayed black, with the handles laid on top to work out where they'd go, before fitting.*
+
+The board sits on self-adhesive EPDM rubber strip all the way round the ledge, so there's no wood
+touching metal, and there are a couple of strips on the jack too. There's also a strip along the top
+of the far end of the compartment, between the lid and the box, which stops the aluminium itself
+rattling. The board isn't fixed to the car, but it's heavy and sits snugly in the recess. To get to
+the tools I unplug the sub's harness and lift the whole thing out by the handles.
+
+![Rubber strip around the ledge of the tool well, and on the jack](images/thumbs/58-boot-rubber-ledge.jpg)
+*The tool well with the board out: rubber strip round the ledge, and on the jack.*
 
 <figure class="wiring">
-<svg viewBox="0 0 540 312" role="img" aria-label="Cross-section of the boot compartment, not to scale. From the bottom: the tool well in the floor holds the jack and wheel brace. The stock brown board rests on the ledges on foam pads. On top of it is a layer of foam, then 9mm MDF. The Kicker HS10 sits on the MDF on its own brackets, bolted through the brackets, the MDF and the brown board with a washer at each end. About half a centimetre above the grille is the aluminium compartment lid with its open holes, and the carpet on top.">
+<svg viewBox="0 0 540 312" role="img" aria-label="Cross-section of the boot compartment, not to scale. From the bottom: the tool well in the floor holds the jack and wheel brace. The stock brown board rests on the ledges on rubber strip. On top of it is a layer of foam, then 9mm MDF. The Kicker HS10 sits on the MDF on its own brackets, bolted through the brackets, the MDF and the brown board with a washer at each end. About half a centimetre above the grille is the aluminium compartment lid with its open holes, and the carpet on top.">
 <rect class="mt-carpet" x="30" y="36" width="342" height="8"/>
 <rect class="mt-alu" x="36" y="44" width="330" height="6"/>
 <rect class="mt-hole" x="70" y="45" width="14" height="4"/>
@@ -511,7 +523,7 @@ the whole thing out.
 <path class="mt-lead" d="M362,192 L384,230 H388"/>
 <text class="wd-small" x="392" y="234">Stock brown board</text>
 <path class="mt-lead" d="M360,198 L384,252 H388"/>
-<text class="wd-small" x="392" y="256">Foam on the ledges</text>
+<text class="wd-small" x="392" y="256">Rubber on the ledges</text>
 <path class="mt-lead" d="M318,266 L384,278 H388"/>
 <text class="wd-small" x="392" y="282">Tool well: jack</text>
 <text class="wd-small" x="392" y="296">and wheel brace</text>
@@ -734,12 +746,13 @@ of separate wires. There'd be far fewer runs to route and tidy.
 
 ## What's next
 
-The main thing left is those rattles. Certain bass frequencies make the Jimny's metal panels
-vibrate and rattle. The fix is sound deadening: mats stuck to the inside of the panels that stop them
-resonating, which should also cut down road noise a bit. It's the last piece of the puzzle. It's
-a lot of work, taking off all the panels and door cards to fit it, and once that sticky stuff goes
-on, it's never really coming off again. I do know a place in West Yorkshire that could do it for
-me, but I haven't decided yet whether to do it myself.
+The boot rattles are mostly sorted now, apart from getting the compartment latches to catch again
+with the new rubber strip in place. The main thing left is the rest of the car. Certain bass
+frequencies make the Jimny's metal panels vibrate and rattle. The fix is sound deadening: mats stuck
+to the inside of the panels that stop them resonating, which should also cut down road noise a bit.
+It's the last piece of the puzzle. It's a lot of work, taking off all the panels and door cards to
+fit it, and once that sticky stuff goes on, it's never really coming off again. I do know a place in
+West Yorkshire that could do it for me, but I haven't decided yet whether to do it myself.
 
 Other than that, it's a bit of cleanup, tidying the wiring under the seats and in the boot, and
 carrying on with the tuning, which is a lot of trial and error really.
