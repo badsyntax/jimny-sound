@@ -456,8 +456,8 @@ T-bar handles screw up from underneath through both boards, which clamps them to
 and gives me something to lift it out with. Fitting them was a real struggle: the handles are thick
 metal, so the holes have to be exactly in the right place, with no play in the wood.
 
-![The MDF sprayed black, with the two handles fitted](images/thumbs/57-boot-board-handles.jpg)
-*The board, sprayed black, with the two handles.*
+![The MDF sprayed black, with the two handles laid on top to work out where they go](images/thumbs/57-boot-board-handles.jpg)
+*The board, sprayed black, with the handles laid on top to work out where they'd go, before fitting.*
 
 The board sits on self-adhesive EPDM rubber strip all the way round the ledge, so there's no wood
 touching metal, and there are a couple of strips on the jack too. There's also a strip along the top
