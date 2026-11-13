@@ -438,8 +438,8 @@ it, and from the outside you'd never know there's a sub in there.
 ![The aluminium compartment with the lid open, before the install](images/thumbs/42-boot-compartment-open.jpg)
 *The compartment before the install. The lid is full of holes, which lets the bass out.*
 
-![The HS10 bolted to the MDF inside the compartment](images/thumbs/43-hs10-fitted.jpg)
-*In it goes, bolted to the MDF, with the wiring still to tidy.*
+![The HS10 in the compartment, with a handle either side](images/thumbs/59-boot-handles-fitted.jpg)
+*The HS10 in the compartment, bolted to the board, with a handle either side for lifting it out.*
 
 ![Wiring joined to the HS10 harness at the compartment](images/thumbs/44-hs10-wiring.jpg)
 *The 8AWG power and ground, RCA and remote, joined to the HS10's harness.*
@@ -449,12 +449,24 @@ it, and from the outside you'd never know there's a sub in there.
 
 #### Mounting it
 
-The sub sits on 9mm MDF, bolted through its own brackets, the MDF and the stock brown board with a
-washer at each end, so the three lift out together as one unit. The brown board's jack clips poke up,
-so the boards don't sit flat on each other. Foam packed between them stopped them rattling, and more
-foam under the brown board stops it knocking on the ledge it rests on. It isn't fixed to the car, but
-it's heavy and sits snugly in the recess. To get to the tools I unplug the sub's harness and lift
-the whole thing out.
+The sub sits on 9mm MDF, sprayed black, bolted through its own brackets, the MDF and the stock brown
+board with a washer at each end, so the three lift out together as one unit. The brown board's jack
+clips poke up, so the boards don't sit flat on each other, and there's foam packed between them. Two
+T-bar handles screw up from underneath through both boards, which clamps them together on the foam
+and gives me something to lift it out with. Fitting them was a real struggle: the handles are thick
+metal, so the holes have to be exactly in the right place, with no play in the wood.
+
+![The MDF sprayed black, with the two handles fitted](images/thumbs/57-boot-board-handles.jpg)
+*The board, sprayed black, with the two handles.*
+
+The board sits on self-adhesive EPDM rubber strip all the way round the ledge, so there's no wood
+touching metal, and there are a couple of strips on the jack too. There's also a strip along the top
+of the far end of the compartment, between the lid and the box, which stops the aluminium itself
+rattling. The board isn't fixed to the car, but it's heavy and sits snugly in the recess. To get to
+the tools I unplug the sub's harness and lift the whole thing out by the handles.
+
+![Rubber strip around the ledge of the tool well, and on the jack](images/thumbs/58-boot-rubber-ledge.jpg)
+*The tool well with the board out: rubber strip round the ledge, and on the jack.*
 
 <figure class="wiring">
 <svg viewBox="0 0 540 312" role="img" aria-label="Cross-section of the boot compartment, not to scale. From the bottom: the tool well in the floor holds the jack and wheel brace. The stock brown board rests on the ledges on rubber strip. On top of it is a layer of foam, then 9mm MDF. The Kicker HS10 sits on the MDF on its own brackets, bolted through the brackets, the MDF and the brown board with a washer at each end. About half a centimetre above the grille is the aluminium compartment lid with its open holes, and the carpet on top.">
@@ -536,40 +548,6 @@ need to open anything up.
 
 The HS10 takes its signal from the second Feel 700's spare RCA output, through a Kicker KISL adapter
 that turns the RCA into the HS10's wire input.
-
-#### Sorting the rattles
-
-With the sub turned up I could still hear the wooden boards vibrating, so I spent a day taking it all
-out again. It took a lot longer than I thought it would.
-
-I sprayed the MDF black and fitted two T-bar handles so I can lift the whole thing out more easily.
-The handles screw up from underneath through both boards, which also clamps them together on the
-foam, so I didn't need any extra bolts. Getting the screws into the handles was a real struggle: the
-handles are thick metal, and if the holes aren't exactly in the right place there's no play in the
-wood at all. But with a lot of elbow grease they went in, and the handles are solid.
-
-![The MDF sprayed black, with the two handles fitted](images/thumbs/57-boot-board-handles.jpg)
-*The MDF sprayed black, with the handles fitted.*
-
-I also swapped the foam on the ledge for self-adhesive EPDM rubber strip, so the board sits on
-rubber instead of metal, and put a couple of strips on the jack too.
-
-![Rubber strip around the ledge of the tool well, and on the jack](images/thumbs/58-boot-rubber-ledge.jpg)
-*Rubber strip around the ledge the board sits on, and on the jack.*
-
-![The HS10 back in, with a handle either side](images/thumbs/59-boot-handles-fitted.jpg)
-*Back in, with a handle either side. The wiring on the right still needs tidying.*
-
-On a drive afterwards most of the rattling had gone, but the aluminium compartment itself was
-rattling. I put some of the rubber strip along the top of the far end, between the lid and the box.
-That seals it nicely, but it also pushes the lid slightly forward, so the latches don't catch any
-more. For now the latches are held with cable ties, until I find something thinner for that strip.
-
-![The lid shut, with the latches held by cable ties](images/thumbs/60-boot-lid-closed.jpg)
-*Lid shut, the latches held with cable ties for now.*
-
-I also found the HS10's phase back on 0°. I'm sure I'd set it to 180°, so it probably got knocked
-while I was lifting the board in and out. Back on 180°, it sounds much better.
 
 ## Tuning
 
@@ -768,10 +746,10 @@ of separate wires. There'd be far fewer runs to route and tidy.
 
 ## What's next
 
-The boot rattles are mostly sorted now (see [Sorting the rattles](#sorting-the-rattles)), apart
-from getting the compartment latches working again. The main thing left is the rest of the car.
-Certain bass frequencies make the Jimny's metal panels vibrate and rattle. The fix is sound deadening: mats stuck to the inside of the panels that stop them
-resonating, which should also cut down road noise a bit. It's the last piece of the puzzle. It's
+The boot rattles are mostly sorted now, apart from getting the compartment latches to catch again
+with the new rubber strip in place. The main thing left is the rest of the car. Certain bass
+frequencies make the Jimny's metal panels vibrate and rattle. The fix is sound deadening: mats stuck
+to the inside of the panels that stop them resonating, which should also cut down road noise a bit. It's the last piece of the puzzle. It's
 a lot of work, taking off all the panels and door cards to fit it, and once that sticky stuff goes
 on, it's never really coming off again. I do know a place in West Yorkshire that could do it for
 me, but I haven't decided yet whether to do it myself.
