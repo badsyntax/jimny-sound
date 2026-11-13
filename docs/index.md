@@ -441,11 +441,8 @@ it, and from the outside you'd never know there's a sub in there.
 ![The HS10 in the compartment, with a handle either side](images/thumbs/59-boot-handles-fitted.jpg)
 *The HS10 in the compartment, bolted to the board, with a handle either side for lifting it out.*
 
-![Wiring joined to the HS10 harness at the compartment](images/thumbs/44-hs10-wiring.jpg)
+![Wiring joined to the HS10 harness at the compartment](images/thumbs/61-hs10-wiring-black.jpg)
 *The 8AWG power and ground, RCA and remote, joined to the HS10's harness.*
-
-![The HS10's control panel](images/thumbs/45-hs10-controls.jpg)
-*The controls: +12V turn-on, LO input level, phase at 180°.*
 
 #### Mounting it
 
