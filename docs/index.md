@@ -749,8 +749,8 @@ of separate wires. There'd be far fewer runs to route and tidy.
 The boot rattles are mostly sorted now, apart from getting the compartment latches to catch again
 with the new rubber strip in place. The main thing left is the rest of the car. Certain bass
 frequencies make the Jimny's metal panels vibrate and rattle. The fix is sound deadening: mats stuck
-to the inside of the panels that stop them resonating, which should also cut down road noise a bit. It's the last piece of the puzzle. It's
-a lot of work, taking off all the panels and door cards to fit it, and once that sticky stuff goes
+to the inside of the panels that stop them resonating, which should also cut down road noise a
+bit. It's the last piece of the puzzle. It's a lot of work, taking off all the panels and door cards to fit it, and once that sticky stuff goes
 on, it's never really coming off again. I do know a place in West Yorkshire that could do it for
 me, but I haven't decided yet whether to do it myself.
 
