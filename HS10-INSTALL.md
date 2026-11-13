@@ -56,9 +56,33 @@ The hands-on install log for the boot sub. The why (sub choice, fusing, groundin
 [SUB-UPGRADE.md](SUB-UPGRADE.md); this is what's actually being done, step by step. Baby steps —
 try things, keep what works, update this as it goes.
 
-**Status: installed and working (1 Nov 2026).** Front end and boot end all connected; sub mounted;
-carpet back on. **Left to do:** last rattles, tidy wiring
-(move the 15A fuse holder up to the splice).
+**Status: installed and working (1 Nov 2026); boot rattles mostly fixed (13 Nov 2026).** **Left to
+do:** get the compartment latches working again (see 13 Nov), tidy the wiring on the right (bundle
+it, tie down the fuse holder; move the 15A fuse holder up to the splice), optional deadening mat on
+the bare tool-well floor.
+
+### Rattle fixing — 13 Nov 2026
+
+A shop quoted for doing the whole car; decided to keep going myself.
+
+- **MDF sprayed black.** Two **Smith & Locke Damgan T-bar handles** (Screwfix 613FK, 96 mm hole
+  centres) fitted, screwed up from underneath through both boards. They clamp the MDF and brown
+  board together on the foam, so no extra bolts were needed. Hard to fit: the holes have to be
+  exact, as there's no play in the wood.
+- **Ledge:** foam swapped for **Stormguard EPDM rubber P strip** (Screwfix 88076) all round the
+  ledge the board sits on. Strips on the jack head too.
+- **Result on a drive:** most of the rattling gone. The **aluminium compartment** still rattled.
+- **Compartment fix:** rubber strip along the top of the far (hinge) end, between lid and box.
+  Seals well, but pushes the lid forward so the **toggle latches no longer catch** — held with
+  cable ties for now. To try, in order:
+  1. Thinner material at that end (felt, the thin carpet, or Stormguard EPDM E strip, 1.5–3 mm gap)
+  2. Rubber along the two sides instead of the hinge end
+  3. Move the latch catch plates, or bend the hooks slightly
+- **Phase was back on 0°** — probably knocked while lifting the board in and out. Reset to
+  **180°**; sounds much better. Check it whenever the sub has been out.
+- **Wiring:** no cable tie bases (adhesive won't hold on carpet; packs of 100 are a waste). Bundle
+  the slack and tie it to the handles or sub bracket, or loop a tie through two small holes drilled
+  in the MDF. Leave a loose loop so the board still lifts out.
 
 ### Install day — 1 Nov 2026
 
