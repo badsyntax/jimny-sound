@@ -438,6 +438,9 @@ it, and from the outside you'd never know there's a sub in there.
 ![The aluminium compartment with the lid open, before the install](images/thumbs/42-boot-compartment-open.jpg)
 *The compartment before the install. The lid is full of holes, which lets the bass out.*
 
+![The HS10 first fitted on bare MDF, with the wiring loose](images/thumbs/62-hs10-first-fitted.jpg)
+*Early on: the HS10 first fitted on bare MDF, with the wiring still loose.*
+
 ![The HS10 in the compartment, with a handle either side](images/thumbs/59-boot-handles-fitted.jpg)
 *The HS10 in the compartment, bolted to the board, with a handle either side for lifting it out.*
 
@@ -536,6 +539,9 @@ need to open anything up.
 
 ![Eye level with the lid, the grille just below it](images/thumbs/46-hs10-clearance.jpg)
 *Eye level with the lid. The grille sits just below it, without touching.*
+
+![The boot finished, with the lid shut and the carpet on top](images/thumbs/63-boot-finished-hidden.jpg)
+*Finished. Lid shut, carpet on, and you'd never know there's a 10" sub in there.*
 
 The HS10 takes its signal from the second Feel 700's spare RCA output, through a Kicker KISL adapter
 that turns the RCA into the HS10's wire input.
