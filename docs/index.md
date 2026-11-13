@@ -441,11 +441,8 @@ it, and from the outside you'd never know there's a sub in there.
 ![The HS10 in the compartment, with a handle either side](images/thumbs/59-boot-handles-fitted.jpg)
 *The HS10 in the compartment, bolted to the board, with a handle either side for lifting it out.*
 
-![Wiring joined to the HS10 harness at the compartment](images/thumbs/44-hs10-wiring.jpg)
+![Wiring joined to the HS10 harness at the compartment](images/thumbs/61-hs10-wiring-black.jpg)
 *The 8AWG power and ground, RCA and remote, joined to the HS10's harness.*
-
-![The HS10's control panel](images/thumbs/45-hs10-controls.jpg)
-*The controls: +12V turn-on, LO input level, phase at 180°.*
 
 #### Mounting it
 
@@ -539,12 +536,6 @@ need to open anything up.
 
 ![Eye level with the lid, the grille just below it](images/thumbs/46-hs10-clearance.jpg)
 *Eye level with the lid. The grille sits just below it, without touching.*
-
-![The sub's grille showing through the holes in the lid](images/thumbs/47-hs10-lid-holes.jpg)
-*The grille shows through the holes in the lid, before the carpet goes back on.*
-
-![The boot finished, with the carpet back on the compartment](images/thumbs/48-boot-finished.jpg)
-*Finished. The carpet is back on, the seats still fold, and you'd never know there's a 10" sub in there.*
 
 The HS10 takes its signal from the second Feel 700's spare RCA output, through a Kicker KISL adapter
 that turns the RCA into the HS10's wire input.
