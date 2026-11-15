@@ -291,6 +291,9 @@ own. The DSP side is what makes it all sound good: each speaker gets its own cro
 and EQ, so I can tune it for where it sits in the car. It's made by Audiotec Fischer in Germany, it
 runs cool, and it's small enough to fit in the glovebox.
 
+This section covers fitting it. How I set up and tuned the DSP is further down, in
+[Tuning the DSP in PC-Tool](#tuning-the-dsp-in-pc-tool).
+
 ### In the glovebox
 
 I planned to mount the amp behind the glovebox, but the space back there was too awkward to work in.
@@ -319,12 +322,11 @@ Here's a video from install day, explaining why the amp ended up in the glovebox
   title="Fitting the amp in the Jimny's glovebox" allow="encrypted-media; picture-in-picture; fullscreen"
   allowfullscreen loading="lazy"></iframe>
 
-### Two months on
+### My verdict, 2 months in
 
 I've had the amp for about two months now, and I'm really happy with it. It drives all six speakers
 easily, it hasn't clipped once, and I don't think I've come close to its limit. The software, DSP
-PC-Tool, is excellent too. Crossovers, EQ and time alignment are all easy to set up (more on that in
-[Tuning](#tuning-the-dsp-in-pc-tool)).
+PC-Tool, is excellent too. Crossovers, EQ and time alignment are all easy to set up.
 
 The downsides are small. There are no RCA inputs without the optional Extension Card, PC-Tool is
 Windows only (it ran fine in a VM on my Mac), and at £549.99 it's not cheap. All in all, it's a very
