@@ -1,5 +1,6 @@
 ---
 layout: default
+heading: Upgrading the audio in a 2015 Suzuki Jimny (JB43)
 title: "Suzuki Jimny JB43 audio upgrade: Match UP 6DSP MK2, Morel, Audison and Kicker HS10"
 description: "How I upgraded the sound system in a 2015 Suzuki Jimny JB43: a Match UP 6DSP MK2 DSP amp in the glovebox, Morel MW4 and Audison Voce front speakers, two Harman Kardon Feel 700 underseat subs and a Kicker Hideaway HS10 hidden in the boot. With wiring, photos, DSP tuning, costs and an owner's review of the Match amp."
 date: 2026-09-29
