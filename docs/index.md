@@ -714,7 +714,7 @@ bodywork rattle, which sound deadening should sort out (see [What's next](#whats
 
 ## Match UP 6DSP MK2 review: 2 months in
 
-I'm really, genuinely happy with this amp. Here's my owner's take after living with it in a small car.
+I've had the amp for about two months now, and I'm really happy with it.
 
 **What I like**
 
