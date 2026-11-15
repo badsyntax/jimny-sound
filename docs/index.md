@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Upgrading the audio in a 2015 Suzuki Jimny (JB43)
-description: "How I upgraded the sound system in a 2015 Suzuki Jimny JB43: a DSP amp in the glovebox, Morel and Audison front speakers, two underseat subs and a 10-inch sub hidden in the boot, with wiring, photos, tuning and costs."
+title: "Suzuki Jimny JB43 audio upgrade: Match UP 6DSP MK2, Morel, Audison and Kicker HS10"
+description: "How I upgraded the sound system in a 2015 Suzuki Jimny JB43: a Match UP 6DSP MK2 DSP amp in the glovebox, Morel MW4 and Audison Voce front speakers, two Harman Kardon Feel 700 underseat subs and a Kicker Hideaway HS10 hidden in the boot. With wiring, photos, DSP tuning, costs and an owner's review of the Match amp."
 date: 2026-09-29
-last_modified_at: 2026-11-07
+last_modified_at: 2026-11-15
 image: images/share.jpg
 hero: images/49-hero-fog.jpg
 hero_caption: My Jimny, out on the moors in the fog.
@@ -282,7 +282,7 @@ mess back there, I did my best to tidy up.*
 *Mid-install: head unit pulled out and wires everywhere while I connected the amp.*
 
 
-## The amp in the glovebox
+## Match UP 6DSP MK2 in the glovebox
 
 Why the Match: it's a good DSP (digital sound processor), and it lets each speaker have its own
 crossover, level, delay and EQ. It's Class D, so it doesn't get very hot, and it's small enough to
@@ -318,7 +318,7 @@ Here's a video from install day, explaining why the amp ended up in the glovebox
 
 ## Speakers
 
-### Front speakers
+### Front speakers: Morel MW4 and Audison Voce
 
 The front stage is Morel Virtus Nano MW4 midbass and Audison Voce II AV 1.1 II tweeters. The MW4 is
 from Morel's high-end range, with a carbon-fibre cone and a neodymium magnet. The AV 1.1 II is a
@@ -365,7 +365,7 @@ Mounting the tweeters was fairly straightforward, but I had to take the A-pillar
 make space to push the wires down the side of the dashboard and across to the amp. The trims pulled
 off from the top once I'd peeled back the door rubber.
 
-### Rear speakers
+### Rear speakers: Focal ICU 100
 
 The rear Focal ICU 100s were fitted by a shop quite a while ago, since getting to them means taking
 the rear seats out. If I upgrade them in future, I'd be tempted to do it myself now I've got more
@@ -379,7 +379,7 @@ punch, from about 40 to 90Hz. The 10" Kicker HS10 in the boot focuses on the dee
 about 50Hz, where the small 7" Feel 700s run out of steam. Together they cover the low end without any one of
 them having to do everything, and without taking up any space in the cabin or on the boot floor.
 
-### Under the seats
+### Under the seats: Harman Kardon Feel 700
 
 The Feel 700 is 260 × 195 × 58mm and fits under both front seats. The second sub is chained from
 the first: power through the POWER OUT block, and signal through an RCA lead from the first sub's
@@ -424,7 +424,7 @@ flowchart LR
 *The finished sub, seen from the back seat with the front seat slid all the way forward. Rear
 passengers can still get in and out without any trouble.*
 
-### In the boot
+### In the boot: Kicker Hideaway HS10
 
 For the deep bass I wanted a proper 10" sub, but without losing any space on the boot floor, so the rear seats
 still fold and the boot is still usable.
@@ -546,7 +546,7 @@ need to open anything up.
 The HS10 takes its signal from the second Feel 700's spare RCA output, through a Kicker KISL adapter
 that turns the RCA into the HS10's wire input.
 
-## Tuning
+## Tuning the DSP in PC-Tool
 
 I set up the DSP in Audiotec Fischer's DSP PC-Tool. It's Windows only, so on my Mac I ran it in a
 virtual machine, using the free VMware Fusion. I set the Kenwood flat first, with EQ, loudness and
@@ -710,6 +710,38 @@ the HS10 the bass goes really deep without drowning out the music.
 
 I can't really play it past about 60%, it's just too loud. Certain bass frequencies make the
 bodywork rattle, which sound deadening should sort out (see [What's next](#whats-next)).
+
+## Match UP 6DSP MK2 review: 2 months in
+
+I'm really, genuinely happy with this amp. Here's my owner's take after living with it in a small car.
+
+**What I like**
+
+- **Plenty of power.** It drives all six speakers without any trouble, it hasn't clipped once, and I
+  don't feel like I've come close to its limit.
+- **Small and light.** At 130 × 130 × 46mm it fits inside the Jimny's glovebox, with the USB port
+  still reachable for tuning.
+- **It runs cool.** It's Class D, so it doesn't get very hot, even tucked away in the glovebox.
+- **The software is excellent.** DSP PC-Tool gives each speaker its own crossover, level, delay and
+  30-band EQ, and it's easy to find your way around. Time alignment in Distance Mode is simple: you
+  enter each speaker's distance from your head and it works out the delays.
+- **Flexible routing.** Two front inputs feed all six outputs plus the sub output, so a front-only
+  head unit signal is enough to run a full active system.
+- **Easy to add subs.** The RCA sub output drives my two Feel 700s, and the HS10 chains from them.
+- **The remote.** The URC.1 plugs straight into the SCP port and gives me a sub volume knob.
+- **Protection.** It shuts down if there's a short, it overheats or the voltage goes funny.
+
+**What I don't**
+
+- **No RCA inputs.** It takes high-level (speaker) inputs and optical. That's fine from the
+  Kenwood's speaker outputs, but line-level inputs need the optional Extension Card.
+- **It's not cheap.** It cost me £549.99.
+- **PC-Tool is Windows only.** A minor one: on a Mac I ran it in a virtual machine without any
+  problems.
+
+**Verdict:** a very good amp, and I'm very happy with it. It's small, light and powerful, the software
+is brilliant, and for a small car where space is tight it's a great way to run a proper active
+front stage.
 
 ## What it cost
 
