@@ -711,33 +711,37 @@ the HS10 the bass goes really deep without drowning out the music.
 I can't really play it past about 60%, it's just too loud. Certain bass frequencies make the
 bodywork rattle, which sound deadening should sort out (see [What's next](#whats-next)).
 
-## Match UP 6DSP MK2 review
+## Match UP 6DSP MK2 review: 2 months in
 
-After living with it, here's my owner's take on the Match UP 6DSP MK2 in a small car.
+I'm really, genuinely happy with this amp. Here's my owner's take after living with it in a small car.
 
 **What I like**
 
-- **It's tiny.** At 130 × 130 × 46mm it fits inside the Jimny's glovebox, with the USB port still
-  reachable for tuning.
+- **Plenty of power.** It drives all six speakers without any trouble, it hasn't clipped once, and I
+  don't feel like I've come close to its limit.
+- **Small and light.** At 130 × 130 × 46mm it fits inside the Jimny's glovebox, with the USB port
+  still reachable for tuning.
 - **It runs cool.** It's Class D, so it doesn't get very hot, even tucked away in the glovebox.
-- **Proper DSP.** Each speaker gets its own crossover, level, delay and 30-band EQ. Time alignment
-  in Distance Mode is easy: you enter each speaker's distance from your head and it works out the
-  delays.
-- **Flexible routing.** Two front inputs feed all six outputs plus the sub output, so a basic
-  front-only head unit signal is enough to run a full active system.
+- **The software is excellent.** DSP PC-Tool gives each speaker its own crossover, level, delay and
+  30-band EQ, and it's easy to find your way around. Time alignment in Distance Mode is simple: you
+  enter each speaker's distance from your head and it works out the delays.
+- **Flexible routing.** Two front inputs feed all six outputs plus the sub output, so a front-only
+  head unit signal is enough to run a full active system.
 - **Easy to add subs.** The RCA sub output drives my two Feel 700s, and the HS10 chains from them.
 - **The remote.** The URC.1 plugs straight into the SCP port and gives me a sub volume knob.
 - **Protection.** It shuts down if there's a short, it overheats or the voltage goes funny.
 
 **What I don't**
 
-- **DSP PC-Tool is Windows only.** On a Mac I had to run it in a virtual machine.
 - **No RCA inputs.** It takes high-level (speaker) inputs and optical. That's fine from the
   Kenwood's speaker outputs, but line-level inputs need the optional Extension Card.
 - **It's not cheap.** It cost me £549.99.
+- **PC-Tool is Windows only.** A minor one: on a Mac I ran it in a virtual machine without any
+  problems.
 
-**Verdict:** for a small car where space is tight and you want a proper active front stage, it's a
-great fit. It's what turned a set of good speakers into a system that actually sounds good.
+**Verdict:** a very good amp, and I'm very happy with it. It's small, light and powerful, the software
+is brilliant, and for a small car where space is tight it's a great way to run a proper active
+front stage.
 
 ## What it cost
 
