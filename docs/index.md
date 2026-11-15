@@ -322,16 +322,6 @@ Here's a video from install day, explaining why the amp ended up in the glovebox
   title="Fitting the amp in the Jimny's glovebox" allow="encrypted-media; picture-in-picture; fullscreen"
   allowfullscreen loading="lazy"></iframe>
 
-### My verdict, 2 months in
-
-I've had the amp for about two months now, and I'm really happy with it. It drives all six speakers
-easily, it hasn't clipped once, and I don't think I've come close to its limit. The software, DSP
-PC-Tool, is excellent too. Crossovers, EQ and time alignment are all easy to set up.
-
-The downsides are small. There are no RCA inputs without the optional Extension Card, PC-Tool is
-Windows only (it ran fine in a VM on my Mac), and at £549.99 it's not cheap. All in all, it's a very
-good amp, and a great fit for a small car.
-
 ## Speakers
 
 ### Front speakers: Morel MW4 and Audison Voce
@@ -756,6 +746,16 @@ If I did it again, I'd put more thought into making it clean. I felt a bit rushe
 everything connected, when I could have had a better plan for running the wires so it all looks more
 stealth and OEM. I'd also use multi-core cable to connect the amp to the factory speaker loom instead
 of separate wires. There'd be far fewer runs to route and tidy.
+
+### The Match UP 6DSP MK2, 2 months in
+
+I've had the amp for about two months now, and I'm really happy with it. It drives all six speakers
+easily, it hasn't clipped once, and I don't think I've come close to its limit. The software, DSP
+PC-Tool, is excellent too. Crossovers, EQ and time alignment are all easy to set up.
+
+The downsides are small. There are no RCA inputs without the optional Extension Card, PC-Tool is
+Windows only (it ran fine in a VM on my Mac), and at £549.99 it's not cheap. All in all, it's a very
+good amp, and a great fit for a small car.
 
 ## What's next
 
