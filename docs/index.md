@@ -283,13 +283,18 @@ mess back there, I did my best to tidy up.*
 *Mid-install: head unit pulled out and wires everywhere while I connected the amp.*
 
 
-## Match UP 6DSP MK2 in the glovebox
+## The amp: Match UP 6DSP MK2
 
-Why the Match: it's a good DSP (digital sound processor), and it lets each speaker have its own
-crossover, level, delay and EQ. It's Class D, so it doesn't get very hot, and it's small enough to
-fit in the glovebox.
-The Kenwood head unit on its own didn't have the power to drive the speakers properly.
+The Match UP 6DSP MK2 is an amplifier and a DSP (digital sound processor) in one small box. The
+amp side has six channels, one per speaker, giving them far more power than the Kenwood could on its
+own. The DSP side is what makes it all sound good: each speaker gets its own crossover, level, delay
+and EQ, so I can tune it for where it sits in the car. It's made by Audiotec Fischer in Germany, it
+runs cool, and it's small enough to fit in the glovebox.
 
+This section covers fitting it. How I set up and tuned the DSP is further down, in
+[Tuning the DSP in PC-Tool](#tuning-the-dsp-in-pc-tool).
+
+### In the glovebox
 
 I planned to mount the amp behind the glovebox, but the space back there was too awkward to work in.
 So it went inside the glovebox on heavy-duty velcro, with the cables fed through the existing gap at
@@ -712,19 +717,6 @@ the HS10 the bass goes really deep without drowning out the music.
 I can't really play it past about 60%, it's just too loud. Certain bass frequencies make the
 bodywork rattle, which sound deadening should sort out (see [What's next](#whats-next)).
 
-## Match UP 6DSP MK2 review: 2 months in
-
-I've had the amp for about two months now, and I'm really happy with it.
-
-- **Power:** it drives all six speakers easily and hasn't clipped once. I don't think I've come
-  close to its limit.
-- **Size:** small and light enough to fit in the glovebox, and it doesn't get hot.
-- **Software:** DSP PC-Tool is excellent. Crossovers, EQ and time alignment are all easy to set up.
-- **Downsides:** no RCA inputs without the optional Extension Card, PC-Tool is Windows only (it ran
-  fine in a VM on my Mac), and it's not cheap at £549.99.
-
-All in all, it's a very good amp, and a great fit for a small car.
-
 ## What it cost
 
 | | Cost |
@@ -754,6 +746,16 @@ If I did it again, I'd put more thought into making it clean. I felt a bit rushe
 everything connected, when I could have had a better plan for running the wires so it all looks more
 stealth and OEM. I'd also use multi-core cable to connect the amp to the factory speaker loom instead
 of separate wires. There'd be far fewer runs to route and tidy.
+
+### The Match UP 6DSP MK2, 2 months in
+
+I've had the amp for about two months now, and I'm really happy with it. It drives all six speakers
+easily, it hasn't clipped once, and I don't think I've come close to its limit. The software, DSP
+PC-Tool, is excellent too. Crossovers, EQ and time alignment are all easy to set up.
+
+The downsides are small. There are no RCA inputs without the optional Extension Card, PC-Tool is
+Windows only (it ran fine in a VM on my Mac), and at £549.99 it's not cheap. All in all, it's a very
+good amp, and a great fit for a small car.
 
 ## What's next
 
