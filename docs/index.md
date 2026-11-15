@@ -716,33 +716,14 @@ bodywork rattle, which sound deadening should sort out (see [What's next](#whats
 
 I've had the amp for about two months now, and I'm really happy with it.
 
-**What I like**
+- **Power:** it drives all six speakers easily and hasn't clipped once. I don't think I've come
+  close to its limit.
+- **Size:** small and light enough to fit in the glovebox, and it doesn't get hot.
+- **Software:** DSP PC-Tool is excellent. Crossovers, EQ and time alignment are all easy to set up.
+- **Downsides:** no RCA inputs without the optional Extension Card, PC-Tool is Windows only (it ran
+  fine in a VM on my Mac), and it's not cheap at £549.99.
 
-- **Plenty of power.** It drives all six speakers without any trouble, it hasn't clipped once, and I
-  don't feel like I've come close to its limit.
-- **Small and light.** At 130 × 130 × 46mm it fits inside the Jimny's glovebox, with the USB port
-  still reachable for tuning.
-- **It runs cool.** It's Class D, so it doesn't get very hot, even tucked away in the glovebox.
-- **The software is excellent.** DSP PC-Tool gives each speaker its own crossover, level, delay and
-  30-band EQ, and it's easy to find your way around. Time alignment in Distance Mode is simple: you
-  enter each speaker's distance from your head and it works out the delays.
-- **Flexible routing.** Two front inputs feed all six outputs plus the sub output, so a front-only
-  head unit signal is enough to run a full active system.
-- **Easy to add subs.** The RCA sub output drives my two Feel 700s, and the HS10 chains from them.
-- **The remote.** The URC.1 plugs straight into the SCP port and gives me a sub volume knob.
-- **Protection.** It shuts down if there's a short, it overheats or the voltage goes funny.
-
-**What I don't**
-
-- **No RCA inputs.** It takes high-level (speaker) inputs and optical. That's fine from the
-  Kenwood's speaker outputs, but line-level inputs need the optional Extension Card.
-- **It's not cheap.** It cost me £549.99.
-- **PC-Tool is Windows only.** A minor one: on a Mac I ran it in a virtual machine without any
-  problems.
-
-**Verdict:** a very good amp, and I'm very happy with it. It's small, light and powerful, the software
-is brilliant, and for a small car where space is tight it's a great way to run a proper active
-front stage.
+All in all, it's a very good amp, and a great fit for a small car.
 
 ## What it cost
 
